@@ -1,0 +1,19 @@
+{
+	id: "ccb09cf1-baab-467a-bfe3-bf595b9ca445"
+	type: "player"
+	player_name: "Skanarin"
+	ranks: {
+		ccb09cf1-baab-467a-bfe3-bf595b9ca445: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Skanarin"
+		"ftbteams:description": ""
+		"ftbteams:color": "#F559FF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+		"ftbteams:team_stages": [ ]
+		"ftbteams:lives_remaining": 0
+	}
+	message_history: [ ]
+	extra: { }
+}

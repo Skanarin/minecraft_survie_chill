@@ -1,0 +1,19 @@
+{
+	id: "5af3ea11-4ef7-4cc2-a865-498597aa7859"
+	type: "player"
+	player_name: "aquaponie"
+	ranks: {
+		5af3ea11-4ef7-4cc2-a865-498597aa7859: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "aquaponie"
+		"ftbteams:description": ""
+		"ftbteams:color": "#B559FF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+		"ftbteams:team_stages": [ ]
+		"ftbteams:lives_remaining": 0
+	}
+	message_history: [ ]
+	extra: { }
+}

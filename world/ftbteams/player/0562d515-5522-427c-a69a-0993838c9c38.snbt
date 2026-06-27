@@ -1,0 +1,19 @@
+{
+	id: "0562d515-5522-427c-a69a-0993838c9c38"
+	type: "player"
+	player_name: "marmad_s"
+	ranks: {
+		0562d515-5522-427c-a69a-0993838c9c38: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "marmad_s"
+		"ftbteams:description": ""
+		"ftbteams:color": "#5983FF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+		"ftbteams:team_stages": [ ]
+		"ftbteams:lives_remaining": 0
+	}
+	message_history: [ ]
+	extra: { }
+}
