@@ -423,6 +423,25 @@ done
 DIR=$( cd -P "$( dirname "$SOURCE" )" >/dev/null 2>&1 && pwd )
 cd "${DIR}" >/dev/null 2>&1 || exit
 
+echo "checking repo updates..."
+
+PULL_OUTPUT=$(git pull 2>&1)
+PULL_EXIT_CODE=$?
+
+# Échec du git pull
+if [[ $PULL_EXIT_CODE -ne 0 ]]; then
+  echo "❌ git pull failed"
+  echo "$PULL_OUTPUT"
+  # choix: bloquer ou continuer
+  exit 1
+fi
+
+# Aucun changement
+if echo "$PULL_OUTPUT" | grep -qi "Already up to date"; then
+  echo "📦 Repo already up to date"
+else
+  echo "📦 Repo updated"
+
 # Check whether the path to this directory contains spaces. Spaces in the path are prone to cause trouble.
 if [[ "${DIR}" == *" "*  ]]; then
 

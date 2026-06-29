@@ -611,6 +611,23 @@ Write-Host "To change the launch settings of this server, such as JVM args / fla
 $BaseDir = Split-Path -parent $script:MyInvocation.MyCommand.Path
 Push-Location $BaseDir
 
+if (CommandAvailable git) {
+    Write-Host "Checking updates..."
+
+    $pullResult = git pull origin main
+
+    if ($LASTEXITCODE -eq 0) {
+        Write-Host "Git update OK"
+    } else {
+        Write-Host "Git pull failed, save conflict"
+        # optionnel : crash ou continue
+        # CrashServer "Git pull failed"
+        exit 1
+    }
+} else {
+    Write-Host "Git not installed, skipping update => Potential conflict in saves"
+}
+
 # Check whether the path to this directory contains spaces. Spaces in the path are prone to cause trouble.
 if ( ${BaseDir}.Contains(" "))
 {
