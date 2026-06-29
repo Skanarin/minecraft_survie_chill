@@ -1,4 +1,15 @@
 #!/usr/bin/env bash
+DISCORD_WEBHOOK="${DISCORD_WEBHOOK:-}"
+
+sendDiscord() {
+  if [[ -n "$DISCORD_WEBHOOK" ]]; then
+    curl -H "Content-Type: application/json" \
+      -X POST \
+      -d "{\"content\":\"$1\"}" \
+      "$DISCORD_WEBHOOK" \
+      >/dev/null 2>&1
+  fi
+}
 ############################################LICENSE#################################################
 # Copyright (C) 2025 Griefed
 #
@@ -556,7 +567,7 @@ echo "Run Command:       ${JAVA} ${ADDITIONAL_ARGS} ${SERVER_RUN_COMMAND}"
 echo "Java version:"
 "${JAVA}" -version
 echo ""
-
+sendDiscord "✅ Serveur Minecraft ouvert"
 # Depending on $RESTART the server runs in a loop, to make sure it comes right back up after crashing. Force exit can be
 # achieved by hitting CTRL+C multiple times. Variables are not reloaded between server runs. Quit the script and re-run
 # it if you wish to reload the variables.
@@ -572,10 +583,13 @@ do
       if [[ "${WAIT_FOR_USER_INPUT}" == "true" ]]; then
         pause
       fi
+    sendDiscord "🔴 Serveur Minecraft arrêté"
     exit 0
   fi
   echo "Automatically restarting server in 5 seconds. Press CTRL + C to abort and exit."
   sleep 5
+  sendDiscord "🔁 Serveur Minecraft redemarre"
 done
+
 
 echo ""

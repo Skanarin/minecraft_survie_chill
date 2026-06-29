@@ -92,6 +92,28 @@
     None. start.ps1 does not generate any output to use in piping.
 #>
 
+Function Send-DiscordWebhook {
+    param (
+        [string]$Message
+    )
+
+    if (-not $env:DISCORD_WEBHOOK) {
+        return
+    }
+
+    $payload = @{
+        content = $Message
+    } | ConvertTo-Json
+
+    try {
+        Invoke-RestMethod -Uri $env:DISCORD_WEBHOOK `
+                          -Method Post `
+                          -ContentType "application/json" `
+                          -Body $payload | Out-Null
+    } catch {
+        Write-Host "Discord webhook failed: $($_.Exception.Message)"
+    }
+}
 
 Function PauseScript
 {
@@ -797,11 +819,14 @@ RunJavaCommand "-version"
 # Depending on $Restart the server runs in a loop, to make sure it comes right back up after crashing. Force exit can be
 # achieved by hitting CTRL+C multiple times. Variables are not reloaded between server runs. Quit the script and re-run
 # it if you wish to reload the variables.
+Send-DiscordWebhook "✅ Serveur Minecraft ouvert"
+
 while ($true)
 {
     RunJavaCommand "${AdditionalArgs} ${ServerRunCommand}"
     if ("${SkipJavaCheck}" -eq "true")
     {
+        Send-DiscordWebhook "🔴 Serveur Minecraft arrêté"
         "Java version check was skipped. Did the server stop or crash because of a Java version mismatch?"
         "Detected $($Semantics[0]).$($Semantics[1]).$($Semantics[2]) - Java $($JavaVersion), recommended $($RecommendedJavaVersion)"
     }
@@ -816,6 +841,8 @@ while ($true)
     }
     "Automatically restarting server in 5 seconds. Press CTRL + C to abort and exit."
     Start-Sleep -Seconds 5
+    Send-DiscordWebhook "🔁 Serveur Minecraft redemarre"
+
 }
 
 ""
