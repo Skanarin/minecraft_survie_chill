@@ -97,6 +97,13 @@ Function Send-DiscordWebhook {
         [string]$Message
     )
 
+    if (Test-Path ".env") {
+        Get-Content ".env" | ForEach-Object {
+            if ($_ -match "^\s*([^#=]+)=(.*)$") {
+                Set-Item -Path "Env:$($matches[1].Trim())" -Value $matches[2].Trim()
+            }
+        }
+    }
     if (-not $env:DISCORD_WEBHOOK) {
         return
     }
@@ -836,14 +843,14 @@ RunJavaCommand "-version"
 # Depending on $Restart the server runs in a loop, to make sure it comes right back up after crashing. Force exit can be
 # achieved by hitting CTRL+C multiple times. Variables are not reloaded between server runs. Quit the script and re-run
 # it if you wish to reload the variables.
-Send-DiscordWebhook "✅ Serveur Minecraft ouvert"
+Send-DiscordWebhook '✅ Serveur Minecraft ouvert'
 
 while ($true)
 {
     RunJavaCommand "${AdditionalArgs} ${ServerRunCommand}"
     if ("${SkipJavaCheck}" -eq "true")
     {
-        Send-DiscordWebhook "🔴 Serveur Minecraft arrêté"
+        Send-DiscordWebhook '🔴 Serveur Minecraft arrêté'
         "Java version check was skipped. Did the server stop or crash because of a Java version mismatch?"
         "Detected $($Semantics[0]).$($Semantics[1]).$($Semantics[2]) - Java $($JavaVersion), recommended $($RecommendedJavaVersion)"
     }
@@ -856,9 +863,11 @@ while ($true)
         }
         exit 0
     }
+    
+    Send-DiscordWebhook '🔴 Serveur Minecraft arrêté'
     "Automatically restarting server in 5 seconds. Press CTRL + C to abort and exit."
     Start-Sleep -Seconds 5
-    Send-DiscordWebhook "🔁 Serveur Minecraft redemarre"
+    Send-DiscordWebhook '🔁 Serveur Minecraft redemarre'
 
 }
 

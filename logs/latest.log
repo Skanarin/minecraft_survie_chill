@@ -1,209 +1,476 @@
-[29juin2026 12:49:07.656] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.neoForgeVersion, 21.1.234, --fml.fmlVersion, 4.0.42, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430, nogui]
-[29juin2026 12:49:07.669] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 21.0.6+8-LTS-188
-[29juin2026 12:49:07.673] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.6 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
-[29juin2026 12:49:08.552] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[29juin2026 12:49:08.601] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/marti/Downloads/minecraft_survie_chill/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar%2373!/ Service=ModLauncher Env=SERVER
-[29juin2026 12:49:08.804] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "server-1.21.1-20240808.144430-srg.jar" [locator: production server provider +net.neoforged:neoforge:21.1.234:server]
-[29juin2026 12:49:08.827] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.234-universal.jar" [locator: PathBasedLocator[name=neoforge, paths=[libraries\net\neoforged\neoforge\21.1.234\neoforge-21.1.234-universal.jar]], reader: mod manifest]
-[29juin2026 12:49:08.846] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[1.21.1] SecurityCraft v1.10.1.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:08.854] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[Neoforge]ctov-3.6.3.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:08.860] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "addonslib-neoforge-1.21.1-1.10.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:08.868] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "adorable_eggs-NeoForge-1.21.1-1.0.3.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:08.873] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Advanced Stands MC 1.21.1 - 1.0.0 Neoforge.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:08.876] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "advancednetherite-neoforge-2.3.1-1.21.1.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:08.882] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "AdvancementPlaques-1.21.1-neoforge-1.6.8.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:08.886] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "AI-Improvements-1.21-0.5.3.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:08.892] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "alltheleaks-1.1.9+1.21.1-neoforge.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:08.895] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "alternate_current-mc1.21-1.9.0.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:08.898] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "amendments-1.21-2.0.15-neoforge.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:08.903] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "animal_armor_trims-neoforge-1.21.1-2.3.1.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:08.906] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "appleskin-neoforge-mc1.21-3.0.9.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:08.910] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Aquaculture-1.21.1-2.7.21.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:08.917] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "architectury-13.0.8-neoforge.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:08.920] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "artifacts-neoforge-13.2.1.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:08.923] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "athena-neoforge-1.21.1-4.0.6.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:08.927] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "attributefix-neoforge-1.21.1-21.1.3.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:08.930] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Auto Pickup Filter - Neoforge 1.21.1-1.1.0.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:08.933] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "automessage-merged-1.21.1-3.0.0.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:08.938] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "balm-neoforge-1.21.1-21.0.59.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:08.941] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "beautifulcampfires-neoforge-1.21.1-1.0.2.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:08.945] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "BEB-NeoForge-1.21-6.0.0.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:08.952] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "betterarcheology-neoforge-1.21.1-1.3.4.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:08.957] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "betterfpsdist-1.21-6.0.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:08.961] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "BHMenu-NeoForge-1.21-2.4.4.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:08.969] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "BiomesOPlenty-neoforge-1.21.1-21.1.0.13.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:08.972] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "bookshelf-neoforge-1.21.1-21.1.81.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:08.975] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "BTP-NeoForge-1.21.1-2.0.0.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:08.980] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "buildinggadgets2-1.3.9.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:08.983] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "caelus-neoforge-7.0.1+1.21.1.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:08.988] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "carryon-neoforge-1.21.1-2.2.4.4.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:08.991] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "CerbonsAPI-NeoForge-1.21-1.3.0.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:08.994] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "charmofundying-neoforge-9.1.0+1.21.1.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.010] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "chipped-neoforge-1.21.1-4.0.2.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.020] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "chisel-neoforge-2.0.0+mc1.21.1.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.024] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "chunksending-1.21-2.9.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.029] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "clickadv-1.21-3.8.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.033] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "cloth-config-15.0.140-neoforge.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.036] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Clumps-neoforge-1.21.1-19.0.0.1.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.039] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "collective-1.21.1-8.31.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.042] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "comforts-neoforge-9.0.5+1.21.1.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.044] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "configurable-3.5.1+1.21.1-neoforge.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.052] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "configured-neoforge-1.21.1-2.6.3.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.055] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "connectedglass-1.1.14-neoforge-mc1.21.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.058] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "connectivity-1.21.1-7.6.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.061] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "corpse-neoforge-1.21.1-1.1.13.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.064] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "cosmeticarmorreworked-1.21.1-v1-neoforge.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.068] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "crabclaws-1.3.0-1.21.1+neoforge.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.076] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "create-1.21.1-6.0.10.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.079] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "CreativeCore_NEOFORGE_v2.13.41_mc1.21.1.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.083] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "cristellib-neoforge-1.21.1-3.1.7.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.087] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "cryonicconfig-neoforge-1.0.0+mc1.21.11.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.090] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "cupboard-1.21.1-3.8.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.093] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "curios-neoforge-9.0.15+1.21.1.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.094] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "curios-neoforge-9.5.1+1.21.1.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.098] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Custom Nether Portals - Neoforge - MC 1.21.1- 2.0.0.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.101] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "customizableelytra-neoforge-2.2.8+1.21.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.105] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "DiagonalFences-v21.1.1-1.21.1-NeoForge.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.109] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "DiagonalWalls-v21.1.2-1.21.1-NeoForge.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.112] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "DiagonalWindows-v21.1.1-1.21.1-NeoForge.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.115] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "disenchanting_table-merged-1.21.1-5.0.2.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.119] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "doubledoors-1.21.1-7.2.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.122] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "dummmmmmy-1.21-2.0.12-neoforge.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.125] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "easy-villagers-neoforge-1.21.1-1.1.42.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.128] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "EasyAnvils-v21.1.0-1.21.1-NeoForge.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.133] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "eat_an_omelette-merged-1.21.1-1.5.0.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.136] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "elevatorid-neoforge-1.21.1-1.11.4.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.139] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "elytraslot-neoforge-9.0.2+1.21.1.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.141] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "elytratrims-neoforge-3.10.0+1.21.1.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.145] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "enchdesc-neoforge-1.21.1-21.1.10.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.146] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ender_pack-merged-1.21.1-2.2.0.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.149] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "endersdelight-1.3.0.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.153] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "EpheroLib-1.21.1-NEO-FORGE-1.2.0.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.156] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "epicpowerbracelets-neoforge-1.21-1.1.1.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.157] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "EW-NeoForge-1.21.1-1.0.0.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.161] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ExplorersCompass-1.21.1-3.4.0-neoforge.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.166] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Explorify v1.6.5.mod.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.170] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "FarmersDelight-1.21.1-1.3.2.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.172] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "FarmersStructures-1.0.6-1.21.1_neoforge.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.174] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fastasyncworldsave-1.21-2.6.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.177] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fastleafdecay-35.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.179] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fastpaintings-1.21-1.3.0-neoforge.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.186] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ferritecore-7.0.3-neoforge.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.189] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "framework-neoforge-1.21.1-0.13.11.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.194] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ftb-library-neoforge-2101.1.32.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.197] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ftb-quests-neoforge-2101.1.27.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.204] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ftb-teams-neoforge-2101.1.10.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.209] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fusion-1.2.12-neoforge-mc1.21.1.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.212] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "geckolib-neoforge-1.21.1-4.9.1.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.219] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Geophilic v3.6.mod.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.222] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "GlitchCore-neoforge-1.21.1-2.1.0.2.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.225] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "goblintraders-neoforge-1.21.1-1.11.2.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.229] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "golden_foods-merged-1.21.1-2.4.0.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.232] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "guardvillagers-2.4.10-1.21.1.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.240] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "handcrafted-neoforge-1.21.1-4.0.3.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.241] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "healthy_water-merged-1.21.1-1.0.1.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.244] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Iceberg-1.21.1-neoforge-1.3.2.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.249] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ironchest-1.21-neoforge-16.0.7.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.254] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ironfurnaces-neoforge-1.21.1-4.3.2.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.269] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "irons_lib-1.21.1-1.1.0.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.275] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "irons_spellbooks-1.21.1-3.16.1.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.280] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Jade-1.21.1-NeoForge-15.10.5.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.283] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "JadeAddons-1.21.1-NeoForge-6.1.0.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.286] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "jamlib-neoforge-1.3.6+1.21.1.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.290] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "jearchaeology-1.21.1-1.2.0.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.294] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "jei-1.21.1-neoforge-19.27.0.343.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.299] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "jmi-neoforge-1.21.1-1.9.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.303] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "journeymap-neoforge-1.21.1-6.0.0-beta.88.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.305] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Kiwi-1.21.1-NeoForge-15.8.4.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.309] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "kleeslabs-neoforge-1.21.1-21.1.11.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.311] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "konkrete_neoforge_1.9.9_MC_1.21.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.314] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinforforge-5.11.0-all.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.317] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "lithostitched-1.7.9-neoforge-21.1.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.320] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "longer_following_time-merged-1.21.1-1.1.0.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.323] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "lootr-neoforge-1.21.1-1.11.37.120.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.326] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "mcw-bridges-3.1.2-mc1.21.1neoforge.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.330] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "mcw-doors-1.1.5-mc1.21.1neoforge.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.336] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "mcw-furniture-3.4.1-mc1.21.1neoforge.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.339] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "mcw-lights-1.1.5-mc1.21.1neoforge.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.342] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "mcw-mcwfences-1.2.1-mc1.21.1neoforge.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.345] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "mcw-mcwwindows-2.4.2-mc1.21.1neoforge.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.350] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "mcw-roofs-2.3.2-mc1.21.1neoforge.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.353] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "mcw-trapdoors-1.1.5-mc1.21.1neoforge.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.355] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "medieval_buildings-1.21.1-1.1.1-neoforge.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.361] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "medieval_buildings_end_edition-1.21.1-1.0.4-neoforge.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.364] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "medieval_buildings_nether_edition-1.21.1-1.0.2-neoforge.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.368] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "melody_neoforge_1.0.10_MC_1.21.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.371] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "modernfix-neoforge-5.27.14+mc1.21.1.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.373] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "monolib-neoforge-1.21.1-4.0.2.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.376] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "moogs_structures-neoforge-1.21.1-2.0.2.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.380] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "MoogsVoyagerStructures-1.21-5.0.11.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.385] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "moonlight-neoforge-1.21.1-3.0.19.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.390] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "more_beautiful_torches-merged-1.21-3.0.0.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.392] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "more_bows_and_arrows-merged-1.21.1-5.0.4.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.395] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "more_useful_copper-merged-1.21.1-3.0.0.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.397] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "MultiArrowEffects-Neoforge-1.21.1-1.0.0.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.400] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "MyNethersDelight-1.21.1-1.10.2.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.403] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "NaturesCompass-1.21.1-3.4.0-neoforge.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.406] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neo_startinv-1.0.0-1.21.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.411] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neruina-3.3.2+1.21.1-neoforge.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.412] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "netherportalfix-neoforge-1.21.1-21.1.1.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.419] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "new_shield_variants-merged-1.21.1-2.0.0.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.422] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "new_slab_variants-merged-1.21.1-3.0.1.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.424] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "NoChatReports-NEOFORGE-1.21.1-v2.9.1.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.427] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Nullscape_1.21.x_v1.2.14.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.430] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.432] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Placebo-1.21.1-9.9.1.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.435] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "player-animation-lib-forge-2.0.4+1.21.1.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.438] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "polymorph-neoforge-1.1.0+1.21.1.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.443] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "portablespawner-neoforge-1.21.1-1.0.0.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.446] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "potion_combiner-1.21.1-Neoforge-1.0.0.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.448] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "prickle-neoforge-1.21.1-21.1.11.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.450] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Prism-1.21.1-neoforge-1.0.11.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.453] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "PuzzlesLib-v21.1.52-1.21.1-NeoForge.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.454] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "recipeessentials-1.21-4.0.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.459] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "refurbished_furniture-neoforge-1.21.1-1.0.22.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.461] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "resourcefulconfig-neoforge-1.21-3.0.11.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.464] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "resourcefullib-neoforge-1.21-3.0.12.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.468] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "rightclickharvest-neoforge-4.6.1+1.21.1.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.470] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "RPG Potions - Neoforge - MC 1.21.1 - 1.2.0.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.472] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Searchables-neoforge-1.21.1-1.0.2.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.475] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "SereneSeasons-neoforge-1.21.1-10.1.0.3.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.477] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "smarterfarmers-1.21-2.2.4-neoforge.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.479] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "smoothchunk-1.21-4.1.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.481] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "SnowRealMagic-1.21.1-NeoForge-12.2.0.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.483] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "snowundertrees-1.21.1-1.5.1.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.486] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "SOB-NeoForge-1.21.1-1.0.0.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.488] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "sophisticatedbackpacks-1.21.1-3.25.64.1919.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.491] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "sophisticatedcore-1.21.1-1.4.60.2044.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.492] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "sophisticatedstorage-1.21.1-1.5.62.1858.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.496] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "sound-physics-remastered-neoforge-1.21.1-1.4.10.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.501] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "spark-1.10.124-neoforge.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.502] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "stackable_stew_and_soup-merged-1.21.1-2.0.1.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.506] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "StorageDrawers-neoforge-1.21.1-13.11.4.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.507] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Structory_26.1_v1.3.16.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.510] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "structureessentials-1.21.1-5.0.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.512] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "supermartijn642configlib-1.1.8-neoforge-mc1.21.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.514] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "supermartijn642corelib-1.1.21-neoforge-mc1.21.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.517] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "t_and_t-neoforge-fabric-1.13.9+1.21.1.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.520] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "TaxStructureArchitect+M.1.21.1+NeoF.1.2.2.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.522] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "TaxVillageArchitect+M.1.21.1+NeoF.1.1.2.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.527] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "TerraBlender-neoforge-1.21.1-4.1.0.8.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.529] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "trashcans-1.0.18c-neoforge-mc1.21.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.531] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "trashslot-neoforge-1.21.1-21.1.11.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.534] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "trimeffects-neoforge-mc1.21-2.1.1.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.536] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "unlocked_typing-merged-1.21.1-1.0.1.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.537] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "villagernames-1.21.1-8.5.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.541] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Waddles-neoforge-1.21-0.11.1.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.544] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "waystones-neoforge-1.21.1-21.1.34.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.548] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "wider_ender_chests-neoforge-1.21.1-1.0.4.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.551] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "yeetusexperimentus-neoforge-87.0.0.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.553] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "YungsApi-1.21.1-NeoForge-5.1.6.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.556] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "YungsBetterDesertTemples-1.21.1-NeoForge-4.1.5.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.557] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "YungsBetterDungeons-1.21.1-NeoForge-5.1.4.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.560] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "YungsBetterJungleTemples-1.21.1-NeoForge-3.1.2.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.562] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "YungsBetterMineshafts-1.21.1-NeoForge-5.1.1.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.565] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "YungsBetterNetherFortresses-1.21.1-NeoForge-3.1.5.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.568] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "YungsBetterOceanMonuments-1.21.1-NeoForge-4.1.2.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.570] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "YungsBetterStrongholds-1.21.1-NeoForge-5.1.3.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.572] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "YungsBetterWitchHuts-1.21.1-NeoForge-4.1.1.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
-[29juin2026 12:49:09.573] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "zombie_variants-neoforge-1.0.3-1.21.1.jar" [locator: {mods folder locator at C:\Users\marti\Downloads\minecraft_survie_chill\mods}, reader: mod manifest]
+[29Jun2026 14:32:42.661] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.neoForgeVersion, 21.1.234, --fml.fmlVersion, 4.0.42, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430, nogui]
+[29Jun2026 14:32:42.665] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Ubuntu OpenJDK 64-Bit Server VM 21.0.11+10-1-22.04.2-Ubuntu
+[29Jun2026 14:32:42.667] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.11 by Ubuntu; OS Linux arch amd64 version 5.15.167.4-microsoft-standard-WSL2
+[29Jun2026 14:32:43.865] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[29Jun2026 14:32:43.935] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/mnt/c/Users/marti/Downloads/minecraft_survie_chill/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar%2373!/ Service=ModLauncher Env=SERVER
+[29Jun2026 14:32:44.406] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "server-1.21.1-20240808.144430-srg.jar" [locator: production server provider +net.neoforged:neoforge:21.1.234:server]
+[29Jun2026 14:32:44.433] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.234-universal.jar" [locator: PathBasedLocator[name=neoforge, paths=[libraries/net/neoforged/neoforge/21.1.234/neoforge-21.1.234-universal.jar]], reader: mod manifest]
+[29Jun2026 14:32:44.469] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[1.21.1] SecurityCraft v1.10.1.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:44.485] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[Neoforge]ctov-3.6.3.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:44.495] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "addonslib-neoforge-1.21.1-1.10.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:44.504] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "adorable_eggs-NeoForge-1.21.1-1.0.3.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:44.514] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Advanced Stands MC 1.21.1 - 1.0.0 Neoforge.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:44.524] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "advancednetherite-neoforge-2.3.1-1.21.1.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:44.533] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "AdvancementPlaques-1.21.1-neoforge-1.6.8.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:44.541] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "AI-Improvements-1.21-0.5.3.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:44.550] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "alltheleaks-1.1.9+1.21.1-neoforge.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:44.558] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "alternate_current-mc1.21-1.9.0.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:44.566] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "amendments-1.21-2.0.15-neoforge.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:44.574] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "animal_armor_trims-neoforge-1.21.1-2.3.1.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:44.583] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "appleskin-neoforge-mc1.21-3.0.9.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:44.591] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Aquaculture-1.21.1-2.7.21.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:44.598] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "architectury-13.0.8-neoforge.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:44.605] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "artifacts-neoforge-13.2.1.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:44.612] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "athena-neoforge-1.21.1-4.0.6.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:44.619] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "attributefix-neoforge-1.21.1-21.1.3.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:44.625] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Auto Pickup Filter - Neoforge 1.21.1-1.1.0.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:44.632] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "automessage-merged-1.21.1-3.0.0.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:44.639] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "balm-neoforge-1.21.1-21.0.59.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:44.651] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "beautifulcampfires-neoforge-1.21.1-1.0.2.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:44.660] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "BEB-NeoForge-1.21-6.0.0.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:44.669] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "betterarcheology-neoforge-1.21.1-1.3.4.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:44.677] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "betterfpsdist-1.21-6.0.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:44.689] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "BHMenu-NeoForge-1.21-2.4.4.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:44.701] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "BiomesOPlenty-neoforge-1.21.1-21.1.0.13.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:44.709] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "bookshelf-neoforge-1.21.1-21.1.81.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:44.718] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "BTP-NeoForge-1.21.1-2.0.0.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:44.726] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "buildinggadgets2-1.3.9.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:44.733] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "caelus-neoforge-7.0.1+1.21.1.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:44.740] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "carryon-neoforge-1.21.1-2.2.4.4.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:44.747] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "CerbonsAPI-NeoForge-1.21-1.3.0.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:44.755] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "charmofundying-neoforge-9.1.0+1.21.1.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:44.785] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "chipped-neoforge-1.21.1-4.0.2.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:44.802] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "chisel-neoforge-2.0.0+mc1.21.1.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:44.809] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "chunksending-1.21-2.9.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:44.815] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "clickadv-1.21-3.8.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:44.823] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "cloth-config-15.0.140-neoforge.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:44.829] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Clumps-neoforge-1.21.1-19.0.0.1.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:44.836] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "collective-1.21.1-8.31.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:44.842] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "comforts-neoforge-9.0.5+1.21.1.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:44.849] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "configurable-3.5.1+1.21.1-neoforge.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:44.860] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "configured-neoforge-1.21.1-2.6.3.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:44.868] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "connectedglass-1.1.14-neoforge-mc1.21.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:44.875] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "connectivity-1.21.1-7.6.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:44.883] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "corpse-neoforge-1.21.1-1.1.13.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:44.899] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "cosmeticarmorreworked-1.21.1-v1-neoforge.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:44.905] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "crabclaws-1.3.0-1.21.1+neoforge.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:44.923] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "create-1.21.1-6.0.10.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:44.930] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "CreativeCore_NEOFORGE_v2.13.41_mc1.21.1.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:44.936] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "cristellib-neoforge-1.21.1-3.1.7.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:44.943] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "cryonicconfig-neoforge-1.0.0+mc1.21.11.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:44.949] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "cupboard-1.21.1-3.8.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:44.958] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "curios-neoforge-9.0.15+1.21.1.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:44.968] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "curios-neoforge-9.5.1+1.21.1.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:44.974] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Custom Nether Portals - Neoforge - MC 1.21.1- 2.0.0.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:44.981] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "customizableelytra-neoforge-2.2.8+1.21.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:44.987] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "DiagonalFences-v21.1.1-1.21.1-NeoForge.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:44.995] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "DiagonalWalls-v21.1.2-1.21.1-NeoForge.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.003] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "DiagonalWindows-v21.1.1-1.21.1-NeoForge.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.013] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "disenchanting_table-merged-1.21.1-5.0.2.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.019] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "doubledoors-1.21.1-7.2.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.026] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "dummmmmmy-1.21-2.0.12-neoforge.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.031] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "easy-villagers-neoforge-1.21.1-1.1.42.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.038] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "EasyAnvils-v21.1.0-1.21.1-NeoForge.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.044] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "eat_an_omelette-merged-1.21.1-1.5.0.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.050] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "elevatorid-neoforge-1.21.1-1.11.4.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.057] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "elytraslot-neoforge-9.0.2+1.21.1.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.063] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "elytratrims-neoforge-3.10.0+1.21.1.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.070] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "enchdesc-neoforge-1.21.1-21.1.10.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.078] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ender_pack-merged-1.21.1-2.2.0.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.086] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "endersdelight-1.3.0.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.092] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "EpheroLib-1.21.1-NEO-FORGE-1.2.0.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.099] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "epicpowerbracelets-neoforge-1.21-1.1.1.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.106] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "EW-NeoForge-1.21.1-1.0.0.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.113] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ExplorersCompass-1.21.1-3.4.0-neoforge.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.120] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Explorify v1.6.5.mod.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.127] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "FarmersDelight-1.21.1-1.3.2.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.137] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "FarmersStructures-1.0.6-1.21.1_neoforge.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.147] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fastasyncworldsave-1.21-2.6.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.155] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fastleafdecay-35.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.162] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fastpaintings-1.21-1.3.0-neoforge.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.176] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ferritecore-7.0.3-neoforge.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.183] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "framework-neoforge-1.21.1-0.13.11.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.192] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ftb-library-neoforge-2101.1.32.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.200] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ftb-quests-neoforge-2101.1.27.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.208] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ftb-teams-neoforge-2101.1.10.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.216] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fusion-1.2.12-neoforge-mc1.21.1.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.224] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "geckolib-neoforge-1.21.1-4.9.1.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.232] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Geophilic v3.6.mod.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.239] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "GlitchCore-neoforge-1.21.1-2.1.0.2.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.249] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "goblintraders-neoforge-1.21.1-1.11.2.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.257] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "golden_foods-merged-1.21.1-2.4.0.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.268] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "guardvillagers-2.4.10-1.21.1.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.285] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "handcrafted-neoforge-1.21.1-4.0.3.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.294] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "healthy_water-merged-1.21.1-1.0.1.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.302] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Iceberg-1.21.1-neoforge-1.3.2.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.311] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ironchest-1.21-neoforge-16.0.7.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.319] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ironfurnaces-neoforge-1.21.1-4.3.2.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.326] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "irons_lib-1.21.1-1.1.0.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.336] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "irons_spellbooks-1.21.1-3.16.1.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.344] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Jade-1.21.1-NeoForge-15.10.5.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.351] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "JadeAddons-1.21.1-NeoForge-6.1.0.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.358] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "jamlib-neoforge-1.3.6+1.21.1.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.366] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "jearchaeology-1.21.1-1.2.0.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.374] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "jei-1.21.1-neoforge-19.27.0.343.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.382] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "jmi-neoforge-1.21.1-1.9.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.389] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "journeymap-neoforge-1.21.1-6.0.0-beta.88.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.397] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Kiwi-1.21.1-NeoForge-15.8.4.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.403] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "kleeslabs-neoforge-1.21.1-21.1.11.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.410] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "konkrete_neoforge_1.9.9_MC_1.21.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.417] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinforforge-5.11.0-all.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.424] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "lithostitched-1.7.9-neoforge-21.1.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.431] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "longer_following_time-merged-1.21.1-1.1.0.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.440] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "lootr-neoforge-1.21.1-1.11.37.120.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.447] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "mcw-bridges-3.1.2-mc1.21.1neoforge.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.455] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "mcw-doors-1.1.5-mc1.21.1neoforge.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.464] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "mcw-furniture-3.4.1-mc1.21.1neoforge.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.472] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "mcw-lights-1.1.5-mc1.21.1neoforge.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.479] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "mcw-mcwfences-1.2.1-mc1.21.1neoforge.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.488] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "mcw-mcwwindows-2.4.2-mc1.21.1neoforge.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.496] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "mcw-roofs-2.3.2-mc1.21.1neoforge.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.503] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "mcw-trapdoors-1.1.5-mc1.21.1neoforge.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.510] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "medieval_buildings-1.21.1-1.1.1-neoforge.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.516] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "medieval_buildings_end_edition-1.21.1-1.0.4-neoforge.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.522] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "medieval_buildings_nether_edition-1.21.1-1.0.2-neoforge.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.529] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "melody_neoforge_1.0.10_MC_1.21.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.535] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "modernfix-neoforge-5.27.14+mc1.21.1.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.542] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "monolib-neoforge-1.21.1-4.0.2.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.548] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "moogs_structures-neoforge-1.21.1-2.0.2.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.554] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "MoogsVoyagerStructures-1.21-5.0.11.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.561] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "moonlight-neoforge-1.21.1-3.0.19.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.573] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "more_beautiful_torches-merged-1.21-3.0.0.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.599] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "more_bows_and_arrows-merged-1.21.1-5.0.4.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.620] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "more_useful_copper-merged-1.21.1-3.0.0.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.633] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "MultiArrowEffects-Neoforge-1.21.1-1.0.0.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.642] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "MyNethersDelight-1.21.1-1.10.2.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.651] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "NaturesCompass-1.21.1-3.4.0-neoforge.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.676] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neo_startinv-1.0.0-1.21.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.685] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neruina-3.3.2+1.21.1-neoforge.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.694] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "netherportalfix-neoforge-1.21.1-21.1.1.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.703] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "new_shield_variants-merged-1.21.1-2.0.0.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.713] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "new_slab_variants-merged-1.21.1-3.0.1.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.721] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "NoChatReports-NEOFORGE-1.21.1-v2.9.1.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.735] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Nullscape_1.21.x_v1.2.14.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.749] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.761] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Placebo-1.21.1-9.9.1.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.779] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "player-animation-lib-forge-2.0.4+1.21.1.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.788] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "polymorph-neoforge-1.1.0+1.21.1.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.796] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "portablespawner-neoforge-1.21.1-1.0.0.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.805] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "potion_combiner-1.21.1-Neoforge-1.0.0.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.812] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "prickle-neoforge-1.21.1-21.1.11.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.819] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Prism-1.21.1-neoforge-1.0.11.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.829] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "PuzzlesLib-v21.1.52-1.21.1-NeoForge.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.836] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "recipeessentials-1.21-4.0.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.849] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "refurbished_furniture-neoforge-1.21.1-1.0.22.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.858] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "resourcefulconfig-neoforge-1.21-3.0.11.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.865] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "resourcefullib-neoforge-1.21-3.0.12.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.872] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "rightclickharvest-neoforge-4.6.1+1.21.1.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.881] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "RPG Potions - Neoforge - MC 1.21.1 - 1.2.0.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.888] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Searchables-neoforge-1.21.1-1.0.2.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.896] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "SereneSeasons-neoforge-1.21.1-10.1.0.3.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.902] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "smarterfarmers-1.21-2.2.4-neoforge.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.910] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "smoothchunk-1.21-4.1.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.919] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "SnowRealMagic-1.21.1-NeoForge-12.2.0.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.927] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "snowundertrees-1.21.1-1.5.1.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.935] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "SOB-NeoForge-1.21.1-1.0.0.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.943] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "sophisticatedbackpacks-1.21.1-3.25.64.1919.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.951] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "sophisticatedcore-1.21.1-1.4.60.2044.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.960] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "sophisticatedstorage-1.21.1-1.5.62.1858.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.967] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "sound-physics-remastered-neoforge-1.21.1-1.4.10.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.976] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "spark-1.10.124-neoforge.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.984] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "stackable_stew_and_soup-merged-1.21.1-2.0.1.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.992] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "StorageDrawers-neoforge-1.21.1-13.11.4.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:45.999] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Structory_26.1_v1.3.16.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:46.083] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "structureessentials-1.21.1-5.0.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:46.090] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "supermartijn642configlib-1.1.8-neoforge-mc1.21.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:46.097] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "supermartijn642corelib-1.1.21-neoforge-mc1.21.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:46.106] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "t_and_t-neoforge-fabric-1.13.9+1.21.1.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:46.113] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "TaxStructureArchitect+M.1.21.1+NeoF.1.2.2.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:46.122] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "TaxVillageArchitect+M.1.21.1+NeoF.1.1.2.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:46.129] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "TerraBlender-neoforge-1.21.1-4.1.0.8.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:46.136] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "trashcans-1.0.18c-neoforge-mc1.21.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:46.144] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "trashslot-neoforge-1.21.1-21.1.11.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:46.151] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "trimeffects-neoforge-mc1.21-2.1.1.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:46.159] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "unlocked_typing-merged-1.21.1-1.0.1.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:46.166] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "villagernames-1.21.1-8.5.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:46.173] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Waddles-neoforge-1.21-0.11.1.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:46.181] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "waystones-neoforge-1.21.1-21.1.34.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:46.189] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "wider_ender_chests-neoforge-1.21.1-1.0.4.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:46.198] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "yeetusexperimentus-neoforge-87.0.0.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:46.207] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "YungsApi-1.21.1-NeoForge-5.1.6.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:46.215] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "YungsBetterDesertTemples-1.21.1-NeoForge-4.1.5.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:46.223] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "YungsBetterDungeons-1.21.1-NeoForge-5.1.4.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:46.230] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "YungsBetterJungleTemples-1.21.1-NeoForge-3.1.2.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:46.238] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "YungsBetterMineshafts-1.21.1-NeoForge-5.1.1.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:46.245] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "YungsBetterNetherFortresses-1.21.1-NeoForge-3.1.5.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:46.253] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "YungsBetterOceanMonuments-1.21.1-NeoForge-4.1.2.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:46.261] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "YungsBetterStrongholds-1.21.1-NeoForge-5.1.3.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:46.268] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "YungsBetterWitchHuts-1.21.1-NeoForge-4.1.1.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:46.275] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "zombie_variants-neoforge-1.0.3-1.21.1.jar" [locator: {mods folder locator at /mnt/c/Users/marti/Downloads/minecraft_survie_chill/mods}, reader: mod manifest]
+[29Jun2026 14:32:47.861] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 41 dependencies adding them to mods collection
+[29Jun2026 14:32:47.881] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "mixinextras-neoforge-0.5.3.jar" [parent: neoforge-21.1.234-universal.jar, locator: jarinjar, reader: mod manifest]
+[29Jun2026 14:32:47.881] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "kuma-api-neoforge-21.0.8+1.21.jar" [parent: balm-neoforge-1.21.1-21.0.59.jar, locator: jarinjar, reader: mod manifest]
+[29Jun2026 14:32:47.882] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-game-rule-api-v1-1.0.53+36d727be19.jar" [parent: SnowRealMagic-1.21.1-NeoForge-12.2.0.jar, locator: jarinjar, reader: mod manifest]
+[29Jun2026 14:32:47.882] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-renderer-api-v1-3.4.0+9c40919e19.jar" [parent: SnowRealMagic-1.21.1-NeoForge-12.2.0.jar, locator: jarinjar, reader: mod manifest]
+[29Jun2026 14:32:47.882] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-api-base-0.4.42+d1308ded19.jar" [parent: Kiwi-1.21.1-NeoForge-15.8.4.jar, locator: jarinjar, reader: mod manifest]
+[29Jun2026 14:32:47.883] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "mixinconstraints-1.1.0.jar" [parent: crabclaws-1.3.0-1.21.1+neoforge.jar, locator: jarinjar, reader: mod manifest]
+[29Jun2026 14:32:47.883] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ponder-neoforge-1.0.82+mc1.21.1.jar" [parent: create-1.21.1-6.0.10.jar, locator: jarinjar, reader: mod manifest]
+[29Jun2026 14:32:47.883] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-model-loading-api-v1-2.0.0+986ae77219.jar" [parent: SnowRealMagic-1.21.1-NeoForge-12.2.0.jar, locator: jarinjar, reader: mod manifest]
+[29Jun2026 14:32:47.886] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "net.neoforged.neoforge-coremods-21.1.234.jar" [parent: neoforge-21.1.234-universal.jar, locator: jarinjar, reader: mod manifest]
+[29Jun2026 14:32:47.887] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "pngj-2.1.0.jar" [parent: journeymap-neoforge-1.21.1-6.0.0-beta.88.jar, locator: jarinjar]
+[29Jun2026 14:32:47.887] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "mixinsquared-neoforge-0.3.3.jar" [parent: elytratrims-neoforge-3.10.0+1.21.1.jar, locator: jarinjar, reader: mod manifest]
+[29Jun2026 14:32:47.887] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "spectrelib-neoforge-0.17.2+1.21.jar" [parent: charmofundying-neoforge-9.1.0+1.21.1.jar, locator: jarinjar, reader: mod manifest]
+[29Jun2026 14:32:47.888] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "thedarkcolour.kfflang-5.11.0.jar" [parent: kotlinforforge-5.11.0-all.jar, locator: jarinjar, reader: mod manifest]
+[29Jun2026 14:32:47.888] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "github-api-2.0-rc.6.jar" [parent: neruina-3.3.2+1.21.1-neoforge.jar, locator: jarinjar]
+[29Jun2026 14:32:47.889] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "thedarkcolour.kfflib-5.11.0.jar" [parent: kotlinforforge-5.11.0-all.jar, locator: jarinjar, reader: mod manifest]
+[29Jun2026 14:32:47.889] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "common-networking-neoforge-1.0.21-1.21.1.jar" [parent: journeymap-neoforge-1.21.1-6.0.0-beta.88.jar, locator: jarinjar, reader: mod manifest]
+[29Jun2026 14:32:47.890] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "MixinSquared-0.3.3.jar" [parent: mixinsquared-neoforge-0.3.3.jar, locator: jarinjar]
+[29Jun2026 14:32:47.890] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "thedarkcolour.kffmod-5.11.0.jar" [parent: kotlinforforge-5.11.0-all.jar, locator: jarinjar, reader: mod manifest]
+[29Jun2026 14:32:47.890] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "gson-0.3.1.jar" [parent: configurable-3.5.1+1.21.1-neoforge.jar, locator: jarinjar]
+[29Jun2026 14:32:47.891] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlin-stdlib-2.3.0.jar" [parent: kotlinforforge-5.11.0-all.jar, locator: jarinjar]
+[29Jun2026 14:32:47.891] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlin-reflect-2.3.0.jar" [parent: kotlinforforge-5.11.0-all.jar, locator: jarinjar]
+[29Jun2026 14:32:47.892] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "flywheel-neoforge-1.21.1-1.0.6.jar" [parent: create-1.21.1-6.0.10.jar, locator: jarinjar, reader: mod manifest]
+[29Jun2026 14:32:47.892] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-renderer-indigo-1.7.0+acb05a3919.jar" [parent: SnowRealMagic-1.21.1-NeoForge-12.2.0.jar, locator: jarinjar, reader: mod manifest]
+[29Jun2026 14:32:47.893] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinx-coroutines-core-jvm-1.10.2.jar" [parent: kotlinforforge-5.11.0-all.jar, locator: jarinjar]
+[29Jun2026 14:32:47.893] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-block-view-api-v2-1.0.10+9afaaf8c19.jar" [parent: SnowRealMagic-1.21.1-NeoForge-12.2.0.jar, locator: jarinjar, reader: mod manifest]
+[29Jun2026 14:32:47.893] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "yabn-1.0.3.jar" [parent: resourcefullib-neoforge-1.21-3.0.12.jar, locator: jarinjar]
+[29Jun2026 14:32:47.894] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "json-0.3.1.jar" [parent: configurable-3.5.1+1.21.1-neoforge.jar, locator: jarinjar]
+[29Jun2026 14:32:47.894] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinx-coroutines-jdk8-1.10.2.jar" [parent: kotlinforforge-5.11.0-all.jar, locator: jarinjar]
+[29Jun2026 14:32:47.895] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "conditional-mixin-neoforge-0.6.4.jar" [parent: elytratrims-neoforge-3.10.0+1.21.1.jar, locator: jarinjar, reader: mod manifest]
+[29Jun2026 14:32:47.895] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlin-stdlib-jdk7-2.3.0.jar" [parent: kotlinforforge-5.11.0-all.jar, locator: jarinjar]
+[29Jun2026 14:32:47.896] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlin-stdlib-jdk8-2.3.0.jar" [parent: kotlinforforge-5.11.0-all.jar, locator: jarinjar]
+[29Jun2026 14:32:47.896] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinx-serialization-core-jvm-1.9.0.jar" [parent: kotlinforforge-5.11.0-all.jar, locator: jarinjar]
+[29Jun2026 14:32:47.897] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "auto-service-1.0.jar" [parent: configurable-3.5.1+1.21.1-neoforge.jar, locator: jarinjar]
+[29Jun2026 14:32:47.898] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "Registrate-MC1.21-1.3.0+67.jar" [parent: create-1.21.1-6.0.10.jar, locator: jarinjar, reader: mod manifest]
+[29Jun2026 14:32:47.898] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "forgified-fabric-loader-2.5.29+0.16.0+1.21-full.jar" [parent: SnowRealMagic-1.21.1-NeoForge-12.2.0.jar, locator: jarinjar, reader: mod manifest]
+[29Jun2026 14:32:47.902] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "expandability-neoforge-12.0.0.jar" [parent: artifacts-neoforge-13.2.1.jar, locator: jarinjar, reader: mod manifest]
+[29Jun2026 14:32:47.902] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "bytecodecs-1.1.2.jar" [parent: resourcefullib-neoforge-1.21-3.0.12.jar, locator: jarinjar]
+[29Jun2026 14:32:47.903] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinx-serialization-json-jvm-1.9.0.jar" [parent: kotlinforforge-5.11.0-all.jar, locator: jarinjar]
+[29Jun2026 14:32:47.903] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "journeymap-api-neoforge-2.0.0-1.21.1.jar" [parent: journeymap-neoforge-1.21.1-6.0.0-beta.88.jar, locator: jarinjar, reader: mod manifest]
+[29Jun2026 14:32:47.904] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "diagonalblocks-neoforge-21.1.2.jar" [parent: DiagonalWalls-v21.1.2-1.21.1-NeoForge.jar, locator: jarinjar, reader: mod manifest]
+[29Jun2026 14:32:47.904] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "jankson-1.2.3.jar" [parent: jamlib-neoforge-1.3.6+1.21.1.jar, locator: jarinjar]
+[29Jun2026 14:32:47.908] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		Addons Lib 1.21.1-1.10 (addonslib)
+		AdorableEggs 1.0.3 (adorable_eggs)
+		Advanced Netherite 2.3.1 (advancednetherite)
+		Advanced Stands 1.0-SNAPSHOT (advancedstands)
+		Advancement Plaques 1.6.8 (advancementplaques)
+		AI-Improvements 0.5.3 (aiimprovements)
+		All The Leaks 1.1.9+1.21.1-neoforge (alltheleaks)
+		Alternate Current 1.9.0 (alternate_current)
+		Amendments 1.21-2.0.15 (amendments)
+		Animal Armor Trims 2.3.1 (animal_armor_trims)
+		AppleSkin 3.0.9+mc1.21 (appleskin)
+		Aquaculture 2 2.7.21 (aquaculture)
+		Architectury 13.0.8 (architectury)
+		Artifacts 13.2.1 (artifacts)
+		Athena 4.0.6 (athena)
+		AttributeFix 21.1.3 (attributefix)
+		Auto Pickup Filter 1.0.1 (auto_pickup_filter)
+		AutoMessage 3.0.0 (automessage)
+		Balm 21.0.59 (balm)
+		Beautiful Enchanted Books 6.0.0 (beb)
+		BeautifulCampfires 1.0.2 (beautifulcampfires)
+		BeautifulPotions 2.0.0 (beautiful_potions)
+		Better Archeology 1.21.1-1.3.4 (betterarcheology)
+		betterfpsdist mod 6.0 (betterfpsdist)
+		BHMenu 2.4.4 (bhmenu)
+		Biomes O' Plenty 21.1.0.13 (biomesoplenty)
+		Bookshelf 21.1.81 (bookshelf)
+		Building Gadgets 2 1.3.9 (buildinggadgets2)
+		Caelus API 7.0.1+1.21.1 (caelus)
+		Carry On 2.2.4 (carryon)
+		Cerbons API 1.3.0 (cerbons_api)
+		Charm of Undying 9.1.0+1.21.1 (charmofundying)
+		Chipped 4.0.2 (chipped)
+		Chisel Reborn 2.0.0+mc1.21.1 (chisel)
+		ChoiceTheorem's Overhauled Village 3.6.3 (ctov)
+		chunksending mod 2.9 (chunksending)
+		Clickable Advancements mod 3.8 (clickadv)
+		Cloth Config v15 API 15.0.140 (cloth_config)
+		Clumps 19.0.0.1 (clumps)
+		Collective 8.31 (collective)
+		Comforts 9.0.5+1.21.1 (comforts)
+		Common Networking 1.0.21-1.21.1 (commonnetworking)
+		conditional mixin 0.6.4 (conditional_mixin)
+		Configurable 3.5.1 (configurable)
+		Configured 2.6.3 (configured)
+		Connected Glass 1.1.14 (connectedglass)
+		Connectivity Mod 7.6 (connectivity)
+		Corpse 1.21.1-1.1.13 (corpse)
+		CosmeticArmorReworked 1.21.1-v1-neoforge (cosmeticarmorreworked)
+		Crab Claws 1.3.0 (crabclaws)
+		Create 6.0.10 (create)
+		CreativeCore 2.13.41 (creativecore)
+		Cristel Lib 3.1.7 (cristellib)
+		Cryonic Config 1.0.0+mc1.21.11 (cryonicconfig)
+		Cupboard mod 3.8 (cupboard)
+		Curios API 9.5.1+1.21.1 (curios)
+		Customizable Elytra 2.2.8+1.21 (customizableelytra)
+		CustomNetherPortals 2.0.0 (customnetherportals)
+		Diagonal Blocks 21.1.2 (diagonalblocks)
+		Diagonal Fences 21.1.1 (diagonalfences)
+		Diagonal Walls 21.1.2 (diagonalwalls)
+		Diagonal Windows 21.1.1 (diagonalwindows)
+		Dis-Enchanting Table 5.0.2 (disenchanting_table)
+		Double Doors 7.2 (doubledoors)
+		Easy Anvils 21.1.0 (easyanvils)
+		Easy Villagers 1.21.1-1.1.42 (easy_villagers)
+		Eat an Omelette 1.5.0 (eat_an_omelette)
+		ElevatorMod 1.21.1-1.11.4 (elevatorid)
+		Elytra Slot 9.0.2+1.21.1 (elytraslot)
+		Elytra Trims 3.10.0 (elytratrims)
+		EnchantmentDescriptions 21.1.10 (enchdesc)
+		Ender's Delight 1.3.0 (endersdelight)
+		EnderPack 2.2.0 (ender_pack)
+		EpheroLib 1.2.0 (epherolib)
+		Epic Power Bracelets 1.1.1 (epicpowerbracelets)
+		ExclusiveWeapons 1.0.0 (exclusive_weapons)
+		ExpandAbility 12.0.0 (expandability)
+		Explorer's Compass 1.21.1-3.4.0-neoforge (explorerscompass)
+		Explorify 1.6.5 (explorify)
+		Farmer's Delight 1.3.2 (farmersdelight)
+		FarmersStructures 1.0.6 (farmers_structures)
+		Fast Paintings 1.21-1.3.0 (fastpaintings)
+		fastasyncworldsave mod 2.6 (fastasyncworldsave)
+		FastLeafDecay 35 (fastleafdecay)
+		Ferrite Core 7.0.3 (ferritecore)
+		Flywheel 1.0.6 (flywheel)
+		Forgified Fabric API Base 0.4.42+d1308ded19 (fabric_api_base)
+		Forgified Fabric BlockView API (v2) 1.0.10+9afaaf8c19 (fabric_block_view_api_v2)
+		Forgified Fabric Game Rule API (v1) 1.0.53+36d727be19 (fabric_game_rule_api_v1)
+		Forgified Fabric Model Loading API (v1) 2.0.0+986ae77219 (fabric_model_loading_api_v1)
+		Forgified Fabric Renderer - Indigo 1.7.0+acb05a3919 (fabric_renderer_indigo)
+		Forgified Fabric Renderer API (v1) 3.4.0+9c40919e19 (fabric_renderer_api_v1)
+		Framework 0.13.11 (framework)
+		FTB Library 2101.1.32 (ftblibrary)
+		FTB Quests 2101.1.27 (ftbquests)
+		FTB Teams 2101.1.10 (ftbteams)
+		Fusion 1.2.12 (fusion)
+		GeckoLib 4 4.9.1 (geckolib)
+		Geophilic 3.6 (geophilic)
+		GlitchCore 2.1.0.2 (glitchcore)
+		Goblin Traders 1.11.2 (goblintraders)
+		Golden Foods 2.4.0 (golden_foods)
+		Guard Villagers 2.4.10 (guardvillagers)
+		Handcrafted 4.0.3 (handcrafted)
+		Healthy Water 1.0.1 (healthy_water)
+		Iceberg 1.3.2 (iceberg)
+		Iron Chests 1.21-neoforge-16.0.7 (ironchest)
+		Iron Furnaces 4.3.2 (ironfurnaces)
+		Iron's Lib 1.21.1-1.1.0 (irons_lib)
+		Iron's Spells 'n Spellbooks 1.21.1-3.16.1 (irons_spellbooks)
+		Jade 15.10.5+neoforge (jade)
+		Jade Addons 6.1.0+neoforge (jadeaddons)
+		JamLib 1.3.6+1.21.1 (jamlib)
+		Journeymap 1.21.1-6.0.0-beta.88 (journeymap)
+		JourneyMap API 2.0.0-1.21.1 (journeymap_api)
+		JourneyMap Integration 1.21.1-1.9 (jmi)
+		Just Enough Archaeology 1.21.1-1.2.0 (jearchaeology)
+		Just Enough Items 19.27.0.343 (jei)
+		Kiwi Library 15.8.4+neoforge (kiwi)
+		KleeSlabs 21.1.11 (kleeslabs)
+		Konkrete 1.9.9 (konkrete)
+		Kotlin For Forge 5.11.0 (kotlinforforge)
+		KumaAPI 21.0.8 (kuma_api)
+		Lithostitched 1.7.9 (lithostitched)
+		Longer Following Time 1.1.0 (longer_following_time)
+		Lootr 1.21.1-1.11.37.120 (lootr)
+		Macaw's Bridges 3.1.2 (mcwbridges)
+		Macaw's Doors 1.1.5 (mcwdoors)
+		Macaw's Fences and Walls 1.2.1 (mcwfences)
+		Macaw's Furniture 3.4.1 (mcwfurnitures)
+		Macaw's Lights and Lamps 1.1.5 (mcwlights)
+		Macaw's Roofs 2.3.2 (mcwroofs)
+		Macaw's Trapdoors 1.1.5 (mcwtrpdoors)
+		Macaw's Windows 2.4.2 (mcwwindows)
+		Medieval Buildings 1.1.1 (medieval_buildings)
+		Medieval Buildings [The End Edition] 1.0.4 (medievalend)
+		Medieval Buildings [The Nether Edition] 1.0.2 (medieval_nether)
+		Melody 1.0.10 (melody)
+		Minecraft 1.21.1 (minecraft)
+		MmmMmmMmmMmm 1.21-2.0.12 (dummmmmmy)
+		ModernFix 5.27.14+mc1.21.1 (modernfix)
+		MonoLib 4.0.2 (monolib)
+		Moog's Structure Lib 2.0.2 (moogs_structures)
+		MoogsVoyagerStructures 5.0.11 (mvs)
+		Moonlight Lib 1.21.1-3.0.19 (moonlight)
+		More Beautiful Torches 3.0.0 (more_beautiful_torches)
+		More Bows and Arrows 5.0.4 (more_bows_and_arrows)
+		More Useful Copper 3.0.0 (more_useful_copper)
+		MrCrayfish's Furniture Mod: Refurbished 1.0.22 (refurbished_furniture)
+		Multi Arrow Effects 1.0.0 (multi_arrow_effects)
+		My Nether's Delight 1.10.2 (mynethersdelight)
+		Nature's Compass 1.21.1-3.4.0-neoforge (naturescompass)
+		NeoForge 21.1.234 (neoforge)
+		Neruina 3.3.2 (neruina)
+		NetherPortalFix 21.1.1 (netherportalfix)
+		New Shield Variants 2.0.0 (new_shield_variants)
+		New Slab Variants 3.0.1 (new_slab_variants)
+		No Chat Reports 1.21.1-v2.9.1 (nochatreports)
+		Nullscape 1.2.14 (nullscape)
+		Pam's HarvestCraft - Food Core 1.0.4 (pamhc2foodcore)
+		Placebo 9.9.1 (placebo)
+		Player Animator 2.0.4+1.21.1 (playeranimator)
+		Polymorph 1.1.0+1.21.1 (polymorph)
+		Ponder 1.0.82+mc1.21.1 (ponder)
+		PortableSpawner 1.0.0 (portablespawner)
+		Potion Combiner 1.0.1 (potion_blending)
+		PrickleMC 21.1.11 (prickle)
+		Prism 1.0.11 (prism)
+		Puzzles Lib 21.1.52 (puzzleslib)
+		recipeessentials mod 4.0 (recipeessentials)
+		Resourceful Lib 3.0.12 (resourcefullib)
+		Resourcefulconfig 3.0.11 (resourcefulconfig)
+		Right Click Harvest 4.6.1+1.21.1 (rightclickharvest)
+		RPG Potions 1.1.3 (rpg_potions)
+		Searchables 1.0.2 (searchables)
+		SecurityCraft 1.10.1 (securitycraft)
+		Serene Seasons 10.1.0.3 (sereneseasons)
+		Smarter Farmers 1.21-2.2.4 (smarterfarmers)
+		Smoothchunk mod 4.1 (smoothchunk)
+		Snow Under Trees 1.5.1 (snowundertrees)
+		Snow! Real Magic! 12.2.0+neoforge (snowrealmagic)
+		Sophisticated Backpacks 3.25.64 (sophisticatedbackpacks)
+		Sophisticated Core 1.4.60 (sophisticatedcore)
+		Sophisticated Storage 1.5.62 (sophisticatedstorage)
+		Sound Physics Remastered 1.21.1-1.4.10 (sound_physics_remastered)
+		spark 1.10.124 (spark)
+		SpectreLib 0.17.2+1.21 (spectrelib)
+		Stackable Stew and Soup 2.0.1 (stackable_stew_and_soup)
+		Start Invulnerability Mod 1.0.0 (startinv)
+		Storage Drawers 13.11.4 (storagedrawers)
+		Structory 1.3.16 (structory)
+		Structure Essentials mod 5.0 (structureessentials)
+		SuperMartijn642's Config Library 1.1.8 (supermartijn642configlib)
+		SuperMartijn642's Core Lib 1.1.21 (supermartijn642corelib)
+		SuperOreBlock 1.0.0 (super_ore_block)
+		Tax' Structure Architect 1.2.2 (taxsa)
+		Tax' Village Architect 1.1.2 (taxva)
+		TerraBlender 4.1.0.8 (terrablender)
+		Towns and Towers 1.13.9 (t_and_t)
+		Trash Cans 1.0.18+c (trashcans)
+		TrashSlot 21.1.11 (trashslot)
+		TrimsEffects 2.1.1 (trimeffects)
+		Unlocked Typing 1.0.1 (unlocked_typing)
+		Villager Names 8.5 (villagernames)
+		Waddles 0.11.1 (waddles)
+		Waystones 21.1.34 (waystones)
+		Wider Ender Chests 1.0.4 (wider_ender_chests)
+		Yeetus Experimentus 87.0.0 (yeetusexperimentus)
+		YUNG's API 1.21.1-NeoForge-5.1.6 (yungsapi)
+		YUNG's Better Desert Temples 1.21.1-NeoForge-4.1.5 (betterdeserttemples)
+		YUNG's Better Dungeons 1.21.1-NeoForge-5.1.4 (betterdungeons)
+		YUNG's Better Jungle Temples 1.21.1-NeoForge-3.1.2 (betterjungletemples)
+		YUNG's Better Mineshafts 1.21.1-NeoForge-5.1.1 (bettermineshafts)
+		YUNG's Better Nether Fortresses 1.21.1-NeoForge-3.1.5 (betterfortresses)
+		YUNG's Better Ocean Monuments 1.21.1-NeoForge-4.1.2 (betteroceanmonuments)
+		YUNG's Better Strongholds 1.21.1-NeoForge-5.1.3 (betterstrongholds)
+		YUNG's Better Witch Huts 1.21.1-NeoForge-4.1.1 (betterwitchhuts)
+		Zombie Variants 1.0.3 (zombie_variants)
+[29Jun2026 14:32:51.634] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[29Jun2026 14:32:51.642] [main/INFO] [mixin/]: Compatibility level set to JAVA_18
+[29Jun2026 14:32:51.645] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
