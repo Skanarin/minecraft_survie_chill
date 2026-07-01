@@ -1,4 +1,4 @@
-###############################################################################################
+﻿###############################################################################################
 # Copyright (C) 2025 Griefed
 #
 # This script is free software; you can redistribute it and/or
@@ -96,7 +96,7 @@ Function Send-DiscordWebhook {
     param (
         [string]$Message
     )
-
+    
     if (Test-Path ".env") {
         Get-Content ".env" | ForEach-Object {
             if ($_ -match "^\s*([^#=]+)=(.*)$") {
@@ -108,15 +108,17 @@ Function Send-DiscordWebhook {
         return
     }
 
-    $payload = @{
+    $payloadObj = @{
         content = $Message
-    } | ConvertTo-Json
+    }
+
+    $json = $payloadObj | ConvertTo-Json -Depth 10 -Compress
 
     try {
         Invoke-RestMethod -Uri $env:DISCORD_WEBHOOK `
                           -Method Post `
-                          -ContentType "application/json" `
-                          -Body $payload | Out-Null
+                          -ContentType "application/json; charset=utf-8" `
+                          -Body $json | Out-Null
     } catch {
         Write-Host "Discord webhook failed: $($_.Exception.Message)"
     }
