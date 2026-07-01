@@ -33,6 +33,7 @@
     "criteria": {
       "jade_cliffs": "2026-06-29 21:46:33 +0200",
       "volcanic_plains": "2026-06-29 19:03:55 +0200",
+      "spider_nest": "2026-07-01 17:33:16 +0200",
       "woodland": "2026-06-29 17:13:43 +0200",
       "mystic_grove": "2026-06-29 18:52:55 +0200",
       "lavender_field": "2026-06-29 17:00:19 +0200",
@@ -51,6 +52,7 @@
       "jacaranda_glade": "2026-06-29 21:59:02 +0200",
       "volcano": "2026-06-29 21:46:15 +0200",
       "crag": "2026-06-30 00:08:35 +0200",
+      "coniferous_forest": "2026-07-01 17:14:29 +0200",
       "pasture": "2026-06-27 20:23:39 +0200",
       "rocky_rainforest": "2026-06-29 21:47:17 +0200"
     },
@@ -58,27 +60,33 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:flower_forest": "2026-06-27 20:23:48 +0200",
-      "minecraft:beach": "2026-06-27 20:24:09 +0200",
+      "minecraft:cold_ocean": "2026-07-01 17:15:22 +0200",
+      "minecraft:snowy_slopes": "2026-07-01 17:31:36 +0200",
       "minecraft:forest": "2026-06-29 17:37:33 +0200",
-      "minecraft:mangrove_swamp": "2026-06-30 00:15:19 +0200",
-      "minecraft:sparse_jungle": "2026-06-30 00:42:15 +0200",
       "minecraft:deep_ocean": "2026-06-30 00:05:25 +0200",
-      "minecraft:river": "2026-06-27 20:47:23 +0200",
-      "minecraft:lukewarm_ocean": "2026-06-29 18:36:21 +0200",
-      "minecraft:stony_shore": "2026-06-29 16:59:57 +0200",
+      "minecraft:deep_cold_ocean": "2026-07-01 17:24:51 +0200",
       "minecraft:windswept_forest": "2026-06-29 23:40:38 +0200",
       "minecraft:ocean": "2026-06-27 20:48:06 +0200",
       "minecraft:jungle": "2026-06-29 21:26:42 +0200",
       "minecraft:sunflower_plains": "2026-06-27 20:48:31 +0200",
-      "minecraft:swamp": "2026-06-29 23:34:47 +0200",
       "minecraft:birch_forest": "2026-06-29 23:40:27 +0200",
       "minecraft:windswept_hills": "2026-06-29 23:40:49 +0200",
-      "minecraft:savanna": "2026-06-29 21:58:00 +0200",
       "minecraft:bamboo_jungle": "2026-06-29 21:51:38 +0200",
       "minecraft:windswept_savanna": "2026-06-30 00:48:45 +0200",
-      "minecraft:plains": "2026-06-27 20:20:35 +0200",
-      "minecraft:deep_lukewarm_ocean": "2026-06-29 21:54:01 +0200"
+      "minecraft:deep_lukewarm_ocean": "2026-06-29 21:54:01 +0200",
+      "minecraft:flower_forest": "2026-06-27 20:23:48 +0200",
+      "minecraft:beach": "2026-06-27 20:24:09 +0200",
+      "minecraft:stony_peaks": "2026-07-01 17:32:26 +0200",
+      "minecraft:mangrove_swamp": "2026-06-30 00:15:19 +0200",
+      "minecraft:sparse_jungle": "2026-06-30 00:42:15 +0200",
+      "minecraft:river": "2026-06-27 20:47:23 +0200",
+      "minecraft:lukewarm_ocean": "2026-06-29 18:36:21 +0200",
+      "minecraft:stony_shore": "2026-06-29 16:59:57 +0200",
+      "minecraft:deep_dark": "2026-07-01 17:48:30 +0200",
+      "minecraft:swamp": "2026-06-29 23:34:47 +0200",
+      "minecraft:meadow": "2026-07-01 17:31:19 +0200",
+      "minecraft:savanna": "2026-06-29 21:58:00 +0200",
+      "minecraft:plains": "2026-06-27 20:20:35 +0200"
     },
     "done": false
   },
@@ -11747,40 +11755,27 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab": {
+  "minecraft:recipes/decorations/glow_item_frame": {
     "criteria": {
-      "has_polished_blackstone_bricks": "2026-06-30 20:36:26 +0200"
+      "has_glow_ink_sac": "2026-06-30 20:03:33 +0200"
     },
     "done": true
   },
-  "minecraft:nether/explore_nether": {
+  "betterarcheology:used_bomb_item": {
     "criteria": {
-      "minecraft:crimson_forest": "2026-06-30 20:41:22 +0200",
-      "minecraft:nether_wastes": "2026-06-30 20:21:44 +0200"
-    },
-    "done": false
-  },
-  "minecraft:recipes/misc/netherite_ingot": {
-    "criteria": {
-      "has_netherite_scrap": "2026-06-30 20:45:47 +0200"
+      "criteria": "2026-06-30 20:03:50 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs_from_polished_blackstone_bricks_stonecutting": {
+  "minecraft:recipes/decorations/snow": {
     "criteria": {
-      "has_polished_blackstone_bricks": "2026-06-30 20:36:26 +0200"
+      "has_snowball": "2026-06-30 20:04:59 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_polished_blackstone_bricks_stonecutting": {
+  "minecraft:recipes/building_blocks/snow_block": {
     "criteria": {
-      "has_polished_blackstone_bricks": "2026-06-30 20:36:26 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/polished_blackstone_brick_wall": {
-    "criteria": {
-      "has_polished_blackstone_bricks": "2026-06-30 20:36:26 +0200"
+      "has_snowball": "2026-06-30 20:04:59 +0200"
     },
     "done": true
   },
@@ -11790,57 +11785,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/rib_armor_trim_smithing_template": {
-    "criteria": {
-      "has_rib_armor_trim_smithing_template": "2026-06-30 20:45:08 +0200"
-    },
-    "done": true
-  },
-  "new_slab_variants:recipes/building_blocks/netherrack_slab": {
-    "criteria": {
-      "has_netherrack": "2026-06-30 20:22:35 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/nether_brick": {
-    "criteria": {
-      "has_netherrack": "2026-06-30 20:22:35 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/netherite_upgrade_smithing_template": {
-    "criteria": {
-      "has_netherite_upgrade_smithing_template": "2026-06-30 20:43:23 +0200"
-    },
-    "done": true
-  },
-  "minecraft:story/enter_the_nether": {
-    "criteria": {
-      "entered_nether": "2026-06-30 20:21:43 +0200"
-    },
-    "done": true
-  },
   "biomesoplenty:recipes/redstone/jacaranda_button": {
     "criteria": {
       "has_planks": "2026-06-30 20:14:08 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/glow_item_frame": {
-    "criteria": {
-      "has_glow_ink_sac": "2026-06-30 20:03:33 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/rib_armor_trim_smithing_template_smithing_trim": {
-    "criteria": {
-      "has_smithing_trim_template": "2026-06-30 20:45:08 +0200"
-    },
-    "done": true
-  },
-  "minecraft:adventure/totem_of_undying": {
-    "criteria": {
-      "used_totem": "2026-06-30 20:25:28 +0200"
     },
     "done": true
   },
@@ -11862,45 +11809,9 @@
     },
     "done": true
   },
-  "exclusive_weapons:recipes/tools/super_gold_axe": {
-    "criteria": {
-      "has_item": "2026-06-30 20:35:00 +0200"
-    },
-    "done": true
-  },
   "biomesoplenty:recipes/building_blocks/jacaranda_slab": {
     "criteria": {
       "has_planks": "2026-06-30 20:14:08 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/snow": {
-    "criteria": {
-      "has_snowball": "2026-06-30 20:04:59 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cracked_polished_blackstone_bricks": {
-    "criteria": {
-      "has_polished_blackstone_bricks": "2026-06-30 20:36:26 +0200"
-    },
-    "done": true
-  },
-  "betterarcheology:used_bomb_item": {
-    "criteria": {
-      "criteria": "2026-06-30 20:03:50 +0200"
-    },
-    "done": true
-  },
-  "sophisticatedbackpacks:recipes/misc/advanced_jukebox_upgrade": {
-    "criteria": {
-      "has_jukebox_upgrade": "2026-06-30 20:14:54 +0200"
-    },
-    "done": true
-  },
-  "minecraft:nether/loot_bastion": {
-    "criteria": {
-      "loot_bastion_hoglin_stable": "2026-06-30 20:35:06 +0200"
     },
     "done": true
   },
@@ -11910,33 +11821,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs": {
-    "criteria": {
-      "has_polished_blackstone_bricks": "2026-06-30 20:36:26 +0200"
-    },
-    "done": true
-  },
   "biomesoplenty:recipes/decorations/jacaranda_fence": {
     "criteria": {
       "has_planks": "2026-06-30 20:14:08 +0200"
-    },
-    "done": true
-  },
-  "minecraft:nether/root": {
-    "criteria": {
-      "entered_nether": "2026-06-30 20:21:43 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_polished_blackstone_bricks_stonecutting": {
-    "criteria": {
-      "has_polished_blackstone_bricks": "2026-06-30 20:36:26 +0200"
-    },
-    "done": true
-  },
-  "sophisticatedstorage:recipes/misc/storage_jukebox_upgrade_from_backpack_jukebox_upgrade": {
-    "criteria": {
-      "has_backpack_upgrade": "2026-06-30 20:14:54 +0200"
     },
     "done": true
   },
@@ -11946,15 +11833,334 @@
     },
     "done": true
   },
+  "sophisticatedbackpacks:recipes/misc/advanced_jukebox_upgrade": {
+    "criteria": {
+      "has_jukebox_upgrade": "2026-06-30 20:14:54 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/storage_jukebox_upgrade_from_backpack_jukebox_upgrade": {
+    "criteria": {
+      "has_backpack_upgrade": "2026-06-30 20:14:54 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2026-06-30 20:21:43 +0200"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2026-06-30 20:21:43 +0200"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:crimson_forest": "2026-06-30 20:41:22 +0200",
+      "minecraft:nether_wastes": "2026-06-30 20:21:44 +0200"
+    },
+    "done": false
+  },
+  "new_slab_variants:recipes/building_blocks/netherrack_slab": {
+    "criteria": {
+      "has_netherrack": "2026-06-30 20:22:35 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/nether_brick": {
+    "criteria": {
+      "has_netherrack": "2026-06-30 20:22:35 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/totem_of_undying": {
+    "criteria": {
+      "used_totem": "2026-06-30 20:25:28 +0200"
+    },
+    "done": true
+  },
   "minecraft:nether/find_bastion": {
     "criteria": {
       "bastion": "2026-06-30 20:28:20 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/snow_block": {
+  "exclusive_weapons:recipes/tools/super_gold_axe": {
     "criteria": {
-      "has_snowball": "2026-06-30 20:04:59 +0200"
+      "has_item": "2026-06-30 20:35:00 +0200"
+    },
+    "done": true
+  },
+  "minecraft:nether/loot_bastion": {
+    "criteria": {
+      "loot_bastion_hoglin_stable": "2026-06-30 20:35:06 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2026-06-30 20:36:26 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2026-06-30 20:36:26 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2026-06-30 20:36:26 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2026-06-30 20:36:26 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_polished_blackstone_bricks": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2026-06-30 20:36:26 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2026-06-30 20:36:26 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2026-06-30 20:36:26 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_upgrade_smithing_template": {
+    "criteria": {
+      "has_netherite_upgrade_smithing_template": "2026-06-30 20:43:23 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/rib_armor_trim_smithing_template": {
+    "criteria": {
+      "has_rib_armor_trim_smithing_template": "2026-06-30 20:45:08 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/rib_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2026-06-30 20:45:08 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_ingot": {
+    "criteria": {
+      "has_netherite_scrap": "2026-06-30 20:45:47 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_scrap_from_blasting": {
+    "criteria": {
+      "has_ancient_debris": "2026-07-01 11:27:49 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/ancient_debris_slab": {
+    "criteria": {
+      "has_ancient_debris": "2026-07-01 11:27:49 +0200"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_ancient_debris": {
+    "criteria": {
+      "ancient_debris": "2026-07-01 11:27:49 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_scrap": {
+    "criteria": {
+      "has_ancient_debris": "2026-07-01 11:27:49 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/combat/crafting/appliances/netherite_backtank_from_netherite": {
+    "criteria": {
+      "has_item": "2026-07-01 11:28:36 +0200"
+    },
+    "done": true
+  },
+  "exclusive_weapons:recipes/combat/super_netherite_chestplate": {
+    "criteria": {
+      "has_item": "2026-07-01 11:28:36 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/oak_cabinet": {
+    "criteria": {
+      "has_oak_trapdoor": "2026-07-01 11:39:13 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/melon_popsicle": {
+    "criteria": {
+      "has_melon": "2026-07-01 17:11:03 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/melon": {
+    "criteria": {
+      "has_melon": "2026-07-01 17:11:03 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/glistering_melon_slice": {
+    "criteria": {
+      "has_melon": "2026-07-01 17:11:03 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/melon_juice": {
+    "criteria": {
+      "has_melon_slice": "2026-07-01 17:11:03 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/melon_seeds": {
+    "criteria": {
+      "has_melon": "2026-07-01 17:11:03 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/horse_feed": {
+    "criteria": {
+      "has_golden_carrot": "2026-07-01 17:11:44 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lime_dye_from_smelting": {
+    "criteria": {
+      "has_sea_pickle": "2026-07-01 17:25:08 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/turtle_helmet": {
+    "criteria": {
+      "has_turtle_scute": "2026-07-01 17:25:17 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/combat/crafting/appliances/netherite_diving_helmet_from_netherite": {
+    "criteria": {
+      "has_item": "2026-07-01 17:44:10 +0200"
+    },
+    "done": true
+  },
+  "exclusive_weapons:recipes/combat/super_netherite_helmet": {
+    "criteria": {
+      "has_item": "2026-07-01 17:44:10 +0200"
+    },
+    "done": true
+  },
+  "exclusive_weapons:recipes/combat/super_netherite_leggings": {
+    "criteria": {
+      "has_item": "2026-07-01 17:44:11 +0200"
+    },
+    "done": true
+  },
+  "exclusive_weapons:recipes/combat/super_netherite_boots": {
+    "criteria": {
+      "has_item": "2026-07-01 17:44:13 +0200"
+    },
+    "done": true
+  },
+  "minecraft:nether/netherite_armor": {
+    "criteria": {
+      "netherite_armor": "2026-07-01 17:44:13 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/combat/crafting/appliances/netherite_diving_boots_from_netherite": {
+    "criteria": {
+      "has_item": "2026-07-01 17:44:13 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/mojang_banner_pattern": {
+    "criteria": {
+      "has_enchanted_golden_apple": "2026-07-01 17:44:35 +0200"
+    },
+    "done": true
+  },
+  "exclusive_weapons:recipes/tools/super_diamond_pickaxe": {
+    "criteria": {
+      "has_item": "2026-07-01 17:45:03 +0200"
+    },
+    "done": true
+  },
+  "exclusive_weapons:recipes/tools/super_netherite_pickaxe": {
+    "criteria": {
+      "has_item": "2026-07-01 17:45:30 +0200"
+    },
+    "done": true
+  },
+  "exclusive_weapons:recipes/tools/super_iron_hoe": {
+    "criteria": {
+      "has_item": "2026-07-01 17:50:51 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/avoid_vibration": {
+    "criteria": {
+      "avoid_vibration": "2026-07-01 18:40:38 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/cracked_deepslate_bricks_slab": {
+    "criteria": {
+      "has_cracked_deepslate_bricks": "2026-07-01 18:41:52 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/packed_ice_slab": {
+    "criteria": {
+      "has_packed_ice": "2026-07-01 22:27:48 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blue_ice": {
+    "criteria": {
+      "has_packed_ice": "2026-07-01 22:27:48 +0200"
+    },
+    "done": true
+  },
+  "exclusive_weapons:recipes/tools/super_diamond_hoe": {
+    "criteria": {
+      "has_item": "2026-07-01 22:54:11 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/sculk_catalyst_slab": {
+    "criteria": {
+      "has_sculk_catalyst": "2026-07-01 21:54:08 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_mob_near_sculk_catalyst": {
+    "criteria": {
+      "kill_mob_near_sculk_catalyst": "2026-07-01 21:53:50 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/recovery_compass": {
+    "criteria": {
+      "has_echo_shard": "2026-07-01 21:44:19 +0200"
     },
     "done": true
   },

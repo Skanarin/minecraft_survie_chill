@@ -1,0 +1,19 @@
+{
+	id: "87a1e93c-9150-4abb-9d15-375c9ae0f7c1"
+	type: "player"
+	player_name: "Zakohen"
+	ranks: {
+		87a1e93c-9150-4abb-9d15-375c9ae0f7c1: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Zakohen"
+		"ftbteams:description": ""
+		"ftbteams:color": "#97FF59"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+		"ftbteams:team_stages": [ ]
+		"ftbteams:lives_remaining": 0
+	}
+	message_history: [ ]
+	extra: { }
+}
