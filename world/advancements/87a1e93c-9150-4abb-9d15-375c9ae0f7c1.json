@@ -33,6 +33,7 @@
     "criteria": {
       "spider_nest": "2026-07-01 14:50:54 +0200",
       "redwood_forest": "2026-07-01 15:11:21 +0200",
+      "pasture": "2026-07-02 23:25:11 +0200",
       "prairie": "2026-07-01 14:21:48 +0200"
     },
     "done": false
@@ -642,7 +643,9 @@
       "minecraft:cold_ocean": "2026-07-01 17:30:58 +0200",
       "minecraft:flower_forest": "2026-07-01 17:30:05 +0200",
       "minecraft:beach": "2026-07-01 17:30:42 +0200",
+      "minecraft:ocean": "2026-07-02 23:24:07 +0200",
       "minecraft:river": "2026-07-01 14:27:00 +0200",
+      "minecraft:savanna": "2026-07-02 20:42:33 +0200",
       "minecraft:plains": "2026-07-01 14:24:11 +0200"
     },
     "done": false
@@ -1335,7 +1338,8 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "apple": "2026-07-01 14:30:33 +0200",
-      "bread": "2026-07-01 14:43:08 +0200"
+      "bread": "2026-07-01 14:43:08 +0200",
+      "beef": "2026-07-02 20:26:21 +0200"
     },
     "done": false
   },
@@ -2469,6 +2473,7 @@
       "potato": "2026-07-01 15:53:45 +0200",
       "wheat": "2026-07-01 15:07:03 +0200",
       "tomato": "2026-07-01 15:07:18 +0200",
+      "rice": "2026-07-02 20:33:20 +0200",
       "melon": "2026-07-01 17:44:55 +0200",
       "pumpkin": "2026-07-01 16:07:49 +0200",
       "beetroot": "2026-07-01 16:32:34 +0200",
@@ -4055,7 +4060,10 @@
       "minecraft:skeleton": "2026-07-01 14:42:29 +0200",
       "minecraft:enderman": "2026-07-01 15:40:36 +0200",
       "minecraft:spider": "2026-07-01 15:39:01 +0200",
-      "minecraft:zombie": "2026-07-01 14:42:49 +0200"
+      "minecraft:zombie": "2026-07-01 14:42:49 +0200",
+      "minecraft:creeper": "2026-07-02 17:43:59 +0200",
+      "minecraft:drowned": "2026-07-02 20:14:56 +0200",
+      "minecraft:zombie_villager": "2026-07-02 23:08:41 +0200"
     },
     "done": false
   },
@@ -8506,15 +8514,27 @@
     },
     "done": true
   },
-  "minecraft:recipes/combat/leather_helmet": {
+  "refurbished_furniture:recipes/misc/slicing/red_dye_from_spider_eye": {
     "criteria": {
-      "has_leather": "2026-07-02 12:18:09 +0200"
+      "has_spider_eye": "2026-07-02 11:32:56 +0200"
     },
     "done": true
   },
-  "sophisticatedbackpacks:recipes/misc/deposit_upgrade": {
+  "minecraft:recipes/brewing/fermented_spider_eye": {
     "criteria": {
-      "has_upgrade_base": "2026-07-02 12:19:19 +0200"
+      "has_spider_eye": "2026-07-02 11:32:56 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/spruce_cabinet": {
+    "criteria": {
+      "has_spruce_trapdoor": "2026-07-02 11:54:17 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_helmet": {
+    "criteria": {
+      "has_leather": "2026-07-02 12:18:09 +0200"
     },
     "done": true
   },
@@ -8524,9 +8544,51 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/cut_copper_stairs_from_copper_block_stonecutting": {
+  "minecraft:recipes/misc/leather_horse_armor": {
     "criteria": {
-      "has_copper_block": "2026-07-02 12:19:28 +0200"
+      "has_leather": "2026-07-02 12:18:09 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_boots": {
+    "criteria": {
+      "has_leather": "2026-07-02 12:18:09 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/tools/incognito_mask": {
+    "criteria": {
+      "has_leather": "2026-07-02 12:18:09 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/upgrade_base": {
+    "criteria": {
+      "has_leather": "2026-07-02 12:18:09 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/backpack": {
+    "criteria": {
+      "has_leather": "2026-07-02 12:18:09 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/item_frame": {
+    "criteria": {
+      "has_leather": "2026-07-02 12:18:09 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_leggings": {
+    "criteria": {
+      "has_leather": "2026-07-02 12:18:09 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/deposit_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2026-07-02 12:19:19 +0200"
     },
     "done": true
   },
@@ -8542,51 +8604,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/oak_hanging_sign": {
-    "criteria": {
-      "has_stripped_logs": "2026-07-02 12:37:02 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/leather_horse_armor": {
-    "criteria": {
-      "has_leather": "2026-07-02 12:18:09 +0200"
-    },
-    "done": true
-  },
   "sophisticatedbackpacks:recipes/misc/smelting_upgrade": {
     "criteria": {
       "has_upgrade_base": "2026-07-02 12:19:19 +0200"
     },
     "done": true
   },
-  "farmersdelight:recipes/decorations/spruce_cabinet": {
-    "criteria": {
-      "has_spruce_trapdoor": "2026-07-02 11:54:17 +0200"
-    },
-    "done": true
-  },
   "sophisticatedbackpacks:recipes/misc/stonecutter_upgrade": {
     "criteria": {
       "has_upgrade_base": "2026-07-02 12:19:19 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/leather_boots": {
-    "criteria": {
-      "has_leather": "2026-07-02 12:18:09 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/stripped_oak_wood": {
-    "criteria": {
-      "has_log": "2026-07-02 12:37:02 +0200"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/misc/yellow_dye_from_goldenrod": {
-    "criteria": {
-      "has_goldenrod": "2026-07-02 12:25:40 +0200"
     },
     "done": true
   },
@@ -8620,27 +8646,9 @@
     },
     "done": true
   },
-  "securitycraft:recipes/tools/incognito_mask": {
-    "criteria": {
-      "has_leather": "2026-07-02 12:18:09 +0200"
-    },
-    "done": true
-  },
   "sophisticatedbackpacks:recipes/misc/chipped/tinkering_table_upgrade": {
     "criteria": {
       "has_upgrade_base": "2026-07-02 12:19:19 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/copper_grate_from_copper_block_stonecutting": {
-    "criteria": {
-      "has_copper_block": "2026-07-02 12:19:28 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cut_copper_from_copper_block_stonecutting": {
-    "criteria": {
-      "has_copper_block": "2026-07-02 12:19:28 +0200"
     },
     "done": true
   },
@@ -8656,63 +8664,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/copper_ingot": {
-    "criteria": {
-      "has_copper_block": "2026-07-02 12:19:28 +0200"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/slicing/red_dye_from_spider_eye": {
-    "criteria": {
-      "has_spider_eye": "2026-07-02 11:32:56 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/brewing/fermented_spider_eye": {
-    "criteria": {
-      "has_spider_eye": "2026-07-02 11:32:56 +0200"
-    },
-    "done": true
-  },
-  "sophisticatedbackpacks:recipes/misc/upgrade_base": {
-    "criteria": {
-      "has_leather": "2026-07-02 12:18:09 +0200"
-    },
-    "done": true
-  },
-  "new_slab_variants:recipes/building_blocks/hay_block_slab": {
-    "criteria": {
-      "has_hay_block": "2026-07-02 12:28:40 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cut_copper_slab_from_copper_block_stonecutting": {
-    "criteria": {
-      "has_copper_block": "2026-07-02 12:19:28 +0200"
-    },
-    "done": true
-  },
   "sophisticatedbackpacks:recipes/misc/tank_upgrade": {
     "criteria": {
       "has_upgrade_base": "2026-07-02 12:19:19 +0200"
-    },
-    "done": true
-  },
-  "sophisticatedstorage:recipes/misc/storage_stack_upgrade_tier_1_plus_from_backpack_stack_upgrade_starter_tier": {
-    "criteria": {
-      "has_backpack_stack_upgrade": "2026-07-02 12:19:45 +0200"
-    },
-    "done": true
-  },
-  "super_ore_block:recipes/building_blocks/super_copper_block": {
-    "criteria": {
-      "has_item": "2026-07-02 12:19:28 +0200"
-    },
-    "done": true
-  },
-  "new_slab_variants:recipes/building_blocks/copper_block_slab": {
-    "criteria": {
-      "has_copper_block": "2026-07-02 12:19:28 +0200"
     },
     "done": true
   },
@@ -8722,27 +8676,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/cut_copper": {
-    "criteria": {
-      "has_copper_block": "2026-07-02 12:19:28 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/chiseled_copper_from_copper_block_stonecutting": {
-    "criteria": {
-      "has_copper_block": "2026-07-02 12:19:28 +0200"
-    },
-    "done": true
-  },
   "sophisticatedbackpacks:recipes/misc/stack_upgrade_tier_1": {
     "criteria": {
       "has_upgrade_base": "2026-07-02 12:19:19 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/waxed_copper_block_from_honeycomb": {
-    "criteria": {
-      "has_copper_block": "2026-07-02 12:19:28 +0200"
     },
     "done": true
   },
@@ -8752,27 +8688,9 @@
     },
     "done": true
   },
-  "sophisticatedbackpacks:recipes/misc/backpack": {
-    "criteria": {
-      "has_leather": "2026-07-02 12:18:09 +0200"
-    },
-    "done": true
-  },
   "sophisticatedbackpacks:recipes/misc/refill_upgrade": {
     "criteria": {
       "has_upgrade_base": "2026-07-02 12:19:19 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/copper_bulb": {
-    "criteria": {
-      "has_copper_block": "2026-07-02 12:19:28 +0200"
-    },
-    "done": true
-  },
-  "sophisticatedbackpacks:recipes/misc/stack_upgrade_tier_1_from_starter": {
-    "criteria": {
-      "has_stack_upgrade_starter_tier": "2026-07-02 12:19:45 +0200"
     },
     "done": true
   },
@@ -8794,18 +8712,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/item_frame": {
-    "criteria": {
-      "has_leather": "2026-07-02 12:18:09 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/copper_grate": {
-    "criteria": {
-      "has_copper_block": "2026-07-02 12:19:28 +0200"
-    },
-    "done": true
-  },
   "sophisticatedbackpacks:recipes/misc/pump_upgrade": {
     "criteria": {
       "has_upgrade_base": "2026-07-02 12:19:19 +0200"
@@ -8815,18 +8721,6 @@
   "sophisticatedbackpacks:recipes/misc/anvil_upgrade": {
     "criteria": {
       "has_upgrade_base": "2026-07-02 12:19:19 +0200"
-    },
-    "done": true
-  },
-  "new_slab_variants:recipes/building_blocks/stripped_oak_log_slab": {
-    "criteria": {
-      "has_stripped_oak_log": "2026-07-02 12:37:02 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/leather_leggings": {
-    "criteria": {
-      "has_leather": "2026-07-02 12:18:09 +0200"
     },
     "done": true
   },
@@ -8902,15 +8796,1377 @@
     },
     "done": true
   },
+  "sophisticatedbackpacks:recipes/misc/crafting_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2026-07-02 12:19:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_copper_stairs_from_copper_block_stonecutting": {
+    "criteria": {
+      "has_copper_block": "2026-07-02 12:19:28 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/copper_grate_from_copper_block_stonecutting": {
+    "criteria": {
+      "has_copper_block": "2026-07-02 12:19:28 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_copper_from_copper_block_stonecutting": {
+    "criteria": {
+      "has_copper_block": "2026-07-02 12:19:28 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot": {
+    "criteria": {
+      "has_copper_block": "2026-07-02 12:19:28 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_copper_slab_from_copper_block_stonecutting": {
+    "criteria": {
+      "has_copper_block": "2026-07-02 12:19:28 +0200"
+    },
+    "done": true
+  },
+  "super_ore_block:recipes/building_blocks/super_copper_block": {
+    "criteria": {
+      "has_item": "2026-07-02 12:19:28 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/copper_block_slab": {
+    "criteria": {
+      "has_copper_block": "2026-07-02 12:19:28 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_copper": {
+    "criteria": {
+      "has_copper_block": "2026-07-02 12:19:28 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_copper_from_copper_block_stonecutting": {
+    "criteria": {
+      "has_copper_block": "2026-07-02 12:19:28 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_copper_block_from_honeycomb": {
+    "criteria": {
+      "has_copper_block": "2026-07-02 12:19:28 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/copper_bulb": {
+    "criteria": {
+      "has_copper_block": "2026-07-02 12:19:28 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/copper_grate": {
+    "criteria": {
+      "has_copper_block": "2026-07-02 12:19:28 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/storage_stack_upgrade_tier_1_plus_from_backpack_stack_upgrade_starter_tier": {
+    "criteria": {
+      "has_backpack_stack_upgrade": "2026-07-02 12:19:45 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/stack_upgrade_tier_1_from_starter": {
+    "criteria": {
+      "has_stack_upgrade_starter_tier": "2026-07-02 12:19:45 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/misc/yellow_dye_from_goldenrod": {
+    "criteria": {
+      "has_goldenrod": "2026-07-02 12:25:40 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/hay_block_slab": {
+    "criteria": {
+      "has_hay_block": "2026-07-02 12:28:40 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/wheat": {
     "criteria": {
       "has_hay_block": "2026-07-02 12:28:40 +0200"
     },
     "done": true
   },
-  "sophisticatedbackpacks:recipes/misc/crafting_upgrade": {
+  "minecraft:recipes/decorations/oak_hanging_sign": {
     "criteria": {
-      "has_upgrade_base": "2026-07-02 12:19:19 +0200"
+      "has_stripped_logs": "2026-07-02 12:37:02 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_oak_wood": {
+    "criteria": {
+      "has_log": "2026-07-02 12:37:02 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/stripped_oak_log_slab": {
+    "criteria": {
+      "has_stripped_oak_log": "2026-07-02 12:37:02 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/tnt_from_bop_sand": {
+    "criteria": {
+      "has_gunpowder": "2026-07-02 17:44:01 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/firework_rocket_simple": {
+    "criteria": {
+      "has_gunpowder": "2026-07-02 17:44:01 +0200"
+    },
+    "done": true
+  },
+  "betterarcheology:recipes/combat/bomb": {
+    "criteria": {
+      "has_gunpowder": "2026-07-02 17:44:01 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2026-07-02 17:44:01 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/blue_dye_from_cornflower": {
+    "criteria": {
+      "has_cornflower": "2026-07-02 17:49:45 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/slicing/blue_dye_from_cornflower": {
+    "criteria": {
+      "has_cornflower": "2026-07-02 17:49:45 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
+    "criteria": {
+      "has_iron_block": "2026-07-02 17:59:33 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_iron_block": "2026-07-02 17:59:33 +0200"
+    },
+    "done": true
+  },
+  "super_ore_block:recipes/building_blocks/super_iron_block": {
+    "criteria": {
+      "has_item": "2026-07-02 17:59:33 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/iron_block_slab": {
+    "criteria": {
+      "has_iron_block": "2026-07-02 17:59:33 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/stack_upgrade_tier_2": {
+    "criteria": {
+      "has_stack_upgrade_tier_1": "2026-07-02 18:00:04 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/storage_stack_upgrade_tier_2_from_backpack_stack_upgrade_tier_1": {
+    "criteria": {
+      "has_backpack_stack_upgrade": "2026-07-02 18:00:04 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/gold_block_slab": {
+    "criteria": {
+      "has_gold_block": "2026-07-02 18:00:10 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/golden_thin_pot": {
+    "criteria": {
+      "has_golden_thin_pot": "2026-07-02 18:00:10 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_gold_block": {
+    "criteria": {
+      "has_gold_block": "2026-07-02 18:00:10 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/golden_medium_pot": {
+    "criteria": {
+      "has_golden_medium_pot": "2026-07-02 18:00:10 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/golden_thick_pot": {
+    "criteria": {
+      "has_golden_thick_pot": "2026-07-02 18:00:10 +0200"
+    },
+    "done": true
+  },
+  "super_ore_block:recipes/building_blocks/super_gold_block": {
+    "criteria": {
+      "has_item": "2026-07-02 18:00:10 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/golden_wide_pot": {
+    "criteria": {
+      "has_golden_wide_pot": "2026-07-02 18:00:10 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/storage_stack_upgrade_tier_3_from_backpack_stack_upgrade_tier_2": {
+    "criteria": {
+      "has_backpack_stack_upgrade": "2026-07-02 18:00:22 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/stack_upgrade_tier_3": {
+    "criteria": {
+      "has_stack_upgrade_tier_2": "2026-07-02 18:00:22 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/slicing/pink_dye_from_spore_blossom": {
+    "criteria": {
+      "has_spore_blossom": "2026-07-02 18:06:09 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_quartz_slab": {
+    "criteria": {
+      "has_smooth_quartz": "2026-07-02 19:23:00 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_quartz_stairs_from_smooth_quartz_stonecutting": {
+    "criteria": {
+      "has_smooth_quartz": "2026-07-02 19:23:00 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_quartz_stairs": {
+    "criteria": {
+      "has_smooth_quartz": "2026-07-02 19:23:00 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_quartz_slab_from_smooth_quartz_stonecutting": {
+    "criteria": {
+      "has_smooth_quartz": "2026-07-02 19:23:00 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_stairs": {
+    "criteria": {
+      "has_quartz_block": "2026-07-02 19:23:02 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/quartz_pillar_trim": {
+    "criteria": {
+      "has_quartz_pillar_trim": "2026-07-02 19:23:02 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_quartz_block_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2026-07-02 19:23:02 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/plate": {
+    "criteria": {
+      "has_minecraft:quartz_block": "2026-07-02 19:23:02 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_pillar_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2026-07-02 19:23:02 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_pillar": {
+    "criteria": {
+      "has_quartz_block": "2026-07-02 19:23:02 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_bricks_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2026-07-02 19:23:02 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_slab": {
+    "criteria": {
+      "has_quartz_block": "2026-07-02 19:23:02 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_bricks": {
+    "criteria": {
+      "has_quartz_block": "2026-07-02 19:23:02 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_slab_from_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2026-07-02 19:23:02 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/quartz_corner_trim": {
+    "criteria": {
+      "has_quartz_corner_trim": "2026-07-02 19:23:02 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_stairs_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2026-07-02 19:23:02 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_quartz": {
+    "criteria": {
+      "has_quartz_block": "2026-07-02 19:23:02 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_quartz_block": {
+    "criteria": {
+      "has_quartz_block": "2026-07-02 19:23:02 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/scaffolding_slab": {
+    "criteria": {
+      "has_scaffolding": "2026-07-02 19:27:15 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/spruce_counter": {
+    "criteria": {
+      "has_spruce_counter": "2026-07-02 19:40:05 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/spruce_table": {
+    "criteria": {
+      "has_minecraft:spruce_planks": "2026-07-02 19:40:05 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/spruce_kitchen_drawer": {
+    "criteria": {
+      "has_minecraft:spruce_planks": "2026-07-02 19:40:05 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/spruce_table": {
+    "criteria": {
+      "has_spruce_table": "2026-07-02 19:40:05 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/spruce_dining_bench": {
+    "criteria": {
+      "has_spruce_dining_bench": "2026-07-02 19:40:05 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/spruce_limited_barrel_2": {
+    "criteria": {
+      "has_spruce_plank": "2026-07-02 19:40:05 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/spruce_limited_barrel_1": {
+    "criteria": {
+      "has_spruce_plank": "2026-07-02 19:40:05 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/spruce_limited_barrel_4": {
+    "criteria": {
+      "has_spruce_plank": "2026-07-02 19:40:05 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/spruce_limited_barrel_3": {
+    "criteria": {
+      "has_spruce_plank": "2026-07-02 19:40:05 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_button": {
+    "criteria": {
+      "has_planks": "2026-07-02 19:40:05 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/spruce_corner_trim": {
+    "criteria": {
+      "has_spruce_corner_trim": "2026-07-02 19:40:05 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/spruce_desk": {
+    "criteria": {
+      "has_spruce_desk": "2026-07-02 19:40:05 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/spruce_kitchen_cabinetry": {
+    "criteria": {
+      "has_minecraft:spruce_planks": "2026-07-02 19:40:05 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/spruce_chest": {
+    "criteria": {
+      "has_spruce_plank": "2026-07-02 19:40:05 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_sign": {
+    "criteria": {
+      "has_planks": "2026-07-02 19:40:05 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/spruce_drawer": {
+    "criteria": {
+      "has_spruce_drawer": "2026-07-02 19:40:05 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_trapdoor": {
+    "criteria": {
+      "has_planks": "2026-07-02 19:40:05 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/spruce_fancy_bed": {
+    "criteria": {
+      "has_spruce_fancy_bed": "2026-07-02 19:40:05 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/spruce_cupboard": {
+    "criteria": {
+      "has_spruce_cupboard": "2026-07-02 19:40:05 +0200"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/spruce_rail_bridge": {
+    "criteria": {
+      "has_planks": "2026-07-02 19:40:05 +0200"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/rope_spruce_bridge": {
+    "criteria": {
+      "has_planks": "2026-07-02 19:40:05 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/spruce_shelf": {
+    "criteria": {
+      "has_spruce_shelf": "2026-07-02 19:40:05 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/spruce_kitchen_storage_cabinet": {
+    "criteria": {
+      "has_minecraft:spruce_planks": "2026-07-02 19:40:05 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/spruce_storage_jar": {
+    "criteria": {
+      "has_minecraft:spruce_planks": "2026-07-02 19:40:05 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/spruce_storage_connector": {
+    "criteria": {
+      "has_spruce_planks": "2026-07-02 19:40:05 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_fence": {
+    "criteria": {
+      "has_planks": "2026-07-02 19:40:05 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/spruce_window": {
+    "criteria": {
+      "has_ingredient": "2026-07-02 19:40:05 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/spruce_mail_box": {
+    "criteria": {
+      "has_minecraft:spruce_planks": "2026-07-02 19:40:05 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_pressure_plate": {
+    "criteria": {
+      "has_planks": "2026-07-02 19:40:05 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/spruce_pillar_trim": {
+    "criteria": {
+      "has_spruce_pillar_trim": "2026-07-02 19:40:05 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/spruce_crate": {
+    "criteria": {
+      "has_minecraft:spruce_planks": "2026-07-02 19:40:05 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/spruce/spruce_blossom_trapdoor": {
+    "criteria": {
+      "has_plankss": "2026-07-02 19:40:05 +0200"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/spruce_planks": {
+    "criteria": {
+      "has_planks": "2026-07-02 19:40:05 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/spruce_couch": {
+    "criteria": {
+      "has_spruce_couch": "2026-07-02 19:40:05 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_slab": {
+    "criteria": {
+      "has_planks": "2026-07-02 19:40:05 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/spruce_cutting_board": {
+    "criteria": {
+      "has_minecraft:spruce_planks": "2026-07-02 19:40:05 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/spruce_nightstand": {
+    "criteria": {
+      "has_spruce_nightstand": "2026-07-02 19:40:05 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/spruce_bench": {
+    "criteria": {
+      "has_spruce_bench": "2026-07-02 19:40:05 +0200"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/spruce_log_bridge_middle": {
+    "criteria": {
+      "has_planks": "2026-07-02 19:40:05 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_door": {
+    "criteria": {
+      "has_planks": "2026-07-02 19:40:05 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_fence_gate": {
+    "criteria": {
+      "has_planks": "2026-07-02 19:40:05 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/spruce_desk": {
+    "criteria": {
+      "has_minecraft:spruce_planks": "2026-07-02 19:40:05 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/spruce_chair": {
+    "criteria": {
+      "has_minecraft:spruce_planks": "2026-07-02 19:40:05 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/spruce_chair": {
+    "criteria": {
+      "has_spruce_chair": "2026-07-02 19:40:05 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/spruce_barrel": {
+    "criteria": {
+      "has_spruce_plank": "2026-07-02 19:40:05 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_stairs": {
+    "criteria": {
+      "has_planks": "2026-07-02 19:40:05 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/spruce_drawer": {
+    "criteria": {
+      "has_minecraft:spruce_planks": "2026-07-02 19:40:05 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/spruce_side_table": {
+    "criteria": {
+      "has_spruce_side_table": "2026-07-02 19:40:05 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/building_blocks/rice_bale": {
+    "criteria": {
+      "has_rice_panicle": "2026-07-02 19:41:23 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/rice": {
+    "criteria": {
+      "has_rice_panicle": "2026-07-02 19:41:23 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/mushroom_rice": {
+    "criteria": {
+      "has_any_ingredient": "2026-07-02 19:41:25 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/cooked_rice": {
+    "criteria": {
+      "has_rice": "2026-07-02 19:41:25 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/building_blocks/rice_bag": {
+    "criteria": {
+      "has_rice": "2026-07-02 19:41:25 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/oak_leaves_slab": {
+    "criteria": {
+      "has_oak_leaves": "2026-07-02 19:42:00 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/oak_hedge": {
+    "criteria": {
+      "has_minecraft:oak_leaves": "2026-07-02 19:42:00 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/snow": {
+    "criteria": {
+      "has_snowball": "2026-07-02 19:52:29 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/snow_block": {
+    "criteria": {
+      "has_snowball": "2026-07-02 19:52:29 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/snow_block_slab": {
+    "criteria": {
+      "has_snow_block": "2026-07-02 20:01:32 +0200"
+    },
+    "done": true
+  },
+  "lootr:100loot": {
+    "criteria": {
+      "opened_100": "2026-07-02 20:10:40 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/oak_cabinet": {
+    "criteria": {
+      "has_oak_trapdoor": "2026-07-02 20:12:54 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2026-07-02 20:13:52 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/storage_crafting_upgrade_from_backpack_crafting_upgrade": {
+    "criteria": {
+      "has_backpack_upgrade": "2026-07-02 20:21:13 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:main/plant_rice": {
+    "criteria": {
+      "plant_rice": "2026-07-02 20:33:20 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2026-07-02 20:36:52 +0200"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2026-07-02 20:36:52 +0200"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:nether_wastes": "2026-07-02 20:36:53 +0200"
+    },
+    "done": false
+  },
+  "securitycraft:recipes/building_blocks/reinforced_granite": {
+    "criteria": {
+      "has_quartz": "2026-07-02 20:38:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/comparator": {
+    "criteria": {
+      "has_quartz": "2026-07-02 20:38:19 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/redstone/reinforced_observer": {
+    "criteria": {
+      "has_quartz": "2026-07-02 20:38:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/daylight_detector": {
+    "criteria": {
+      "has_quartz": "2026-07-02 20:38:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite": {
+    "criteria": {
+      "has_quartz": "2026-07-02 20:38:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite": {
+    "criteria": {
+      "has_quartz": "2026-07-02 20:38:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_block": {
+    "criteria": {
+      "has_quartz": "2026-07-02 20:38:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/observer": {
+    "criteria": {
+      "has_quartz": "2026-07-02 20:38:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal": {
+    "criteria": {
+      "has_coal_block": "2026-07-02 20:41:18 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/coal_block_slab": {
+    "criteria": {
+      "has_coal_block": "2026-07-02 20:41:18 +0200"
+    },
+    "done": true
+  },
+  "super_ore_block:recipes/building_blocks/super_coal_block": {
+    "criteria": {
+      "has_item": "2026-07-02 20:41:18 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/netherite_backpack": {
+    "criteria": {
+      "has_diamond_backpack": "2026-07-02 20:47:01 +0200"
+    },
+    "done": true
+  },
+  "advancednetherite:recipes/misc/netherite_diamond_hoe_smithing": {
+    "criteria": {
+      "has_ingredients": "2026-07-02 22:51:36 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_chestplate_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2026-07-02 22:42:58 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_glazed_terracotta": {
+    "criteria": {
+      "has_white_terracotta": "2026-07-02 23:49:41 +0200"
+    },
+    "done": true
+  },
+  "advancednetherite:recipes/misc/netherite_diamond_axe_smithing": {
+    "criteria": {
+      "has_ingredients": "2026-07-02 22:51:36 +0200"
+    },
+    "done": true
+  },
+  "advancednetherite:recipes/misc/netherite_diamond_chestplate_smithing": {
+    "criteria": {
+      "has_ingredients": "2026-07-02 22:51:36 +0200"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/rope_warped_bridge": {
+    "criteria": {
+      "has_planks": "2026-07-02 22:43:07 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_chestplate": "2026-07-02 22:51:20 +0200"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/dormant_shard": {
+    "criteria": {
+      "has_the_recipe": "2026-07-02 23:21:36 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_helmet_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2026-07-02 22:42:58 +0200"
+    },
+    "done": true
+  },
+  "exclusive_weapons:recipes/combat/super_netherite_sword": {
+    "criteria": {
+      "has_item": "2026-07-02 22:51:36 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/combat/netherite_knife_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2026-07-02 22:42:58 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/snout_armor_trim_smithing_template": {
+    "criteria": {
+      "has_snout_armor_trim_smithing_template": "2026-07-02 22:48:34 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/warped_pressure_plate": {
+    "criteria": {
+      "has_planks": "2026-07-02 22:43:07 +0200"
+    },
+    "done": true
+  },
+  "exclusive_weapons:recipes/combat/super_iron_chestplate": {
+    "criteria": {
+      "has_item": "2026-07-02 22:43:23 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/warped_table": {
+    "criteria": {
+      "has_minecraft:warped_planks": "2026-07-02 22:43:07 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/warped_table": {
+    "criteria": {
+      "has_warped_table": "2026-07-02 22:43:07 +0200"
+    },
+    "done": true
+  },
+  "advancednetherite:recipes/misc/netherite_diamond_leggings_smithing": {
+    "criteria": {
+      "has_ingredients": "2026-07-02 22:51:36 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/warped_kitchen_cabinetry": {
+    "criteria": {
+      "has_minecraft:warped_planks": "2026-07-02 22:43:07 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/warped_nightstand": {
+    "criteria": {
+      "has_warped_nightstand": "2026-07-02 22:43:07 +0200"
+    },
+    "done": true
+  },
+  "advancednetherite:recipes/misc/lodestone": {
+    "criteria": {
+      "has_netherite_ingots": "2026-07-02 22:51:36 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/warped_storage_jar": {
+    "criteria": {
+      "has_minecraft:warped_planks": "2026-07-02 22:43:07 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/warped_chair": {
+    "criteria": {
+      "has_minecraft:warped_planks": "2026-07-02 22:43:07 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/warped_mail_box": {
+    "criteria": {
+      "has_minecraft:warped_planks": "2026-07-02 22:43:07 +0200"
+    },
+    "done": true
+  },
+  "advancednetherite:recipes/misc/netherite_diamond_helmet_smithing": {
+    "criteria": {
+      "has_ingredients": "2026-07-02 22:51:36 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_upgrade_smithing_template": {
+    "criteria": {
+      "has_netherite_upgrade_smithing_template": "2026-07-02 22:48:37 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/warped_bench": {
+    "criteria": {
+      "has_warped_bench": "2026-07-02 22:43:07 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/warped_fancy_bed": {
+    "criteria": {
+      "has_warped_fancy_bed": "2026-07-02 22:43:07 +0200"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/warp_plate": {
+    "criteria": {
+      "has_warp_dust": "2026-07-02 23:21:39 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_leggings_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2026-07-02 22:42:58 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/warped_limited_barrel_1": {
+    "criteria": {
+      "has_warped_plank": "2026-07-02 22:43:07 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/warped_limited_barrel_4": {
+    "criteria": {
+      "has_warped_plank": "2026-07-02 22:43:07 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/warped_limited_barrel_3": {
+    "criteria": {
+      "has_warped_plank": "2026-07-02 22:43:07 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/warped_limited_barrel_2": {
+    "criteria": {
+      "has_warped_plank": "2026-07-02 22:43:07 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/warped_fence_gate": {
+    "criteria": {
+      "has_planks": "2026-07-02 22:43:07 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/warped_side_table": {
+    "criteria": {
+      "has_warped_side_table": "2026-07-02 22:43:07 +0200"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/warped_planks": {
+    "criteria": {
+      "has_planks": "2026-07-02 22:43:07 +0200"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/warped_rail_bridge": {
+    "criteria": {
+      "has_planks": "2026-07-02 22:43:07 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/white_terracotta_slab": {
+    "criteria": {
+      "has_white_terracotta": "2026-07-02 23:49:41 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/warped_chair": {
+    "criteria": {
+      "has_warped_chair": "2026-07-02 22:43:07 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/warped_barrel": {
+    "criteria": {
+      "has_warped_plank": "2026-07-02 22:43:07 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/warped_stairs": {
+    "criteria": {
+      "has_planks": "2026-07-02 22:43:07 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/warped_sign": {
+    "criteria": {
+      "has_planks": "2026-07-02 22:43:07 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lodestone": {
+    "criteria": {
+      "has_netherite_ingot": "2026-07-02 22:42:58 +0200"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/warped_log_bridge_middle": {
+    "criteria": {
+      "has_planks": "2026-07-02 22:43:07 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/netherite_block": {
+    "criteria": {
+      "has_netherite_ingot": "2026-07-02 22:42:58 +0200"
+    },
+    "done": true
+  },
+  "advancednetherite:recipes/misc/netherite_diamond_shovel_smithing": {
+    "criteria": {
+      "has_ingredients": "2026-07-02 22:51:36 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_shovel_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2026-07-02 22:42:58 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/warped_dining_bench": {
+    "criteria": {
+      "has_warped_dining_bench": "2026-07-02 22:43:07 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/warped_pillar_trim": {
+    "criteria": {
+      "has_warped_pillar_trim": "2026-07-02 22:43:07 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/warped_desk": {
+    "criteria": {
+      "has_warped_desk": "2026-07-02 22:43:07 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/warped_corner_trim": {
+    "criteria": {
+      "has_warped_corner_trim": "2026-07-02 22:43:07 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/snout_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2026-07-02 22:48:34 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/warped_storage_connector": {
+    "criteria": {
+      "has_warped_planks": "2026-07-02 22:43:07 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/warped_kitchen_storage_cabinet": {
+    "criteria": {
+      "has_minecraft:warped_planks": "2026-07-02 22:43:07 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/warped_couch": {
+    "criteria": {
+      "has_warped_couch": "2026-07-02 22:43:07 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/warped_window": {
+    "criteria": {
+      "has_ingredient": "2026-07-02 22:43:07 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/warped_kitchen_drawer": {
+    "criteria": {
+      "has_minecraft:warped_planks": "2026-07-02 22:43:07 +0200"
+    },
+    "done": true
+  },
+  "advancednetherite:recipes/misc/netherite_diamond_sword_smithing": {
+    "criteria": {
+      "has_ingredients": "2026-07-02 22:51:36 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/warped_counter": {
+    "criteria": {
+      "has_warped_counter": "2026-07-02 22:43:07 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/iron_backpack": {
+    "criteria": {
+      "has_backpack": "2026-07-02 23:30:09 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_brush_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2026-07-02 22:42:58 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/warped_desk": {
+    "criteria": {
+      "has_minecraft:warped_planks": "2026-07-02 22:43:07 +0200"
+    },
+    "done": true
+  },
+  "advancednetherite:recipes/misc/netherite_diamond_boots_smithing": {
+    "criteria": {
+      "has_ingredients": "2026-07-02 22:51:36 +0200"
+    },
+    "done": true
+  },
+  "advancednetherite:recipes/building_blocks/netherite_diamond_block": {
+    "criteria": {
+      "has_advancednetherite:netherite_diamond_ingot": "2026-07-02 22:51:36 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/warped_cutting_board": {
+    "criteria": {
+      "has_minecraft:warped_planks": "2026-07-02 22:43:07 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/warped_trapdoor": {
+    "criteria": {
+      "has_planks": "2026-07-02 22:43:07 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/warped_drawer": {
+    "criteria": {
+      "has_minecraft:warped_planks": "2026-07-02 22:43:07 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/warped_crate": {
+    "criteria": {
+      "has_minecraft:warped_planks": "2026-07-02 22:43:07 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/warped_shelf": {
+    "criteria": {
+      "has_warped_shelf": "2026-07-02 22:43:07 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_boots_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2026-07-02 22:42:58 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_axe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2026-07-02 22:42:58 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/warped_fence": {
+    "criteria": {
+      "has_planks": "2026-07-02 22:43:07 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/warped_cupboard": {
+    "criteria": {
+      "has_warped_cupboard": "2026-07-02 22:43:07 +0200"
+    },
+    "done": true
+  },
+  "exclusive_weapons:recipes/combat/super_netherite_leggings": {
+    "criteria": {
+      "has_item": "2026-07-02 22:49:48 +0200"
+    },
+    "done": true
+  },
+  "advancednetherite:recipes/misc/netherite_gold_ingot_from_block": {
+    "criteria": {
+      "has_Block{advancednetherite:netherite_gold_block}": "2026-07-02 22:43:07 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_sword_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2026-07-02 22:42:58 +0200"
+    },
+    "done": true
+  },
+  "exclusive_weapons:recipes/combat/super_diamond_sword": {
+    "criteria": {
+      "has_item": "2026-07-02 22:51:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_hoe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2026-07-02 22:42:58 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2026-07-02 23:29:57 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/warped_button": {
+    "criteria": {
+      "has_planks": "2026-07-02 22:43:07 +0200"
+    },
+    "done": true
+  },
+  "advancednetherite:recipes/misc/netherite_diamond_pickaxe_smithing": {
+    "criteria": {
+      "has_ingredients": "2026-07-02 22:51:36 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/warped_door": {
+    "criteria": {
+      "has_planks": "2026-07-02 22:43:07 +0200"
+    },
+    "done": true
+  },
+  "exclusive_weapons:recipes/combat/super_diamond_chestplate": {
+    "criteria": {
+      "has_item": "2026-07-02 22:51:20 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/warped/warped_blossom_trapdoor": {
+    "criteria": {
+      "has_plankss": "2026-07-02 22:43:07 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/copper_backpack": {
+    "criteria": {
+      "has_backpack": "2026-07-02 23:30:09 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/warped_slab": {
+    "criteria": {
+      "has_planks": "2026-07-02 22:43:07 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/warped_drawer": {
+    "criteria": {
+      "has_warped_drawer": "2026-07-02 22:43:07 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/warped_chest": {
+    "criteria": {
+      "has_warped_plank": "2026-07-02 22:43:07 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_pickaxe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2026-07-02 22:42:58 +0200"
     },
     "done": true
   },
