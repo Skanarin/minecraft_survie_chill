@@ -211,7 +211,7 @@
 			tasks: [{
 				count: 12L
 				id: "64E671A275A62558"
-				item: { count: 32, id: "minecraft:coal" }
+				item: { count: 1, id: "minecraft:coal" }
 				type: "item"
 			}]
 			x: -7.5d
@@ -322,7 +322,7 @@
 			tasks: [{
 				count: 10L
 				id: "1B757BCE314A4C05"
-				item: { count: 10, id: "minecraft:diamond" }
+				item: { count: 1, id: "minecraft:diamond" }
 				type: "item"
 			}]
 			x: -3.0d
@@ -403,7 +403,7 @@
 			tasks: [{
 				count: 32L
 				id: "7BA9DEFA70BF3CBA"
-				item: { count: 16, id: "minecraft:stone" }
+				item: { count: 1, id: "minecraft:stone" }
 				type: "item"
 			}]
 			x: -9.0d
@@ -433,7 +433,7 @@
 			tasks: [{
 				count: 16L
 				id: "20DE98B7AE6761E0"
-				item: { count: 16, id: "minecraft:iron_ingot" }
+				item: { count: 1, id: "minecraft:iron_ingot" }
 				type: "item"
 			}]
 			x: -6.0d
@@ -492,7 +492,7 @@
 			tasks: [{
 				count: 6L
 				id: "3D47F4CA293D3281"
-				item: { count: 6, id: "minecraft:emerald" }
+				item: { count: 1, id: "minecraft:emerald" }
 				type: "item"
 			}]
 			x: -1.5d
@@ -601,7 +601,7 @@
 			tasks: [{
 				count: 16L
 				id: "3ADC8B71C0C08BD8"
-				item: { count: 16, id: "minecraft:bread" }
+				item: { count: 1, id: "minecraft:bread" }
 				type: "item"
 			}]
 			x: -15.0d
@@ -630,13 +630,13 @@
 				{
 					count: 12L
 					id: "37A6D50F2F604590"
-					item: { count: 10, id: "minecraft:cooked_porkchop" }
+					item: { count: 1, id: "minecraft:cooked_porkchop" }
 					type: "item"
 				}
 				{
 					count: 12L
 					id: "2C7DE0B3E43600FB"
-					item: { count: 12, id: "minecraft:baked_potato" }
+					item: { count: 1, id: "minecraft:baked_potato" }
 					type: "item"
 				}
 			]
@@ -665,7 +665,7 @@
 			tasks: [{
 				count: 2L
 				id: "40447ACE7E2C7FDA"
-				item: { count: 2, id: "minecraft:barrel" }
+				item: { count: 1, id: "minecraft:barrel" }
 				type: "item"
 			}]
 			x: -13.5d

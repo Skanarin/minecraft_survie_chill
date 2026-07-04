@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "uuid": "87a1e93c-9150-4abb-9d15-375c9ae0f7c1",
+    "name": "Zakohen",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

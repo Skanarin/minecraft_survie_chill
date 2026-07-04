@@ -236,10 +236,10 @@
 					id: "3C51D3FD16FA2A17"
 					item: {
 						components: {
-							"minecraft:damage": 144
+							"ftbquests:missing_item": "supplementaries:slingshot"
 						}
 						count: 1
-						id: "supplementaries:slingshot"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -725,8 +725,11 @@
 			rewards: [{
 				id: "354E6F2CC295491D"
 				item: {
+					components: {
+						"ftbquests:missing_item": "supplementaries:quiver"
+					}
 					count: 1
-					id: "supplementaries:quiver"
+					id: "ftbquests:missing_item"
 				}
 				type: "item"
 			}]

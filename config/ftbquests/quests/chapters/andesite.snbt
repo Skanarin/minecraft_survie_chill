@@ -1,0 +1,357 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "andesite"
+	group: "1A0212B0BDB23E20"
+	icon: {
+		id: "minecraft:andesite"
+	}
+	id: "67881433E0E3BBFA"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "606295771AD6854B"
+			rewards: [
+				{
+					count: 32
+					id: "65B67B675FF851D7"
+					item: {
+						count: 1
+						id: "create:andesite_alloy"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "1D79A9D5D8377BBB"
+					item: {
+						count: 1
+						id: "create:shaft"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1E87A8B5E6213A2F"
+					item: { count: 1, id: "create:goggles" }
+					type: "item"
+				}
+				{
+					id: "76AA175768F95F3D"
+					item: { count: 1, id: "create:wrench" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -5.5d
+		}
+		{
+			id: "6DD2752F59B60633"
+			rewards: [
+				{
+					count: 32
+					id: "2DF5EABF37CB4F40"
+					item: {
+						count: 1
+						id: "create:cogwheel"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "27451586D1329DE6"
+					item: {
+						count: 1
+						id: "create:large_cogwheel"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 2.0d
+			tasks: [{
+				count: 32L
+				id: "08CB22EA21B231F3"
+				item: { count: 1, id: "create:andesite_alloy" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			id: "27D4709911A01C31"
+			rewards: [
+				{
+					count: 4
+					id: "10A1645D1F0C6ED4"
+					item: {
+						count: 1
+						id: "create:flywheel"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "03B5B2BC1373BFDE"
+					item: {
+						count: 1
+						id: "create:water_wheel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "2D00469D3D46A2A1"
+					item: { count: 1, id: "create:cogwheel" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "47CBD9F61542B2AD"
+					item: { count: 1, id: "create:large_cogwheel" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1C39C98A82758014"
+					item: { count: 1, id: "create:shaft" }
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			id: "1A2833A8B9326339"
+			rewards: [
+				{
+					count: 64
+					id: "728C4F3D63871373"
+					item: {
+						count: 1
+						id: "create:shaft"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "0BB024494B0F8341"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6F2D552B3603AF02"
+				item: { count: 1, id: "create:encased_chain_drive" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			id: "5296B7045FA1CB65"
+			rewards: [
+				{
+					count: 16
+					id: "14EB6418E84F4A3F"
+					item: {
+						count: 1
+						id: "create:brass_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5E2909AE1FFEE07D"
+					item: {
+						count: 1
+						id: "create:andesite_funnel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "019331438701328E"
+					item: { count: 1, id: "create:mechanical_press" }
+					type: "item"
+				}
+				{
+					id: "194C4C2F2DF09F48"
+					item: { count: 1, id: "create:mechanical_mixer" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			id: "45D1AB70DBAF97ED"
+			rewards: [
+				{
+					count: 32
+					id: "33BB7EE5C0EEACF9"
+					item: {
+						count: 1
+						id: "create:andesite_alloy"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "791945B42EE3EF4E"
+					item: {
+						count: 1
+						id: "minecraft:oak_log"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7A54C86B1B8A9314"
+				item: { count: 1, id: "create:encased_fan" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			id: "27B974B7325FCFE5"
+			rewards: [
+				{
+					count: 4
+					id: "0A1F0EDF159CC0A8"
+					item: {
+						count: 1
+						id: "create:deployer"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6130F001D11B95BE"
+					item: {
+						count: 1
+						id: "create:mechanical_saw"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "260A855D010CB4AE"
+					item: {
+						count: 1
+						id: "create:mechanical_drill"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "52B68E8CABAA24EB"
+					item: { count: 1, id: "create:deployer" }
+					type: "item"
+				}
+				{
+					id: "749334DCC1A6E981"
+					item: { count: 1, id: "create:mechanical_saw" }
+					type: "item"
+				}
+				{
+					id: "14EBDD2D88488F89"
+					item: { count: 1, id: "create:mechanical_drill" }
+					type: "item"
+				}
+				{
+					id: "016B1A76AA63EB18"
+					item: { count: 1, id: "create:mechanical_roller" }
+					type: "item"
+				}
+				{
+					id: "320ACC30A894C64A"
+					item: { count: 1, id: "create:mechanical_harvester" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -5.5d
+		}
+		{
+			id: "4C1FEB3B88D21391"
+			tasks: [{
+				count: 16L
+				id: "7F55A81ABA996CEE"
+				item: { count: 1, id: "create:andesite_casing" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			id: "423CF7F344F5E95C"
+			tasks: [
+				{
+					count: 4L
+					id: "663052E567A360E2"
+					item: { count: 1, id: "create:gearbox" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "75168D454E9959BD"
+					item: { count: 1, id: "create:vertical_gearbox" }
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			id: "256F5B3B98CC4A3C"
+			tasks: [{
+				count: 2L
+				id: "5025007E2491D7AB"
+				item: { count: 1, id: "create:crushing_wheel" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			id: "1DE5C3C049817B69"
+			tasks: [{
+				id: "080BEABD5258E56D"
+				item: { count: 1, id: "create:basin" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			id: "6908B5F868323596"
+			rewards: [{
+				count: 4
+				id: "6C42565579623EBC"
+				item: {
+					count: 1
+					id: "create:empty_blaze_burner"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "66D588CBD2F9ED57"
+				item: { count: 1, id: "create:blaze_burner" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.0d
+		}
+	]
+}

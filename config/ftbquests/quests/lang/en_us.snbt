@@ -1,6 +1,19 @@
 {
+	chapter.0195A19018402208.title: "Factory Age"
 	chapter.01B43572A671F49B.title: "First Steps"
 	chapter.172B129E854153F0.title: "World Explorer"
+	chapter.37DADD7CBB927633.title: "Brass Age"
+	chapter.3F777C425759A588.title: "Factory Age - Industrialization"
+	chapter.478871BF18ADD865.title: "Create - Industrial Progression"
+	chapter.572E6E8B46E48212.title: "Andesite Age"
+	chapter.62DBC70F9069FA19.title: "Factory Age"
+	chapter.67881433E0E3BBFA.title: "Andesite Age - Foundations"
+	chapter.69EE03A9ABBA4486.title: "Logistics Age"
+	chapter.6A2D99F834A7806E.title: "Brass Age"
+	chapter.6E82F9D42D3F7914.title: "Welcome Engineer"
+	chapter.7661D1AE77EF84EB.title: "Logistics Age - Automation"
+	chapter.7992E3DF6F48F306.title: "Logistics Age"
+	chapter.7FB49DBFCEC9F35A.title: "Logistics Age"
 	quest.00183724E39B537F.quest_desc: ["Gather gold for golden apples, bartering, and advanced redstone components."]
 	quest.00183724E39B537F.quest_subtitle: "A touch of luxury."
 	quest.0929C55FD6591DFA.quest_desc: ["Punch trees, turn logs into planks, then craft your first crafting table. This unlocks almost every recipe you’ll need early on."]

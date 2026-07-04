@@ -1,0 +1,148 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "logistics"
+	group: "1A0212B0BDB23E20"
+	icon: {
+		id: "create:chute"
+	}
+	id: "7661D1AE77EF84EB"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5B9DB4DB5AB95A74"
+			rewards: [
+				{
+					count: 4
+					id: "02B20172A018BECA"
+					item: {
+						count: 1
+						id: "create:brass_funnel"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0A9A65F8B39BAEDC"
+					item: {
+						count: 1
+						id: "create:chute"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6254FE6C4CD98531"
+					item: {
+						count: 1
+						id: "create:andesite_funnel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7C193F992D2DEB54"
+					item: { count: 1, id: "create:andesite_funnel" }
+					type: "item"
+				}
+				{
+					id: "55BE68A919827D89"
+					item: { count: 1, id: "create:chute" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			id: "0FCB270296883303"
+			rewards: [{
+				count: 12
+				id: "08B25EE7A6E0B2C6"
+				item: {
+					count: 1
+					id: "minecraft:diamond"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "0B9F96D722545414"
+				item: { count: 1, id: "ironchest:diamond_chest" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			id: "0ED7CD70F2580956"
+			rewards: [{
+				count: 2
+				id: "023EEA5D273D871E"
+				item: {
+					count: 1
+					id: "create:content_observer"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3AC14644022051E1"
+				item: { count: 1, id: "create:brass_tunnel" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			id: "561BCA567C27F8F0"
+			rewards: [{
+				count: 4
+				id: "72F2CED8ED0402FA"
+				item: {
+					count: 1
+					id: "create:smart_chute"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "31A795DE196FF02A"
+				item: { count: 1, id: "create:smart_chute" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			id: "73420EA0AEB00628"
+			rewards: [{
+				count: 2
+				id: "7934EA8A3785D21B"
+				item: {
+					count: 1
+					id: "create:sequenced_gearshift"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3C9C2BA8FA65683C"
+				item: { count: 1, id: "create:content_observer" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			id: "4D87EDF3E5BD01EE"
+			tasks: [{
+				count: 32L
+				id: "755702F2CA376444"
+				item: { count: 1, id: "create:belt_connector" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+	]
+}

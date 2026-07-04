@@ -1,0 +1,285 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "brass"
+	group: "1A0212B0BDB23E20"
+	icon: {
+		id: "create:mechanical_crafter"
+	}
+	id: "5F3B228999234E5F"
+	order_index: 2
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			id: "399036E2F16AE0B2"
+			rewards: [
+				{
+					count: 8
+					id: "548CDE8AC0725498"
+					item: {
+						count: 1
+						id: "create:brass_funnel"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5A1718A46B1D351B"
+					item: {
+						count: 1
+						id: "create:brass_tunnel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1C6DE972EDFAF064"
+				item: { count: 1, id: "create:brass_ingot" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			id: "2D82DF3E322B52B9"
+			rewards: [{
+				count: 64
+				id: "5BC71ABF2529CDA9"
+				item: {
+					count: 1
+					id: "create:brass_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C7D7633A2DEE1E2"
+				item: { count: 1, id: "create:mechanical_arm" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			id: "17A3E29D7728D6A6"
+			rewards: [{
+				count: 2
+				id: "0699F892E7329F9F"
+				item: {
+					count: 1
+					id: "create:display_board"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "05B87257E4DDB356"
+				item: { count: 1, id: "create:display_link" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			id: "01C7013474039757"
+			rewards: [{
+				id: "7D735E654E51223C"
+				item: {
+					count: 1
+					id: "create:creative_motor"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "20A4152F1A19C66F"
+				item: { count: 1, id: "create:sequenced_gearshift" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			id: "078652304E20DE5D"
+			rewards: [{
+				count: 4
+				id: "1BAD975D3CF47E64"
+				item: {
+					count: 1
+					id: "create:sequenced_gearshift"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "47A765C6B8C3FE39"
+				item: { count: 1, id: "create:mechanical_crafter" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			id: "28B64870E268E16B"
+			rewards: [{
+				count: 4
+				id: "6E1B8FD150DAF2EA"
+				item: {
+					count: 1
+					id: "create:mechanical_arm"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "71C809D151EA8A9B"
+				item: { count: 1, id: "create:display_link" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			id: "73C1F7BB4D8156A7"
+			rewards: [{
+				count: 2
+				id: "5C993CB11006D4FD"
+				item: {
+					count: 1
+					id: "create:steam_engine"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "46978445AFEDBA3C"
+				item: { count: 1, id: "create:flywheel" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			id: "4861FE7F02FED5CC"
+			rewards: [{
+				count: 8
+				id: "505B6C45456E6125"
+				item: {
+					count: 1
+					id: "create:content_observer"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [
+				{
+					id: "1BCD0C9C31881923"
+					item: { count: 1, id: "create:super_glue" }
+					type: "item"
+				}
+				{
+					id: "567049EDC6D080F4"
+					item: { count: 1, id: "create:mechanical_piston" }
+					type: "item"
+				}
+				{
+					id: "77ED9CAC1C61C074"
+					item: { count: 1, id: "create:mechanical_bearing" }
+					type: "item"
+				}
+				{
+					id: "39F5C0FB8ABB58C2"
+					item: { count: 1, id: "create:linear_chassis" }
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			id: "73E8814209BB29EB"
+			rewards: [
+				{
+					count: 64
+					id: "45E0DD57ADBBF27A"
+					item: {
+						count: 1
+						id: "create:railway_casing"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3AB41745DA815901"
+					item: {
+						count: 1
+						id: "create:train_door"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "3A06AB6B0F72645C"
+					item: {
+						count: 1
+						id: "create:train_trapdoor"
+					}
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [
+				{
+					id: "3D0736C392A981FC"
+					item: { count: 1, id: "create:track" }
+					type: "item"
+				}
+				{
+					id: "58652480FCF3093C"
+					item: { count: 1, id: "create:track_station" }
+					type: "item"
+				}
+				{
+					id: "0BBB724C69BA1D0E"
+					item: { count: 1, id: "create:controls" }
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			id: "4FBF3391D0F7D9CA"
+			rewards: [
+				{
+					count: 8
+					id: "7FE09300A5E74DFE"
+					item: {
+						count: 1
+						id: "create:empty_schematic"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "0659F24380BFE8CD"
+					item: {
+						count: 1
+						id: "minecraft:gunpowder"
+					}
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [
+				{
+					id: "207E71B2096BD955"
+					item: { count: 1, id: "create:schematicannon" }
+					type: "item"
+				}
+				{
+					id: "50E21F53E48AED4A"
+					item: { count: 1, id: "create:schematic_table" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -1.0d
+		}
+	]
+}
