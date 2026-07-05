@@ -42,6 +42,10 @@
 			y: -3.5d
 		}
 		{
+			dependencies: [
+				"647870439F99A2C2"
+				"399036E2F16AE0B2"
+			]
 			id: "2D82DF3E322B52B9"
 			rewards: [{
 				count: 64
@@ -81,14 +85,6 @@
 		}
 		{
 			id: "01C7013474039757"
-			rewards: [{
-				id: "7D735E654E51223C"
-				item: {
-					count: 1
-					id: "create:creative_motor"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "20A4152F1A19C66F"
 				item: { count: 1, id: "create:sequenced_gearshift" }
@@ -278,8 +274,52 @@
 					type: "item"
 				}
 			]
+			x: -8.0d
+			y: -3.0d
+		}
+		{
+			icon: {
+				id: "create:precision_mechanism"
+			}
+			id: "647870439F99A2C2"
+			rewards: [{
+				count: 4
+				id: "6698462AE4CA2E37"
+				item: {
+					count: 1
+					id: "create:precision_mechanism"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7FFDE391A930845C"
+					item: { count: 1, id: "create:golden_sheet" }
+					type: "item"
+				}
+				{
+					id: "2AC9804143205C25"
+					item: { count: 1, id: "create:cogwheel" }
+					type: "item"
+				}
+				{
+					id: "62F5B4E17410560A"
+					item: { count: 1, id: "create:large_cogwheel" }
+					type: "item"
+				}
+				{
+					id: "2D4938FF226D6E37"
+					item: { count: 1, id: "minecraft:iron_nugget" }
+					type: "item"
+				}
+				{
+					id: "049C7123E6615BD3"
+					item: { count: 1, id: "create:mechanical_press" }
+					type: "item"
+				}
+			]
 			x: -1.0d
-			y: -1.0d
+			y: -5.0d
 		}
 	]
 }

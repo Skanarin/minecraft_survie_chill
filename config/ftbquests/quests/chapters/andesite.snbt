@@ -4,7 +4,7 @@
 	filename: "andesite"
 	group: "1A0212B0BDB23E20"
 	icon: {
-		id: "minecraft:andesite"
+		id: "create:andesite_casing"
 	}
 	id: "67881433E0E3BBFA"
 	order_index: 0
@@ -44,43 +44,33 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
-			y: -5.5d
+			x: -5.0d
+			y: -6.0d
 		}
 		{
 			id: "6DD2752F59B60633"
-			rewards: [
-				{
-					count: 32
-					id: "2DF5EABF37CB4F40"
-					item: {
-						count: 1
-						id: "create:cogwheel"
-					}
-					type: "item"
+			rewards: [{
+				count: 64
+				id: "794D1A056FBC9B1F"
+				item: {
+					count: 1
+					id: "create:andesite_alloy"
 				}
-				{
-					count: 8
-					id: "27451586D1329DE6"
-					item: {
-						count: 1
-						id: "create:large_cogwheel"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "circle"
 			size: 2.0d
 			tasks: [{
-				count: 32L
+				count: 16L
 				id: "08CB22EA21B231F3"
 				item: { count: 1, id: "create:andesite_alloy" }
 				type: "item"
 			}]
-			x: 1.0d
+			x: -5.0d
 			y: -4.0d
 		}
 		{
+			dependencies: ["6DD2752F59B60633"]
 			id: "27D4709911A01C31"
 			rewards: [
 				{
@@ -122,8 +112,8 @@
 					type: "item"
 				}
 			]
-			x: -0.5d
-			y: -2.5d
+			x: -1.5d
+			y: -4.5d
 		}
 		{
 			id: "1A2833A8B9326339"
@@ -152,10 +142,11 @@
 				item: { count: 1, id: "create:encased_chain_drive" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: -2.5d
+			x: 0.0d
+			y: -2.0d
 		}
 		{
+			dependencies: ["6DD2752F59B60633"]
 			id: "5296B7045FA1CB65"
 			rewards: [
 				{
@@ -189,40 +180,31 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
-			y: -2.5d
+			x: -2.5d
+			y: -3.5d
 		}
 		{
+			dependencies: ["6DD2752F59B60633"]
 			id: "45D1AB70DBAF97ED"
-			rewards: [
-				{
-					count: 32
-					id: "33BB7EE5C0EEACF9"
-					item: {
-						count: 1
-						id: "create:andesite_alloy"
-					}
-					type: "item"
+			rewards: [{
+				count: 4
+				id: "38D9059D2ED1D830"
+				item: {
+					count: 1
+					id: "create:encased_fan"
 				}
-				{
-					count: 64
-					id: "791945B42EE3EF4E"
-					item: {
-						count: 1
-						id: "minecraft:oak_log"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "7A54C86B1B8A9314"
 				item: { count: 1, id: "create:encased_fan" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: -4.0d
+			x: -3.0d
+			y: -0.5d
 		}
 		{
+			dependencies: ["6DD2752F59B60633"]
 			id: "27B974B7325FCFE5"
 			rewards: [
 				{
@@ -280,22 +262,45 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
-			y: -5.5d
+			x: -3.0d
+			y: -2.5d
 		}
 		{
+			dependencies: ["6DD2752F59B60633"]
 			id: "4C1FEB3B88D21391"
+			rewards: [{
+				count: 64
+				id: "0CDEC300758FC817"
+				item: {
+					count: 1
+					id: "create:cogwheel"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				count: 16L
 				id: "7F55A81ABA996CEE"
 				item: { count: 1, id: "create:andesite_casing" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: -4.0d
+			x: -2.0d
+			y: -5.5d
 		}
 		{
+			dependencies: [
+				"27D4709911A01C31"
+				"4C1FEB3B88D21391"
+			]
 			id: "423CF7F344F5E95C"
+			rewards: [{
+				count: 32
+				id: "092F9DAEA1F70BD8"
+				item: {
+					count: 1
+					id: "create:gearbox"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					count: 4L
@@ -352,6 +357,94 @@
 			}]
 			x: 6.5d
 			y: -3.0d
+		}
+		{
+			dependencies: ["6DD2752F59B60633"]
+			id: "43D1A15B6D250BE8"
+			rewards: [{
+				count: 2
+				id: "17BAB7113C78400D"
+				item: {
+					count: 1
+					id: "create:large_water_wheel"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3303B311E73CD6C2"
+				item: { count: 1, id: "create:water_wheel" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6DD2752F59B60633"]
+			id: "1FC6DE4D4759FE22"
+			rewards: [
+				{
+					count: 32
+					id: "7EA18FEAED33A10F"
+					item: {
+						count: 1
+						id: "create:white_sail"
+					}
+					type: "item"
+				}
+				{
+					id: "3524790283F946AE"
+					item: {
+						count: 1
+						id: "create:windmill_bearing"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "4666997240A95C86"
+					item: { count: 1, id: "create:white_sail" }
+					type: "item"
+				}
+				{
+					id: "04142BC530FE84F7"
+					item: { count: 1, id: "create:windmill_bearing" }
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["27D4709911A01C31"]
+			id: "075818E227903592"
+			rewards: [{
+				count: 2
+				id: "3BE1DA253D2F9E72"
+				item: {
+					count: 1
+					id: "create:millstone"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2F4F26580C7E17E0"
+				item: { count: 1, id: "create:millstone" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			id: "1B59E8019CE85130"
+			tasks: [{
+				id: "6CC1791DB0884038"
+				item: { count: 1, id: "create:mechanical_mixer" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
 		}
 	]
 }

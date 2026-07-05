@@ -4,7 +4,7 @@
 	filename: "logistics"
 	group: "1A0212B0BDB23E20"
 	icon: {
-		id: "create:chute"
+		id: "create:fluid_pipe"
 	}
 	id: "7661D1AE77EF84EB"
 	order_index: 1
