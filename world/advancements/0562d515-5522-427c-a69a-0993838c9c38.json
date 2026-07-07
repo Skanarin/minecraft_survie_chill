@@ -14140,15 +14140,33 @@
     },
     "done": true
   },
-  "mcwroofs:recipes/birch_planks": {
+  "minecraft:recipes/misc/emerald_from_blasting_emerald_ore": {
     "criteria": {
-      "has_planks": "2026-07-02 22:22:30 +0200"
+      "has_emerald_ore": "2026-07-02 22:00:04 +0200"
     },
     "done": true
   },
-  "biomesoplenty:recipes/building_blocks/cut_orange_sandstone_slab_from_orange_sandstone_stonecutting": {
+  "new_slab_variants:recipes/building_blocks/emerald_ore_slab": {
     "criteria": {
-      "has_orange_sandstone": "2026-07-02 23:21:04 +0200"
+      "has_emerald_ore": "2026-07-02 22:00:04 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/emerald_from_smelting_emerald_ore": {
+    "criteria": {
+      "has_emerald_ore": "2026-07-02 22:00:04 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/hero_of_the_village": {
+    "criteria": {
+      "hero_of_the_village": "2026-07-02 22:12:19 +0200"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/birch_planks": {
+    "criteria": {
+      "has_planks": "2026-07-02 22:22:30 +0200"
     },
     "done": true
   },
@@ -14158,33 +14176,9 @@
     },
     "done": true
   },
-  "securitycraft:recipes/decorations/secret_birch_sign_item": {
-    "criteria": {
-      "has_sign": "2026-07-02 23:00:18 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/secret_crimson_hanging_sign": {
-    "criteria": {
-      "has_sign": "2026-07-02 23:00:18 +0200"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/birch_cutting_board": {
     "criteria": {
       "has_minecraft:birch_planks": "2026-07-02 22:22:30 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/smooth_sandstone_slab_from_smooth_sandstone_stonecutting": {
-    "criteria": {
-      "has_smooth_sandstone": "2026-07-02 23:18:46 +0200"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/building_blocks/orange_sandstone_slab": {
-    "criteria": {
-      "has_orange_sandstone": "2026-07-02 23:21:04 +0200"
     },
     "done": true
   },
@@ -14194,21 +14188,9 @@
     },
     "done": true
   },
-  "biomesoplenty:recipes/building_blocks/cut_orange_sandstone": {
-    "criteria": {
-      "has_orange_sandstone": "2026-07-02 23:21:04 +0200"
-    },
-    "done": true
-  },
   "handcrafted:recipes/misc/birch_shelf": {
     "criteria": {
       "has_birch_shelf": "2026-07-02 22:22:30 +0200"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/building_blocks/smooth_orange_sandstone": {
-    "criteria": {
-      "has_orange_sandstone": "2026-07-02 23:21:04 +0200"
     },
     "done": true
   },
@@ -14224,33 +14206,9 @@
     },
     "done": true
   },
-  "securitycraft:recipes/decorations/secret_dark_oak_sign_item": {
-    "criteria": {
-      "has_sign": "2026-07-02 23:00:18 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/smooth_sandstone_slab": {
-    "criteria": {
-      "has_smooth_sandstone": "2026-07-02 23:18:46 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/secret_mangrove_sign_item": {
-    "criteria": {
-      "has_sign": "2026-07-02 23:00:18 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/birch_slab": {
     "criteria": {
       "has_planks": "2026-07-02 22:22:30 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cut_sandstone_slab_from_cut_sandstone_stonecutting": {
-    "criteria": {
-      "has_cut_sandstone": "2026-07-02 22:52:29 +0200"
     },
     "done": true
   },
@@ -14260,51 +14218,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/emerald_from_blasting_emerald_ore": {
-    "criteria": {
-      "has_emerald_ore": "2026-07-02 22:00:04 +0200"
-    },
-    "done": true
-  },
   "handcrafted:recipes/misc/birch_cupboard": {
     "criteria": {
       "has_birch_cupboard": "2026-07-02 22:22:30 +0200"
     },
     "done": true
   },
-  "betterdeserttemples:temple_entry": {
-    "criteria": {
-      "in_better_desert_temple": "2026-07-02 22:51:24 +0200"
-    },
-    "done": true
-  },
   "handcrafted:recipes/misc/birch_counter": {
     "criteria": {
       "has_birch_counter": "2026-07-02 22:22:30 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/secret_jungle_hanging_sign": {
-    "criteria": {
-      "has_sign": "2026-07-02 23:00:18 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/redstone/reinforced_sticky_piston": {
-    "criteria": {
-      "has_slime_ball": "2026-07-02 23:12:16 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/secret_acacia_hanging_sign": {
-    "criteria": {
-      "has_sign": "2026-07-02 23:00:18 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/slime_block": {
-    "criteria": {
-      "has_slime_ball": "2026-07-02 23:12:16 +0200"
     },
     "done": true
   },
@@ -14320,69 +14242,15 @@
     },
     "done": true
   },
-  "securitycraft:recipes/decorations/secret_crimson_sign_item": {
-    "criteria": {
-      "has_sign": "2026-07-02 23:00:18 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/secret_oak_hanging_sign": {
-    "criteria": {
-      "has_sign": "2026-07-02 23:00:18 +0200"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/building_blocks/cut_orange_sandstone_from_orange_sandstone_stonecutting": {
-    "criteria": {
-      "has_orange_sandstone": "2026-07-02 23:21:04 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/secret_spruce_hanging_sign": {
-    "criteria": {
-      "has_sign": "2026-07-02 23:00:18 +0200"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/building_blocks/chiseled_orange_sandstone_from_orange_sandstone_stonecutting": {
-    "criteria": {
-      "has_orange_sandstone": "2026-07-02 23:21:04 +0200"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/decorations/orange_sandstone_wall": {
-    "criteria": {
-      "has_orange_sandstone": "2026-07-02 23:21:04 +0200"
-    },
-    "done": true
-  },
   "handcrafted:recipes/misc/birch_fancy_bed": {
     "criteria": {
       "has_birch_fancy_bed": "2026-07-02 22:22:30 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/tools/lead": {
-    "criteria": {
-      "has_slime_ball": "2026-07-02 23:12:16 +0200"
-    },
-    "done": true
-  },
   "sophisticatedstorage:recipes/misc/birch_chest": {
     "criteria": {
       "has_birch_plank": "2026-07-02 22:22:30 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/smooth_sandstone_stairs_from_smooth_sandstone_stonecutting": {
-    "criteria": {
-      "has_smooth_sandstone": "2026-07-02 23:18:46 +0200"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/building_blocks/orange_sandstone_stairs": {
-    "criteria": {
-      "has_orange_sandstone": "2026-07-02 23:21:04 +0200"
     },
     "done": true
   },
@@ -14416,21 +14284,9 @@
     },
     "done": true
   },
-  "betterdeserttemples:temple_clear": {
-    "criteria": {
-      "pharaoh_killed": "2026-07-02 23:14:26 +0200"
-    },
-    "done": true
-  },
   "handcrafted:recipes/misc/birch_drawer": {
     "criteria": {
       "has_birch_drawer": "2026-07-02 22:22:30 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/secret_warped_sign_item": {
-    "criteria": {
-      "has_sign": "2026-07-02 23:00:18 +0200"
     },
     "done": true
   },
@@ -14446,12 +14302,6 @@
     },
     "done": true
   },
-  "mynethersdelight:recipes/building_blocks/stonecutting/blackstone_bricks_cabinet": {
-    "criteria": {
-      "has_the_recipe": "2026-07-02 23:35:56 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/birch_door": {
     "criteria": {
       "has_planks": "2026-07-02 22:22:30 +0200"
@@ -14461,12 +14311,6 @@
   "refurbished_furniture:recipes/misc/constructing/birch_kitchen_drawer": {
     "criteria": {
       "has_minecraft:birch_planks": "2026-07-02 22:22:30 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/secret_sign_item": {
-    "criteria": {
-      "has_sign": "2026-07-02 23:00:18 +0200"
     },
     "done": true
   },
@@ -14488,24 +14332,6 @@
     },
     "done": true
   },
-  "securitycraft:recipes/decorations/secret_spruce_sign_item": {
-    "criteria": {
-      "has_sign": "2026-07-02 23:00:18 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/secret_cherry_sign_item": {
-    "criteria": {
-      "has_sign": "2026-07-02 23:00:18 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/secret_dark_oak_hanging_sign": {
-    "criteria": {
-      "has_sign": "2026-07-02 23:00:18 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/birch_stairs": {
     "criteria": {
       "has_planks": "2026-07-02 22:22:30 +0200"
@@ -14518,39 +14344,15 @@
     },
     "done": true
   },
-  "biomesoplenty:recipes/decorations/orange_sandstone_wall_from_orange_sandstone_stonecutting": {
-    "criteria": {
-      "has_orange_sandstone": "2026-07-02 23:21:04 +0200"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/birch_kitchen_cabinetry": {
     "criteria": {
       "has_minecraft:birch_planks": "2026-07-02 22:22:30 +0200"
     },
     "done": true
   },
-  "biomesoplenty:recipes/building_blocks/chiseled_orange_sandstone": {
-    "criteria": {
-      "has_orange_sandstone": "2026-07-02 23:21:04 +0200"
-    },
-    "done": true
-  },
-  "new_slab_variants:recipes/building_blocks/emerald_ore_slab": {
-    "criteria": {
-      "has_emerald_ore": "2026-07-02 22:00:04 +0200"
-    },
-    "done": true
-  },
   "handcrafted:recipes/misc/birch_corner_trim": {
     "criteria": {
       "has_birch_corner_trim": "2026-07-02 22:22:30 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/emerald_from_smelting_emerald_ore": {
-    "criteria": {
-      "has_emerald_ore": "2026-07-02 22:00:04 +0200"
     },
     "done": true
   },
@@ -14590,45 +14392,9 @@
     },
     "done": true
   },
-  "sophisticatedstorage:recipes/misc/packing_tape": {
-    "criteria": {
-      "has_slime": "2026-07-02 23:12:16 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/secret_jungle_sign_item": {
-    "criteria": {
-      "has_sign": "2026-07-02 23:00:18 +0200"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/birch_chair": {
     "criteria": {
       "has_minecraft:birch_planks": "2026-07-02 22:22:30 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/secret_birch_hanging_sign": {
-    "criteria": {
-      "has_sign": "2026-07-02 23:00:18 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/secret_mangrove_hanging_sign": {
-    "criteria": {
-      "has_sign": "2026-07-02 23:00:18 +0200"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/building_blocks/orange_sandstone_slab_from_orange_sandstone_stonecutting": {
-    "criteria": {
-      "has_orange_sandstone": "2026-07-02 23:21:04 +0200"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/building_blocks/orange_sandstone_stairs_from_orange_sandstone_stonecutting": {
-    "criteria": {
-      "has_orange_sandstone": "2026-07-02 23:21:04 +0200"
     },
     "done": true
   },
@@ -14638,27 +14404,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/cut_sandstone_slab": {
-    "criteria": {
-      "has_cut_sandstone": "2026-07-02 22:52:29 +0200"
-    },
-    "done": true
-  },
-  "minecraft:adventure/hero_of_the_village": {
-    "criteria": {
-      "hero_of_the_village": "2026-07-02 22:12:19 +0200"
-    },
-    "done": true
-  },
   "handcrafted:recipes/misc/birch_dining_bench": {
     "criteria": {
       "has_birch_dining_bench": "2026-07-02 22:22:30 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/secret_bamboo_hanging_sign": {
-    "criteria": {
-      "has_sign": "2026-07-02 23:00:18 +0200"
     },
     "done": true
   },
@@ -14674,33 +14422,159 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/sticky_piston": {
+  "handcrafted:recipes/misc/birch_bench": {
     "criteria": {
-      "has_slime_ball": "2026-07-02 23:12:16 +0200"
+      "has_birch_bench": "2026-07-02 22:22:30 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/birch_mail_box": {
+    "criteria": {
+      "has_minecraft:birch_planks": "2026-07-02 22:22:30 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_pressure_plate": {
+    "criteria": {
+      "has_planks": "2026-07-02 22:22:30 +0200"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/rope_birch_bridge": {
+    "criteria": {
+      "has_planks": "2026-07-02 22:22:30 +0200"
+    },
+    "done": true
+  },
+  "betterdeserttemples:temple_entry": {
+    "criteria": {
+      "in_better_desert_temple": "2026-07-02 22:51:24 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_slab_from_cut_sandstone_stonecutting": {
+    "criteria": {
+      "has_cut_sandstone": "2026-07-02 22:52:29 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_slab": {
+    "criteria": {
+      "has_cut_sandstone": "2026-07-02 22:52:29 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/decorations/secret_birch_sign_item": {
+    "criteria": {
+      "has_sign": "2026-07-02 23:00:18 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/decorations/secret_crimson_hanging_sign": {
+    "criteria": {
+      "has_sign": "2026-07-02 23:00:18 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/decorations/secret_dark_oak_sign_item": {
+    "criteria": {
+      "has_sign": "2026-07-02 23:00:18 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/decorations/secret_mangrove_sign_item": {
+    "criteria": {
+      "has_sign": "2026-07-02 23:00:18 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/decorations/secret_jungle_hanging_sign": {
+    "criteria": {
+      "has_sign": "2026-07-02 23:00:18 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/decorations/secret_acacia_hanging_sign": {
+    "criteria": {
+      "has_sign": "2026-07-02 23:00:18 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/decorations/secret_crimson_sign_item": {
+    "criteria": {
+      "has_sign": "2026-07-02 23:00:18 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/decorations/secret_oak_hanging_sign": {
+    "criteria": {
+      "has_sign": "2026-07-02 23:00:18 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/decorations/secret_spruce_hanging_sign": {
+    "criteria": {
+      "has_sign": "2026-07-02 23:00:18 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/decorations/secret_warped_sign_item": {
+    "criteria": {
+      "has_sign": "2026-07-02 23:00:18 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/decorations/secret_sign_item": {
+    "criteria": {
+      "has_sign": "2026-07-02 23:00:18 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/decorations/secret_spruce_sign_item": {
+    "criteria": {
+      "has_sign": "2026-07-02 23:00:18 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/decorations/secret_cherry_sign_item": {
+    "criteria": {
+      "has_sign": "2026-07-02 23:00:18 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/decorations/secret_dark_oak_hanging_sign": {
+    "criteria": {
+      "has_sign": "2026-07-02 23:00:18 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/decorations/secret_jungle_sign_item": {
+    "criteria": {
+      "has_sign": "2026-07-02 23:00:18 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/decorations/secret_birch_hanging_sign": {
+    "criteria": {
+      "has_sign": "2026-07-02 23:00:18 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/decorations/secret_mangrove_hanging_sign": {
+    "criteria": {
+      "has_sign": "2026-07-02 23:00:18 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/decorations/secret_bamboo_hanging_sign": {
+    "criteria": {
+      "has_sign": "2026-07-02 23:00:18 +0200"
     },
     "done": true
   },
   "securitycraft:recipes/decorations/secret_bamboo_sign_item": {
     "criteria": {
       "has_sign": "2026-07-02 23:00:18 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/smooth_sandstone_stairs": {
-    "criteria": {
-      "has_smooth_sandstone": "2026-07-02 23:18:46 +0200"
-    },
-    "done": true
-  },
-  "irons_spellbooks:irons_spellbooks/spell_book_equip": {
-    "criteria": {
-      "requirement": "2026-07-02 23:11:55 +0200"
-    },
-    "done": true
-  },
-  "handcrafted:recipes/misc/birch_bench": {
-    "criteria": {
-      "has_birch_bench": "2026-07-02 22:22:30 +0200"
     },
     "done": true
   },
@@ -14716,27 +14590,333 @@
     },
     "done": true
   },
-  "refurbished_furniture:recipes/misc/constructing/birch_mail_box": {
-    "criteria": {
-      "has_minecraft:birch_planks": "2026-07-02 22:22:30 +0200"
-    },
-    "done": true
-  },
   "securitycraft:recipes/decorations/secret_acacia_sign_item": {
     "criteria": {
       "has_sign": "2026-07-02 23:00:18 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/birch_pressure_plate": {
+  "irons_spellbooks:irons_spellbooks/spell_book_equip": {
     "criteria": {
-      "has_planks": "2026-07-02 22:22:30 +0200"
+      "requirement": "2026-07-02 23:11:55 +0200"
     },
     "done": true
   },
-  "mcwbridges:recipes/rope_birch_bridge": {
+  "securitycraft:recipes/redstone/reinforced_sticky_piston": {
     "criteria": {
-      "has_planks": "2026-07-02 22:22:30 +0200"
+      "has_slime_ball": "2026-07-02 23:12:16 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/slime_block": {
+    "criteria": {
+      "has_slime_ball": "2026-07-02 23:12:16 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/lead": {
+    "criteria": {
+      "has_slime_ball": "2026-07-02 23:12:16 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/packing_tape": {
+    "criteria": {
+      "has_slime": "2026-07-02 23:12:16 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/sticky_piston": {
+    "criteria": {
+      "has_slime_ball": "2026-07-02 23:12:16 +0200"
+    },
+    "done": true
+  },
+  "betterdeserttemples:temple_clear": {
+    "criteria": {
+      "pharaoh_killed": "2026-07-02 23:14:26 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_sandstone_slab_from_smooth_sandstone_stonecutting": {
+    "criteria": {
+      "has_smooth_sandstone": "2026-07-02 23:18:46 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_sandstone_slab": {
+    "criteria": {
+      "has_smooth_sandstone": "2026-07-02 23:18:46 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_sandstone_stairs_from_smooth_sandstone_stonecutting": {
+    "criteria": {
+      "has_smooth_sandstone": "2026-07-02 23:18:46 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_sandstone_stairs": {
+    "criteria": {
+      "has_smooth_sandstone": "2026-07-02 23:18:46 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/cut_orange_sandstone_slab_from_orange_sandstone_stonecutting": {
+    "criteria": {
+      "has_orange_sandstone": "2026-07-02 23:21:04 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/orange_sandstone_slab": {
+    "criteria": {
+      "has_orange_sandstone": "2026-07-02 23:21:04 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/cut_orange_sandstone": {
+    "criteria": {
+      "has_orange_sandstone": "2026-07-02 23:21:04 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/smooth_orange_sandstone": {
+    "criteria": {
+      "has_orange_sandstone": "2026-07-02 23:21:04 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/cut_orange_sandstone_from_orange_sandstone_stonecutting": {
+    "criteria": {
+      "has_orange_sandstone": "2026-07-02 23:21:04 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/chiseled_orange_sandstone_from_orange_sandstone_stonecutting": {
+    "criteria": {
+      "has_orange_sandstone": "2026-07-02 23:21:04 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/decorations/orange_sandstone_wall": {
+    "criteria": {
+      "has_orange_sandstone": "2026-07-02 23:21:04 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/orange_sandstone_stairs": {
+    "criteria": {
+      "has_orange_sandstone": "2026-07-02 23:21:04 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/decorations/orange_sandstone_wall_from_orange_sandstone_stonecutting": {
+    "criteria": {
+      "has_orange_sandstone": "2026-07-02 23:21:04 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/chiseled_orange_sandstone": {
+    "criteria": {
+      "has_orange_sandstone": "2026-07-02 23:21:04 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/orange_sandstone_slab_from_orange_sandstone_stonecutting": {
+    "criteria": {
+      "has_orange_sandstone": "2026-07-02 23:21:04 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/orange_sandstone_stairs_from_orange_sandstone_stonecutting": {
+    "criteria": {
+      "has_orange_sandstone": "2026-07-02 23:21:04 +0200"
+    },
+    "done": true
+  },
+  "mynethersdelight:recipes/building_blocks/stonecutting/blackstone_bricks_cabinet": {
+    "criteria": {
+      "has_the_recipe": "2026-07-02 23:35:56 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/misc/reinforced_nether_brick_fence": {
+    "criteria": {
+      "has_stick": "2026-07-07 16:12:22 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_bricks": {
+    "criteria": {
+      "has_nether_brick": "2026-07-07 16:12:22 +0200"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/nether_bricks_bridge_pier": {
+    "criteria": {
+      "has_planks": "2026-07-07 16:12:34 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_nether_bricks_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2026-07-07 16:12:34 +0200"
+    },
+    "done": true
+  },
+  "mynethersdelight:recipes/building_blocks/stonecutting/red_nether_bricks_cabinet": {
+    "criteria": {
+      "has_nether_bricks": "2026-07-07 16:12:34 +0200"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/balustrade_nether_bricks_bridge": {
+    "criteria": {
+      "has_planks": "2026-07-07 16:12:34 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_stairs_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2026-07-07 16:12:34 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/nether_brick_fence": {
+    "criteria": {
+      "has_nether_bricks": "2026-07-07 16:12:34 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_nether_bricks": {
+    "criteria": {
+      "has_nether_bricks": "2026-07-07 16:12:34 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_slab_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2026-07-07 16:12:34 +0200"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/nether_bricks_bridge_stair": {
+    "criteria": {
+      "has_planks": "2026-07-07 16:12:34 +0200"
+    },
+    "done": true
+  },
+  "mynethersdelight:recipes/building_blocks/stonecutting/nether_bricks_cabinet": {
+    "criteria": {
+      "has_nether_bricks": "2026-07-07 16:12:34 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/nether_brick_wall_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2026-07-07 16:12:34 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/nether_brick_wall": {
+    "criteria": {
+      "has_nether_bricks": "2026-07-07 16:12:34 +0200"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/nether_bricks": {
+    "criteria": {
+      "has_planks": "2026-07-07 16:12:34 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_stairs": {
+    "criteria": {
+      "has_nether_bricks": "2026-07-07 16:12:34 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_slab": {
+    "criteria": {
+      "has_nether_bricks": "2026-07-07 16:12:34 +0200"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/nether_bricks_bridge": {
+    "criteria": {
+      "has_planks": "2026-07-07 16:12:34 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/chiseled_nether_bricks_slab": {
+    "criteria": {
+      "has_chiseled_nether_bricks": "2026-07-07 16:12:44 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/controller_rail": {
+    "criteria": {
+      "has_item": "2026-07-07 16:21:42 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/powered_rail": {
+    "criteria": {
+      "has_rail": "2026-07-07 16:21:46 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/detector_rail": {
+    "criteria": {
+      "has_rail": "2026-07-07 16:21:46 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/activator_rail": {
+    "criteria": {
+      "has_rail": "2026-07-07 16:21:46 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/repeater": {
+    "criteria": {
+      "has_redstone_torch": "2026-07-07 16:21:59 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/storage_tool": {
+    "criteria": {
+      "has_redstone_torch": "2026-07-07 16:21:59 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_diorite_brick_slab": {
+    "criteria": {
+      "has_small_diorite_bricks": "2026-07-07 16:38:56 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_diorite_brick_wall": {
+    "criteria": {
+      "has_small_diorite_bricks": "2026-07-07 16:38:56 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_diorite_brick_stairs": {
+    "criteria": {
+      "has_small_diorite_bricks": "2026-07-07 16:38:56 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/cracked_polished_blackstone_bricks_slab": {
+    "criteria": {
+      "has_cracked_polished_blackstone_bricks": "2026-07-07 17:14:23 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_polished_blackstone": {
+    "criteria": {
+      "has_polished_blackstone_slab": "2026-07-07 17:25:22 +0200"
     },
     "done": true
   },
