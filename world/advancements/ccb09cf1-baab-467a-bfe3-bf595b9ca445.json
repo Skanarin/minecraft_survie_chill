@@ -12559,6 +12559,138 @@
     },
     "done": true
   },
+  "buildinggadgets2:recipes/misc/gadget_cut_paste": {
+    "criteria": {
+      "has_shear": "2026-07-06 01:07:56 +0200"
+    },
+    "done": true
+  },
+  "irons_spellbooks:irons_spellbooks/steal_from_wizard": {
+    "criteria": {
+      "anger_wizard": "2026-07-06 01:11:01 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/cooked_bacon_from_smoking": {
+    "criteria": {
+      "cooked_bacon": "2026-07-06 01:23:30 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/cooked_bacon": {
+    "criteria": {
+      "cooked_bacon": "2026-07-06 01:23:30 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/cooked_bacon_from_campfire_cooking": {
+    "criteria": {
+      "cooked_bacon": "2026-07-06 01:23:30 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/brown_cushion": {
+    "criteria": {
+      "has_brown_cushion": "2026-07-06 01:24:36 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_banner": {
+    "criteria": {
+      "has_brown_wool": "2026-07-06 01:24:36 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_bed": {
+    "criteria": {
+      "has_brown_wool": "2026-07-06 01:24:36 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/brown_sheet": {
+    "criteria": {
+      "has_brown_sheet": "2026-07-06 01:24:36 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_carpet": {
+    "criteria": {
+      "has_brown_wool": "2026-07-06 01:24:36 +0200"
+    },
+    "done": true
+  },
+  "comforts:recipes/decorations/hammock_brown": {
+    "criteria": {
+      "has_brown_wool": "2026-07-06 01:24:36 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/brown_wool_slab": {
+    "criteria": {
+      "has_brown_wool": "2026-07-06 01:24:36 +0200"
+    },
+    "done": true
+  },
+  "comforts:recipes/decorations/sleeping_bag_brown": {
+    "criteria": {
+      "has_brown_wool": "2026-07-06 01:24:36 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/materials/brass_ingot_from_compacting": {
+    "criteria": {
+      "has_item": "2026-07-06 01:34:17 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/iron_to_gold_tier_upgrade": {
+    "criteria": {
+      "has_lever": "2026-07-06 02:29:50 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/gold_to_diamond_tier_upgrade": {
+    "criteria": {
+      "has_lever": "2026-07-06 02:29:50 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/basic_to_iron_tier_upgrade": {
+    "criteria": {
+      "has_lever": "2026-07-06 02:29:50 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/diamond_to_netherite_tier_upgrade": {
+    "criteria": {
+      "has_lever": "2026-07-06 02:29:50 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/copper_to_iron_tier_upgrade": {
+    "criteria": {
+      "has_lever": "2026-07-06 02:29:50 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/basic_to_copper_tier_upgrade": {
+    "criteria": {
+      "has_lever": "2026-07-06 02:29:50 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/basic_to_iron_tier_from_basic_to_copper_tier": {
+    "criteria": {
+      "has_lever": "2026-07-06 02:29:50 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/basic_tier_upgrade": {
+    "criteria": {
+      "has_lever": "2026-07-06 02:29:50 +0200"
+    },
+    "done": true
+  },
   "securitycraft:recipes/decorations/secret_birch_sign_item": {
     "criteria": {
       "has_sign": "2026-07-06 02:45:04 +0200"
@@ -12583,12 +12715,6 @@
     },
     "done": true
   },
-  "farmersdelight:recipes/food/cooked_bacon_from_smoking": {
-    "criteria": {
-      "cooked_bacon": "2026-07-06 01:23:30 +0200"
-    },
-    "done": true
-  },
   "securitycraft:recipes/decorations/secret_jungle_hanging_sign": {
     "criteria": {
       "has_sign": "2026-07-06 02:45:04 +0200"
@@ -12598,18 +12724,6 @@
   "securitycraft:recipes/decorations/secret_acacia_hanging_sign": {
     "criteria": {
       "has_sign": "2026-07-06 02:45:04 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/materials/brass_ingot_from_compacting": {
-    "criteria": {
-      "has_item": "2026-07-06 01:34:17 +0200"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/cooked_bacon": {
-    "criteria": {
-      "cooked_bacon": "2026-07-06 01:23:30 +0200"
     },
     "done": true
   },
@@ -12625,39 +12739,9 @@
     },
     "done": true
   },
-  "sophisticatedstorage:recipes/misc/iron_to_gold_tier_upgrade": {
-    "criteria": {
-      "has_lever": "2026-07-06 02:29:50 +0200"
-    },
-    "done": true
-  },
   "securitycraft:recipes/decorations/secret_spruce_hanging_sign": {
     "criteria": {
       "has_sign": "2026-07-06 02:45:04 +0200"
-    },
-    "done": true
-  },
-  "sophisticatedstorage:recipes/misc/gold_to_diamond_tier_upgrade": {
-    "criteria": {
-      "has_lever": "2026-07-06 02:29:50 +0200"
-    },
-    "done": true
-  },
-  "sophisticatedstorage:recipes/misc/basic_to_iron_tier_upgrade": {
-    "criteria": {
-      "has_lever": "2026-07-06 02:29:50 +0200"
-    },
-    "done": true
-  },
-  "irons_spellbooks:irons_spellbooks/steal_from_wizard": {
-    "criteria": {
-      "anger_wizard": "2026-07-06 01:11:01 +0200"
-    },
-    "done": true
-  },
-  "sophisticatedstorage:recipes/misc/diamond_to_netherite_tier_upgrade": {
-    "criteria": {
-      "has_lever": "2026-07-06 02:29:50 +0200"
     },
     "done": true
   },
@@ -12667,45 +12751,9 @@
     },
     "done": true
   },
-  "handcrafted:recipes/misc/brown_cushion": {
-    "criteria": {
-      "has_brown_cushion": "2026-07-06 01:24:36 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/brown_banner": {
-    "criteria": {
-      "has_brown_wool": "2026-07-06 01:24:36 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/brown_bed": {
-    "criteria": {
-      "has_brown_wool": "2026-07-06 01:24:36 +0200"
-    },
-    "done": true
-  },
-  "sophisticatedstorage:recipes/misc/copper_to_iron_tier_upgrade": {
-    "criteria": {
-      "has_lever": "2026-07-06 02:29:50 +0200"
-    },
-    "done": true
-  },
-  "sophisticatedstorage:recipes/misc/basic_to_copper_tier_upgrade": {
-    "criteria": {
-      "has_lever": "2026-07-06 02:29:50 +0200"
-    },
-    "done": true
-  },
   "securitycraft:recipes/decorations/secret_sign_item": {
     "criteria": {
       "has_sign": "2026-07-06 02:45:04 +0200"
-    },
-    "done": true
-  },
-  "sophisticatedstorage:recipes/misc/basic_to_iron_tier_from_basic_to_copper_tier": {
-    "criteria": {
-      "has_lever": "2026-07-06 02:29:50 +0200"
     },
     "done": true
   },
@@ -12724,36 +12772,6 @@
   "securitycraft:recipes/decorations/secret_dark_oak_hanging_sign": {
     "criteria": {
       "has_sign": "2026-07-06 02:45:04 +0200"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/cooked_bacon_from_campfire_cooking": {
-    "criteria": {
-      "cooked_bacon": "2026-07-06 01:23:30 +0200"
-    },
-    "done": true
-  },
-  "buildinggadgets2:recipes/misc/gadget_cut_paste": {
-    "criteria": {
-      "has_shear": "2026-07-06 01:07:56 +0200"
-    },
-    "done": true
-  },
-  "handcrafted:recipes/misc/brown_sheet": {
-    "criteria": {
-      "has_brown_sheet": "2026-07-06 01:24:36 +0200"
-    },
-    "done": true
-  },
-  "sophisticatedstorage:recipes/misc/basic_tier_upgrade": {
-    "criteria": {
-      "has_lever": "2026-07-06 02:29:50 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/brown_carpet": {
-    "criteria": {
-      "has_brown_wool": "2026-07-06 01:24:36 +0200"
     },
     "done": true
   },
@@ -12781,27 +12799,9 @@
     },
     "done": true
   },
-  "comforts:recipes/decorations/hammock_brown": {
-    "criteria": {
-      "has_brown_wool": "2026-07-06 01:24:36 +0200"
-    },
-    "done": true
-  },
   "securitycraft:recipes/decorations/secret_bamboo_sign_item": {
     "criteria": {
       "has_sign": "2026-07-06 02:45:04 +0200"
-    },
-    "done": true
-  },
-  "new_slab_variants:recipes/building_blocks/brown_wool_slab": {
-    "criteria": {
-      "has_brown_wool": "2026-07-06 01:24:36 +0200"
-    },
-    "done": true
-  },
-  "comforts:recipes/decorations/sleeping_bag_brown": {
-    "criteria": {
-      "has_brown_wool": "2026-07-06 01:24:36 +0200"
     },
     "done": true
   },
@@ -12820,6 +12820,372 @@
   "securitycraft:recipes/decorations/secret_acacia_sign_item": {
     "criteria": {
       "has_sign": "2026-07-06 02:45:04 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/conduit": {
+    "criteria": {
+      "has_nautilus_core": "2026-07-07 19:48:51 +0200"
+    },
+    "done": true
+  },
+  "mynethersdelight:recipes/misc/crafting/soul_nethers_stove": {
+    "criteria": {
+      "has_soul_campfire": "2026-07-07 20:30:25 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:main/place_campfire": {
+    "criteria": {
+      "soul_campfire": "2026-07-07 20:30:31 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/furnace_minecart_from_contraption_cart": {
+    "criteria": {
+      "has_item": "2026-07-07 21:11:08 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/minecart_from_contraption_cart": {
+    "criteria": {
+      "has_item": "2026-07-07 21:11:08 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/sail_frame_from_conversion": {
+    "criteria": {
+      "has_item": "2026-07-07 21:12:44 +0200"
+    },
+    "done": true
+  },
+  "create:windmill": {
+    "criteria": {
+      "0": "2026-07-07 21:34:26 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/secondary_linear_chassis_from_conversion": {
+    "criteria": {
+      "has_item": "2026-07-07 21:47:00 +0200"
+    },
+    "done": true
+  },
+  "create:super_glue": {
+    "criteria": {
+      "0": "2026-07-07 21:50:15 +0200"
+    },
+    "done": true
+  },
+  "create:contraption_actors": {
+    "criteria": {
+      "0": "2026-07-07 21:50:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_copper_grate": {
+    "criteria": {
+      "has_waxed_copper_block": "2026-07-08 00:32:09 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_oxidized_cut_copper_stairs_from_waxed_oxidized_cut_copper_stonecutting": {
+    "criteria": {
+      "has_waxed_oxidized_cut_copper": "2026-07-08 01:27:02 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_oxidized_cut_copper_stairs_from_waxed_oxidized_copper_stonecutting": {
+    "criteria": {
+      "has_waxed_oxidized_copper": "2026-07-08 00:32:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_brick_stairs_from_polished_tuff_stonecutting": {
+    "criteria": {
+      "has_polished_tuff": "2026-07-08 00:32:20 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/waxed_oxidized_copper_slab": {
+    "criteria": {
+      "has_waxed_oxidized_copper": "2026-07-08 00:32:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_tuff_stairs_from_polished_tuff_stonecutting": {
+    "criteria": {
+      "has_polished_tuff": "2026-07-08 00:32:20 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_waxed_copper_block": {
+    "criteria": {
+      "has_waxed_copper_block": "2026-07-08 00:32:09 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_oxidized_cut_copper_from_waxed_oxidized_copper_stonecutting": {
+    "criteria": {
+      "has_waxed_oxidized_copper": "2026-07-08 00:32:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_chiseled_copper_from_waxed_copper_block_stonecutting": {
+    "criteria": {
+      "has_waxed_copper_block": "2026-07-08 00:32:09 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_brick_stairs_from_tuff_bricks_stonecutting": {
+    "criteria": {
+      "has_tuff_bricks": "2026-07-08 00:31:51 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_oxidized_cut_copper_slab": {
+    "criteria": {
+      "has_waxed_oxidized_cut_copper": "2026-07-08 01:27:02 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_oxidized_copper_grate": {
+    "criteria": {
+      "has_waxed_oxidized_copper": "2026-07-08 00:32:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_tuff_stairs": {
+    "criteria": {
+      "has_polished_tuff": "2026-07-08 00:32:20 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_brick_slab_from_tuff_bricks_stonecutting": {
+    "criteria": {
+      "has_tuff_bricks": "2026-07-08 00:31:51 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oxidized_cut_copper_stairs": {
+    "criteria": {
+      "has_oxidized_cut_copper": "2026-07-08 00:32:15 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_cut_copper_slab_from_waxed_copper_block_stonecutting": {
+    "criteria": {
+      "has_waxed_copper_block": "2026-07-08 00:32:09 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_tuff_wall": {
+    "criteria": {
+      "has_polished_tuff": "2026-07-08 00:32:20 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oxidized_cut_copper_slab": {
+    "criteria": {
+      "has_oxidized_cut_copper": "2026-07-08 00:32:15 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_cut_copper_from_waxed_copper_block_stonecutting": {
+    "criteria": {
+      "has_waxed_copper_block": "2026-07-08 00:32:09 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_cut_copper_stairs_from_waxed_copper_block_stonecutting": {
+    "criteria": {
+      "has_waxed_copper_block": "2026-07-08 00:32:09 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_bricks": {
+    "criteria": {
+      "has_polished_tuff": "2026-07-08 00:32:20 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oxidized_cut_copper_slab_from_oxidized_cut_copper_stonecutting": {
+    "criteria": {
+      "has_oxidized_cut_copper": "2026-07-08 00:32:15 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_brick_slab": {
+    "criteria": {
+      "has_tuff_bricks": "2026-07-08 00:31:51 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/tuff_brick_wall_from_polished_tuff_stonecutting": {
+    "criteria": {
+      "has_polished_tuff": "2026-07-08 00:32:20 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_oxidized_cut_copper_slab_from_waxed_oxidized_cut_copper_stonecutting": {
+    "criteria": {
+      "has_waxed_oxidized_cut_copper": "2026-07-08 01:27:02 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_tuff_slab": {
+    "criteria": {
+      "has_polished_tuff": "2026-07-08 00:32:20 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/tuff_brick_wall": {
+    "criteria": {
+      "has_tuff_bricks": "2026-07-08 00:31:51 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/tuff_brick_wall_from_tuff_bricks_stonecutting": {
+    "criteria": {
+      "has_tuff_bricks": "2026-07-08 00:31:51 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_tuff_slab_from_polished_tuff_stonecutting": {
+    "criteria": {
+      "has_polished_tuff": "2026-07-08 00:32:20 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_brick_stairs": {
+    "criteria": {
+      "has_tuff_bricks": "2026-07-08 00:31:51 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/waxed_copper_block_slab": {
+    "criteria": {
+      "has_waxed_copper_block": "2026-07-08 00:32:09 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_tuff_bricks_from_polished_tuff_stonecutting": {
+    "criteria": {
+      "has_polished_tuff": "2026-07-08 00:32:20 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/minecraft_trials_edition": {
+    "criteria": {
+      "minecraft_trials_edition": "2026-07-08 00:24:04 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oxidized_chiseled_copper_from_oxidized_cut_copper_stonecutting": {
+    "criteria": {
+      "has_oxidized_cut_copper": "2026-07-08 00:32:15 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/waxed_copper_bulb": {
+    "criteria": {
+      "has_waxed_copper_block": "2026-07-08 00:32:09 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_cut_copper": {
+    "criteria": {
+      "has_waxed_copper_block": "2026-07-08 00:32:09 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/red_glazed_terracotta_slab": {
+    "criteria": {
+      "has_red_glazed_terracotta": "2026-07-08 00:32:09 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_oxidized_chiseled_copper_from_waxed_oxidized_cut_copper_stonecutting": {
+    "criteria": {
+      "has_waxed_oxidized_cut_copper": "2026-07-08 01:27:02 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oxidized_cut_copper_stairs_from_oxidized_cut_copper_stonecutting": {
+    "criteria": {
+      "has_oxidized_cut_copper": "2026-07-08 00:32:15 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_tuff_wall_from_polished_tuff_stonecutting": {
+    "criteria": {
+      "has_polished_tuff": "2026-07-08 00:32:20 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_tuff_bricks_from_tuff_bricks_stonecutting": {
+    "criteria": {
+      "has_tuff_bricks": "2026-07-08 00:31:51 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_oxidized_cut_copper_stairs": {
+    "criteria": {
+      "has_waxed_oxidized_cut_copper": "2026-07-08 01:27:02 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_oxidized_cut_copper": {
+    "criteria": {
+      "has_waxed_oxidized_copper": "2026-07-08 00:32:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_oxidized_cut_copper_slab_from_waxed_oxidized_copper_stonecutting": {
+    "criteria": {
+      "has_waxed_oxidized_copper": "2026-07-08 00:32:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_copper_grate_from_waxed_copper_block_stonecutting": {
+    "criteria": {
+      "has_waxed_copper_block": "2026-07-08 00:32:09 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_bricks_from_polished_tuff_stonecutting": {
+    "criteria": {
+      "has_polished_tuff": "2026-07-08 00:32:20 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/waxed_oxidized_copper_bulb": {
+    "criteria": {
+      "has_waxed_oxidized_copper": "2026-07-08 00:32:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_oxidized_chiseled_copper_from_waxed_oxidized_copper_stonecutting": {
+    "criteria": {
+      "has_waxed_oxidized_copper": "2026-07-08 00:32:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_oxidized_cut_copper_from_honeycomb": {
+    "criteria": {
+      "has_oxidized_cut_copper": "2026-07-08 00:32:15 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_oxidized_copper_grate_from_waxed_oxidized_copper_stonecutting": {
+    "criteria": {
+      "has_waxed_oxidized_copper": "2026-07-08 00:32:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_brick_slab_from_polished_tuff_stonecutting": {
+    "criteria": {
+      "has_polished_tuff": "2026-07-08 00:32:20 +0200"
     },
     "done": true
   },

@@ -14624,15 +14624,45 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/black_dye": {
+    "criteria": {
+      "has_ink_sac": "2026-07-07 14:10:23 +0200"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/building_blocks/redwood_wood": {
     "criteria": {
       "has_log": "2026-07-07 14:23:03 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/misc/black_dye": {
+  "sophisticatedbackpacks:recipes/misc/stack_upgrade_tier_4": {
     "criteria": {
-      "has_ink_sac": "2026-07-07 14:10:23 +0200"
+      "has_stack_upgrade_tier_3": "2026-07-07 21:20:10 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/storage_stack_upgrade_tier_4_from_backpack_stack_upgrade_tier_3": {
+    "criteria": {
+      "has_backpack_stack_upgrade": "2026-07-07 21:20:10 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/storage_stack_upgrade_tier_5_from_backpack_stack_upgrade_tier_4": {
+    "criteria": {
+      "has_backpack_stack_upgrade": "2026-07-07 21:22:11 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/stack_upgrade_omega_tier": {
+    "criteria": {
+      "has_stack_upgrade_tier_4": "2026-07-07 21:22:11 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/gold_backpack": {
+    "criteria": {
+      "has_iron_backpack": "2026-07-07 23:12:10 +0200"
     },
     "done": true
   },

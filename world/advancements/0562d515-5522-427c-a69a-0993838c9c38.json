@@ -95,6 +95,7 @@
       "minecraft:river": "2026-06-27 20:47:23 +0200",
       "minecraft:lukewarm_ocean": "2026-06-29 18:36:21 +0200",
       "minecraft:stony_shore": "2026-06-29 16:59:57 +0200",
+      "minecraft:dripstone_caves": "2026-07-07 18:22:22 +0200",
       "minecraft:old_growth_birch_forest": "2026-07-02 15:35:35 +0200",
       "minecraft:deep_dark": "2026-07-01 17:48:30 +0200",
       "minecraft:swamp": "2026-06-29 23:34:47 +0200",
@@ -4431,6 +4432,7 @@
       "minecraft:piglin_brute": "2026-06-30 20:34:48 +0200",
       "minecraft:creeper": "2026-06-27 20:53:13 +0200",
       "minecraft:evoker": "2026-07-02 22:24:25 +0200",
+      "minecraft:slime": "2026-07-07 18:54:20 +0200",
       "minecraft:phantom": "2026-07-02 13:20:00 +0200",
       "minecraft:zombified_piglin": "2026-07-02 14:45:06 +0200",
       "minecraft:wither_skeleton": "2026-07-02 14:32:11 +0200",
@@ -5513,9 +5515,10 @@
   "lootr:social": {
     "criteria": {
       "opened_barrel": "2026-06-27 20:47:34 +0200",
-      "opened_chest": "2026-06-27 20:49:47 +0200"
+      "opened_chest": "2026-06-27 20:49:47 +0200",
+      "opened_cart": "2026-07-07 18:36:05 +0200"
     },
-    "done": false
+    "done": true
   },
   "new_slab_variants:recipes/building_blocks/hay_block_slab": {
     "criteria": {
@@ -7443,6 +7446,8 @@
       "cocoa": "2026-06-29 21:15:53 +0200",
       "sugar_cane": "2026-06-27 23:05:43 +0200",
       "potato": "2026-06-27 22:47:41 +0200",
+      "red_mushroom": "2026-07-07 18:52:38 +0200",
+      "nether_wart": "2026-07-07 23:10:51 +0200",
       "wheat": "2026-06-27 22:32:14 +0200",
       "melon": "2026-06-29 16:34:42 +0200",
       "pumpkin": "2026-06-29 18:18:47 +0200",
@@ -14917,6 +14922,336 @@
   "minecraft:recipes/building_blocks/chiseled_polished_blackstone": {
     "criteria": {
       "has_polished_blackstone_slab": "2026-07-07 17:25:22 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/revaulting": {
+    "criteria": {
+      "revaulting": "2026-07-07 18:20:48 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_oxidized_copper_trapdoor_from_honeycomb": {
+    "criteria": {
+      "has_oxidized_copper_trapdoor": "2026-07-07 18:24:53 +0200"
+    },
+    "done": true
+  },
+  "super_ore_block:recipes/building_blocks/super_diamond_block": {
+    "criteria": {
+      "has_item": "2026-07-07 18:27:37 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/diamond_block_slab": {
+    "criteria": {
+      "has_diamond_block": "2026-07-07 18:27:37 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond": {
+    "criteria": {
+      "has_diamond_block": "2026-07-07 18:27:37 +0200"
+    },
+    "done": true
+  },
+  "lootr:1cart": {
+    "criteria": {
+      "opened_cart": "2026-07-07 18:36:05 +0200"
+    },
+    "done": true
+  },
+  "irons_spellbooks:recipes/misc/lightning_upgrade_orb": {
+    "criteria": {
+      "orb": "2026-07-07 18:55:40 +0200"
+    },
+    "done": true
+  },
+  "irons_spellbooks:recipes/misc/mana_upgrade_orb": {
+    "criteria": {
+      "orb": "2026-07-07 18:55:40 +0200"
+    },
+    "done": true
+  },
+  "irons_spellbooks:recipes/misc/nature_upgrade_orb": {
+    "criteria": {
+      "orb": "2026-07-07 18:55:40 +0200"
+    },
+    "done": true
+  },
+  "irons_spellbooks:recipes/misc/ice_upgrade_orb": {
+    "criteria": {
+      "orb": "2026-07-07 18:55:40 +0200"
+    },
+    "done": true
+  },
+  "irons_spellbooks:recipes/misc/protection_upgrade_orb": {
+    "criteria": {
+      "orb": "2026-07-07 18:55:40 +0200"
+    },
+    "done": true
+  },
+  "irons_spellbooks:recipes/misc/holy_upgrade_orb": {
+    "criteria": {
+      "orb": "2026-07-07 18:55:40 +0200"
+    },
+    "done": true
+  },
+  "irons_spellbooks:recipes/misc/evocation_upgrade_orb": {
+    "criteria": {
+      "orb": "2026-07-07 18:55:40 +0200"
+    },
+    "done": true
+  },
+  "irons_spellbooks:recipes/misc/cooldown_upgrade_orb": {
+    "criteria": {
+      "orb": "2026-07-07 18:55:40 +0200"
+    },
+    "done": true
+  },
+  "irons_spellbooks:recipes/misc/ender_upgrade_orb": {
+    "criteria": {
+      "orb": "2026-07-07 18:55:40 +0200"
+    },
+    "done": true
+  },
+  "irons_spellbooks:recipes/misc/fire_upgrade_orb": {
+    "criteria": {
+      "orb": "2026-07-07 18:55:40 +0200"
+    },
+    "done": true
+  },
+  "irons_spellbooks:recipes/misc/blood_upgrade_orb": {
+    "criteria": {
+      "orb": "2026-07-07 18:55:40 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_stairs": {
+    "criteria": {
+      "has_polished_blackstone": "2026-07-07 19:09:28 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs_from_polished_blackstone_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone": "2026-07-07 19:09:28 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/polished_blackstone_button": {
+    "criteria": {
+      "has_polished_blackstone": "2026-07-07 19:09:28 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_slab": {
+    "criteria": {
+      "has_polished_blackstone": "2026-07-07 19:09:28 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_bricks_from_polished_blackstone_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone": "2026-07-07 19:09:28 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_polished_blackstone_from_polished_blackstone_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone": "2026-07-07 19:09:28 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_stairs_from_polished_blackstone_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone": "2026-07-07 19:09:28 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_wall_from_polished_blackstone_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone": "2026-07-07 19:09:28 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_polished_blackstone_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone": "2026-07-07 19:09:28 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_polished_blackstone_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone": "2026-07-07 19:09:28 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_slab_from_polished_blackstone_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone": "2026-07-07 19:09:28 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_bricks": {
+    "criteria": {
+      "has_polished_blackstone": "2026-07-07 19:09:28 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/polished_blackstone_pressure_plate": {
+    "criteria": {
+      "has_polished_blackstone": "2026-07-07 19:09:28 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_wall": {
+    "criteria": {
+      "has_polished_blackstone": "2026-07-07 19:09:28 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/chiseled_polished_blackstone_slab": {
+    "criteria": {
+      "has_chiseled_polished_blackstone": "2026-07-07 19:09:46 +0200"
+    },
+    "done": true
+  },
+  "irons_spellbooks:irons_spellbooks/spell_book_netherite": {
+    "criteria": {
+      "requirement": "2026-07-07 19:27:12 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_nether_brick_slab_from_red_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_red_nether_bricks": "2026-07-07 23:18:39 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_nether_brick_slab": {
+    "criteria": {
+      "has_red_nether_bricks": "2026-07-07 23:18:39 +0200"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/red_nether_bricks": {
+    "criteria": {
+      "has_planks": "2026-07-07 23:18:39 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_nether_brick_wall": {
+    "criteria": {
+      "has_red_nether_bricks": "2026-07-07 23:18:39 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_nether_brick_stairs_from_red_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_red_nether_bricks": "2026-07-07 23:18:39 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_nether_brick_stairs": {
+    "criteria": {
+      "has_red_nether_bricks": "2026-07-07 23:18:39 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_nether_brick_wall_from_red_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_red_nether_bricks": "2026-07-07 23:18:39 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/storage_pickup_upgrade_from_backpack_pickup_upgrade": {
+    "criteria": {
+      "has_backpack_upgrade": "2026-07-08 00:54:39 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/storage_advanced_magnet_upgrade_from_backpack_advanced_magnet_upgrade": {
+    "criteria": {
+      "has_backpack_upgrade": "2026-07-08 00:56:39 +0200"
+    },
+    "done": true
+  },
+  "super_ore_block:recipes/building_blocks/super_ore_block": {
+    "criteria": {
+      "hasAny": "2026-07-08 01:13:22 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/storage_magnet_upgrade_from_backpack_magnet_upgrade": {
+    "criteria": {
+      "has_backpack_upgrade": "2026-07-08 00:56:28 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_ingot_from_netherite_block": {
+    "criteria": {
+      "has_netherite_block": "2026-07-08 01:00:51 +0200"
+    },
+    "done": true
+  },
+  "exclusive_weapons:recipes/tools/super_iron_shovel": {
+    "criteria": {
+      "has_item": "2026-07-08 00:23:55 +0200"
+    },
+    "done": true
+  },
+  "super_ore_block:recipes/building_blocks/super_netherite_block": {
+    "criteria": {
+      "has_item": "2026-07-08 01:00:51 +0200"
+    },
+    "done": true
+  },
+  "super_ore_block:recipes/building_blocks/super_to_diamond_block": {
+    "criteria": {
+      "has_item": "2026-07-08 01:13:22 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/advanced_magnet_upgrade_from_basic": {
+    "criteria": {
+      "has_magnet_upgrade": "2026-07-08 00:56:28 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/storage_advanced_jukebox_upgrade_from_backpack_advanced_jukebox_upgrade": {
+    "criteria": {
+      "has_backpack_upgrade": "2026-07-08 00:56:55 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/storage_stack_upgrade_tier_3_from_backpack_stack_upgrade_tier_2": {
+    "criteria": {
+      "has_backpack_stack_upgrade": "2026-07-08 01:11:04 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/advanced_pickup_upgrade": {
+    "criteria": {
+      "has_pickup_upgrade": "2026-07-08 00:54:39 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/netherite_block_slab": {
+    "criteria": {
+      "has_netherite_block": "2026-07-08 01:00:51 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/magnet_upgrade": {
+    "criteria": {
+      "has_pickup_upgrade": "2026-07-08 00:54:39 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/stack_upgrade_tier_3": {
+    "criteria": {
+      "has_the_recipe": "2026-07-08 01:07:48 +0200"
     },
     "done": true
   },
