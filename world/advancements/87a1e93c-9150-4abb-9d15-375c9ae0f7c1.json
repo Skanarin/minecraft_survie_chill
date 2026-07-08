@@ -4087,7 +4087,10 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:pillager": "2026-07-08 17:05:25 +0200",
       "minecraft:skeleton": "2026-07-01 14:42:29 +0200",
+      "minecraft:ghast": "2026-07-06 22:25:32 +0200",
+      "minecraft:hoglin": "2026-07-03 11:09:07 +0200",
       "minecraft:enderman": "2026-07-01 15:40:36 +0200",
       "minecraft:magma_cube": "2026-07-03 11:10:02 +0200",
       "minecraft:endermite": "2026-07-05 13:54:32 +0200",
@@ -4096,9 +4099,7 @@
       "minecraft:zombie": "2026-07-01 14:42:49 +0200",
       "minecraft:creeper": "2026-07-02 17:43:59 +0200",
       "minecraft:drowned": "2026-07-02 20:14:56 +0200",
-      "minecraft:zombie_villager": "2026-07-02 23:08:41 +0200",
-      "minecraft:ghast": "2026-07-06 22:25:32 +0200",
-      "minecraft:hoglin": "2026-07-03 11:09:07 +0200"
+      "minecraft:zombie_villager": "2026-07-02 23:08:41 +0200"
     },
     "done": false
   },
@@ -14765,6 +14766,66 @@
   "minecraft:recipes/decorations/sandstone_wall": {
     "criteria": {
       "has_sandstone": "2026-07-08 16:04:53 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2026-07-08 17:05:25 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/clay": {
+    "criteria": {
+      "has_clay_ball": "2026-07-08 18:00:46 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_mossy_cobblestone_from_vanilla_moss": {
+    "criteria": {
+      "has_moss": "2026-07-08 16:42:21 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/brick": {
+    "criteria": {
+      "has_clay_ball": "2026-07-08 18:00:46 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/mossy_black_sand": {
+    "criteria": {
+      "has_moss_block": "2026-07-08 16:42:21 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_bricks_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2026-07-08 16:42:21 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_mossy_stone_bricks_from_vanilla_moss": {
+    "criteria": {
+      "has_moss": "2026-07-08 16:42:21 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2026-07-08 16:42:21 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/moss_block_slab": {
+    "criteria": {
+      "has_moss_block": "2026-07-08 16:42:21 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/moss_carpet": {
+    "criteria": {
+      "has_moss_block": "2026-07-08 16:42:21 +0200"
     },
     "done": true
   },

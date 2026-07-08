@@ -15291,5 +15291,167 @@
     },
     "done": true
   },
+  "exclusive_weapons:recipes/tools/super_netherite_shovel": {
+    "criteria": {
+      "has_item": "2026-07-08 18:28:14 +0200"
+    },
+    "done": true
+  },
+  "advancednetherite:recipes/building_blocks/netherite_iron_block": {
+    "criteria": {
+      "has_advancednetherite:netherite_iron_ingot": "2026-07-08 18:28:46 +0200"
+    },
+    "done": true
+  },
+  "exclusive_weapons:recipes/tools/super_netherite_axe": {
+    "criteria": {
+      "has_item": "2026-07-08 18:28:12 +0200"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/dormant_shard": {
+    "criteria": {
+      "has_warp_dust": "2026-07-08 17:28:59 +0200"
+    },
+    "done": true
+  },
+  "advancednetherite:recipes/misc/netherite_emerald_leggings_smithing": {
+    "criteria": {
+      "has_ingredients": "2026-07-08 18:30:30 +0200"
+    },
+    "done": true
+  },
+  "advancednetherite:recipes/misc/netherite_iron_axe_smithing": {
+    "criteria": {
+      "has_ingredients": "2026-07-08 18:28:46 +0200"
+    },
+    "done": true
+  },
+  "advancednetherite:recipes/misc/netherite_emerald_axe_smithing": {
+    "criteria": {
+      "has_ingredients": "2026-07-08 18:30:30 +0200"
+    },
+    "done": true
+  },
+  "advancednetherite:recipes/misc/netherite_emerald_sword_smithing": {
+    "criteria": {
+      "has_ingredients": "2026-07-08 18:30:30 +0200"
+    },
+    "done": true
+  },
+  "advancednetherite:recipes/building_blocks/netherite_emerald_block": {
+    "criteria": {
+      "has_advancednetherite:netherite_emerald_ingot": "2026-07-08 18:30:30 +0200"
+    },
+    "done": true
+  },
+  "advancednetherite:nether/obtain_netherite_iron_ingot": {
+    "criteria": {
+      "netherite_iron_ingot": "2026-07-08 18:28:46 +0200"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/warp_plate": {
+    "criteria": {
+      "has_warp_dust": "2026-07-08 17:28:59 +0200"
+    },
+    "done": true
+  },
+  "advancednetherite:recipes/misc/netherite_iron_sword_smithing": {
+    "criteria": {
+      "has_ingredients": "2026-07-08 18:28:46 +0200"
+    },
+    "done": true
+  },
+  "advancednetherite:recipes/misc/netherite_emerald_helmet_smithing": {
+    "criteria": {
+      "has_ingredients": "2026-07-08 18:30:30 +0200"
+    },
+    "done": true
+  },
+  "advancednetherite:recipes/misc/netherite_iron_leggings_smithing": {
+    "criteria": {
+      "has_ingredients": "2026-07-08 18:28:46 +0200"
+    },
+    "done": true
+  },
+  "advancednetherite:recipes/misc/netherite_iron_boots_smithing": {
+    "criteria": {
+      "has_ingredients": "2026-07-08 18:28:46 +0200"
+    },
+    "done": true
+  },
+  "advancednetherite:recipes/misc/netherite_emerald_pickaxe_smithing": {
+    "criteria": {
+      "has_ingredients": "2026-07-08 18:30:30 +0200"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/obtain_netherite_hoe": {
+    "criteria": {
+      "netherite_hoe": "2026-07-08 18:19:24 +0200"
+    },
+    "done": true
+  },
+  "advancednetherite:recipes/misc/netherite_emerald_shovel_smithing": {
+    "criteria": {
+      "has_ingredients": "2026-07-08 18:30:30 +0200"
+    },
+    "done": true
+  },
+  "advancednetherite:recipes/misc/netherite_emerald_chestplate_smithing": {
+    "criteria": {
+      "has_ingredients": "2026-07-08 18:30:30 +0200"
+    },
+    "done": true
+  },
+  "advancednetherite:recipes/misc/netherite_emerald_boots_smithing": {
+    "criteria": {
+      "has_ingredients": "2026-07-08 18:30:30 +0200"
+    },
+    "done": true
+  },
+  "exclusive_weapons:recipes/tools/super_netherite_hoe": {
+    "criteria": {
+      "has_item": "2026-07-08 18:19:24 +0200"
+    },
+    "done": true
+  },
+  "advancednetherite:recipes/misc/netherite_iron_hoe_smithing": {
+    "criteria": {
+      "has_ingredients": "2026-07-08 18:28:46 +0200"
+    },
+    "done": true
+  },
+  "advancednetherite:recipes/misc/netherite_iron_shovel_smithing": {
+    "criteria": {
+      "has_ingredients": "2026-07-08 18:28:46 +0200"
+    },
+    "done": true
+  },
+  "advancednetherite:recipes/misc/netherite_iron_helmet_smithing": {
+    "criteria": {
+      "has_ingredients": "2026-07-08 18:28:46 +0200"
+    },
+    "done": true
+  },
+  "advancednetherite:recipes/misc/netherite_iron_pickaxe_smithing": {
+    "criteria": {
+      "has_ingredients": "2026-07-08 18:28:46 +0200"
+    },
+    "done": true
+  },
+  "advancednetherite:recipes/misc/netherite_emerald_hoe_smithing": {
+    "criteria": {
+      "has_ingredients": "2026-07-08 18:30:30 +0200"
+    },
+    "done": true
+  },
+  "advancednetherite:recipes/misc/netherite_iron_chestplate_smithing": {
+    "criteria": {
+      "has_ingredients": "2026-07-08 18:28:46 +0200"
+    },
+    "done": true
+  },
   "DataVersion": 3955
 }
