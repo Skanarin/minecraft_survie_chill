@@ -15165,69 +15165,15 @@
     },
     "done": true
   },
-  "sophisticatedstorage:recipes/misc/storage_pickup_upgrade_from_backpack_pickup_upgrade": {
-    "criteria": {
-      "has_backpack_upgrade": "2026-07-08 00:54:39 +0200"
-    },
-    "done": true
-  },
-  "sophisticatedstorage:recipes/misc/storage_advanced_magnet_upgrade_from_backpack_advanced_magnet_upgrade": {
-    "criteria": {
-      "has_backpack_upgrade": "2026-07-08 00:56:39 +0200"
-    },
-    "done": true
-  },
-  "super_ore_block:recipes/building_blocks/super_ore_block": {
-    "criteria": {
-      "hasAny": "2026-07-08 01:13:22 +0200"
-    },
-    "done": true
-  },
-  "sophisticatedstorage:recipes/misc/storage_magnet_upgrade_from_backpack_magnet_upgrade": {
-    "criteria": {
-      "has_backpack_upgrade": "2026-07-08 00:56:28 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/netherite_ingot_from_netherite_block": {
-    "criteria": {
-      "has_netherite_block": "2026-07-08 01:00:51 +0200"
-    },
-    "done": true
-  },
   "exclusive_weapons:recipes/tools/super_iron_shovel": {
     "criteria": {
       "has_item": "2026-07-08 00:23:55 +0200"
     },
     "done": true
   },
-  "super_ore_block:recipes/building_blocks/super_netherite_block": {
+  "sophisticatedstorage:recipes/misc/storage_pickup_upgrade_from_backpack_pickup_upgrade": {
     "criteria": {
-      "has_item": "2026-07-08 01:00:51 +0200"
-    },
-    "done": true
-  },
-  "super_ore_block:recipes/building_blocks/super_to_diamond_block": {
-    "criteria": {
-      "has_item": "2026-07-08 01:13:22 +0200"
-    },
-    "done": true
-  },
-  "sophisticatedbackpacks:recipes/misc/advanced_magnet_upgrade_from_basic": {
-    "criteria": {
-      "has_magnet_upgrade": "2026-07-08 00:56:28 +0200"
-    },
-    "done": true
-  },
-  "sophisticatedstorage:recipes/misc/storage_advanced_jukebox_upgrade_from_backpack_advanced_jukebox_upgrade": {
-    "criteria": {
-      "has_backpack_upgrade": "2026-07-08 00:56:55 +0200"
-    },
-    "done": true
-  },
-  "sophisticatedstorage:recipes/misc/storage_stack_upgrade_tier_3_from_backpack_stack_upgrade_tier_2": {
-    "criteria": {
-      "has_backpack_stack_upgrade": "2026-07-08 01:11:04 +0200"
+      "has_backpack_upgrade": "2026-07-08 00:54:39 +0200"
     },
     "done": true
   },
@@ -15237,21 +15183,111 @@
     },
     "done": true
   },
-  "new_slab_variants:recipes/building_blocks/netherite_block_slab": {
-    "criteria": {
-      "has_netherite_block": "2026-07-08 01:00:51 +0200"
-    },
-    "done": true
-  },
   "sophisticatedbackpacks:recipes/misc/magnet_upgrade": {
     "criteria": {
       "has_pickup_upgrade": "2026-07-08 00:54:39 +0200"
     },
     "done": true
   },
+  "sophisticatedstorage:recipes/misc/storage_magnet_upgrade_from_backpack_magnet_upgrade": {
+    "criteria": {
+      "has_backpack_upgrade": "2026-07-08 00:56:28 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/advanced_magnet_upgrade_from_basic": {
+    "criteria": {
+      "has_magnet_upgrade": "2026-07-08 00:56:28 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/storage_advanced_magnet_upgrade_from_backpack_advanced_magnet_upgrade": {
+    "criteria": {
+      "has_backpack_upgrade": "2026-07-08 00:56:39 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/storage_advanced_jukebox_upgrade_from_backpack_advanced_jukebox_upgrade": {
+    "criteria": {
+      "has_backpack_upgrade": "2026-07-08 00:56:55 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_ingot_from_netherite_block": {
+    "criteria": {
+      "has_netherite_block": "2026-07-08 01:00:51 +0200"
+    },
+    "done": true
+  },
+  "super_ore_block:recipes/building_blocks/super_netherite_block": {
+    "criteria": {
+      "has_item": "2026-07-08 01:00:51 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/netherite_block_slab": {
+    "criteria": {
+      "has_netherite_block": "2026-07-08 01:00:51 +0200"
+    },
+    "done": true
+  },
   "sophisticatedbackpacks:recipes/misc/stack_upgrade_tier_3": {
     "criteria": {
       "has_the_recipe": "2026-07-08 01:07:48 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/storage_stack_upgrade_tier_3_from_backpack_stack_upgrade_tier_2": {
+    "criteria": {
+      "has_backpack_stack_upgrade": "2026-07-08 01:11:04 +0200"
+    },
+    "done": true
+  },
+  "super_ore_block:recipes/building_blocks/super_ore_block": {
+    "criteria": {
+      "hasAny": "2026-07-08 01:13:22 +0200"
+    },
+    "done": true
+  },
+  "super_ore_block:recipes/building_blocks/super_to_diamond_block": {
+    "criteria": {
+      "has_item": "2026-07-08 01:13:22 +0200"
+    },
+    "done": true
+  },
+  "mynethersdelight:recipes/misc/crafting/stuffed_pepper": {
+    "criteria": {
+      "has_pepper": "2026-07-08 15:50:59 +0200"
+    },
+    "done": true
+  },
+  "mynethersdelight:recipes/misc/crafting/bullet_papper_crate_alt": {
+    "criteria": {
+      "has_pepper": "2026-07-08 15:50:59 +0200"
+    },
+    "done": true
+  },
+  "mynethersdelight:recipes/building_blocks/crafting/bullet_papper_crate": {
+    "criteria": {
+      "has_pepper": "2026-07-08 15:50:59 +0200"
+    },
+    "done": true
+  },
+  "mynethersdelight:recipes/cooking/hot_wings": {
+    "criteria": {
+      "has_any_ingredient": "2026-07-08 15:50:59 +0200"
+    },
+    "done": true
+  },
+  "mynethersdelight:recipes/cooking/spicy_curry": {
+    "criteria": {
+      "has_any_ingredient": "2026-07-08 15:50:59 +0200"
+    },
+    "done": true
+  },
+  "exclusive_weapons:recipes/combat/super_gold_chestplate": {
+    "criteria": {
+      "has_item": "2026-07-08 16:09:39 +0200"
     },
     "done": true
   },
