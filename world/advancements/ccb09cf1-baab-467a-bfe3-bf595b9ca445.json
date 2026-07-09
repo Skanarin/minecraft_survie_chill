@@ -13249,36 +13249,6 @@
     },
     "done": true
   },
-  "exclusive_weapons:recipes/combat/super_diamond_helmet": {
-    "criteria": {
-      "has_item": "2026-07-09 01:33:57 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/materials/copper_ingot": {
-    "criteria": {
-      "has_item": "2026-07-09 01:27:34 +0200"
-    },
-    "done": true
-  },
-  "exclusive_weapons:recipes/tools/super_diamond_shovel": {
-    "criteria": {
-      "has_item": "2026-07-09 01:52:01 +0200"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/steak_and_potatoes": {
-    "criteria": {
-      "has_baked_potato": "2026-07-09 01:46:40 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/misc/blasting/copper_ingot_from_crushed": {
-    "criteria": {
-      "has_item": "2026-07-09 01:26:26 +0200"
-    },
-    "done": true
-  },
   "create:recipes/misc/crafting/materials/experience_nugget_from_block": {
     "criteria": {
       "has_item": "2026-07-09 01:26:21 +0200"
@@ -13291,9 +13261,9 @@
     },
     "done": true
   },
-  "minecraft:story/enchant_item": {
+  "create:recipes/misc/blasting/copper_ingot_from_crushed": {
     "criteria": {
-      "enchanted_item": "2026-07-09 01:40:54 +0200"
+      "has_item": "2026-07-09 01:26:26 +0200"
     },
     "done": true
   },
@@ -13303,9 +13273,93 @@
     },
     "done": true
   },
+  "create:recipes/misc/crafting/materials/copper_ingot": {
+    "criteria": {
+      "has_item": "2026-07-09 01:27:34 +0200"
+    },
+    "done": true
+  },
+  "exclusive_weapons:recipes/combat/super_diamond_helmet": {
+    "criteria": {
+      "has_item": "2026-07-09 01:33:57 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2026-07-09 01:40:54 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/steak_and_potatoes": {
+    "criteria": {
+      "has_baked_potato": "2026-07-09 01:46:40 +0200"
+    },
+    "done": true
+  },
   "farmersdelight:recipes/food/stuffed_potato": {
     "criteria": {
       "has_baked_potato": "2026-07-09 01:46:40 +0200"
+    },
+    "done": true
+  },
+  "exclusive_weapons:recipes/tools/super_diamond_shovel": {
+    "criteria": {
+      "has_item": "2026-07-09 01:52:01 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/beetroot_soup": {
+    "criteria": {
+      "has_beetroot": "2026-07-09 02:56:26 +0200"
+    },
+    "done": true
+  },
+  "exclusive_weapons:recipes/tools/super_iron_hoe": {
+    "criteria": {
+      "has_item": "2026-07-09 02:19:33 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/beetroot_soup": {
+    "criteria": {
+      "has_beetroot": "2026-07-09 02:56:26 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/cabbage_rolls": {
+    "criteria": {
+      "has_any_ingredient": "2026-07-09 02:56:27 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/building_blocks/beetroot_crate": {
+    "criteria": {
+      "has_beetroot": "2026-07-09 02:56:26 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/building_blocks/cabbage_crate": {
+    "criteria": {
+      "has_cabbage": "2026-07-09 02:56:27 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/roast_chicken_block": {
+    "criteria": {
+      "has_cooked_chicken": "2026-07-09 02:53:48 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_beetroot": {
+    "criteria": {
+      "has_beetroot": "2026-07-09 02:56:26 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/chicken_sandwich": {
+    "criteria": {
+      "has_cooked_chicken": "2026-07-09 02:53:48 +0200"
     },
     "done": true
   },
