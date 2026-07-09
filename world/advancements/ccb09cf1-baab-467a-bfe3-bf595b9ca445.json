@@ -13249,5 +13249,65 @@
     },
     "done": true
   },
+  "exclusive_weapons:recipes/combat/super_diamond_helmet": {
+    "criteria": {
+      "has_item": "2026-07-09 01:33:57 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/materials/copper_ingot": {
+    "criteria": {
+      "has_item": "2026-07-09 01:27:34 +0200"
+    },
+    "done": true
+  },
+  "exclusive_weapons:recipes/tools/super_diamond_shovel": {
+    "criteria": {
+      "has_item": "2026-07-09 01:52:01 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/steak_and_potatoes": {
+    "criteria": {
+      "has_baked_potato": "2026-07-09 01:46:40 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/blasting/copper_ingot_from_crushed": {
+    "criteria": {
+      "has_item": "2026-07-09 01:26:26 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/materials/experience_nugget_from_block": {
+    "criteria": {
+      "has_item": "2026-07-09 01:26:21 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/materials/experience_block": {
+    "criteria": {
+      "has_item": "2026-07-09 01:26:21 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2026-07-09 01:40:54 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/smelting/copper_ingot_from_crushed": {
+    "criteria": {
+      "has_item": "2026-07-09 01:26:26 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/stuffed_potato": {
+    "criteria": {
+      "has_baked_potato": "2026-07-09 01:46:40 +0200"
+    },
+    "done": true
+  },
   "DataVersion": 3955
 }

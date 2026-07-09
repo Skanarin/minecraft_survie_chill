@@ -33,14 +33,18 @@
     "criteria": {
       "spider_nest": "2026-07-01 17:33:16 +0200",
       "woodland": "2026-06-29 17:13:43 +0200",
+      "dryland": "2026-07-09 00:28:27 +0200",
+      "wasteland": "2026-07-09 00:27:25 +0200",
       "shrubland": "2026-06-29 21:46:53 +0200",
       "rocky_shrubland": "2026-06-29 21:47:08 +0200",
       "lush_desert": "2026-07-02 22:50:26 +0200",
       "redwood_forest": "2026-06-29 17:00:04 +0200",
       "scrubland": "2026-07-02 22:45:08 +0200",
       "visceral_heap": "2026-07-02 14:52:40 +0200",
+      "aspen_glade": "2026-07-09 01:08:06 +0200",
       "dune_beach": "2026-06-27 20:46:21 +0200",
       "floodplain": "2026-06-29 18:29:39 +0200",
+      "lush_savanna": "2026-07-09 00:39:56 +0200",
       "seasonal_forest": "2026-07-02 21:55:02 +0200",
       "highland": "2026-07-02 22:01:45 +0200",
       "jacaranda_glade": "2026-06-29 21:59:02 +0200",
@@ -54,10 +58,15 @@
       "old_growth_woodland": "2026-06-29 17:43:57 +0200",
       "maple_woods": "2026-07-02 21:56:02 +0200",
       "crystalline_chasm": "2026-07-02 14:23:45 +0200",
+      "fir_clearing": "2026-07-08 23:31:39 +0200",
+      "pumpkin_patch": "2026-07-09 00:07:11 +0200",
       "prairie": "2026-06-27 20:20:12 +0200",
       "grassland": "2026-06-29 21:47:13 +0200",
+      "snowy_fir_clearing": "2026-07-09 01:05:42 +0200",
       "withered_abyss": "2026-07-02 14:54:37 +0200",
+      "gravel_beach": "2026-07-09 00:13:46 +0200",
       "orchard": "2026-06-29 17:00:32 +0200",
+      "field": "2026-07-08 23:42:57 +0200",
       "undergrowth": "2026-07-02 14:22:47 +0200",
       "overgrown_greens": "2026-06-29 21:46:35 +0200",
       "mediterranean_forest": "2026-06-29 17:04:34 +0200",
@@ -75,6 +84,9 @@
       "minecraft:taiga": "2026-07-02 22:36:24 +0200",
       "minecraft:deep_ocean": "2026-06-30 00:05:25 +0200",
       "minecraft:deep_cold_ocean": "2026-07-01 17:24:51 +0200",
+      "minecraft:eroded_badlands": "2026-07-09 00:50:24 +0200",
+      "minecraft:desert": "2026-07-09 00:26:58 +0200",
+      "minecraft:frozen_river": "2026-07-09 01:07:13 +0200",
       "minecraft:windswept_forest": "2026-06-29 23:40:38 +0200",
       "minecraft:ocean": "2026-06-27 20:48:06 +0200",
       "minecraft:jungle": "2026-06-29 21:26:42 +0200",
@@ -95,7 +107,9 @@
       "minecraft:river": "2026-06-27 20:47:23 +0200",
       "minecraft:lukewarm_ocean": "2026-06-29 18:36:21 +0200",
       "minecraft:stony_shore": "2026-06-29 16:59:57 +0200",
+      "minecraft:snowy_plains": "2026-07-09 01:07:15 +0200",
       "minecraft:dripstone_caves": "2026-07-07 18:22:22 +0200",
+      "minecraft:snowy_taiga": "2026-07-09 01:05:01 +0200",
       "minecraft:old_growth_birch_forest": "2026-07-02 15:35:35 +0200",
       "minecraft:deep_dark": "2026-07-01 17:48:30 +0200",
       "minecraft:swamp": "2026-06-29 23:34:47 +0200",
@@ -3334,6 +3348,7 @@
     "criteria": {
       "bread": "2026-06-27 20:26:42 +0200",
       "golden_apple": "2026-07-02 12:36:04 +0200",
+      "honey_bottle": "2026-07-09 01:32:09 +0200",
       "suspicious_stew": "2026-06-27 20:50:39 +0200",
       "enchanted_golden_apple": "2026-07-02 23:52:53 +0200",
       "cooked_mutton": "2026-06-27 20:44:28 +0200",
@@ -4422,6 +4437,7 @@
       "minecraft:pillager": "2026-06-28 15:00:50 +0200",
       "minecraft:blaze": "2026-07-02 14:32:52 +0200",
       "minecraft:skeleton": "2026-06-27 20:43:28 +0200",
+      "minecraft:elder_guardian": "2026-07-09 00:17:11 +0200",
       "minecraft:ravager": "2026-07-02 22:11:23 +0200",
       "minecraft:ghast": "2026-07-02 14:08:08 +0200",
       "minecraft:hoglin": "2026-07-02 14:30:08 +0200",
@@ -15291,6 +15307,36 @@
     },
     "done": true
   },
+  "waystones:recipes/decorations/dormant_shard": {
+    "criteria": {
+      "has_warp_dust": "2026-07-08 17:28:59 +0200"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/warp_plate": {
+    "criteria": {
+      "has_warp_dust": "2026-07-08 17:28:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/obtain_netherite_hoe": {
+    "criteria": {
+      "netherite_hoe": "2026-07-08 18:19:24 +0200"
+    },
+    "done": true
+  },
+  "exclusive_weapons:recipes/tools/super_netherite_hoe": {
+    "criteria": {
+      "has_item": "2026-07-08 18:19:24 +0200"
+    },
+    "done": true
+  },
+  "exclusive_weapons:recipes/tools/super_netherite_axe": {
+    "criteria": {
+      "has_item": "2026-07-08 18:28:12 +0200"
+    },
+    "done": true
+  },
   "exclusive_weapons:recipes/tools/super_netherite_shovel": {
     "criteria": {
       "has_item": "2026-07-08 18:28:14 +0200"
@@ -15303,45 +15349,9 @@
     },
     "done": true
   },
-  "exclusive_weapons:recipes/tools/super_netherite_axe": {
-    "criteria": {
-      "has_item": "2026-07-08 18:28:12 +0200"
-    },
-    "done": true
-  },
-  "waystones:recipes/decorations/dormant_shard": {
-    "criteria": {
-      "has_warp_dust": "2026-07-08 17:28:59 +0200"
-    },
-    "done": true
-  },
-  "advancednetherite:recipes/misc/netherite_emerald_leggings_smithing": {
-    "criteria": {
-      "has_ingredients": "2026-07-08 18:30:30 +0200"
-    },
-    "done": true
-  },
   "advancednetherite:recipes/misc/netherite_iron_axe_smithing": {
     "criteria": {
       "has_ingredients": "2026-07-08 18:28:46 +0200"
-    },
-    "done": true
-  },
-  "advancednetherite:recipes/misc/netherite_emerald_axe_smithing": {
-    "criteria": {
-      "has_ingredients": "2026-07-08 18:30:30 +0200"
-    },
-    "done": true
-  },
-  "advancednetherite:recipes/misc/netherite_emerald_sword_smithing": {
-    "criteria": {
-      "has_ingredients": "2026-07-08 18:30:30 +0200"
-    },
-    "done": true
-  },
-  "advancednetherite:recipes/building_blocks/netherite_emerald_block": {
-    "criteria": {
-      "has_advancednetherite:netherite_emerald_ingot": "2026-07-08 18:30:30 +0200"
     },
     "done": true
   },
@@ -15351,21 +15361,9 @@
     },
     "done": true
   },
-  "waystones:recipes/decorations/warp_plate": {
-    "criteria": {
-      "has_warp_dust": "2026-07-08 17:28:59 +0200"
-    },
-    "done": true
-  },
   "advancednetherite:recipes/misc/netherite_iron_sword_smithing": {
     "criteria": {
       "has_ingredients": "2026-07-08 18:28:46 +0200"
-    },
-    "done": true
-  },
-  "advancednetherite:recipes/misc/netherite_emerald_helmet_smithing": {
-    "criteria": {
-      "has_ingredients": "2026-07-08 18:30:30 +0200"
     },
     "done": true
   },
@@ -15378,42 +15376,6 @@
   "advancednetherite:recipes/misc/netherite_iron_boots_smithing": {
     "criteria": {
       "has_ingredients": "2026-07-08 18:28:46 +0200"
-    },
-    "done": true
-  },
-  "advancednetherite:recipes/misc/netherite_emerald_pickaxe_smithing": {
-    "criteria": {
-      "has_ingredients": "2026-07-08 18:30:30 +0200"
-    },
-    "done": true
-  },
-  "minecraft:husbandry/obtain_netherite_hoe": {
-    "criteria": {
-      "netherite_hoe": "2026-07-08 18:19:24 +0200"
-    },
-    "done": true
-  },
-  "advancednetherite:recipes/misc/netherite_emerald_shovel_smithing": {
-    "criteria": {
-      "has_ingredients": "2026-07-08 18:30:30 +0200"
-    },
-    "done": true
-  },
-  "advancednetherite:recipes/misc/netherite_emerald_chestplate_smithing": {
-    "criteria": {
-      "has_ingredients": "2026-07-08 18:30:30 +0200"
-    },
-    "done": true
-  },
-  "advancednetherite:recipes/misc/netherite_emerald_boots_smithing": {
-    "criteria": {
-      "has_ingredients": "2026-07-08 18:30:30 +0200"
-    },
-    "done": true
-  },
-  "exclusive_weapons:recipes/tools/super_netherite_hoe": {
-    "criteria": {
-      "has_item": "2026-07-08 18:19:24 +0200"
     },
     "done": true
   },
@@ -15441,15 +15403,309 @@
     },
     "done": true
   },
+  "advancednetherite:recipes/misc/netherite_iron_chestplate_smithing": {
+    "criteria": {
+      "has_ingredients": "2026-07-08 18:28:46 +0200"
+    },
+    "done": true
+  },
+  "advancednetherite:recipes/misc/netherite_emerald_leggings_smithing": {
+    "criteria": {
+      "has_ingredients": "2026-07-08 18:30:30 +0200"
+    },
+    "done": true
+  },
+  "advancednetherite:recipes/misc/netherite_emerald_axe_smithing": {
+    "criteria": {
+      "has_ingredients": "2026-07-08 18:30:30 +0200"
+    },
+    "done": true
+  },
+  "advancednetherite:recipes/misc/netherite_emerald_sword_smithing": {
+    "criteria": {
+      "has_ingredients": "2026-07-08 18:30:30 +0200"
+    },
+    "done": true
+  },
+  "advancednetherite:recipes/building_blocks/netherite_emerald_block": {
+    "criteria": {
+      "has_advancednetherite:netherite_emerald_ingot": "2026-07-08 18:30:30 +0200"
+    },
+    "done": true
+  },
+  "advancednetherite:recipes/misc/netherite_emerald_helmet_smithing": {
+    "criteria": {
+      "has_ingredients": "2026-07-08 18:30:30 +0200"
+    },
+    "done": true
+  },
+  "advancednetherite:recipes/misc/netherite_emerald_pickaxe_smithing": {
+    "criteria": {
+      "has_ingredients": "2026-07-08 18:30:30 +0200"
+    },
+    "done": true
+  },
+  "advancednetherite:recipes/misc/netherite_emerald_shovel_smithing": {
+    "criteria": {
+      "has_ingredients": "2026-07-08 18:30:30 +0200"
+    },
+    "done": true
+  },
+  "advancednetherite:recipes/misc/netherite_emerald_chestplate_smithing": {
+    "criteria": {
+      "has_ingredients": "2026-07-08 18:30:30 +0200"
+    },
+    "done": true
+  },
+  "advancednetherite:recipes/misc/netherite_emerald_boots_smithing": {
+    "criteria": {
+      "has_ingredients": "2026-07-08 18:30:30 +0200"
+    },
+    "done": true
+  },
   "advancednetherite:recipes/misc/netherite_emerald_hoe_smithing": {
     "criteria": {
       "has_ingredients": "2026-07-08 18:30:30 +0200"
     },
     "done": true
   },
-  "advancednetherite:recipes/misc/netherite_iron_chestplate_smithing": {
+  "new_slab_variants:recipes/building_blocks/redstone_block_slab": {
     "criteria": {
-      "has_ingredients": "2026-07-08 18:28:46 +0200"
+      "has_redstone_block": "2026-07-09 00:29:05 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/silence_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2026-07-08 23:50:31 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/calcite_pillar_trim": {
+    "criteria": {
+      "has_calcite_pillar_trim": "2026-07-09 00:47:50 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_calcite_stairs_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2026-07-09 00:47:50 +0200"
+    },
+    "done": true
+  },
+  "super_ore_block:recipes/building_blocks/super_redstone_block": {
+    "criteria": {
+      "has_item": "2026-07-09 00:29:05 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_calcite_brick_stairs_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2026-07-09 00:47:50 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/misc/block_pocket_manager": {
+    "criteria": {
+      "has_redstone_block": "2026-07-09 00:29:05 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/silence_armor_trim_smithing_template": {
+    "criteria": {
+      "has_silence_armor_trim_smithing_template": "2026-07-08 23:50:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/ward_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2026-07-08 23:40:22 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/calcite_pillar_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2026-07-09 00:47:50 +0200"
+    },
+    "done": true
+  },
+  "sereneseasons:recipes/tools/calendar": {
+    "criteria": {
+      "has_clock": "2026-07-09 00:53:46 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_calcite_slab_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2026-07-09 00:47:50 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sugar_from_honey_bottle": {
+    "criteria": {
+      "has_honey_bottle": "2026-07-09 01:32:03 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/honey_block": {
+    "criteria": {
+      "has_honey_bottle": "2026-07-09 01:32:03 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone": {
+    "criteria": {
+      "has_redstone_block": "2026-07-09 00:29:05 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coast_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2026-07-09 00:16:00 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_calcite_slab_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2026-07-09 00:47:50 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_calcite_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2026-07-09 00:47:50 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_calcite_stairs_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2026-07-09 00:47:50 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_calcite_bricks_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2026-07-09 00:47:50 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_calcite_brick_wall_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2026-07-09 00:47:50 +0200"
+    },
+    "done": true
+  },
+  "mynethersdelight:recipes/building_blocks/crafting/zoglin_trophy": {
+    "criteria": {
+      "has_hoglin_trophy": "2026-07-09 01:57:36 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_calcite_brick_wall_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2026-07-09 00:47:50 +0200"
+    },
+    "done": true
+  },
+  "mynethersdelight:recipes/building_blocks/crafting/waxed_hoglin_trophy": {
+    "criteria": {
+      "has_hoglin_trophy": "2026-07-09 01:57:36 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_calcite_bricks_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2026-07-09 00:47:50 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/spyglass_at_ghast": {
+    "criteria": {
+      "spyglass_at_ghast": "2026-07-09 01:41:26 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/layered_calcite_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2026-07-09 00:47:50 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coast_armor_trim_smithing_template": {
+    "criteria": {
+      "has_coast_armor_trim_smithing_template": "2026-07-09 00:16:00 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_calcite_wall_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2026-07-09 00:47:50 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/ward_armor_trim_smithing_template": {
+    "criteria": {
+      "has_ward_armor_trim_smithing_template": "2026-07-08 23:40:22 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_calcite_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2026-07-09 00:47:50 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_calcite_brick_slab_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2026-07-09 00:47:50 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/honey_cookie": {
+    "criteria": {
+      "has_honey_bottle": "2026-07-09 01:32:03 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/calcite_slab": {
+    "criteria": {
+      "has_calcite": "2026-07-09 00:47:50 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_calcite_brick_slab_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2026-07-09 00:47:50 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_calcite_wall_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2026-07-09 00:47:50 +0200"
+    },
+    "done": true
+  },
+  "mynethersdelight:recipes/building_blocks/crafting/hoglin_trophy_cure": {
+    "criteria": {
+      "has_zoglin_trophy": "2026-07-09 02:00:49 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/calcite_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2026-07-09 00:47:50 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_calcite_brick_stairs_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2026-07-09 00:47:50 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/calcite_corner_trim": {
+    "criteria": {
+      "has_calcite_corner_trim": "2026-07-09 00:47:50 +0200"
     },
     "done": true
   },

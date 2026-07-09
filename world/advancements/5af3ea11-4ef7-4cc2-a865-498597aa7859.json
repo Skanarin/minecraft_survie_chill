@@ -54,6 +54,7 @@
       "pumpkin_patch": "2026-07-07 16:11:10 +0200",
       "prairie": "2026-06-27 19:58:44 +0200",
       "grassland": "2026-07-02 21:47:24 +0200",
+      "snowy_fir_clearing": "2026-07-09 01:23:29 +0200",
       "withered_abyss": "2026-07-02 13:28:26 +0200",
       "gravel_beach": "2026-07-02 23:05:20 +0200",
       "glowing_grotto": "2026-07-02 22:01:02 +0200",
@@ -18101,18 +18102,6 @@
     },
     "done": true
   },
-  "advancednetherite:husbandry/obtain_netherite_diamond_hoe": {
-    "criteria": {
-      "netherite_diamond_hoe": "2026-07-08 16:51:08 +0200"
-    },
-    "done": true
-  },
-  "exclusive_weapons:recipes/combat/super_gold_leggings": {
-    "criteria": {
-      "has_item": "2026-07-08 18:00:53 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/deepslate_tile_wall": {
     "criteria": {
       "has_deepslate_tiles": "2026-07-08 16:31:18 +0200"
@@ -18170,6 +18159,48 @@
   "minecraft:recipes/building_blocks/deepslate_tile_stairs": {
     "criteria": {
       "has_deepslate_tiles": "2026-07-08 16:31:18 +0200"
+    },
+    "done": true
+  },
+  "advancednetherite:husbandry/obtain_netherite_diamond_hoe": {
+    "criteria": {
+      "netherite_diamond_hoe": "2026-07-08 16:51:08 +0200"
+    },
+    "done": true
+  },
+  "exclusive_weapons:recipes/combat/super_gold_leggings": {
+    "criteria": {
+      "has_item": "2026-07-08 18:00:53 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/ice_slab": {
+    "criteria": {
+      "has_ice": "2026-07-09 01:26:03 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/packed_ice": {
+    "criteria": {
+      "has_ice": "2026-07-09 01:26:03 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/warped_nylium_slab": {
+    "criteria": {
+      "has_warped_nylium": "2026-07-09 01:46:04 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/packed_ice_slab": {
+    "criteria": {
+      "has_packed_ice": "2026-07-09 01:47:27 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blue_ice": {
+    "criteria": {
+      "has_packed_ice": "2026-07-09 01:47:27 +0200"
     },
     "done": true
   },
