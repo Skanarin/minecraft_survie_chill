@@ -4447,6 +4447,7 @@
       "minecraft:spider": "2026-06-27 23:11:41 +0200",
       "minecraft:piglin_brute": "2026-06-30 20:34:48 +0200",
       "minecraft:creeper": "2026-06-27 20:53:13 +0200",
+      "minecraft:wither": "2026-07-09 19:14:36 +0200",
       "minecraft:evoker": "2026-07-02 22:24:25 +0200",
       "minecraft:slime": "2026-07-07 18:54:20 +0200",
       "minecraft:phantom": "2026-07-02 13:20:00 +0200",
@@ -11913,9 +11914,10 @@
       "minecraft:crimson_forest": "2026-06-30 20:41:22 +0200",
       "minecraft:nether_wastes": "2026-06-30 20:21:44 +0200",
       "minecraft:soul_sand_valley": "2026-07-02 15:21:14 +0200",
-      "minecraft:warped_forest": "2026-07-02 15:19:33 +0200"
+      "minecraft:warped_forest": "2026-07-02 15:19:33 +0200",
+      "minecraft:basalt_deltas": "2026-07-09 17:52:35 +0200"
     },
-    "done": false
+    "done": true
   },
   "new_slab_variants:recipes/building_blocks/netherrack_slab": {
     "criteria": {
@@ -15469,15 +15471,63 @@
     },
     "done": true
   },
-  "new_slab_variants:recipes/building_blocks/redstone_block_slab": {
+  "minecraft:recipes/misc/ward_armor_trim_smithing_template_smithing_trim": {
     "criteria": {
-      "has_redstone_block": "2026-07-09 00:29:05 +0200"
+      "has_smithing_trim_template": "2026-07-08 23:40:22 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/ward_armor_trim_smithing_template": {
+    "criteria": {
+      "has_ward_armor_trim_smithing_template": "2026-07-08 23:40:22 +0200"
     },
     "done": true
   },
   "minecraft:recipes/misc/silence_armor_trim_smithing_template_smithing_trim": {
     "criteria": {
       "has_smithing_trim_template": "2026-07-08 23:50:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/silence_armor_trim_smithing_template": {
+    "criteria": {
+      "has_silence_armor_trim_smithing_template": "2026-07-08 23:50:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coast_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2026-07-09 00:16:00 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coast_armor_trim_smithing_template": {
+    "criteria": {
+      "has_coast_armor_trim_smithing_template": "2026-07-09 00:16:00 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/redstone_block_slab": {
+    "criteria": {
+      "has_redstone_block": "2026-07-09 00:29:05 +0200"
+    },
+    "done": true
+  },
+  "super_ore_block:recipes/building_blocks/super_redstone_block": {
+    "criteria": {
+      "has_item": "2026-07-09 00:29:05 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/misc/block_pocket_manager": {
+    "criteria": {
+      "has_redstone_block": "2026-07-09 00:29:05 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone": {
+    "criteria": {
+      "has_redstone_block": "2026-07-09 00:29:05 +0200"
     },
     "done": true
   },
@@ -15493,33 +15543,9 @@
     },
     "done": true
   },
-  "super_ore_block:recipes/building_blocks/super_redstone_block": {
-    "criteria": {
-      "has_item": "2026-07-09 00:29:05 +0200"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/small_calcite_brick_stairs_from_stone_types_calcite_stonecutting": {
     "criteria": {
       "has_stone_types_calcite": "2026-07-09 00:47:50 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/misc/block_pocket_manager": {
-    "criteria": {
-      "has_redstone_block": "2026-07-09 00:29:05 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/silence_armor_trim_smithing_template": {
-    "criteria": {
-      "has_silence_armor_trim_smithing_template": "2026-07-08 23:50:31 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/ward_armor_trim_smithing_template_smithing_trim": {
-    "criteria": {
-      "has_smithing_trim_template": "2026-07-08 23:40:22 +0200"
     },
     "done": true
   },
@@ -15529,39 +15555,9 @@
     },
     "done": true
   },
-  "sereneseasons:recipes/tools/calendar": {
-    "criteria": {
-      "has_clock": "2026-07-09 00:53:46 +0200"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/cut_calcite_slab_from_stone_types_calcite_stonecutting": {
     "criteria": {
       "has_stone_types_calcite": "2026-07-09 00:47:50 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/sugar_from_honey_bottle": {
-    "criteria": {
-      "has_honey_bottle": "2026-07-09 01:32:03 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/honey_block": {
-    "criteria": {
-      "has_honey_bottle": "2026-07-09 01:32:03 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/redstone": {
-    "criteria": {
-      "has_redstone_block": "2026-07-09 00:29:05 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/coast_armor_trim_smithing_template_smithing_trim": {
-    "criteria": {
-      "has_smithing_trim_template": "2026-07-09 00:16:00 +0200"
     },
     "done": true
   },
@@ -15595,21 +15591,9 @@
     },
     "done": true
   },
-  "mynethersdelight:recipes/building_blocks/crafting/zoglin_trophy": {
-    "criteria": {
-      "has_hoglin_trophy": "2026-07-09 01:57:36 +0200"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/small_calcite_brick_wall_from_stone_types_calcite_stonecutting": {
     "criteria": {
       "has_stone_types_calcite": "2026-07-09 00:47:50 +0200"
-    },
-    "done": true
-  },
-  "mynethersdelight:recipes/building_blocks/crafting/waxed_hoglin_trophy": {
-    "criteria": {
-      "has_hoglin_trophy": "2026-07-09 01:57:36 +0200"
     },
     "done": true
   },
@@ -15619,33 +15603,15 @@
     },
     "done": true
   },
-  "minecraft:adventure/spyglass_at_ghast": {
-    "criteria": {
-      "spyglass_at_ghast": "2026-07-09 01:41:26 +0200"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/layered_calcite_from_stone_types_calcite_stonecutting": {
     "criteria": {
       "has_stone_types_calcite": "2026-07-09 00:47:50 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/misc/coast_armor_trim_smithing_template": {
-    "criteria": {
-      "has_coast_armor_trim_smithing_template": "2026-07-09 00:16:00 +0200"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/cut_calcite_wall_from_stone_types_calcite_stonecutting": {
     "criteria": {
       "has_stone_types_calcite": "2026-07-09 00:47:50 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/ward_armor_trim_smithing_template": {
-    "criteria": {
-      "has_ward_armor_trim_smithing_template": "2026-07-08 23:40:22 +0200"
     },
     "done": true
   },
@@ -15658,12 +15624,6 @@
   "create:recipes/building_blocks/small_calcite_brick_slab_from_stone_types_calcite_stonecutting": {
     "criteria": {
       "has_stone_types_calcite": "2026-07-09 00:47:50 +0200"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/honey_cookie": {
-    "criteria": {
-      "has_honey_bottle": "2026-07-09 01:32:03 +0200"
     },
     "done": true
   },
@@ -15685,12 +15645,6 @@
     },
     "done": true
   },
-  "mynethersdelight:recipes/building_blocks/crafting/hoglin_trophy_cure": {
-    "criteria": {
-      "has_zoglin_trophy": "2026-07-09 02:00:49 +0200"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/calcite_from_stone_types_calcite_stonecutting": {
     "criteria": {
       "has_stone_types_calcite": "2026-07-09 00:47:50 +0200"
@@ -15706,6 +15660,276 @@
   "handcrafted:recipes/misc/calcite_corner_trim": {
     "criteria": {
       "has_calcite_corner_trim": "2026-07-09 00:47:50 +0200"
+    },
+    "done": true
+  },
+  "sereneseasons:recipes/tools/calendar": {
+    "criteria": {
+      "has_clock": "2026-07-09 00:53:46 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sugar_from_honey_bottle": {
+    "criteria": {
+      "has_honey_bottle": "2026-07-09 01:32:03 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/honey_block": {
+    "criteria": {
+      "has_honey_bottle": "2026-07-09 01:32:03 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/honey_cookie": {
+    "criteria": {
+      "has_honey_bottle": "2026-07-09 01:32:03 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/spyglass_at_ghast": {
+    "criteria": {
+      "spyglass_at_ghast": "2026-07-09 01:41:26 +0200"
+    },
+    "done": true
+  },
+  "mynethersdelight:recipes/building_blocks/crafting/zoglin_trophy": {
+    "criteria": {
+      "has_hoglin_trophy": "2026-07-09 01:57:36 +0200"
+    },
+    "done": true
+  },
+  "mynethersdelight:recipes/building_blocks/crafting/waxed_hoglin_trophy": {
+    "criteria": {
+      "has_hoglin_trophy": "2026-07-09 01:57:36 +0200"
+    },
+    "done": true
+  },
+  "mynethersdelight:recipes/building_blocks/crafting/hoglin_trophy_cure": {
+    "criteria": {
+      "has_zoglin_trophy": "2026-07-09 02:00:49 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/snout_armor_trim_smithing_template": {
+    "criteria": {
+      "has_snout_armor_trim_smithing_template": "2026-07-09 12:50:28 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/snout_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2026-07-09 12:50:28 +0200"
+    },
+    "done": true
+  },
+  "irons_spellbooks:irons_spellbooks/make_wayward_compass": {
+    "criteria": {
+      "inscription_table": "2026-07-09 13:13:15 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_scorchia_from_stone_types_scorchia_stonecutting": {
+    "criteria": {
+      "has_stone_types_scorchia": "2026-07-09 17:49:50 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_crystal": {
+    "criteria": {
+      "has_ender_eye": "2026-07-09 19:16:36 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_scorchia_stairs_from_stone_types_scorchia_stonecutting": {
+    "criteria": {
+      "has_stone_types_scorchia": "2026-07-09 17:49:50 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/wolf_armor": {
+    "criteria": {
+      "has_armadillo_scute": "2026-07-09 19:11:03 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/misc/protecto": {
+    "criteria": {
+      "has_ender_eye": "2026-07-09 19:16:36 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold": "2026-07-09 19:25:59 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/tools/codebreaker": {
+    "criteria": {
+      "has_nether_star": "2026-07-09 19:14:47 +0200"
+    },
+    "done": true
+  },
+  "minecraft:nether/summon_wither": {
+    "criteria": {
+      "summoned": "2026-07-09 19:14:03 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_scorchia_bricks_from_stone_types_scorchia_stonecutting": {
+    "criteria": {
+      "has_stone_types_scorchia": "2026-07-09 17:49:50 +0200"
+    },
+    "done": true
+  },
+  "irons_spellbooks:irons_spellbooks/enter_catacombs": {
+    "criteria": {
+      "in_catacombs": "2026-07-09 18:20:32 +0200"
+    },
+    "done": true
+  },
+  "exclusive_weapons:recipes/tools/super_gold_pickaxe": {
+    "criteria": {
+      "has_item": "2026-07-09 17:59:37 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/beacon": {
+    "criteria": {
+      "has_nether_star": "2026-07-09 19:14:47 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/scorchia_from_stone_types_scorchia_stonecutting": {
+    "criteria": {
+      "has_stone_types_scorchia": "2026-07-09 17:49:50 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/scaffolding_slab": {
+    "criteria": {
+      "has_scaffolding": "2026-07-09 18:40:03 +0200"
+    },
+    "done": true
+  },
+  "irons_spellbooks:irons_spellbooks/spell_book_rotten": {
+    "criteria": {
+      "requirement": "2026-07-09 18:32:24 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_scorchia_brick_slab_from_stone_types_scorchia_stonecutting": {
+    "criteria": {
+      "has_stone_types_scorchia": "2026-07-09 17:49:50 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_scorchia_stairs_from_stone_types_scorchia_stonecutting": {
+    "criteria": {
+      "has_stone_types_scorchia": "2026-07-09 17:49:50 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_scorchia_wall_from_stone_types_scorchia_stonecutting": {
+    "criteria": {
+      "has_stone_types_scorchia": "2026-07-09 17:49:50 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_scorchia_brick_wall_from_stone_types_scorchia_stonecutting": {
+    "criteria": {
+      "has_stone_types_scorchia": "2026-07-09 17:49:50 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_scorchia_brick_slab_from_stone_types_scorchia_stonecutting": {
+    "criteria": {
+      "has_stone_types_scorchia": "2026-07-09 17:49:50 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_scorchia_brick_stairs_from_stone_types_scorchia_stonecutting": {
+    "criteria": {
+      "has_stone_types_scorchia": "2026-07-09 17:49:50 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_scorchia_slab_from_stone_types_scorchia_stonecutting": {
+    "criteria": {
+      "has_stone_types_scorchia": "2026-07-09 17:49:50 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_scorchia_from_stone_types_scorchia_stonecutting": {
+    "criteria": {
+      "has_stone_types_scorchia": "2026-07-09 17:49:50 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/layered_scorchia_from_stone_types_scorchia_stonecutting": {
+    "criteria": {
+      "has_stone_types_scorchia": "2026-07-09 17:49:50 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_scorchia_brick_wall_from_stone_types_scorchia_stonecutting": {
+    "criteria": {
+      "has_stone_types_scorchia": "2026-07-09 17:49:50 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/scorchia_pillar_from_stone_types_scorchia_stonecutting": {
+    "criteria": {
+      "has_stone_types_scorchia": "2026-07-09 17:49:50 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ender_chest": {
+    "criteria": {
+      "has_ender_eye": "2026-07-09 19:16:36 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_scorchia_slab_from_stone_types_scorchia_stonecutting": {
+    "criteria": {
+      "has_stone_types_scorchia": "2026-07-09 17:49:50 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_scorchia_bricks_from_stone_types_scorchia_stonecutting": {
+    "criteria": {
+      "has_stone_types_scorchia": "2026-07-09 17:49:50 +0200"
+    },
+    "done": true
+  },
+  "exclusive_weapons:recipes/combat/super_gold_helmet": {
+    "criteria": {
+      "has_item": "2026-07-09 17:58:53 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_scorchia_brick_stairs_from_stone_types_scorchia_stonecutting": {
+    "criteria": {
+      "has_stone_types_scorchia": "2026-07-09 17:49:50 +0200"
+    },
+    "done": true
+  },
+  "irons_spellbooks:irons_spellbooks/staff_root": {
+    "criteria": {
+      "requirement": "2026-07-09 18:25:39 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_scorchia_wall_from_stone_types_scorchia_stonecutting": {
+    "criteria": {
+      "has_stone_types_scorchia": "2026-07-09 17:49:50 +0200"
+    },
+    "done": true
+  },
+  "irons_spellbooks:irons_spellbooks/staff_blood_staff": {
+    "criteria": {
+      "requirement": "2026-07-09 18:25:39 +0200"
     },
     "done": true
   },
