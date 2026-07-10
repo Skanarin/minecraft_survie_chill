@@ -25,33 +25,40 @@
   },
   "biomesoplenty:biomesoplenty/all_biomes": {
     "criteria": {
-      "hot_springs": "2026-07-09 02:50:05 +0200",
-      "spider_nest": "2026-07-05 16:02:47 +0200",
       "muskeg": "2026-07-07 16:11:40 +0200",
       "woodland": "2026-07-02 20:48:22 +0200",
-      "dryland": "2026-07-02 20:49:04 +0200",
-      "wasteland": "2026-07-05 15:56:40 +0200",
       "shrubland": "2026-07-02 21:43:37 +0200",
       "snowblossom_grove": "2026-07-07 16:11:59 +0200",
       "rocky_shrubland": "2026-07-02 21:25:15 +0200",
+      "scrubland": "2026-07-02 20:45:12 +0200",
+      "floodplain": "2026-07-09 21:36:56 +0200",
+      "lush_savanna": "2026-07-02 21:03:28 +0200",
+      "jacaranda_glade": "2026-07-02 21:39:01 +0200",
+      "cold_desert": "2026-07-09 02:53:42 +0200",
+      "old_growth_woodland": "2026-07-02 21:09:07 +0200",
+      "maple_woods": "2026-07-07 17:23:27 +0200",
+      "crystalline_chasm": "2026-06-30 17:44:52 +0200",
+      "withered_abyss": "2026-07-02 13:28:26 +0200",
+      "field": "2026-07-02 23:04:51 +0200",
+      "orchard": "2026-07-02 21:25:39 +0200",
+      "overgrown_greens": "2026-07-02 22:40:22 +0200",
+      "mediterranean_forest": "2026-07-05 16:07:28 +0200",
+      "coniferous_forest": "2026-07-02 22:50:48 +0200",
+      "hot_springs": "2026-07-09 02:50:05 +0200",
+      "spider_nest": "2026-07-05 16:02:47 +0200",
+      "dryland": "2026-07-02 20:49:04 +0200",
+      "wasteland": "2026-07-05 15:56:40 +0200",
       "lush_desert": "2026-07-02 20:49:43 +0200",
       "redwood_forest": "2026-07-02 21:26:00 +0200",
-      "scrubland": "2026-07-02 20:45:12 +0200",
       "visceral_heap": "2026-07-02 14:17:57 +0200",
       "wasteland_steppe": "2026-07-05 15:24:42 +0200",
       "aspen_glade": "2026-07-07 17:28:37 +0200",
       "dune_beach": "2026-07-02 21:40:25 +0200",
-      "lush_savanna": "2026-07-02 21:03:28 +0200",
       "seasonal_forest": "2026-06-27 21:38:59 +0200",
-      "jacaranda_glade": "2026-07-02 21:39:01 +0200",
       "pasture": "2026-06-27 20:03:37 +0200",
       "rocky_rainforest": "2026-07-06 02:09:20 +0200",
       "volcanic_plains": "2026-07-02 21:24:31 +0200",
-      "cold_desert": "2026-07-09 02:53:42 +0200",
       "lavender_field": "2026-07-02 21:40:56 +0200",
-      "old_growth_woodland": "2026-07-02 21:09:07 +0200",
-      "maple_woods": "2026-07-07 17:23:27 +0200",
-      "crystalline_chasm": "2026-06-30 17:44:52 +0200",
       "fir_clearing": "2026-07-02 21:38:30 +0200",
       "pumpkin_patch": "2026-07-07 16:11:10 +0200",
       "prairie": "2026-06-27 19:58:44 +0200",
@@ -59,19 +66,13 @@
       "snowy_fir_clearing": "2026-07-09 01:23:29 +0200",
       "snowy_coniferous_forest": "2026-07-09 02:50:22 +0200",
       "tundra": "2026-07-09 02:53:47 +0200",
-      "withered_abyss": "2026-07-02 13:28:26 +0200",
       "gravel_beach": "2026-07-02 23:05:20 +0200",
       "glowing_grotto": "2026-07-02 22:01:02 +0200",
-      "field": "2026-07-02 23:04:51 +0200",
-      "orchard": "2026-07-02 21:25:39 +0200",
       "undergrowth": "2026-07-05 13:18:10 +0200",
       "origin_valley": "2026-07-07 16:24:21 +0200",
-      "overgrown_greens": "2026-07-02 22:40:22 +0200",
-      "mediterranean_forest": "2026-07-05 16:07:28 +0200",
       "rainforest": "2026-07-06 02:04:56 +0200",
       "snowy_maple_woods": "2026-07-07 16:17:29 +0200",
       "crag": "2026-07-07 23:15:41 +0200",
-      "coniferous_forest": "2026-07-02 22:50:48 +0200",
       "ominous_woods": "2026-07-09 02:38:41 +0200"
     },
     "done": false
@@ -90,6 +91,7 @@
       "minecraft:forest": "2026-06-30 22:39:04 +0200",
       "minecraft:taiga": "2026-07-07 16:09:48 +0200",
       "minecraft:deep_ocean": "2026-07-02 22:45:16 +0200",
+      "minecraft:lush_caves": "2026-07-09 22:03:39 +0200",
       "minecraft:deep_cold_ocean": "2026-07-02 22:56:43 +0200",
       "minecraft:frozen_ocean": "2026-07-07 16:18:41 +0200",
       "minecraft:eroded_badlands": "2026-07-05 15:40:55 +0200",
@@ -103,11 +105,15 @@
       "minecraft:birch_forest": "2026-07-02 22:39:58 +0200",
       "minecraft:windswept_hills": "2026-07-07 16:09:36 +0200",
       "minecraft:snowy_beach": "2026-07-09 02:50:02 +0200",
+      "minecraft:wooded_badlands": "2026-07-09 21:58:34 +0200",
+      "minecraft:warm_ocean": "2026-07-09 21:55:54 +0200",
+      "minecraft:deep_lukewarm_ocean": "2026-07-09 21:53:04 +0200",
       "minecraft:badlands": "2026-07-05 15:53:38 +0200",
       "minecraft:flower_forest": "2026-06-27 20:04:58 +0200",
       "minecraft:beach": "2026-06-27 20:18:28 +0200",
       "minecraft:dark_forest": "2026-07-02 22:13:44 +0200",
       "minecraft:river": "2026-06-27 20:50:58 +0200",
+      "minecraft:lukewarm_ocean": "2026-07-09 21:52:58 +0200",
       "minecraft:stony_shore": "2026-06-30 17:33:22 +0200",
       "minecraft:snowy_plains": "2026-07-09 02:54:07 +0200",
       "minecraft:dripstone_caves": "2026-07-02 21:23:07 +0200",
@@ -3187,6 +3193,7 @@
       "baked_potato": "2026-07-05 15:32:59 +0200",
       "porkchop": "2026-07-02 20:35:52 +0200",
       "golden_carrot": "2026-07-06 02:11:55 +0200",
+      "apple": "2026-07-09 22:23:08 +0200",
       "spider_eye": "2026-07-05 16:40:59 +0200",
       "cooked_chicken": "2026-06-27 20:12:16 +0200",
       "enchanted_golden_apple": "2026-07-05 13:37:51 +0200",
@@ -18210,6 +18217,360 @@
   "minecraft:recipes/building_blocks/blue_ice": {
     "criteria": {
       "has_packed_ice": "2026-07-09 01:47:27 +0200"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/black_sharestone": {
+    "criteria": {
+      "has_warp_stone": "2026-07-09 22:04:51 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/umbran_planks": {
+    "criteria": {
+      "has_logs": "2026-07-09 22:08:28 +0200"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/purple_portstone": {
+    "criteria": {
+      "has_warp_stone": "2026-07-09 22:04:51 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_crystal": {
+    "criteria": {
+      "has_ender_eye": "2026-07-09 21:20:05 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/spruce_hedge": {
+    "criteria": {
+      "has_minecraft:spruce_leaves": "2026-07-09 22:08:47 +0200"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/orange_sharestone": {
+    "criteria": {
+      "has_warp_stone": "2026-07-09 22:04:51 +0200"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/yellow_portstone": {
+    "criteria": {
+      "has_warp_stone": "2026-07-09 22:04:51 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/mahogany_wood": {
+    "criteria": {
+      "has_log": "2026-07-09 21:37:02 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/mahogany_planks": {
+    "criteria": {
+      "has_logs": "2026-07-09 21:37:02 +0200"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/deepslate_waystone": {
+    "criteria": {
+      "has_warp_stone": "2026-07-09 22:04:51 +0200"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/green_sharestone": {
+    "criteria": {
+      "has_warp_stone": "2026-07-09 22:04:51 +0200"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/gray_portstone": {
+    "criteria": {
+      "has_warp_stone": "2026-07-09 22:04:51 +0200"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/blue_sharestone": {
+    "criteria": {
+      "has_warp_stone": "2026-07-09 22:04:51 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/misc/protecto": {
+    "criteria": {
+      "has_ender_eye": "2026-07-09 21:20:05 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/fir_wood": {
+    "criteria": {
+      "has_log": "2026-07-09 22:08:28 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold": "2026-07-09 22:04:22 +0200"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/magenta_sharestone": {
+    "criteria": {
+      "has_warp_stone": "2026-07-09 22:04:51 +0200"
+    },
+    "done": true
+  },
+  "mynethersdelight:recipes/cooking/strider_and_grilled_fungus": {
+    "criteria": {
+      "has_any_ingredient": "2026-07-09 21:14:37 +0200"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/black_portstone": {
+    "criteria": {
+      "has_warp_stone": "2026-07-09 22:04:51 +0200"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/lime_portstone": {
+    "criteria": {
+      "has_warp_stone": "2026-07-09 22:04:51 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/misc/red_dye_from_waterlily": {
+    "criteria": {
+      "has_waterlily": "2026-07-09 21:40:22 +0200"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/red_sharestone": {
+    "criteria": {
+      "has_warp_stone": "2026-07-09 22:04:51 +0200"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/cyan_sharestone": {
+    "criteria": {
+      "has_warp_stone": "2026-07-09 22:04:51 +0200"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/gray_sharestone": {
+    "criteria": {
+      "has_warp_stone": "2026-07-09 22:04:51 +0200"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/red_portstone": {
+    "criteria": {
+      "has_warp_stone": "2026-07-09 22:04:51 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/black_sandstone": {
+    "criteria": {
+      "has_black_sand": "2026-07-09 21:41:35 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/dead_planks": {
+    "criteria": {
+      "has_logs": "2026-07-09 22:08:08 +0200"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/blackstone_waystone": {
+    "criteria": {
+      "has_warp_stone": "2026-07-09 22:04:51 +0200"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/pink_portstone": {
+    "criteria": {
+      "has_warp_stone": "2026-07-09 22:04:51 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/slicing/green_dye_from_lily_pad": {
+    "criteria": {
+      "has_lily_pad": "2026-07-09 21:40:42 +0200"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/light_blue_sharestone": {
+    "criteria": {
+      "has_warp_stone": "2026-07-09 22:04:51 +0200"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/brown_portstone": {
+    "criteria": {
+      "has_warp_stone": "2026-07-09 22:04:51 +0200"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/lime_sharestone": {
+    "criteria": {
+      "has_warp_stone": "2026-07-09 22:04:51 +0200"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/blue_portstone": {
+    "criteria": {
+      "has_warp_stone": "2026-07-09 22:04:51 +0200"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/end_stone_waystone": {
+    "criteria": {
+      "has_warp_stone": "2026-07-09 22:04:51 +0200"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/purple_sharestone": {
+    "criteria": {
+      "has_warp_stone": "2026-07-09 22:04:51 +0200"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/light_blue_portstone": {
+    "criteria": {
+      "has_warp_stone": "2026-07-09 22:04:51 +0200"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/orange_portstone": {
+    "criteria": {
+      "has_warp_stone": "2026-07-09 22:04:51 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/fir_planks": {
+    "criteria": {
+      "has_logs": "2026-07-09 22:08:28 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ender_chest": {
+    "criteria": {
+      "has_ender_eye": "2026-07-09 21:20:05 +0200"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/sandy_waystone": {
+    "criteria": {
+      "has_warp_stone": "2026-07-09 22:04:51 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/warped_fungus_on_a_stick": {
+    "criteria": {
+      "has_warped_fungus": "2026-07-09 21:14:37 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/spruce_leaves_slab": {
+    "criteria": {
+      "has_spruce_leaves": "2026-07-09 22:08:47 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/umbran_wood": {
+    "criteria": {
+      "has_log": "2026-07-09 22:08:28 +0200"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/light_gray_sharestone": {
+    "criteria": {
+      "has_warp_stone": "2026-07-09 22:04:51 +0200"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/yellow_sharestone": {
+    "criteria": {
+      "has_warp_stone": "2026-07-09 22:04:51 +0200"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/white_portstone": {
+    "criteria": {
+      "has_warp_stone": "2026-07-09 22:04:51 +0200"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/cyan_portstone": {
+    "criteria": {
+      "has_warp_stone": "2026-07-09 22:04:51 +0200"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/brown_sharestone": {
+    "criteria": {
+      "has_warp_stone": "2026-07-09 22:04:51 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/misc/orange_dye_from_orange_cosmos": {
+    "criteria": {
+      "has_orange_cosmos": "2026-07-09 22:09:01 +0200"
+    },
+    "done": true
+  },
+  "mynethersdelight:recipes/cooking/strider_stew": {
+    "criteria": {
+      "has_any_ingredient": "2026-07-09 21:14:37 +0200"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/mossy_waystone": {
+    "criteria": {
+      "has_warp_stone": "2026-07-09 22:04:51 +0200"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/magenta_portstone": {
+    "criteria": {
+      "has_warp_stone": "2026-07-09 22:04:51 +0200"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/green_portstone": {
+    "criteria": {
+      "has_warp_stone": "2026-07-09 22:04:51 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/dead_wood": {
+    "criteria": {
+      "has_log": "2026-07-09 22:08:08 +0200"
+    },
+    "done": true
+  },
+  "minecraft:nether/fast_travel": {
+    "criteria": {
+      "travelled": "2026-07-09 21:17:47 +0200"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/pink_sharestone": {
+    "criteria": {
+      "has_warp_stone": "2026-07-09 22:04:51 +0200"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/waystone": {
+    "criteria": {
+      "has_warp_stone": "2026-07-09 22:04:51 +0200"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/light_gray_portstone": {
+    "criteria": {
+      "has_warp_stone": "2026-07-09 22:04:51 +0200"
     },
     "done": true
   },
