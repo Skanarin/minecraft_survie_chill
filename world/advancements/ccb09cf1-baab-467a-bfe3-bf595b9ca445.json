@@ -853,6 +853,7 @@
       "minecraft:forest": "2026-06-27 20:33:15 +0200",
       "minecraft:sparse_jungle": "2026-07-06 01:17:24 +0200",
       "minecraft:river": "2026-06-27 20:17:51 +0200",
+      "minecraft:lukewarm_ocean": "2026-07-10 16:42:26 +0200",
       "minecraft:stony_shore": "2026-07-06 01:14:26 +0200",
       "minecraft:dripstone_caves": "2026-07-01 15:07:05 +0200",
       "minecraft:eroded_badlands": "2026-07-05 16:05:54 +0200",
@@ -13363,6 +13364,24 @@
     },
     "done": true
   },
+  "create:deployer": {
+    "criteria": {
+      "0": "2026-07-09 21:53:56 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/decorations/redwood_fence": {
+    "criteria": {
+      "has_the_recipe": "2026-07-09 22:05:57 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/redwood_fence_gate": {
+    "criteria": {
+      "has_the_recipe": "2026-07-09 22:08:47 +0200"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/misc/constructing/black_kitchen_sink": {
     "criteria": {
       "has_minecraft:black_dye": "2026-07-09 22:10:50 +0200"
@@ -13435,12 +13454,6 @@
     },
     "done": true
   },
-  "biomesoplenty:recipes/redstone/redwood_fence_gate": {
-    "criteria": {
-      "has_the_recipe": "2026-07-09 22:08:47 +0200"
-    },
-    "done": true
-  },
   "connectedglass:recipes/misc/clear_glass_black_pane2": {
     "criteria": {
       "recipe_condition2": "2026-07-09 22:10:50 +0200"
@@ -13483,18 +13496,6 @@
     },
     "done": true
   },
-  "create:recipes/misc/crafting/appliances/book": {
-    "criteria": {
-      "has_item": "2026-07-09 22:11:41 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/appliances/cardboard_leggings": {
-    "criteria": {
-      "has_item": "2026-07-09 22:11:41 +0200"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/black_bath": {
     "criteria": {
       "has_minecraft:black_dye": "2026-07-09 22:10:50 +0200"
@@ -13531,12 +13532,6 @@
     },
     "done": true
   },
-  "create:recipes/misc/crafting/appliances/cardboard_sword": {
-    "criteria": {
-      "has_item": "2026-07-09 22:11:41 +0200"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/dark_microwave": {
     "criteria": {
       "has_minecraft:black_dye": "2026-07-09 22:10:50 +0200"
@@ -13561,21 +13556,9 @@
     },
     "done": true
   },
-  "create:recipes/misc/crafting/appliances/cardboard_helmet": {
-    "criteria": {
-      "has_item": "2026-07-09 22:11:41 +0200"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/decorations/dark_range_hood": {
     "criteria": {
       "has_dye": "2026-07-09 22:10:50 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/logistics/package_frogport": {
-    "criteria": {
-      "has_item": "2026-07-09 22:11:41 +0200"
     },
     "done": true
   },
@@ -13588,30 +13571,6 @@
   "comforts:recipes/building_blocks/dye_sleeping_bag_black": {
     "criteria": {
       "has_needed_dye": "2026-07-09 22:10:50 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/logistics/redstone_requester": {
-    "criteria": {
-      "has_item": "2026-07-09 22:11:41 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/appliances/name_tag": {
-    "criteria": {
-      "has_item": "2026-07-09 22:11:41 +0200"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/decorations/redwood_fence": {
-    "criteria": {
-      "has_the_recipe": "2026-07-09 22:05:57 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/appliances/cardboard_chestplate": {
-    "criteria": {
-      "has_item": "2026-07-09 22:11:41 +0200"
     },
     "done": true
   },
@@ -13633,39 +13592,15 @@
     },
     "done": true
   },
-  "create:recipes/misc/crafting/appliances/cardboard_boots": {
-    "criteria": {
-      "has_item": "2026-07-09 22:11:41 +0200"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/decorations/crimson_dark_ceiling_fan": {
     "criteria": {
       "has_dye": "2026-07-09 22:10:50 +0200"
     },
     "done": true
   },
-  "create:recipes/misc/crafting/logistics/packager": {
-    "criteria": {
-      "has_item": "2026-07-09 22:11:41 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/appliances/item_frame": {
-    "criteria": {
-      "has_item": "2026-07-09 22:11:41 +0200"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/cherry_dark_ceiling_fan": {
     "criteria": {
       "has_minecraft:black_dye": "2026-07-09 22:10:50 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/logistics/stock_ticker": {
-    "criteria": {
-      "has_item": "2026-07-09 22:11:41 +0200"
     },
     "done": true
   },
@@ -13699,18 +13634,6 @@
     },
     "done": true
   },
-  "create:recipes/misc/crafting/materials/cardboard_from_bound_block": {
-    "criteria": {
-      "has_item": "2026-07-09 22:11:41 +0200"
-    },
-    "done": true
-  },
-  "sophisticatedbackpacks:recipes/misc/advanced_jukebox_upgrade": {
-    "criteria": {
-      "has_jukebox_upgrade": "2026-07-09 22:19:56 +0200"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/dark_toaster": {
     "criteria": {
       "has_minecraft:black_dye": "2026-07-09 22:10:50 +0200"
@@ -13741,12 +13664,6 @@
     },
     "done": true
   },
-  "create:recipes/misc/crafting/materials/cardboard_from_block": {
-    "criteria": {
-      "has_item": "2026-07-09 22:11:41 +0200"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/decorations/black_lamp_from_dyeing": {
     "criteria": {
       "has_dye": "2026-07-09 22:10:50 +0200"
@@ -13759,27 +13676,9 @@
     },
     "done": true
   },
-  "create:recipes/misc/crafting/materials/bound_cardboard_block": {
-    "criteria": {
-      "has_item": "2026-07-09 22:11:41 +0200"
-    },
-    "done": true
-  },
-  "create:deployer": {
-    "criteria": {
-      "0": "2026-07-09 21:53:56 +0200"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/decorations/black_kitchen_sink_from_dyeing": {
     "criteria": {
       "has_dye": "2026-07-09 22:10:50 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/materials/cardboard_block": {
-    "criteria": {
-      "has_item": "2026-07-09 22:11:41 +0200"
     },
     "done": true
   },
@@ -13813,12 +13712,6 @@
     },
     "done": true
   },
-  "create:cardboard": {
-    "criteria": {
-      "0": "2026-07-09 22:11:41 +0200"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/decorations/jungle_dark_ceiling_fan": {
     "criteria": {
       "has_dye": "2026-07-09 22:10:50 +0200"
@@ -13840,12 +13733,6 @@
   "refurbished_furniture:recipes/misc/constructing/black_basin": {
     "criteria": {
       "has_minecraft:black_dye": "2026-07-09 22:10:50 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/logistics/stock_link": {
-    "criteria": {
-      "has_item": "2026-07-09 22:11:41 +0200"
     },
     "done": true
   },
@@ -13897,18 +13784,6 @@
     },
     "done": true
   },
-  "sophisticatedstorage:recipes/misc/storage_jukebox_upgrade_from_backpack_jukebox_upgrade": {
-    "criteria": {
-      "has_backpack_upgrade": "2026-07-09 22:19:56 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/tools/universal_owner_changer": {
-    "criteria": {
-      "has_name_tag": "2026-07-09 22:11:46 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/black_candle": {
     "criteria": {
       "has_black_dye": "2026-07-09 22:10:50 +0200"
@@ -13918,6 +13793,318 @@
   "minecraft:recipes/building_blocks/dye_black_wool": {
     "criteria": {
       "has_needed_dye": "2026-07-09 22:10:50 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/appliances/book": {
+    "criteria": {
+      "has_item": "2026-07-09 22:11:41 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/appliances/cardboard_leggings": {
+    "criteria": {
+      "has_item": "2026-07-09 22:11:41 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/appliances/cardboard_sword": {
+    "criteria": {
+      "has_item": "2026-07-09 22:11:41 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/appliances/cardboard_helmet": {
+    "criteria": {
+      "has_item": "2026-07-09 22:11:41 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/logistics/package_frogport": {
+    "criteria": {
+      "has_item": "2026-07-09 22:11:41 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/logistics/redstone_requester": {
+    "criteria": {
+      "has_item": "2026-07-09 22:11:41 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/appliances/name_tag": {
+    "criteria": {
+      "has_item": "2026-07-09 22:11:41 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/appliances/cardboard_chestplate": {
+    "criteria": {
+      "has_item": "2026-07-09 22:11:41 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/appliances/cardboard_boots": {
+    "criteria": {
+      "has_item": "2026-07-09 22:11:41 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/logistics/packager": {
+    "criteria": {
+      "has_item": "2026-07-09 22:11:41 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/appliances/item_frame": {
+    "criteria": {
+      "has_item": "2026-07-09 22:11:41 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/logistics/stock_ticker": {
+    "criteria": {
+      "has_item": "2026-07-09 22:11:41 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/materials/cardboard_from_bound_block": {
+    "criteria": {
+      "has_item": "2026-07-09 22:11:41 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/materials/cardboard_from_block": {
+    "criteria": {
+      "has_item": "2026-07-09 22:11:41 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/materials/bound_cardboard_block": {
+    "criteria": {
+      "has_item": "2026-07-09 22:11:41 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/materials/cardboard_block": {
+    "criteria": {
+      "has_item": "2026-07-09 22:11:41 +0200"
+    },
+    "done": true
+  },
+  "create:cardboard": {
+    "criteria": {
+      "0": "2026-07-09 22:11:41 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/logistics/stock_link": {
+    "criteria": {
+      "has_item": "2026-07-09 22:11:41 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/tools/universal_owner_changer": {
+    "criteria": {
+      "has_name_tag": "2026-07-09 22:11:46 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/advanced_jukebox_upgrade": {
+    "criteria": {
+      "has_jukebox_upgrade": "2026-07-09 22:19:56 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/storage_jukebox_upgrade_from_backpack_jukebox_upgrade": {
+    "criteria": {
+      "has_backpack_upgrade": "2026-07-09 22:19:56 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/netherite_backpack": {
+    "criteria": {
+      "has_diamond_backpack": "2026-07-10 16:32:44 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/purple_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2026-07-10 17:11:02 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2026-07-10 17:11:02 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_blue_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2026-07-10 17:11:02 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2026-07-10 17:11:02 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/horizontal_framed_glass_pane_from_glass_panes_colorless_stonecutting": {
+    "criteria": {
+      "has_glass_panes_colorless": "2026-07-10 17:11:02 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2026-07-10 17:11:02 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pink_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2026-07-10 17:11:02 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/framed_glass_pane_from_glass_panes_colorless_stonecutting": {
+    "criteria": {
+      "has_glass_panes_colorless": "2026-07-10 17:11:02 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2026-07-10 17:11:02 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lime_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2026-07-10 17:11:02 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2026-07-10 17:11:02 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/tiled_glass_pane_from_glass_panes_colorless_stonecutting": {
+    "criteria": {
+      "has_glass_panes_colorless": "2026-07-10 17:11:02 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2026-07-10 17:11:02 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2026-07-10 17:11:02 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/vertical_framed_glass_pane_from_glass_panes_colorless_stonecutting": {
+    "criteria": {
+      "has_glass_panes_colorless": "2026-07-10 17:11:02 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2026-07-10 17:11:02 +0200"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/borderless_glass_pane1": {
+    "criteria": {
+      "recipe_condition": "2026-07-10 17:11:02 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/magenta_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2026-07-10 17:11:02 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cyan_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2026-07-10 17:11:02 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_stairs_from_polished_andesite_stonecutting": {
+    "criteria": {
+      "has_polished_andesite": "2026-07-10 17:22:43 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_slab": {
+    "criteria": {
+      "has_polished_andesite": "2026-07-10 17:22:43 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_slab_from_polished_andesite_stonecutting": {
+    "criteria": {
+      "has_polished_andesite": "2026-07-10 17:22:43 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_stairs": {
+    "criteria": {
+      "has_polished_andesite": "2026-07-10 17:22:43 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_stone_brick_wall": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2026-07-10 17:32:27 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_stairs": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2026-07-10 17:32:27 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_slab": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2026-07-10 17:32:27 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_stairs_from_mossy_stone_brick_stonecutting": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2026-07-10 17:32:27 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_slab_from_mossy_stone_brick_stonecutting": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2026-07-10 17:32:27 +0200"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/balustrade_mossy_stone_bricks_bridge": {
+    "criteria": {
+      "has_planks": "2026-07-10 17:32:27 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_stone_brick_wall_from_mossy_stone_brick_stonecutting": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2026-07-10 17:32:27 +0200"
     },
     "done": true
   },
