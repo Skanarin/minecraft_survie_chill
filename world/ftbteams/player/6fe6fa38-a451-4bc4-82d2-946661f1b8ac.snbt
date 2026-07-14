@@ -1,0 +1,19 @@
+{
+	id: "6fe6fa38-a451-4bc4-82d2-946661f1b8ac"
+	type: "player"
+	player_name: "euhvateco"
+	ranks: {
+		6fe6fa38-a451-4bc4-82d2-946661f1b8ac: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "euhvateco"
+		"ftbteams:description": ""
+		"ftbteams:color": "#E459FF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+		"ftbteams:team_stages": [ ]
+		"ftbteams:lives_remaining": 0
+	}
+	message_history: [ ]
+	extra: { }
+}

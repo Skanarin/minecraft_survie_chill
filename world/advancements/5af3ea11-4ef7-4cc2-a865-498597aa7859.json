@@ -4617,6 +4617,7 @@
       "minecraft:witch": "2026-07-05 12:48:52 +0200",
       "minecraft:wither_skeleton": "2026-07-02 13:41:16 +0200",
       "minecraft:husk": "2026-07-05 12:53:36 +0200",
+      "minecraft:shulker": "2026-07-14 19:43:05 +0200",
       "minecraft:cave_spider": "2026-07-06 01:36:19 +0200",
       "minecraft:piglin": "2026-07-02 14:43:16 +0200",
       "minecraft:enderman": "2026-06-27 20:58:08 +0200",
@@ -18954,9 +18955,21 @@
     },
     "done": true
   },
-  "farmersdelight:recipes/cooking/hot_cocoa": {
+  "minecraft:nether/create_beacon": {
     "criteria": {
-      "has_any_ingredient": "2026-07-11 03:36:43 +0200"
+      "beacon": "2026-07-11 02:18:08 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oxidized_chiseled_copper": {
+    "criteria": {
+      "has_oxidized_cut_copper_slab": "2026-07-11 03:33:13 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_oxidized_cut_copper_slab_from_honeycomb": {
+    "criteria": {
+      "has_oxidized_cut_copper_slab": "2026-07-11 03:33:13 +0200"
     },
     "done": true
   },
@@ -18972,33 +18985,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/oxidized_chiseled_copper": {
-    "criteria": {
-      "has_oxidized_cut_copper_slab": "2026-07-11 03:33:13 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/oxidized_cut_copper_slab_from_oxidized_cut_copper_stonecutting": {
     "criteria": {
       "has_oxidized_cut_copper": "2026-07-11 03:34:09 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/waxed_oxidized_cut_copper_slab_from_honeycomb": {
-    "criteria": {
-      "has_oxidized_cut_copper_slab": "2026-07-11 03:33:13 +0200"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/milk_bottle": {
-    "criteria": {
-      "has_milk_bucket": "2026-07-11 03:36:43 +0200"
-    },
-    "done": true
-  },
-  "minecraft:nether/create_beacon": {
-    "criteria": {
-      "beacon": "2026-07-11 02:18:08 +0200"
     },
     "done": true
   },
@@ -19014,15 +19003,129 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/waxed_oxidized_cut_copper_from_honeycomb": {
+    "criteria": {
+      "has_oxidized_cut_copper": "2026-07-11 03:34:09 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/hot_cocoa": {
+    "criteria": {
+      "has_any_ingredient": "2026-07-11 03:36:43 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/milk_bottle": {
+    "criteria": {
+      "has_milk_bucket": "2026-07-11 03:36:43 +0200"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/food/cheese": {
     "criteria": {
       "has_milk": "2026-07-11 03:36:43 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/waxed_oxidized_cut_copper_from_honeycomb": {
+  "minecraft:recipes/building_blocks/waxed_oxidized_cut_copper_stairs_from_waxed_oxidized_copper_stonecutting": {
     "criteria": {
-      "has_oxidized_cut_copper": "2026-07-11 03:34:09 +0200"
+      "has_waxed_oxidized_copper": "2026-07-14 16:26:10 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/waxed_oxidized_copper_slab": {
+    "criteria": {
+      "has_waxed_oxidized_copper": "2026-07-14 16:26:10 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_oxidized_cut_copper_from_waxed_oxidized_copper_stonecutting": {
+    "criteria": {
+      "has_waxed_oxidized_copper": "2026-07-14 16:26:10 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_oxidized_copper_grate": {
+    "criteria": {
+      "has_waxed_oxidized_copper": "2026-07-14 16:26:10 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_oxidized_cut_copper": {
+    "criteria": {
+      "has_waxed_oxidized_copper": "2026-07-14 16:26:10 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_oxidized_cut_copper_slab_from_waxed_oxidized_copper_stonecutting": {
+    "criteria": {
+      "has_waxed_oxidized_copper": "2026-07-14 16:26:10 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/waxed_oxidized_copper_bulb": {
+    "criteria": {
+      "has_waxed_oxidized_copper": "2026-07-14 16:26:10 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_oxidized_chiseled_copper_from_waxed_oxidized_copper_stonecutting": {
+    "criteria": {
+      "has_waxed_oxidized_copper": "2026-07-14 16:26:10 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_oxidized_copper_grate_from_waxed_oxidized_copper_stonecutting": {
+    "criteria": {
+      "has_waxed_oxidized_copper": "2026-07-14 16:26:10 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2026-07-14 16:33:14 +0200"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2026-07-14 16:33:14 +0200"
+    },
+    "done": true
+  },
+  "minecraft:end/dragon_egg": {
+    "criteria": {
+      "dragon_egg": "2026-07-14 16:38:43 +0200"
+    },
+    "done": true
+  },
+  "minecraft:end/enter_end_gateway": {
+    "criteria": {
+      "entered_end_gateway": "2026-07-14 16:39:35 +0200"
+    },
+    "done": true
+  },
+  "nullscape:root": {
+    "criteria": {
+      "nullscape:shadowlands": "2026-07-14 16:40:20 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/spire_armor_trim_smithing_template": {
+    "criteria": {
+      "has_spire_armor_trim_smithing_template": "2026-07-14 19:52:46 +0200"
+    },
+    "done": true
+  },
+  "minecraft:end/find_end_city": {
+    "criteria": {
+      "in_city": "2026-07-14 19:42:33 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/spire_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2026-07-14 19:52:46 +0200"
     },
     "done": true
   },

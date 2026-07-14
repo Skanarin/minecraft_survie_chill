@@ -14865,6 +14865,48 @@
     },
     "done": true
   },
+  "exclusive_weapons:recipes/combat/super_diamond_leggings": {
+    "criteria": {
+      "has_item": "2026-07-10 16:22:28 +0200"
+    },
+    "done": true
+  },
+  "exclusive_weapons:recipes/combat/super_diamond_boots": {
+    "criteria": {
+      "has_item": "2026-07-10 16:22:59 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/combat/crafting/appliances/netherite_backtank_from_netherite": {
+    "criteria": {
+      "has_item": "2026-07-10 16:24:07 +0200"
+    },
+    "done": true
+  },
+  "exclusive_weapons:recipes/combat/super_netherite_chestplate": {
+    "criteria": {
+      "has_item": "2026-07-10 16:24:07 +0200"
+    },
+    "done": true
+  },
+  "exclusive_weapons:recipes/combat/super_netherite_boots": {
+    "criteria": {
+      "has_item": "2026-07-10 16:24:09 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/combat/crafting/appliances/netherite_diving_boots_from_netherite": {
+    "criteria": {
+      "has_item": "2026-07-10 16:24:09 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_polished_blackstone": {
+    "criteria": {
+      "has_polished_blackstone_slab": "2026-07-10 16:36:16 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_andesite_stairs_from_polished_andesite_stonecutting": {
     "criteria": {
       "has_polished_andesite": "2026-07-10 17:18:09 +0200"
@@ -14872,6 +14914,18 @@
     "done": true
   },
   "minecraft:recipes/building_blocks/polished_andesite_slab": {
+    "criteria": {
+      "has_polished_andesite": "2026-07-10 17:18:09 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_slab_from_polished_andesite_stonecutting": {
+    "criteria": {
+      "has_polished_andesite": "2026-07-10 17:18:09 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_stairs": {
     "criteria": {
       "has_polished_andesite": "2026-07-10 17:18:09 +0200"
     },
@@ -14889,51 +14943,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/polished_andesite_slab_from_polished_andesite_stonecutting": {
-    "criteria": {
-      "has_polished_andesite": "2026-07-10 17:18:09 +0200"
-    },
-    "done": true
-  },
-  "exclusive_weapons:recipes/combat/super_netherite_boots": {
-    "criteria": {
-      "has_item": "2026-07-10 16:24:09 +0200"
-    },
-    "done": true
-  },
-  "exclusive_weapons:recipes/combat/super_diamond_boots": {
-    "criteria": {
-      "has_item": "2026-07-10 16:22:59 +0200"
-    },
-    "done": true
-  },
-  "exclusive_weapons:recipes/combat/super_diamond_leggings": {
-    "criteria": {
-      "has_item": "2026-07-10 16:22:28 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/combat/crafting/appliances/netherite_backtank_from_netherite": {
-    "criteria": {
-      "has_item": "2026-07-10 16:24:07 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/chiseled_polished_blackstone": {
-    "criteria": {
-      "has_polished_blackstone_slab": "2026-07-10 16:36:16 +0200"
-    },
-    "done": true
-  },
   "handcrafted:recipes/misc/oven": {
     "criteria": {
       "has_oven": "2026-07-10 17:22:43 +0200"
-    },
-    "done": true
-  },
-  "exclusive_weapons:recipes/combat/super_netherite_chestplate": {
-    "criteria": {
-      "has_item": "2026-07-10 16:24:07 +0200"
     },
     "done": true
   },
@@ -14943,21 +14955,75 @@
     },
     "done": true
   },
-  "create:recipes/combat/crafting/appliances/netherite_diving_boots_from_netherite": {
-    "criteria": {
-      "has_item": "2026-07-10 16:24:09 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_andesite_stairs": {
-    "criteria": {
-      "has_polished_andesite": "2026-07-10 17:18:09 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/flower_pot": {
     "criteria": {
       "has_brick": "2026-07-10 17:22:43 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2026-07-14 16:32:40 +0200"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2026-07-14 16:32:40 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2026-07-14 16:37:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_stone_brick_wall_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2026-07-14 16:37:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_bricks": {
+    "criteria": {
+      "has_end_stone": "2026-07-14 16:37:59 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/end_stone_slab": {
+    "criteria": {
+      "has_end_stone": "2026-07-14 16:37:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_bricks_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2026-07-14 16:37:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:end/dragon_egg": {
+    "criteria": {
+      "dragon_egg": "2026-07-14 16:37:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_stairs_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2026-07-14 16:37:59 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/kitchen_hood": {
+    "criteria": {
+      "has_kitchen_hood": "2026-07-14 17:11:26 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/kitchen_hood_pipe": {
+    "criteria": {
+      "has_kitchen_hood_pipe": "2026-07-14 17:11:26 +0200"
     },
     "done": true
   },

@@ -1,0 +1,19 @@
+{
+	id: "09654a9a-9cce-4f6f-bd71-1d5bbef864bc"
+	type: "player"
+	player_name: "Appalog"
+	ranks: {
+		09654a9a-9cce-4f6f-bd71-1d5bbef864bc: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Appalog"
+		"ftbteams:description": ""
+		"ftbteams:color": "#5966FF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+		"ftbteams:team_stages": [ ]
+		"ftbteams:lives_remaining": 0
+	}
+	message_history: [ ]
+	extra: { }
+}
