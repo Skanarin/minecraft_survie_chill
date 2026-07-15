@@ -106,6 +106,7 @@
       "minecraft:windswept_hills": "2026-07-07 16:09:36 +0200",
       "minecraft:snowy_beach": "2026-07-09 02:50:02 +0200",
       "minecraft:wooded_badlands": "2026-07-09 21:58:34 +0200",
+      "minecraft:windswept_savanna": "2026-07-15 04:51:26 +0200",
       "minecraft:warm_ocean": "2026-07-09 21:55:54 +0200",
       "minecraft:deep_lukewarm_ocean": "2026-07-09 21:53:04 +0200",
       "minecraft:badlands": "2026-07-05 15:53:38 +0200",
@@ -19111,21 +19112,27 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/spire_armor_trim_smithing_template": {
-    "criteria": {
-      "has_spire_armor_trim_smithing_template": "2026-07-14 19:52:46 +0200"
-    },
-    "done": true
-  },
   "minecraft:end/find_end_city": {
     "criteria": {
       "in_city": "2026-07-14 19:42:33 +0200"
     },
     "done": true
   },
+  "minecraft:recipes/misc/spire_armor_trim_smithing_template": {
+    "criteria": {
+      "has_spire_armor_trim_smithing_template": "2026-07-14 19:52:46 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/spire_armor_trim_smithing_template_smithing_trim": {
     "criteria": {
       "has_smithing_trim_template": "2026-07-14 19:52:46 +0200"
+    },
+    "done": true
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2026-07-15 02:42:42 +0200"
     },
     "done": true
   },
