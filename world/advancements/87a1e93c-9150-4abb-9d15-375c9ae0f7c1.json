@@ -673,6 +673,7 @@
       "minecraft:desert": "2026-07-05 16:30:40 +0200",
       "minecraft:deep_dark": "2026-07-05 16:46:30 +0200",
       "minecraft:ocean": "2026-07-02 23:24:07 +0200",
+      "minecraft:jungle": "2026-07-15 21:58:02 +0200",
       "minecraft:sunflower_plains": "2026-07-05 16:00:05 +0200",
       "minecraft:savanna": "2026-07-02 20:42:33 +0200",
       "minecraft:plains": "2026-07-01 14:24:11 +0200"
@@ -15024,6 +15025,18 @@
   "handcrafted:recipes/misc/kitchen_hood_pipe": {
     "criteria": {
       "has_kitchen_hood_pipe": "2026-07-14 17:11:26 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/jungle_hedge": {
+    "criteria": {
+      "has_minecraft:jungle_leaves": "2026-07-15 22:01:48 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/jungle_leaves_slab": {
+    "criteria": {
+      "has_jungle_leaves": "2026-07-15 22:01:48 +0200"
     },
     "done": true
   },

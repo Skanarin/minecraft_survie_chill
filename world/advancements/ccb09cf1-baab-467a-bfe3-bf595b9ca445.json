@@ -856,6 +856,7 @@
       "minecraft:lukewarm_ocean": "2026-07-10 16:42:26 +0200",
       "minecraft:stony_shore": "2026-07-06 01:14:26 +0200",
       "minecraft:dripstone_caves": "2026-07-01 15:07:05 +0200",
+      "minecraft:deep_cold_ocean": "2026-07-15 15:18:17 +0200",
       "minecraft:eroded_badlands": "2026-07-05 16:05:54 +0200",
       "minecraft:desert": "2026-07-05 16:04:34 +0200",
       "minecraft:ocean": "2026-06-27 20:51:40 +0200",
@@ -2898,7 +2899,9 @@
       "minecraft:wither_skeleton": "2026-07-05 12:58:23 +0200",
       "minecraft:hoglin": "2026-07-05 12:31:39 +0200",
       "minecraft:piglin": "2026-07-05 12:32:42 +0200",
+      "minecraft:guardian": "2026-07-15 15:23:03 +0200",
       "minecraft:vindicator": "2026-07-05 16:30:56 +0200",
+      "minecraft:breeze": "2026-07-15 17:02:55 +0200",
       "minecraft:enderman": "2026-07-05 12:58:55 +0200",
       "minecraft:magma_cube": "2026-07-05 12:58:28 +0200",
       "minecraft:endermite": "2026-07-05 16:11:30 +0200",
@@ -14111,6 +14114,570 @@
   "new_slab_variants:recipes/building_blocks/scaffolding_slab": {
     "criteria": {
       "has_scaffolding": "2026-07-14 14:40:13 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_allium": {
+    "criteria": {
+      "has_allium": "2026-07-15 09:56:52 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/slicing/magenta_dye_from_allium": {
+    "criteria": {
+      "has_allium": "2026-07-15 09:56:52 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/skillet": {
+    "criteria": {
+      "has_brick": "2026-07-15 12:31:44 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/decorated_pot_simple": {
+    "criteria": {
+      "has_brick": "2026-07-15 12:31:44 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/oven": {
+    "criteria": {
+      "has_oven": "2026-07-15 12:31:44 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bricks": {
+    "criteria": {
+      "has_brick": "2026-07-15 12:31:44 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/flower_pot": {
+    "criteria": {
+      "has_brick": "2026-07-15 12:31:44 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/cooked_rice": {
+    "criteria": {
+      "has_rice": "2026-07-15 15:17:06 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/building_blocks/rice_bag": {
+    "criteria": {
+      "has_rice": "2026-07-15 15:17:06 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sponge": {
+    "criteria": {
+      "has_wet_sponge": "2026-07-15 15:20:45 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/wet_sponge_slab": {
+    "criteria": {
+      "has_wet_sponge": "2026-07-15 15:20:45 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/sponge_slab": {
+    "criteria": {
+      "has_sponge": "2026-07-15 15:21:17 +0200"
+    },
+    "done": true
+  },
+  "exclusive_weapons:recipes/tools/super_gold_hoe": {
+    "criteria": {
+      "has_item": "2026-07-15 15:21:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_bricks": {
+    "criteria": {
+      "has_prismarine_shard": "2026-07-15 15:23:30 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine": {
+    "criteria": {
+      "has_prismarine_shard": "2026-07-15 15:23:30 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine": {
+    "criteria": {
+      "has_prismarine_shard": "2026-07-15 15:23:30 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/misc/crystal_quartz_item": {
+    "criteria": {
+      "has_prismarine_crystals": "2026-07-15 15:23:58 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sea_lantern": {
+    "criteria": {
+      "has_prismarine_crystals": "2026-07-15 15:23:58 +0200"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/prismarine": {
+    "criteria": {
+      "has_planks": "2026-07-15 15:33:13 +0200"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/prismarine_bricks_bridge_pier": {
+    "criteria": {
+      "has_planks": "2026-07-15 15:33:13 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_brick_slab_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine_brick": "2026-07-15 15:33:13 +0200"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/prismarine_bricks_bridge_stair": {
+    "criteria": {
+      "has_planks": "2026-07-15 15:33:13 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_brick_stairs_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine_brick": "2026-07-15 15:33:13 +0200"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/prismarine_bricks_bridge": {
+    "criteria": {
+      "has_planks": "2026-07-15 15:33:13 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_brick_slab": {
+    "criteria": {
+      "has_prismarine_bricks": "2026-07-15 15:33:13 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_brick_stairs": {
+    "criteria": {
+      "has_prismarine_bricks": "2026-07-15 15:33:13 +0200"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/balustrade_prismarine_bricks_bridge": {
+    "criteria": {
+      "has_planks": "2026-07-15 15:33:13 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine_stairs_from_dark_prismarine_stonecutting": {
+    "criteria": {
+      "has_dark_prismarine": "2026-07-15 15:33:14 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine_slab_from_dark_prismarine_stonecutting": {
+    "criteria": {
+      "has_dark_prismarine": "2026-07-15 15:33:14 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine_stairs": {
+    "criteria": {
+      "has_dark_prismarine": "2026-07-15 15:33:14 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine_slab": {
+    "criteria": {
+      "has_dark_prismarine": "2026-07-15 15:33:14 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_slab": {
+    "criteria": {
+      "has_prismarine": "2026-07-15 15:33:32 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_slab_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2026-07-15 15:33:32 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_stairs_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2026-07-15 15:33:32 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/prismarine_wall_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2026-07-15 15:33:32 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/prismarine_wall": {
+    "criteria": {
+      "has_prismarine": "2026-07-15 15:33:32 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_stairs": {
+    "criteria": {
+      "has_prismarine": "2026-07-15 15:33:32 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_weathered_cut_copper_stairs_from_honeycomb": {
+    "criteria": {
+      "has_weathered_cut_copper_stairs": "2026-07-15 15:33:36 +0200"
+    },
+    "done": true
+  },
+  "create:cart_pickup": {
+    "criteria": {
+      "0": "2026-07-15 16:11:33 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2026-07-15 16:26:20 +0200"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2026-07-15 16:26:20 +0200"
+    },
+    "done": true
+  },
+  "minecraft:end/find_end_city": {
+    "criteria": {
+      "in_city": "2026-07-15 16:26:27 +0200"
+    },
+    "done": true
+  },
+  "lootr:1frame": {
+    "criteria": {
+      "looted_frame": "2026-07-15 16:26:58 +0200"
+    },
+    "done": true
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2026-07-15 16:26:59 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/redwood_trapdoor": {
+    "criteria": {
+      "has_planks": "2026-07-15 16:35:32 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/decorations/redwood_sign": {
+    "criteria": {
+      "has_planks": "2026-07-15 16:35:32 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/redwood_pressure_plate": {
+    "criteria": {
+      "has_planks": "2026-07-15 16:35:32 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/redwood_button": {
+    "criteria": {
+      "has_planks": "2026-07-15 16:35:32 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/redwood_door": {
+    "criteria": {
+      "has_planks": "2026-07-15 16:35:32 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/redwood_slab": {
+    "criteria": {
+      "has_planks": "2026-07-15 16:35:32 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/redwood_stairs": {
+    "criteria": {
+      "has_planks": "2026-07-15 16:35:32 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/advanced_deposit_upgrade": {
+    "criteria": {
+      "has_deposit_upgrade": "2026-07-15 16:39:11 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/mace": {
+    "criteria": {
+      "has_breeze_rod": "2026-07-15 17:02:56 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wind_charge": {
+    "criteria": {
+      "has_breeze_rod": "2026-07-15 17:02:56 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_stairs": {
+    "criteria": {
+      "has_quartz_block": "2026-07-15 17:08:35 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/quartz_pillar_trim": {
+    "criteria": {
+      "has_quartz_pillar_trim": "2026-07-15 17:08:35 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_quartz_block_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2026-07-15 17:08:35 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/plate": {
+    "criteria": {
+      "has_minecraft:quartz_block": "2026-07-15 17:08:35 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_pillar_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2026-07-15 17:08:35 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_pillar": {
+    "criteria": {
+      "has_quartz_block": "2026-07-15 17:08:35 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_bricks_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2026-07-15 17:08:35 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_slab": {
+    "criteria": {
+      "has_quartz_block": "2026-07-15 17:08:35 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_bricks": {
+    "criteria": {
+      "has_quartz_block": "2026-07-15 17:08:35 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_slab_from_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2026-07-15 17:08:35 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/quartz_corner_trim": {
+    "criteria": {
+      "has_quartz_corner_trim": "2026-07-15 17:08:35 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_stairs_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2026-07-15 17:08:35 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_quartz": {
+    "criteria": {
+      "has_quartz_block": "2026-07-15 17:08:35 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_quartz_block": {
+    "criteria": {
+      "has_quartz_block": "2026-07-15 17:08:35 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_cut_copper_stairs_from_waxed_cut_copper_stonecutting": {
+    "criteria": {
+      "has_waxed_cut_copper": "2026-07-15 17:33:18 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_cut_copper_slab_from_waxed_cut_copper_stonecutting": {
+    "criteria": {
+      "has_waxed_cut_copper": "2026-07-15 17:33:18 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_chiseled_copper_from_waxed_cut_copper_stonecutting": {
+    "criteria": {
+      "has_waxed_cut_copper": "2026-07-15 17:33:18 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_cut_copper_stairs": {
+    "criteria": {
+      "has_waxed_cut_copper": "2026-07-15 17:33:18 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_cut_copper_slab": {
+    "criteria": {
+      "has_waxed_cut_copper": "2026-07-15 17:33:18 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/emerald": {
+    "criteria": {
+      "has_emerald_block": "2026-07-15 18:28:02 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/emerald_block_slab": {
+    "criteria": {
+      "has_emerald_block": "2026-07-15 18:28:02 +0200"
+    },
+    "done": true
+  },
+  "super_ore_block:recipes/building_blocks/super_emerald_block": {
+    "criteria": {
+      "has_item": "2026-07-15 18:28:02 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_oxidized_copper_trapdoor_from_honeycomb": {
+    "criteria": {
+      "has_oxidized_copper_trapdoor": "2026-07-15 21:07:51 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_chiseled_copper": {
+    "criteria": {
+      "has_waxed_cut_copper_slab": "2026-07-15 21:07:52 +0200"
+    },
+    "done": true
+  },
+  "ironchest:recipes/decorations/chests/trapped_copper_chest": {
+    "criteria": {
+      "has_tripwire_hook": "2026-07-15 21:32:29 +0200"
+    },
+    "done": true
+  },
+  "ironchest:recipes/decorations/chests/trapped_crystal_chest": {
+    "criteria": {
+      "has_tripwire_hook": "2026-07-15 21:32:29 +0200"
+    },
+    "done": true
+  },
+  "ironchest:recipes/decorations/chests/trapped_gold_chest": {
+    "criteria": {
+      "has_tripwire_hook": "2026-07-15 21:32:29 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/trapped_chest": {
+    "criteria": {
+      "has_tripwire_hook": "2026-07-15 21:32:29 +0200"
+    },
+    "done": true
+  },
+  "ironchest:recipes/decorations/chests/trapped_iron_chest": {
+    "criteria": {
+      "has_tripwire_hook": "2026-07-15 21:32:29 +0200"
+    },
+    "done": true
+  },
+  "ironchest:recipes/decorations/chests/trapped_diamond_chest": {
+    "criteria": {
+      "has_tripwire_hook": "2026-07-15 21:32:29 +0200"
+    },
+    "done": true
+  },
+  "ironchest:recipes/decorations/chests/trapped_obsidian_chest": {
+    "criteria": {
+      "has_tripwire_hook": "2026-07-15 21:32:29 +0200"
+    },
+    "done": true
+  },
+  "ironchest:recipes/decorations/chests/trapped_dirt_chest": {
+    "criteria": {
+      "has_tripwire_hook": "2026-07-15 21:32:29 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/storage_stack_upgrade_tier_1_plus_from_backpack_stack_upgrade_starter_tier": {
+    "criteria": {
+      "has_backpack_stack_upgrade": "2026-07-15 21:40:04 +0200"
+    },
+    "done": true
+  },
+  "super_ore_block:recipes/building_blocks/super_diamond_block": {
+    "criteria": {
+      "has_item": "2026-07-15 21:43:43 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/diamond_block_slab": {
+    "criteria": {
+      "has_diamond_block": "2026-07-15 21:43:43 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond": {
+    "criteria": {
+      "has_diamond_block": "2026-07-15 21:43:43 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/stack_upgrade_tier_4": {
+    "criteria": {
+      "has_stack_upgrade_tier_3": "2026-07-15 21:44:11 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/storage_stack_upgrade_tier_4_from_backpack_stack_upgrade_tier_3": {
+    "criteria": {
+      "has_backpack_stack_upgrade": "2026-07-15 21:44:11 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/advanced_magnet_upgrade": {
+    "criteria": {
+      "has_advanced_pickup_upgrade": "2026-07-15 21:44:44 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/storage_advanced_pickup_upgrade_from_backpack_advanced_pickup_upgrade": {
+    "criteria": {
+      "has_backpack_upgrade": "2026-07-15 21:44:44 +0200"
     },
     "done": true
   },

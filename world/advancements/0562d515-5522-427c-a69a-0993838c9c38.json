@@ -4445,6 +4445,7 @@
       "minecraft:ravager": "2026-07-02 22:11:23 +0200",
       "minecraft:ghast": "2026-07-02 14:08:08 +0200",
       "minecraft:hoglin": "2026-07-02 14:30:08 +0200",
+      "minecraft:guardian": "2026-07-15 15:26:17 +0200",
       "minecraft:vindicator": "2026-06-29 23:45:03 +0200",
       "minecraft:breeze": "2026-07-02 12:36:17 +0200",
       "minecraft:magma_cube": "2026-07-02 14:28:45 +0200",
@@ -16931,7 +16932,8 @@
   },
   "minecraft:adventure/trim_with_all_exclusive_armor_patterns": {
     "criteria": {
-      "armor_trimmed_minecraft:silence_armor_trim_smithing_template_smithing_trim": "2026-07-14 15:02:10 +0200"
+      "armor_trimmed_minecraft:silence_armor_trim_smithing_template_smithing_trim": "2026-07-14 15:02:10 +0200",
+      "armor_trimmed_minecraft:spire_armor_trim_smithing_template_smithing_trim": "2026-07-15 12:34:56 +0200"
     },
     "done": false
   },
@@ -17397,6 +17399,48 @@
     },
     "done": true
   },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2026-07-14 16:31:33 +0200"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2026-07-14 16:31:33 +0200"
+    },
+    "done": true
+  },
+  "minecraft:end/kill_dragon": {
+    "criteria": {
+      "killed_dragon": "2026-07-14 16:37:20 +0200"
+    },
+    "done": true
+  },
+  "minecraft:end/dragon_egg": {
+    "criteria": {
+      "dragon_egg": "2026-07-14 16:38:10 +0200"
+    },
+    "done": true
+  },
+  "minecraft:end/enter_end_gateway": {
+    "criteria": {
+      "entered_end_gateway": "2026-07-14 16:40:01 +0200"
+    },
+    "done": true
+  },
+  "nullscape:root": {
+    "criteria": {
+      "nullscape:shadowlands": "2026-07-14 16:40:15 +0200"
+    },
+    "done": true
+  },
+  "minecraft:end/find_end_city": {
+    "criteria": {
+      "in_city": "2026-07-14 17:09:33 +0200"
+    },
+    "done": true
+  },
   "new_slab_variants:recipes/building_blocks/dead_bubble_coral_block_slab": {
     "criteria": {
       "has_dead_bubble_coral_block": "2026-07-14 17:38:39 +0200"
@@ -17418,12 +17462,6 @@
   "refurbished_furniture:recipes/decorations/cyan_toilet": {
     "criteria": {
       "has_ceiling_fan": "2026-07-14 17:43:21 +0200"
-    },
-    "done": true
-  },
-  "minecraft:end/enter_end_gateway": {
-    "criteria": {
-      "entered_end_gateway": "2026-07-14 16:40:01 +0200"
     },
     "done": true
   },
@@ -17451,12 +17489,6 @@
     },
     "done": true
   },
-  "minecraft:story/enter_the_end": {
-    "criteria": {
-      "entered_end": "2026-07-14 16:31:33 +0200"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/pink_toilet": {
     "criteria": {
       "has_toilets": "2026-07-14 17:43:21 +0200"
@@ -17481,12 +17513,6 @@
     },
     "done": true
   },
-  "nullscape:root": {
-    "criteria": {
-      "nullscape:shadowlands": "2026-07-14 16:40:15 +0200"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/lime_toilet": {
     "criteria": {
       "has_toilets": "2026-07-14 17:43:21 +0200"
@@ -17496,12 +17522,6 @@
   "refurbished_furniture:recipes/misc/constructing/white_toilet": {
     "criteria": {
       "has_toilets": "2026-07-14 17:43:21 +0200"
-    },
-    "done": true
-  },
-  "minecraft:end/dragon_egg": {
-    "criteria": {
-      "dragon_egg": "2026-07-14 16:38:10 +0200"
     },
     "done": true
   },
@@ -17541,12 +17561,6 @@
     },
     "done": true
   },
-  "minecraft:end/kill_dragon": {
-    "criteria": {
-      "killed_dragon": "2026-07-14 16:37:20 +0200"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/decorations/purple_toilet": {
     "criteria": {
       "has_ceiling_fan": "2026-07-14 17:43:21 +0200"
@@ -17571,12 +17585,6 @@
     },
     "done": true
   },
-  "minecraft:end/find_end_city": {
-    "criteria": {
-      "in_city": "2026-07-14 17:09:33 +0200"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/light_gray_toilet": {
     "criteria": {
       "has_toilets": "2026-07-14 17:43:21 +0200"
@@ -17586,12 +17594,6 @@
   "refurbished_furniture:recipes/decorations/white_toilet": {
     "criteria": {
       "has_ceiling_fan": "2026-07-14 17:43:21 +0200"
-    },
-    "done": true
-  },
-  "minecraft:end/root": {
-    "criteria": {
-      "entered_end": "2026-07-14 16:31:33 +0200"
     },
     "done": true
   },
@@ -17610,6 +17612,636 @@
   "refurbished_furniture:recipes/decorations/yellow_toilet": {
     "criteria": {
       "has_ceiling_fan": "2026-07-14 17:43:21 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/shulker_box": {
+    "criteria": {
+      "has_shulker_shell": "2026-07-15 09:03:00 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/crimson_side_table": {
+    "criteria": {
+      "has_crimson_side_table": "2026-07-15 12:38:35 +0200"
+    },
+    "done": true
+  },
+  "advancednetherite:husbandry/obtain_netherite_diamond_hoe": {
+    "criteria": {
+      "netherite_diamond_hoe": "2026-07-15 10:13:24 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2026-07-15 09:04:30 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/crimson_storage_connector": {
+    "criteria": {
+      "has_crimson_planks": "2026-07-15 12:38:35 +0200"
+    },
+    "done": true
+  },
+  "irons_spellbooks:irons_spellbooks/staff_pyrium": {
+    "criteria": {
+      "requirement": "2026-07-15 12:38:37 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/acacia/crimson_bark_trapdoor": {
+    "criteria": {
+      "has_logs": "2026-07-15 12:36:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crimson_pressure_plate": {
+    "criteria": {
+      "has_planks": "2026-07-15 12:38:35 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/crimson_chair": {
+    "criteria": {
+      "has_minecraft:crimson_planks": "2026-07-15 12:38:35 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crimson_window": {
+    "criteria": {
+      "has_ingredient": "2026-07-15 12:38:35 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/crimson_mail_box": {
+    "criteria": {
+      "has_minecraft:crimson_planks": "2026-07-15 12:38:35 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/crimson_corner_trim": {
+    "criteria": {
+      "has_crimson_corner_trim": "2026-07-15 12:38:35 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/crimson_cupboard": {
+    "criteria": {
+      "has_crimson_cupboard": "2026-07-15 12:38:35 +0200"
+    },
+    "done": true
+  },
+  "irons_spellbooks:irons_spellbooks/spell_book_iron": {
+    "criteria": {
+      "requirement": "2026-07-15 09:12:01 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_stone_brick_wall_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2026-07-15 09:04:30 +0200"
+    },
+    "done": true
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2026-07-15 08:49:27 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_pillar_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2026-07-15 09:28:36 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/crimson/crimson_cottage_trapdoor": {
+    "criteria": {
+      "has_planks": "2026-07-15 12:36:31 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/crimson/crimson_barn_trapdoor": {
+    "criteria": {
+      "has_planks": "2026-07-15 12:36:31 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/crimson_desk": {
+    "criteria": {
+      "has_minecraft:crimson_planks": "2026-07-15 12:38:35 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/crimson_dining_bench": {
+    "criteria": {
+      "has_crimson_dining_bench": "2026-07-15 12:38:35 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/shulker_box": {
+    "criteria": {
+      "has_shulker_shell": "2026-07-15 09:03:00 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_slab_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2026-07-15 09:28:36 +0200"
+    },
+    "done": true
+  },
+  "irons_spellbooks:irons_spellbooks/spell_book_diamond": {
+    "criteria": {
+      "requirement": "2026-07-15 09:09:12 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/crimson_slab": {
+    "criteria": {
+      "has_planks": "2026-07-15 12:38:35 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/crimson/crimson_whispering_trapdoor": {
+    "criteria": {
+      "has_stems": "2026-07-15 12:36:31 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/crimson_barrel": {
+    "criteria": {
+      "has_crimson_plank": "2026-07-15 12:38:35 +0200"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/crimson_rail_bridge": {
+    "criteria": {
+      "has_planks": "2026-07-15 12:38:35 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_slab": {
+    "criteria": {
+      "has_purpur_block": "2026-07-15 09:28:36 +0200"
+    },
+    "done": true
+  },
+  "irons_spellbooks:irons_spellbooks/spell_book_dragon": {
+    "criteria": {
+      "requirement": "2026-07-15 09:06:44 +0200"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/crimson_log_bridge_middle": {
+    "criteria": {
+      "has_planks": "2026-07-15 12:38:35 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/crimson/crimson_tropical_trapdoor": {
+    "criteria": {
+      "has_planks": "2026-07-15 12:36:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_bricks": {
+    "criteria": {
+      "has_end_stone": "2026-07-15 09:04:30 +0200"
+    },
+    "done": true
+  },
+  "mcwdoors:recipes/crimson": {
+    "criteria": {
+      "has_wood": "2026-07-15 12:36:31 +0200"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/crimson_bridge_pier": {
+    "criteria": {
+      "has_planks": "2026-07-15 12:36:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sponge": {
+    "criteria": {
+      "has_wet_sponge": "2026-07-15 15:38:57 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/crimson_table": {
+    "criteria": {
+      "has_crimson_table": "2026-07-15 12:38:35 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/wet_sponge_slab": {
+    "criteria": {
+      "has_wet_sponge": "2026-07-15 15:38:57 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/crimson_desk": {
+    "criteria": {
+      "has_crimson_desk": "2026-07-15 12:38:35 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/crimson/crimson_four_panel_trapdoor": {
+    "criteria": {
+      "has_planks": "2026-07-15 12:36:31 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/crimson_kitchen_cabinetry": {
+    "criteria": {
+      "has_minecraft:crimson_planks": "2026-07-15 12:38:35 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/end_stone_slab": {
+    "criteria": {
+      "has_end_stone": "2026-07-15 09:04:30 +0200"
+    },
+    "done": true
+  },
+  "irons_spellbooks:irons_spellbooks/spell_book_gold": {
+    "criteria": {
+      "requirement": "2026-07-15 09:09:38 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/crimson/crimson_swamp_trapdoor": {
+    "criteria": {
+      "has_planks": "2026-07-15 12:36:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/spire_armor_trim_smithing_template": {
+    "criteria": {
+      "has_spire_armor_trim_smithing_template": "2026-07-15 09:05:35 +0200"
+    },
+    "done": true
+  },
+  "irons_spellbooks:irons_spellbooks/spell_book_blood": {
+    "criteria": {
+      "requirement": "2026-07-15 09:14:48 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/crimson_hyphae": {
+    "criteria": {
+      "has_log": "2026-07-15 12:36:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_bricks_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2026-07-15 09:04:30 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/crimson_nightstand": {
+    "criteria": {
+      "has_crimson_nightstand": "2026-07-15 12:38:35 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/crimson_kitchen_drawer": {
+    "criteria": {
+      "has_minecraft:crimson_planks": "2026-07-15 12:38:35 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/crimson/crimson_barrel_trapdoor": {
+    "criteria": {
+      "has_logs": "2026-07-15 12:36:31 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/crimson/crimson_classic_trapdoor": {
+    "criteria": {
+      "has_planks": "2026-07-15 12:36:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/crimson_planks": {
+    "criteria": {
+      "has_logs": "2026-07-15 12:36:31 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/crimson_couch": {
+    "criteria": {
+      "has_crimson_couch": "2026-07-15 12:38:35 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/storage_filter_upgrade_from_backpack_filter_upgrade": {
+    "criteria": {
+      "has_backpack_upgrade": "2026-07-15 09:39:15 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/crimson_pillar_trim": {
+    "criteria": {
+      "has_crimson_pillar_trim": "2026-07-15 12:38:35 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crimson_sign": {
+    "criteria": {
+      "has_planks": "2026-07-15 12:38:35 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/crimson/crimson_blossom_trapdoor": {
+    "criteria": {
+      "has_planks": "2026-07-15 12:38:35 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crimson_door": {
+    "criteria": {
+      "has_planks": "2026-07-15 12:38:35 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/crimson_chest": {
+    "criteria": {
+      "has_crimson_plank": "2026-07-15 12:38:35 +0200"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/crimson": {
+    "criteria": {
+      "has_planks": "2026-07-15 12:36:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_pillar": {
+    "criteria": {
+      "has_purpur_block": "2026-07-15 09:28:36 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/crimson_table": {
+    "criteria": {
+      "has_minecraft:crimson_planks": "2026-07-15 12:38:35 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/crimson_fancy_bed": {
+    "criteria": {
+      "has_crimson_fancy_bed": "2026-07-15 12:38:35 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/crimson_counter": {
+    "criteria": {
+      "has_crimson_counter": "2026-07-15 12:38:35 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_stairs": {
+    "criteria": {
+      "has_purpur_block": "2026-07-15 09:28:36 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/crimson_drawer": {
+    "criteria": {
+      "has_crimson_drawer": "2026-07-15 12:38:35 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crimson_fence": {
+    "criteria": {
+      "has_planks": "2026-07-15 12:38:35 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/crimson/crimson_beach_trapdoor": {
+    "criteria": {
+      "has_planks": "2026-07-15 12:36:31 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/crimson_kitchen_storage_cabinet": {
+    "criteria": {
+      "has_minecraft:crimson_planks": "2026-07-15 12:38:35 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/phantom_trophy": {
+    "criteria": {
+      "has_phantom_trophy": "2026-07-15 09:05:25 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crimson_button": {
+    "criteria": {
+      "has_planks": "2026-07-15 12:38:35 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/crimson_stairs": {
+    "criteria": {
+      "has_planks": "2026-07-15 12:38:35 +0200"
+    },
+    "done": true
+  },
+  "mcwfurnitures:recipes/crimson": {
+    "criteria": {
+      "has_wood": "2026-07-15 12:36:31 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/crimson_crate": {
+    "criteria": {
+      "has_minecraft:crimson_planks": "2026-07-15 12:38:35 +0200"
+    },
+    "done": true
+  },
+  "irons_spellbooks:irons_spellbooks/staff_artificer": {
+    "criteria": {
+      "requirement": "2026-07-15 12:36:45 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/crimson_shelf": {
+    "criteria": {
+      "has_crimson_shelf": "2026-07-15 12:38:35 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/crimson/crimson_glass_trapdoor": {
+    "criteria": {
+      "has_planks": "2026-07-15 12:36:31 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/print_barred": {
+    "criteria": {
+      "has_planks": "2026-07-15 12:36:31 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/crimson_limited_barrel_4": {
+    "criteria": {
+      "has_crimson_plank": "2026-07-15 12:38:35 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/crimson_limited_barrel_1": {
+    "criteria": {
+      "has_crimson_plank": "2026-07-15 12:38:35 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/crimson_limited_barrel_3": {
+    "criteria": {
+      "has_crimson_plank": "2026-07-15 12:38:35 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/crimson_limited_barrel_2": {
+    "criteria": {
+      "has_crimson_plank": "2026-07-15 12:38:35 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/crimson/crimson_mystic_trapdoor": {
+    "criteria": {
+      "has_planks": "2026-07-15 12:36:31 +0200"
+    },
+    "done": true
+  },
+  "irons_spellbooks:irons_spellbooks/spell_book_evoker": {
+    "criteria": {
+      "requirement": "2026-07-15 10:18:38 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/advanced_magnet_upgrade": {
+    "criteria": {
+      "has_advanced_pickup_upgrade": "2026-07-15 10:04:00 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crimson_trapdoor": {
+    "criteria": {
+      "has_planks": "2026-07-15 12:38:35 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/advanced_filter_upgrade": {
+    "criteria": {
+      "has_filter_upgrade": "2026-07-15 09:39:15 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/crimson/crimson_paper_trapdoor": {
+    "criteria": {
+      "has_planks": "2026-07-15 12:36:31 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/sponge_slab": {
+    "criteria": {
+      "has_sponge": "2026-07-15 15:39:54 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/crimson_chair": {
+    "criteria": {
+      "has_crimson_chair": "2026-07-15 12:38:35 +0200"
+    },
+    "done": true
+  },
+  "irons_spellbooks:irons_spellbooks/spell_book_frostbranded": {
+    "criteria": {
+      "requirement": "2026-07-15 09:16:43 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/storage_advanced_pickup_upgrade_from_backpack_advanced_pickup_upgrade": {
+    "criteria": {
+      "has_backpack_upgrade": "2026-07-15 10:04:00 +0200"
+    },
+    "done": true
+  },
+  "irons_spellbooks:irons_spellbooks/staff_lightning_rod": {
+    "criteria": {
+      "requirement": "2026-07-15 09:22:16 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/crimson_bench": {
+    "criteria": {
+      "has_crimson_bench": "2026-07-15 12:38:35 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/crimson_cutting_board": {
+    "criteria": {
+      "has_minecraft:crimson_planks": "2026-07-15 12:38:35 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/spire_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2026-07-15 09:05:35 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/crimson_drawer": {
+    "criteria": {
+      "has_minecraft:crimson_planks": "2026-07-15 12:38:35 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crimson_fence_gate": {
+    "criteria": {
+      "has_planks": "2026-07-15 12:38:35 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_stairs_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2026-07-15 09:28:36 +0200"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/crimson_planks": {
+    "criteria": {
+      "has_planks": "2026-07-15 12:38:35 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/storage_advanced_filter_upgrade_from_backpack_advanced_filter_upgrade": {
+    "criteria": {
+      "has_backpack_upgrade": "2026-07-15 09:40:18 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/crimson/crimson_ranch_trapdoor": {
+    "criteria": {
+      "has_planks": "2026-07-15 12:36:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_stairs_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2026-07-15 09:04:30 +0200"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/rope_crimson_bridge": {
+    "criteria": {
+      "has_planks": "2026-07-15 12:38:35 +0200"
     },
     "done": true
   },
