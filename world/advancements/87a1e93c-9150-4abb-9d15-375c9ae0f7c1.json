@@ -19563,75 +19563,9 @@
     },
     "done": true
   },
-  "create:recipes/building_blocks/small_ochrum_bricks_from_stone_types_ochrum_stonecutting": {
-    "criteria": {
-      "has_stone_types_ochrum": "2026-07-18 15:19:06 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/small_ochrum_brick_slab_from_stone_types_ochrum_stonecutting": {
-    "criteria": {
-      "has_stone_types_ochrum": "2026-07-18 15:19:06 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/food/beetroot_soup": {
     "criteria": {
       "has_beetroot": "2026-07-18 14:46:15 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/polished_cut_ochrum_stairs_from_stone_types_ochrum_stonecutting": {
-    "criteria": {
-      "has_stone_types_ochrum": "2026-07-18 15:19:06 +0200"
-    },
-    "done": true
-  },
-  "comforts:recipes/decorations/hammock_yellow": {
-    "criteria": {
-      "has_yellow_wool": "2026-07-18 15:22:13 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/cut_ochrum_slab_from_stone_types_ochrum_stonecutting": {
-    "criteria": {
-      "has_stone_types_ochrum": "2026-07-18 15:19:06 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/small_veridium_brick_stairs": {
-    "criteria": {
-      "has_small_veridium_bricks": "2026-07-18 15:18:37 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/cut_ochrum_brick_slab_from_stone_types_ochrum_stonecutting": {
-    "criteria": {
-      "has_stone_types_ochrum": "2026-07-18 15:19:06 +0200"
-    },
-    "done": true
-  },
-  "comforts:recipes/decorations/sleeping_bag_yellow": {
-    "criteria": {
-      "has_yellow_wool": "2026-07-18 15:22:13 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/small_ochrum_brick_slab": {
-    "criteria": {
-      "has_small_ochrum_bricks": "2026-07-18 15:19:06 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/polished_cut_veridium_stairs": {
-    "criteria": {
-      "has_polished_cut_veridium": "2026-07-18 15:18:17 +0200"
-    },
-    "done": true
-  },
-  "handcrafted:recipes/misc/blue_sheet": {
-    "criteria": {
-      "has_blue_sheet": "2026-07-18 15:31:36 +0200"
     },
     "done": true
   },
@@ -19641,87 +19575,39 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/yellow_carpet": {
-    "criteria": {
-      "has_yellow_wool": "2026-07-18 15:22:13 +0200"
-    },
-    "done": true
-  },
-  "sophisticatedstorage:recipes/misc/iron_chest": {
-    "criteria": {
-      "has_chest": "2026-07-18 15:24:51 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/blue_banner": {
-    "criteria": {
-      "has_blue_wool": "2026-07-18 15:31:36 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/small_ochrum_brick_stairs": {
-    "criteria": {
-      "has_small_ochrum_bricks": "2026-07-18 15:19:06 +0200"
-    },
-    "done": true
-  },
   "farmersdelight:recipes/building_blocks/beetroot_crate": {
     "criteria": {
       "has_beetroot": "2026-07-18 14:46:15 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/yellow_bed": {
+  "minecraft:recipes/misc/red_dye_from_beetroot": {
     "criteria": {
-      "has_yellow_wool": "2026-07-18 15:22:13 +0200"
+      "has_beetroot": "2026-07-18 14:46:15 +0200"
     },
     "done": true
   },
-  "create:recipes/building_blocks/layered_ochrum_from_stone_types_ochrum_stonecutting": {
+  "create:recipes/building_blocks/polished_cut_veridium_stairs": {
     "criteria": {
-      "has_stone_types_ochrum": "2026-07-18 15:19:06 +0200"
+      "has_polished_cut_veridium": "2026-07-18 15:18:17 +0200"
     },
     "done": true
   },
-  "sophisticatedstorage:recipes/misc/double_copper_chest": {
+  "create:recipes/building_blocks/polished_cut_veridium_slab": {
     "criteria": {
-      "has_chest": "2026-07-18 15:24:51 +0200"
+      "has_polished_cut_veridium": "2026-07-18 15:18:17 +0200"
     },
     "done": true
   },
-  "new_slab_variants:recipes/building_blocks/yellow_wool_slab": {
+  "create:recipes/building_blocks/polished_cut_veridium_wall": {
     "criteria": {
-      "has_yellow_wool": "2026-07-18 15:22:13 +0200"
+      "has_polished_cut_veridium": "2026-07-18 15:18:17 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/blue_carpet": {
+  "create:recipes/building_blocks/small_veridium_brick_stairs": {
     "criteria": {
-      "has_blue_wool": "2026-07-18 15:31:36 +0200"
-    },
-    "done": true
-  },
-  "sophisticatedstorage:recipes/misc/double_iron_chest": {
-    "criteria": {
-      "has_chest": "2026-07-18 15:24:51 +0200"
-    },
-    "done": true
-  },
-  "handcrafted:recipes/misc/yellow_cushion": {
-    "criteria": {
-      "has_yellow_cushion": "2026-07-18 15:22:13 +0200"
-    },
-    "done": true
-  },
-  "handcrafted:recipes/misc/yellow_sheet": {
-    "criteria": {
-      "has_yellow_sheet": "2026-07-18 15:22:13 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/cut_ochrum_brick_wall_from_stone_types_ochrum_stonecutting": {
-    "criteria": {
-      "has_stone_types_ochrum": "2026-07-18 15:19:06 +0200"
+      "has_small_veridium_bricks": "2026-07-18 15:18:37 +0200"
     },
     "done": true
   },
@@ -19737,15 +19623,63 @@
     },
     "done": true
   },
-  "create:recipes/building_blocks/cut_ochrum_stairs_from_stone_types_ochrum_stonecutting": {
+  "create:recipes/building_blocks/small_ochrum_bricks_from_stone_types_ochrum_stonecutting": {
     "criteria": {
       "has_stone_types_ochrum": "2026-07-18 15:19:06 +0200"
     },
     "done": true
   },
-  "create:recipes/building_blocks/polished_cut_veridium_slab": {
+  "create:recipes/building_blocks/small_ochrum_brick_slab_from_stone_types_ochrum_stonecutting": {
     "criteria": {
-      "has_polished_cut_veridium": "2026-07-18 15:18:17 +0200"
+      "has_stone_types_ochrum": "2026-07-18 15:19:06 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_ochrum_stairs_from_stone_types_ochrum_stonecutting": {
+    "criteria": {
+      "has_stone_types_ochrum": "2026-07-18 15:19:06 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_ochrum_slab_from_stone_types_ochrum_stonecutting": {
+    "criteria": {
+      "has_stone_types_ochrum": "2026-07-18 15:19:06 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_ochrum_brick_slab_from_stone_types_ochrum_stonecutting": {
+    "criteria": {
+      "has_stone_types_ochrum": "2026-07-18 15:19:06 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_ochrum_brick_slab": {
+    "criteria": {
+      "has_small_ochrum_bricks": "2026-07-18 15:19:06 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_ochrum_brick_stairs": {
+    "criteria": {
+      "has_small_ochrum_bricks": "2026-07-18 15:19:06 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/layered_ochrum_from_stone_types_ochrum_stonecutting": {
+    "criteria": {
+      "has_stone_types_ochrum": "2026-07-18 15:19:06 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_ochrum_brick_wall_from_stone_types_ochrum_stonecutting": {
+    "criteria": {
+      "has_stone_types_ochrum": "2026-07-18 15:19:06 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_ochrum_stairs_from_stone_types_ochrum_stonecutting": {
+    "criteria": {
+      "has_stone_types_ochrum": "2026-07-18 15:19:06 +0200"
     },
     "done": true
   },
@@ -19761,33 +19695,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/blue_bed": {
-    "criteria": {
-      "has_blue_wool": "2026-07-18 15:31:36 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/red_dye_from_beetroot": {
-    "criteria": {
-      "has_beetroot": "2026-07-18 14:46:15 +0200"
-    },
-    "done": true
-  },
-  "new_slab_variants:recipes/building_blocks/blue_wool_slab": {
-    "criteria": {
-      "has_blue_wool": "2026-07-18 15:31:36 +0200"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/cut_ochrum_brick_stairs_from_stone_types_ochrum_stonecutting": {
     "criteria": {
       "has_stone_types_ochrum": "2026-07-18 15:19:06 +0200"
-    },
-    "done": true
-  },
-  "sophisticatedstorage:recipes/misc/shulker_from_chest": {
-    "criteria": {
-      "has_chest": "2026-07-18 15:24:51 +0200"
     },
     "done": true
   },
@@ -19803,21 +19713,9 @@
     },
     "done": true
   },
-  "sophisticatedstorage:recipes/misc/copper_chest": {
-    "criteria": {
-      "has_chest": "2026-07-18 15:24:51 +0200"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/ochrum_from_stone_types_ochrum_stonecutting": {
     "criteria": {
       "has_stone_types_ochrum": "2026-07-18 15:19:06 +0200"
-    },
-    "done": true
-  },
-  "comforts:recipes/decorations/hammock_blue": {
-    "criteria": {
-      "has_blue_wool": "2026-07-18 15:31:36 +0200"
     },
     "done": true
   },
@@ -19830,24 +19728,6 @@
   "create:recipes/building_blocks/cut_ochrum_from_stone_types_ochrum_stonecutting": {
     "criteria": {
       "has_stone_types_ochrum": "2026-07-18 15:19:06 +0200"
-    },
-    "done": true
-  },
-  "handcrafted:recipes/misc/blue_cushion": {
-    "criteria": {
-      "has_blue_cushion": "2026-07-18 15:31:36 +0200"
-    },
-    "done": true
-  },
-  "comforts:recipes/decorations/sleeping_bag_blue": {
-    "criteria": {
-      "has_blue_wool": "2026-07-18 15:31:36 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/polished_cut_veridium_wall": {
-    "criteria": {
-      "has_polished_cut_veridium": "2026-07-18 15:18:17 +0200"
     },
     "done": true
   },
@@ -19869,15 +19749,213 @@
     },
     "done": true
   },
+  "create:recipes/building_blocks/polished_cut_ochrum_wall_from_stone_types_ochrum_stonecutting": {
+    "criteria": {
+      "has_stone_types_ochrum": "2026-07-18 15:19:06 +0200"
+    },
+    "done": true
+  },
+  "comforts:recipes/decorations/hammock_yellow": {
+    "criteria": {
+      "has_yellow_wool": "2026-07-18 15:22:13 +0200"
+    },
+    "done": true
+  },
+  "comforts:recipes/decorations/sleeping_bag_yellow": {
+    "criteria": {
+      "has_yellow_wool": "2026-07-18 15:22:13 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_carpet": {
+    "criteria": {
+      "has_yellow_wool": "2026-07-18 15:22:13 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_bed": {
+    "criteria": {
+      "has_yellow_wool": "2026-07-18 15:22:13 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/yellow_wool_slab": {
+    "criteria": {
+      "has_yellow_wool": "2026-07-18 15:22:13 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/yellow_cushion": {
+    "criteria": {
+      "has_yellow_cushion": "2026-07-18 15:22:13 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/yellow_sheet": {
+    "criteria": {
+      "has_yellow_sheet": "2026-07-18 15:22:13 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/yellow_banner": {
     "criteria": {
       "has_yellow_wool": "2026-07-18 15:22:13 +0200"
     },
     "done": true
   },
-  "create:recipes/building_blocks/polished_cut_ochrum_wall_from_stone_types_ochrum_stonecutting": {
+  "sophisticatedstorage:recipes/misc/iron_chest": {
     "criteria": {
-      "has_stone_types_ochrum": "2026-07-18 15:19:06 +0200"
+      "has_chest": "2026-07-18 15:24:51 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/double_copper_chest": {
+    "criteria": {
+      "has_chest": "2026-07-18 15:24:51 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/double_iron_chest": {
+    "criteria": {
+      "has_chest": "2026-07-18 15:24:51 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/shulker_from_chest": {
+    "criteria": {
+      "has_chest": "2026-07-18 15:24:51 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/copper_chest": {
+    "criteria": {
+      "has_chest": "2026-07-18 15:24:51 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/blue_sheet": {
+    "criteria": {
+      "has_blue_sheet": "2026-07-18 15:31:36 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_banner": {
+    "criteria": {
+      "has_blue_wool": "2026-07-18 15:31:36 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_carpet": {
+    "criteria": {
+      "has_blue_wool": "2026-07-18 15:31:36 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_bed": {
+    "criteria": {
+      "has_blue_wool": "2026-07-18 15:31:36 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/blue_wool_slab": {
+    "criteria": {
+      "has_blue_wool": "2026-07-18 15:31:36 +0200"
+    },
+    "done": true
+  },
+  "comforts:recipes/decorations/hammock_blue": {
+    "criteria": {
+      "has_blue_wool": "2026-07-18 15:31:36 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/blue_cushion": {
+    "criteria": {
+      "has_blue_cushion": "2026-07-18 15:31:36 +0200"
+    },
+    "done": true
+  },
+  "comforts:recipes/decorations/sleeping_bag_blue": {
+    "criteria": {
+      "has_blue_wool": "2026-07-18 15:31:36 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_tile_wall_from_deepslate_tiles_stonecutting": {
+    "criteria": {
+      "has_deepslate_tiles": "2026-07-18 20:52:00 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_tile_wall": {
+    "criteria": {
+      "has_deepslate_tiles": "2026-07-18 20:52:00 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cyan_glazed_terracotta": {
+    "criteria": {
+      "has_cyan_terracotta": "2026-07-18 20:48:45 +0200"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/deepslate_tile_bridge_pier": {
+    "criteria": {
+      "has_planks": "2026-07-18 20:52:00 +0200"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/deepslate_tile_bridge": {
+    "criteria": {
+      "has_planks": "2026-07-18 20:52:00 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_deepslate_tiles": {
+    "criteria": {
+      "has_deepslate_tiles": "2026-07-18 20:52:00 +0200"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/balustrade_deepslate_tiles_bridge": {
+    "criteria": {
+      "has_planks": "2026-07-18 20:52:00 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_slab": {
+    "criteria": {
+      "has_deepslate_tiles": "2026-07-18 20:52:00 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/cyan_terracotta_slab": {
+    "criteria": {
+      "has_cyan_terracotta": "2026-07-18 20:48:45 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_stairs_from_deepslate_tiles_stonecutting": {
+    "criteria": {
+      "has_deepslate_tiles": "2026-07-18 20:52:00 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_slab_from_deepslate_tiles_stonecutting": {
+    "criteria": {
+      "has_deepslate_tiles": "2026-07-18 20:52:00 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_stairs": {
+    "criteria": {
+      "has_deepslate_tiles": "2026-07-18 20:52:00 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_deepslate": {
+    "criteria": {
+      "has_cobbled_deepslate_slab": "2026-07-18 20:55:35 +0200"
     },
     "done": true
   },
