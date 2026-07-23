@@ -3115,6 +3115,7 @@
     "criteria": {
       "apple": "2026-07-16 19:26:18 +0200",
       "golden_apple": "2026-07-16 19:26:24 +0200",
+      "bread": "2026-07-23 19:19:55 +0200",
       "rotten_flesh": "2026-07-16 20:04:12 +0200",
       "carrot": "2026-07-14 18:04:18 +0200"
     },
@@ -5946,21 +5947,6 @@
     },
     "done": true
   },
-  "farmersdelight:main/plant_all_crops": {
-    "criteria": {
-      "potato": "2026-07-16 19:18:23 +0200",
-      "wheat": "2026-07-16 19:17:07 +0200",
-      "beetroot": "2026-07-16 19:18:40 +0200",
-      "carrot": "2026-07-16 19:19:14 +0200"
-    },
-    "done": false
-  },
-  "trashcans:recipes/misc/liquid_trash_can": {
-    "criteria": {
-      "recipe_condition": "2026-07-16 19:08:57 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/iron_ingot_from_nuggets": {
     "criteria": {
       "has_iron_nugget": "2026-07-16 18:11:30 +0200"
@@ -5979,15 +5965,204 @@
     },
     "done": true
   },
+  "trashcans:recipes/misc/liquid_trash_can": {
+    "criteria": {
+      "recipe_condition": "2026-07-16 19:08:57 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/jack_o_lantern": {
     "criteria": {
       "has_carved_pumpkin": "2026-07-16 19:16:02 +0200"
     },
     "done": true
   },
+  "farmersdelight:main/plant_all_crops": {
+    "criteria": {
+      "potato": "2026-07-16 19:18:23 +0200",
+      "wheat": "2026-07-16 19:17:07 +0200",
+      "beetroot": "2026-07-16 19:18:40 +0200",
+      "carrot": "2026-07-16 19:19:14 +0200"
+    },
+    "done": false
+  },
   "minecraft:husbandry/plant_seed": {
     "criteria": {
       "wheat": "2026-07-16 19:17:07 +0200"
+    },
+    "done": true
+  },
+  "exclusive_weapons:recipes/tools/super_iron_shovel": {
+    "criteria": {
+      "has_item": "2026-07-23 19:22:44 +0200"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/spruce": {
+    "criteria": {
+      "has_planks": "2026-07-23 21:31:32 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/print_cottage": {
+    "criteria": {
+      "has_logs": "2026-07-23 21:31:32 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/slicing/yellow_dye_from_dandelion": {
+    "criteria": {
+      "has_dandelion": "2026-07-23 21:21:43 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/bamboo/bamboo_ranch_trapdoor": {
+    "criteria": {
+      "has_logs": "2026-07-23 21:31:32 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/spruce/spruce_tropical_trapdoor": {
+    "criteria": {
+      "has_logs": "2026-07-23 21:31:32 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/spruce/spruce_swamp_trapdoor": {
+    "criteria": {
+      "has_logs": "2026-07-23 21:31:32 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_wood": {
+    "criteria": {
+      "has_log": "2026-07-23 21:31:32 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+    "criteria": {
+      "has_dandelion": "2026-07-23 21:21:43 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/spruce/spruce_glass_trapdoor": {
+    "criteria": {
+      "has_logs": "2026-07-23 21:31:32 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/acacia/mangrove_bark_trapdoor": {
+    "criteria": {
+      "has_logs": "2026-07-23 21:31:32 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/spruce/spruce_four_panel_trapdoor": {
+    "criteria": {
+      "has_logs": "2026-07-23 21:31:32 +0200"
+    },
+    "done": true
+  },
+  "mcwdoors:recipes/spruce": {
+    "criteria": {
+      "has_wood": "2026-07-23 21:31:32 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/spruce/spruce_whispering_trapdoor": {
+    "criteria": {
+      "has_logs": "2026-07-23 21:31:32 +0200"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/spruce_bridge_pier": {
+    "criteria": {
+      "has_planks": "2026-07-23 21:31:32 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/spruce/spruce_barrel_trapdoor": {
+    "criteria": {
+      "has_logs": "2026-07-23 21:31:32 +0200"
+    },
+    "done": true
+  },
+  "mcwfurnitures:recipes/spruce": {
+    "criteria": {
+      "has_wood": "2026-07-23 21:31:32 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/spruce_log_slab": {
+    "criteria": {
+      "has_spruce_log": "2026-07-23 21:31:32 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/spruce/spruce_ranch_trapdoor": {
+    "criteria": {
+      "has_logs": "2026-07-23 21:31:32 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/mangrove/mangrove_ranch_trapdoor": {
+    "criteria": {
+      "has_logs": "2026-07-23 21:31:32 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/spruce/spruce_classic_trapdoor": {
+    "criteria": {
+      "has_logs": "2026-07-23 21:31:32 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/spruce/spruce_barn_trapdoor": {
+    "criteria": {
+      "has_logs": "2026-07-23 21:31:32 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/spruce/spruce_mystic_trapdoor": {
+    "criteria": {
+      "has_logs": "2026-07-23 21:31:32 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/spruce/spruce_paper_trapdoor": {
+    "criteria": {
+      "has_logs": "2026-07-23 21:31:32 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/acacia/spruce_bark_trapdoor": {
+    "criteria": {
+      "has_logs": "2026-07-23 21:31:32 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_planks": {
+    "criteria": {
+      "has_logs": "2026-07-23 21:31:32 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/spruce/spruce_beach_trapdoor": {
+    "criteria": {
+      "has_logs": "2026-07-23 21:31:32 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/cherry/cherry_ranch_trapdoor": {
+    "criteria": {
+      "has_logs": "2026-07-23 21:31:32 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/spruce/spruce_barred_trapdoor": {
+    "criteria": {
+      "has_logs": "2026-07-23 21:31:32 +0200"
     },
     "done": true
   },

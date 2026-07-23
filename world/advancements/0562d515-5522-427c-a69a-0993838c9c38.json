@@ -4443,6 +4443,7 @@
       "minecraft:skeleton": "2026-06-27 20:43:28 +0200",
       "minecraft:elder_guardian": "2026-07-09 00:17:11 +0200",
       "minecraft:ravager": "2026-07-02 22:11:23 +0200",
+      "minecraft:bogged": "2026-07-23 15:26:39 +0200",
       "minecraft:ghast": "2026-07-02 14:08:08 +0200",
       "minecraft:hoglin": "2026-07-02 14:30:08 +0200",
       "minecraft:guardian": "2026-07-15 15:26:17 +0200",
@@ -16638,9 +16639,10 @@
   },
   "create:wrench_goggles": {
     "criteria": {
-      "0": "2026-07-10 19:24:36 +0200"
+      "0": "2026-07-10 19:24:36 +0200",
+      "1": "2026-07-23 14:23:28 +0200"
     },
-    "done": false
+    "done": true
   },
   "create:super_glue": {
     "criteria": {
@@ -18245,15 +18247,33 @@
     },
     "done": true
   },
-  "handcrafted:recipes/misc/bamboo_pillar_trim": {
+  "create:shifting_gears": {
     "criteria": {
-      "has_bamboo_pillar_trim": "2026-07-16 17:21:31 +0200"
+      "0": "2026-07-16 14:18:59 +0200"
     },
     "done": true
   },
-  "refurbished_furniture:recipes/misc/slicing/black_dye_from_dried_kelp": {
+  "create:recipes/misc/crafting/kinetics/vertical_gearbox_from_conversion": {
     "criteria": {
-      "has_dried_kelp": "2026-07-16 14:55:07 +0200"
+      "has_item": "2026-07-16 14:28:42 +0200"
+    },
+    "done": true
+  },
+  "create:mechanical_pump_0": {
+    "criteria": {
+      "0": "2026-07-16 14:31:29 +0200"
+    },
+    "done": true
+  },
+  "create:windmill": {
+    "criteria": {
+      "0": "2026-07-16 14:31:29 +0200"
+    },
+    "done": true
+  },
+  "create:speed_controller": {
+    "criteria": {
+      "0": "2026-07-16 14:31:38 +0200"
     },
     "done": true
   },
@@ -18263,15 +18283,135 @@
     },
     "done": true
   },
-  "create:recipes/misc/crafting/kinetics/smart_chute": {
+  "create:water_supply": {
     "criteria": {
-      "has_item": "2026-07-16 16:09:35 +0200"
+      "0": "2026-07-16 14:37:55 +0200"
     },
     "done": true
   },
   "create:recipes/misc/crafting/kinetics/spout": {
     "criteria": {
       "has_item": "2026-07-16 14:54:04 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/portable_fluid_interface": {
+    "criteria": {
+      "has_item": "2026-07-16 14:54:04 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/copper_door": {
+    "criteria": {
+      "has_item": "2026-07-16 14:54:04 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/item_drain": {
+    "criteria": {
+      "has_item": "2026-07-16 14:54:04 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/slicing/black_dye_from_dried_kelp": {
+    "criteria": {
+      "has_dried_kelp": "2026-07-16 14:55:07 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dried_kelp_block": {
+    "criteria": {
+      "has_dried_kelp": "2026-07-16 14:55:07 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/kelp_roll": {
+    "criteria": {
+      "has_dried_kelp": "2026-07-16 14:55:07 +0200"
+    },
+    "done": true
+  },
+  "create:hose_pulley": {
+    "criteria": {
+      "0": "2026-07-16 14:57:29 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/gearbox_from_conversion": {
+    "criteria": {
+      "has_item": "2026-07-16 15:07:24 +0200"
+    },
+    "done": true
+  },
+  "trashcans:trash_can": {
+    "criteria": {
+      "has_liquid_trash_can": "2026-07-16 15:59:07 +0200"
+    },
+    "done": true
+  },
+  "create:copper_casing": {
+    "criteria": {
+      "0": "2026-07-16 16:03:03 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/smart_chute": {
+    "criteria": {
+      "has_item": "2026-07-16 16:09:35 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/packed_mud": {
+    "criteria": {
+      "has_mud": "2026-07-16 16:35:34 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/mud_slab": {
+    "criteria": {
+      "has_mud": "2026-07-16 16:35:34 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/packed_mud_slab": {
+    "criteria": {
+      "has_packed_mud": "2026-07-16 16:40:43 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mud_bricks": {
+    "criteria": {
+      "has_packed_mud": "2026-07-16 16:40:43 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/advanced_pump_upgrade": {
+    "criteria": {
+      "has_pump_upgrade": "2026-07-16 16:43:27 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/xp_pump_upgrade": {
+    "criteria": {
+      "has_the_recipe": "2026-07-16 16:47:31 +0200"
+    },
+    "done": true
+  },
+  "chipped:recipes/workbench/mason_table": {
+    "criteria": {
+      "has_item": "2026-07-16 17:13:50 +0200"
+    },
+    "done": true
+  },
+  "chipped:recipes/misc/chisel": {
+    "criteria": {
+      "has_chisel": "2026-07-16 17:13:50 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/bamboo_pillar_trim": {
+    "criteria": {
+      "has_bamboo_pillar_trim": "2026-07-16 17:21:31 +0200"
     },
     "done": true
   },
@@ -18299,33 +18439,9 @@
     },
     "done": true
   },
-  "create:mechanical_mixer": {
-    "criteria": {
-      "0": "2026-07-16 20:35:54 +0200"
-    },
-    "done": true
-  },
-  "create:funnel": {
-    "criteria": {
-      "0": "2026-07-16 20:35:37 +0200"
-    },
-    "done": true
-  },
   "handcrafted:recipes/misc/bamboo_desk": {
     "criteria": {
       "has_bamboo_desk": "2026-07-16 17:21:31 +0200"
-    },
-    "done": true
-  },
-  "new_slab_variants:recipes/building_blocks/packed_mud_slab": {
-    "criteria": {
-      "has_packed_mud": "2026-07-16 16:40:43 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/packed_mud": {
-    "criteria": {
-      "has_mud": "2026-07-16 16:35:34 +0200"
     },
     "done": true
   },
@@ -18341,39 +18457,9 @@
     },
     "done": true
   },
-  "create:recipes/misc/crafting/logistics/content_observer": {
-    "criteria": {
-      "has_item": "2026-07-16 20:27:23 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/logistics/display_link": {
-    "criteria": {
-      "has_item": "2026-07-16 20:27:23 +0200"
-    },
-    "done": true
-  },
-  "sophisticatedbackpacks:recipes/misc/xp_pump_upgrade": {
-    "criteria": {
-      "has_the_recipe": "2026-07-16 16:47:31 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/bamboo_pressure_plate": {
     "criteria": {
       "has_planks": "2026-07-16 17:21:31 +0200"
-    },
-    "done": true
-  },
-  "new_slab_variants:recipes/building_blocks/mud_slab": {
-    "criteria": {
-      "has_mud": "2026-07-16 16:35:34 +0200"
-    },
-    "done": true
-  },
-  "sophisticatedbackpacks:recipes/misc/advanced_pump_upgrade": {
-    "criteria": {
-      "has_pump_upgrade": "2026-07-16 16:43:27 +0200"
     },
     "done": true
   },
@@ -18389,21 +18475,9 @@
     },
     "done": true
   },
-  "create:recipes/misc/crafting/kinetics/vertical_gearbox_from_conversion": {
-    "criteria": {
-      "has_item": "2026-07-16 14:28:42 +0200"
-    },
-    "done": true
-  },
   "handcrafted:recipes/misc/bamboo_chair": {
     "criteria": {
       "has_bamboo_chair": "2026-07-16 17:21:31 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/mud_bricks": {
-    "criteria": {
-      "has_packed_mud": "2026-07-16 16:40:43 +0200"
     },
     "done": true
   },
@@ -18416,12 +18490,6 @@
   "handcrafted:recipes/misc/bamboo_fancy_bed": {
     "criteria": {
       "has_bamboo_fancy_bed": "2026-07-16 17:21:31 +0200"
-    },
-    "done": true
-  },
-  "create:shifting_gears": {
-    "criteria": {
-      "0": "2026-07-16 14:18:59 +0200"
     },
     "done": true
   },
@@ -18443,18 +18511,6 @@
     },
     "done": true
   },
-  "create:speed_controller": {
-    "criteria": {
-      "0": "2026-07-16 14:31:38 +0200"
-    },
-    "done": true
-  },
-  "create:hose_pulley": {
-    "criteria": {
-      "0": "2026-07-16 14:57:29 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/bamboo_sign": {
     "criteria": {
       "has_planks": "2026-07-16 17:21:31 +0200"
@@ -18464,18 +18520,6 @@
   "handcrafted:recipes/misc/bamboo_couch": {
     "criteria": {
       "has_bamboo_couch": "2026-07-16 17:21:31 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/logistics/redstone_contact": {
-    "criteria": {
-      "has_item": "2026-07-16 20:27:23 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dried_kelp_block": {
-    "criteria": {
-      "has_dried_kelp": "2026-07-16 14:55:07 +0200"
     },
     "done": true
   },
@@ -18491,18 +18535,6 @@
     },
     "done": true
   },
-  "create:recipes/misc/crafting/kinetics/clockwork_bearing": {
-    "criteria": {
-      "has_item": "2026-07-16 20:27:23 +0200"
-    },
-    "done": true
-  },
-  "create:copper_casing": {
-    "criteria": {
-      "0": "2026-07-16 16:03:03 +0200"
-    },
-    "done": true
-  },
   "sophisticatedstorage:recipes/misc/bamboo_barrel": {
     "criteria": {
       "has_bamboo_plank": "2026-07-16 17:21:31 +0200"
@@ -18515,39 +18547,9 @@
     },
     "done": true
   },
-  "create:water_supply": {
-    "criteria": {
-      "0": "2026-07-16 14:37:55 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/bamboo_stairs": {
     "criteria": {
       "has_planks": "2026-07-16 17:21:31 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/kinetics/portable_fluid_interface": {
-    "criteria": {
-      "has_item": "2026-07-16 14:54:04 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/kinetics/mechanical_arm": {
-    "criteria": {
-      "has_item": "2026-07-16 20:27:23 +0200"
-    },
-    "done": true
-  },
-  "create:chute": {
-    "criteria": {
-      "0": "2026-07-16 20:42:01 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/kinetics/gearbox_from_conversion": {
-    "criteria": {
-      "has_item": "2026-07-16 15:07:24 +0200"
     },
     "done": true
   },
@@ -18557,33 +18559,9 @@
     },
     "done": true
   },
-  "chipped:recipes/workbench/mason_table": {
-    "criteria": {
-      "has_item": "2026-07-16 17:13:50 +0200"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/bamboo_window": {
     "criteria": {
       "has_ingredient": "2026-07-16 17:21:31 +0200"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/kelp_roll": {
-    "criteria": {
-      "has_dried_kelp": "2026-07-16 14:55:07 +0200"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/slicing/light_gray_dye_from_azure_bluet": {
-    "criteria": {
-      "has_azure_bluet": "2026-07-16 20:34:23 +0200"
-    },
-    "done": true
-  },
-  "create:mechanical_pump_0": {
-    "criteria": {
-      "0": "2026-07-16 14:31:29 +0200"
     },
     "done": true
   },
@@ -18599,30 +18577,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/bamboo_mosaic": {
-    "criteria": {
-      "has_bamboo_slab": "2026-07-16 17:23:03 +0200"
-    },
-    "done": true
-  },
-  "create:belt": {
-    "criteria": {
-      "0": "2026-07-16 20:16:54 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/kinetics/copper_door": {
-    "criteria": {
-      "has_item": "2026-07-16 14:54:04 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/kinetics/mechanical_crafter": {
-    "criteria": {
-      "has_item": "2026-07-16 20:27:23 +0200"
-    },
-    "done": true
-  },
   "handcrafted:recipes/misc/bamboo_corner_trim": {
     "criteria": {
       "has_bamboo_corner_trim": "2026-07-16 17:21:31 +0200"
@@ -18635,51 +18589,9 @@
     },
     "done": true
   },
-  "create:windmill": {
-    "criteria": {
-      "0": "2026-07-16 14:31:29 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/kinetics/brass_door": {
-    "criteria": {
-      "has_item": "2026-07-16 20:27:23 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/bamboo_door": {
     "criteria": {
       "has_planks": "2026-07-16 17:21:31 +0200"
-    },
-    "done": true
-  },
-  "chipped:recipes/misc/chisel": {
-    "criteria": {
-      "has_chisel": "2026-07-16 17:13:50 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/logistics/stockpile_switch": {
-    "criteria": {
-      "has_item": "2026-07-16 20:27:23 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/kinetics/sequenced_gearshift": {
-    "criteria": {
-      "has_item": "2026-07-16 20:27:23 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/light_gray_dye_from_azure_bluet": {
-    "criteria": {
-      "has_azure_bluet": "2026-07-16 20:34:23 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/kinetics/item_drain": {
-    "criteria": {
-      "has_item": "2026-07-16 14:54:04 +0200"
     },
     "done": true
   },
@@ -18695,9 +18607,75 @@
     },
     "done": true
   },
-  "trashcans:trash_can": {
+  "handcrafted:recipes/misc/bamboo_cupboard": {
     "criteria": {
-      "has_liquid_trash_can": "2026-07-16 15:59:07 +0200"
+      "has_bamboo_cupboard": "2026-07-16 17:21:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/bamboo_mosaic": {
+    "criteria": {
+      "has_bamboo_slab": "2026-07-16 17:23:03 +0200"
+    },
+    "done": true
+  },
+  "create:belt": {
+    "criteria": {
+      "0": "2026-07-16 20:16:54 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/logistics/content_observer": {
+    "criteria": {
+      "has_item": "2026-07-16 20:27:23 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/logistics/display_link": {
+    "criteria": {
+      "has_item": "2026-07-16 20:27:23 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/logistics/redstone_contact": {
+    "criteria": {
+      "has_item": "2026-07-16 20:27:23 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/clockwork_bearing": {
+    "criteria": {
+      "has_item": "2026-07-16 20:27:23 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/mechanical_arm": {
+    "criteria": {
+      "has_item": "2026-07-16 20:27:23 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/mechanical_crafter": {
+    "criteria": {
+      "has_item": "2026-07-16 20:27:23 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/brass_door": {
+    "criteria": {
+      "has_item": "2026-07-16 20:27:23 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/logistics/stockpile_switch": {
+    "criteria": {
+      "has_item": "2026-07-16 20:27:23 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/sequenced_gearshift": {
+    "criteria": {
+      "has_item": "2026-07-16 20:27:23 +0200"
     },
     "done": true
   },
@@ -18707,9 +18685,357 @@
     },
     "done": true
   },
-  "handcrafted:recipes/misc/bamboo_cupboard": {
+  "refurbished_furniture:recipes/misc/slicing/light_gray_dye_from_azure_bluet": {
     "criteria": {
-      "has_bamboo_cupboard": "2026-07-16 17:21:31 +0200"
+      "has_azure_bluet": "2026-07-16 20:34:23 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_azure_bluet": {
+    "criteria": {
+      "has_azure_bluet": "2026-07-16 20:34:23 +0200"
+    },
+    "done": true
+  },
+  "create:funnel": {
+    "criteria": {
+      "0": "2026-07-16 20:35:37 +0200"
+    },
+    "done": true
+  },
+  "create:mechanical_mixer": {
+    "criteria": {
+      "0": "2026-07-16 20:35:54 +0200"
+    },
+    "done": true
+  },
+  "create:chute": {
+    "criteria": {
+      "0": "2026-07-16 20:42:01 +0200"
+    },
+    "done": true
+  },
+  "artifacts:chest_slayer": {
+    "criteria": {
+      "kill_mimic": "2026-07-23 16:04:52 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/dried_kelp_block_slab": {
+    "criteria": {
+      "has_dried_kelp_block": "2026-07-23 16:51:24 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp": {
+    "criteria": {
+      "has_dried_kelp_block": "2026-07-23 16:51:24 +0200"
+    },
+    "done": true
+  },
+  "mynethersdelight:recipes/building_blocks/crafting/powdery_plank": {
+    "criteria": {
+      "has_powder_cannon": "2026-07-23 19:39:50 +0200"
+    },
+    "done": true
+  },
+  "mynethersdelight:recipes/misc/crafting/stick_alt": {
+    "criteria": {
+      "has_powder_cannon": "2026-07-23 19:39:50 +0200"
+    },
+    "done": true
+  },
+  "mynethersdelight:recipes/building_blocks/crafting/block_of_powdery_cannon": {
+    "criteria": {
+      "has_powder_cannon": "2026-07-23 19:39:50 +0200"
+    },
+    "done": true
+  },
+  "mynethersdelight:recipes/misc/crafting/powdery_torch": {
+    "criteria": {
+      "has_powder_cannon": "2026-07-23 19:39:50 +0200"
+    },
+    "done": true
+  },
+  "mynethersdelight:recipes/redstone/crafting/tnt_alt": {
+    "criteria": {
+      "has_powder_cannon": "2026-07-23 19:39:50 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/iron_to_gold_tier_upgrade": {
+    "criteria": {
+      "has_lever": "2026-07-23 22:18:34 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/gold_to_diamond_tier_upgrade": {
+    "criteria": {
+      "has_lever": "2026-07-23 22:18:34 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/basic_to_iron_tier_upgrade": {
+    "criteria": {
+      "has_lever": "2026-07-23 22:18:34 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/diamond_to_netherite_tier_upgrade": {
+    "criteria": {
+      "has_lever": "2026-07-23 22:18:34 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/copper_to_iron_tier_upgrade": {
+    "criteria": {
+      "has_lever": "2026-07-23 22:18:34 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/basic_to_copper_tier_upgrade": {
+    "criteria": {
+      "has_lever": "2026-07-23 22:18:34 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/basic_to_iron_tier_from_basic_to_copper_tier": {
+    "criteria": {
+      "has_lever": "2026-07-23 22:18:34 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/basic_tier_upgrade": {
+    "criteria": {
+      "has_lever": "2026-07-23 22:18:34 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/gold_mine": {
+    "criteria": {
+      "has_mine": "2026-07-23 22:22:13 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/deepslate_copper_mine": {
+    "criteria": {
+      "has_mine": "2026-07-23 22:22:13 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/copper_mine": {
+    "criteria": {
+      "has_mine": "2026-07-23 22:22:13 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/iron_mine": {
+    "criteria": {
+      "has_mine": "2026-07-23 22:22:13 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/cobblestone_mine": {
+    "criteria": {
+      "has_mine": "2026-07-23 22:22:13 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/coal_mine": {
+    "criteria": {
+      "has_mine": "2026-07-23 22:22:13 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/redstone_mine": {
+    "criteria": {
+      "has_mine": "2026-07-23 22:22:13 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/deepslate_diamond_mine": {
+    "criteria": {
+      "has_mine": "2026-07-23 22:22:13 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/suspicious_sand_mine": {
+    "criteria": {
+      "has_mine": "2026-07-23 22:22:13 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/deepslate_lapis_mine": {
+    "criteria": {
+      "has_mine": "2026-07-23 22:22:13 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/end_stone_mine": {
+    "criteria": {
+      "has_mine": "2026-07-23 22:22:13 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/nether_gold_mine": {
+    "criteria": {
+      "has_mine": "2026-07-23 22:22:13 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/diamond_mine": {
+    "criteria": {
+      "has_mine": "2026-07-23 22:22:13 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/quartz_mine": {
+    "criteria": {
+      "has_mine": "2026-07-23 22:22:13 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/sand_mine": {
+    "criteria": {
+      "has_mine": "2026-07-23 22:22:13 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/deepslate_emerald_mine": {
+    "criteria": {
+      "has_mine": "2026-07-23 22:22:13 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/cobbled_deepslate_mine": {
+    "criteria": {
+      "has_mine": "2026-07-23 22:22:13 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/lapis_mine": {
+    "criteria": {
+      "has_mine": "2026-07-23 22:22:13 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/stone_mine": {
+    "criteria": {
+      "has_mine": "2026-07-23 22:22:13 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/blast_furnace_mine": {
+    "criteria": {
+      "has_mine": "2026-07-23 22:22:13 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/deepslate_coal_mine": {
+    "criteria": {
+      "has_mine": "2026-07-23 22:22:13 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/deepslate_mine": {
+    "criteria": {
+      "has_mine": "2026-07-23 22:22:13 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/gilded_blackstone_mine": {
+    "criteria": {
+      "has_mine": "2026-07-23 22:22:13 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/deepslate_iron_mine": {
+    "criteria": {
+      "has_mine": "2026-07-23 22:22:13 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/tools/remote_access_mine": {
+    "criteria": {
+      "has_mine": "2026-07-23 22:22:13 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/deepslate_gold_mine": {
+    "criteria": {
+      "has_mine": "2026-07-23 22:22:13 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/gravel_mine": {
+    "criteria": {
+      "has_mine": "2026-07-23 22:22:13 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/deepslate_redstone_mine": {
+    "criteria": {
+      "has_mine": "2026-07-23 22:22:13 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/emerald_mine": {
+    "criteria": {
+      "has_mine": "2026-07-23 22:22:13 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/smoker_mine": {
+    "criteria": {
+      "has_mine": "2026-07-23 22:22:13 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/tools/wire_cutters": {
+    "criteria": {
+      "has_mine": "2026-07-23 22:22:13 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/netherrack_mine": {
+    "criteria": {
+      "has_mine": "2026-07-23 22:22:13 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/furnace_mine": {
+    "criteria": {
+      "has_mine": "2026-07-23 22:22:13 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/ancient_debris_mine": {
+    "criteria": {
+      "has_mine": "2026-07-23 22:22:13 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/suspicious_gravel_mine": {
+    "criteria": {
+      "has_mine": "2026-07-23 22:22:13 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/dirt_mine": {
+    "criteria": {
+      "has_mine": "2026-07-23 22:22:13 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_glazed_terracotta": {
+    "criteria": {
+      "has_white_terracotta": "2026-07-23 22:24:26 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/white_terracotta_slab": {
+    "criteria": {
+      "has_white_terracotta": "2026-07-23 22:24:26 +0200"
     },
     "done": true
   },

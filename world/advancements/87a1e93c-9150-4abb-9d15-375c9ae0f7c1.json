@@ -20433,6 +20433,30 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/red_dye_from_rose_bush": {
+    "criteria": {
+      "has_rose_bush": "2026-07-22 14:48:31 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/slicing/red_dye_from_rose_bush": {
+    "criteria": {
+      "has_rose_bush": "2026-07-22 14:48:31 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/white_concrete_slab": {
+    "criteria": {
+      "has_white_concrete": "2026-07-22 14:50:01 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/yellow_concrete_slab": {
+    "criteria": {
+      "has_yellow_concrete": "2026-07-22 14:52:34 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/jungle_wood": {
     "criteria": {
       "has_log": "2026-07-22 15:00:30 +0200"
@@ -20460,12 +20484,6 @@
   "mcwtrpdoors:recipes/jungle/jungle_glass_trapdoor": {
     "criteria": {
       "has_logs": "2026-07-22 15:00:30 +0200"
-    },
-    "done": true
-  },
-  "new_slab_variants:recipes/building_blocks/white_concrete_slab": {
-    "criteria": {
-      "has_white_concrete": "2026-07-22 14:50:01 +0200"
     },
     "done": true
   },
@@ -20517,12 +20535,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/red_dye_from_rose_bush": {
-    "criteria": {
-      "has_rose_bush": "2026-07-22 14:48:31 +0200"
-    },
-    "done": true
-  },
   "mcwroofs:recipes/jungle": {
     "criteria": {
       "has_planks": "2026-07-22 15:00:30 +0200"
@@ -20532,12 +20544,6 @@
   "mcwtrpdoors:recipes/jungle/jungle_barn_trapdoor": {
     "criteria": {
       "has_logs": "2026-07-22 15:00:30 +0200"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/slicing/red_dye_from_rose_bush": {
-    "criteria": {
-      "has_rose_bush": "2026-07-22 14:48:31 +0200"
     },
     "done": true
   },
@@ -20571,12 +20577,6 @@
     },
     "done": true
   },
-  "new_slab_variants:recipes/building_blocks/yellow_concrete_slab": {
-    "criteria": {
-      "has_yellow_concrete": "2026-07-22 14:52:34 +0200"
-    },
-    "done": true
-  },
   "mcwtrpdoors:recipes/jungle/jungle_mystic_trapdoor": {
     "criteria": {
       "has_logs": "2026-07-22 15:00:30 +0200"
@@ -20586,6 +20586,162 @@
   "mcwtrpdoors:recipes/jungle/jungle_paper_trapdoor": {
     "criteria": {
       "has_logs": "2026-07-22 15:00:30 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/dripstone_pillar_trim": {
+    "criteria": {
+      "has_dripstone_pillar_trim": "2026-07-23 19:08:42 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_dripstone_brick_stairs_from_stone_types_dripstone_stonecutting": {
+    "criteria": {
+      "has_stone_types_dripstone": "2026-07-23 19:08:42 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_dripstone_bricks_from_stone_types_dripstone_stonecutting": {
+    "criteria": {
+      "has_stone_types_dripstone": "2026-07-23 19:08:42 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit_from_campfire_cooking": {
+    "criteria": {
+      "has_rabbit": "2026-07-23 18:49:47 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_dripstone_wall_from_stone_types_dripstone_stonecutting": {
+    "criteria": {
+      "has_stone_types_dripstone": "2026-07-23 19:08:42 +0200"
+    },
+    "done": true
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2026-07-23 19:16:53 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_dripstone_brick_slab_from_stone_types_dripstone_stonecutting": {
+    "criteria": {
+      "has_stone_types_dripstone": "2026-07-23 19:08:42 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/dripstone_block_slab": {
+    "criteria": {
+      "has_dripstone_block": "2026-07-23 19:08:42 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_dripstone_from_stone_types_dripstone_stonecutting": {
+    "criteria": {
+      "has_stone_types_dripstone": "2026-07-23 19:08:42 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/dripstone_block_from_stone_types_dripstone_stonecutting": {
+    "criteria": {
+      "has_stone_types_dripstone": "2026-07-23 19:08:42 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/dripstone_corner_trim": {
+    "criteria": {
+      "has_dripstone_corner_trim": "2026-07-23 19:08:42 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_dripstone_brick_slab_from_stone_types_dripstone_stonecutting": {
+    "criteria": {
+      "has_stone_types_dripstone": "2026-07-23 19:08:42 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/dripstone_pillar_from_stone_types_dripstone_stonecutting": {
+    "criteria": {
+      "has_stone_types_dripstone": "2026-07-23 19:08:42 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_dripstone_slab_from_stone_types_dripstone_stonecutting": {
+    "criteria": {
+      "has_stone_types_dripstone": "2026-07-23 19:08:42 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_dripstone_slab_from_stone_types_dripstone_stonecutting": {
+    "criteria": {
+      "has_stone_types_dripstone": "2026-07-23 19:08:42 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_dripstone_brick_wall_from_stone_types_dripstone_stonecutting": {
+    "criteria": {
+      "has_stone_types_dripstone": "2026-07-23 19:08:42 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit": {
+    "criteria": {
+      "has_rabbit": "2026-07-23 18:49:47 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_dripstone_stairs_from_stone_types_dripstone_stonecutting": {
+    "criteria": {
+      "has_stone_types_dripstone": "2026-07-23 19:08:42 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_dripstone_bricks_from_stone_types_dripstone_stonecutting": {
+    "criteria": {
+      "has_stone_types_dripstone": "2026-07-23 19:08:42 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_dripstone_from_stone_types_dripstone_stonecutting": {
+    "criteria": {
+      "has_stone_types_dripstone": "2026-07-23 19:08:42 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/layered_dripstone_from_stone_types_dripstone_stonecutting": {
+    "criteria": {
+      "has_stone_types_dripstone": "2026-07-23 19:08:42 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit_from_smoking": {
+    "criteria": {
+      "has_rabbit": "2026-07-23 18:49:47 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_dripstone_wall_from_stone_types_dripstone_stonecutting": {
+    "criteria": {
+      "has_stone_types_dripstone": "2026-07-23 19:08:42 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_dripstone_stairs_from_stone_types_dripstone_stonecutting": {
+    "criteria": {
+      "has_stone_types_dripstone": "2026-07-23 19:08:42 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_dripstone_brick_stairs_from_stone_types_dripstone_stonecutting": {
+    "criteria": {
+      "has_stone_types_dripstone": "2026-07-23 19:08:42 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_dripstone_brick_wall_from_stone_types_dripstone_stonecutting": {
+    "criteria": {
+      "has_stone_types_dripstone": "2026-07-23 19:08:42 +0200"
     },
     "done": true
   },
