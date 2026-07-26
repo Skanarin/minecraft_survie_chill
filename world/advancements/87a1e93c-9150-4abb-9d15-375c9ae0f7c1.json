@@ -40,13 +40,16 @@
       "redwood_forest": "2026-07-01 15:11:21 +0200",
       "scrubland": "2026-07-05 16:03:32 +0200",
       "fungal_jungle": "2026-07-05 16:02:34 +0200",
+      "aspen_glade": "2026-07-26 16:59:10 +0200",
       "bayou": "2026-07-17 12:40:34 +0200",
       "dune_beach": "2026-07-05 15:52:23 +0200",
       "floodplain": "2026-07-17 12:40:23 +0200",
       "seasonal_forest": "2026-07-05 15:53:06 +0200",
       "pasture": "2026-07-02 23:25:11 +0200",
+      "jade_cliffs": "2026-07-26 17:02:58 +0200",
       "volcanic_plains": "2026-07-05 16:02:41 +0200",
       "mystic_grove": "2026-07-05 16:01:52 +0200",
+      "lavender_field": "2026-07-26 17:03:20 +0200",
       "old_growth_woodland": "2026-07-17 13:36:38 +0200",
       "crystalline_chasm": "2026-07-07 17:14:17 +0200",
       "fir_clearing": "2026-07-05 15:54:12 +0200",
@@ -677,11 +680,13 @@
       "minecraft:lukewarm_ocean": "2026-07-07 09:59:28 +0200",
       "minecraft:stony_shore": "2026-07-05 15:58:38 +0200",
       "minecraft:deep_cold_ocean": "2026-07-05 15:56:41 +0200",
+      "minecraft:old_growth_birch_forest": "2026-07-26 17:09:12 +0200",
       "minecraft:desert": "2026-07-05 16:30:40 +0200",
       "minecraft:deep_dark": "2026-07-05 16:46:30 +0200",
       "minecraft:ocean": "2026-07-02 23:24:07 +0200",
       "minecraft:jungle": "2026-07-15 21:58:02 +0200",
       "minecraft:sunflower_plains": "2026-07-05 16:00:05 +0200",
+      "minecraft:birch_forest": "2026-07-26 17:08:32 +0200",
       "minecraft:savanna": "2026-07-02 20:42:33 +0200",
       "minecraft:windswept_savanna": "2026-07-16 15:12:54 +0200",
       "minecraft:plains": "2026-07-01 14:24:11 +0200",
@@ -20900,6 +20905,157 @@
   "new_slab_variants:recipes/building_blocks/chiseled_quartz_block_slab": {
     "criteria": {
       "has_chiseled_quartz_block": "2026-07-25 21:44:16 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/acacia_wood_slab": {
+    "criteria": {
+      "has_acacia_wood": "2026-07-26 15:55:46 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/cherry_hedge": {
+    "criteria": {
+      "has_minecraft:cherry_leaves": "2026-07-26 16:09:41 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/cherry_leaves_slab": {
+    "criteria": {
+      "has_cherry_leaves": "2026-07-26 16:09:41 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/cherry/cherry_barred_trapdoor": {
+    "criteria": {
+      "has_logs": "2026-07-26 16:09:57 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/cherry/cherry_mystic_trapdoor": {
+    "criteria": {
+      "has_logs": "2026-07-26 16:09:57 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/cherry/cherry_classic_trapdoor": {
+    "criteria": {
+      "has_logs": "2026-07-26 16:09:57 +0200",
+      "has_the_recipe": "2026-07-26 16:09:57 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/cherry/cherry_paper_trapdoor": {
+    "criteria": {
+      "has_logs": "2026-07-26 16:09:57 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/cherry/cherry_tropical_trapdoor": {
+    "criteria": {
+      "has_logs": "2026-07-26 16:09:57 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/cherry/cherry_swamp_trapdoor": {
+    "criteria": {
+      "has_logs": "2026-07-26 16:09:57 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/cherry/cherry_barn_trapdoor": {
+    "criteria": {
+      "has_logs": "2026-07-26 16:09:57 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/cherry/cherry_beach_trapdoor": {
+    "criteria": {
+      "has_logs": "2026-07-26 16:09:57 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cherry_wood": {
+    "criteria": {
+      "has_log": "2026-07-26 16:09:57 +0200"
+    },
+    "done": true
+  },
+  "mcwfurnitures:recipes/cherry": {
+    "criteria": {
+      "has_wood": "2026-07-26 16:09:57 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/cherry/cherry_four_panel_trapdoor": {
+    "criteria": {
+      "has_logs": "2026-07-26 16:09:57 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/cherry/cherry_whispering_trapdoor": {
+    "criteria": {
+      "has_logs": "2026-07-26 16:09:57 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/cherry/cherry_cottage_trapdoor": {
+    "criteria": {
+      "has_logs": "2026-07-26 16:09:57 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/cherry_log_slab": {
+    "criteria": {
+      "has_cherry_log": "2026-07-26 16:09:57 +0200"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/cherry": {
+    "criteria": {
+      "has_planks": "2026-07-26 16:09:57 +0200"
+    },
+    "done": true
+  },
+  "mcwdoors:recipes/cherry": {
+    "criteria": {
+      "has_wood": "2026-07-26 16:09:57 +0200"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/cherry_bridge_pier": {
+    "criteria": {
+      "has_planks": "2026-07-26 16:09:57 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/cherry/cherry_barrel_trapdoor": {
+    "criteria": {
+      "has_logs": "2026-07-26 16:09:57 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/cherry/cherry_glass_trapdoor": {
+    "criteria": {
+      "has_logs": "2026-07-26 16:09:57 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/misc/pink_dye_from_pink_daffodil": {
+    "criteria": {
+      "has_pink_daffodil": "2026-07-26 17:08:59 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/shroomlight_slab": {
+    "criteria": {
+      "has_shroomlight": "2026-07-26 18:47:36 +0200"
+    },
+    "done": true
+  },
+  "mcwlights:recipes/shroomlight_slab": {
+    "criteria": {
+      "has_wood": "2026-07-26 18:47:36 +0200"
     },
     "done": true
   },
