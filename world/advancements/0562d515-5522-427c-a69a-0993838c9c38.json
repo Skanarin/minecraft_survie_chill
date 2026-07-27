@@ -19477,15 +19477,21 @@
     },
     "done": true
   },
-  "mcwlights:recipes/redstone_slab": {
-    "criteria": {
-      "has_wood": "2026-07-24 15:14:09 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/spectral_arrow": {
     "criteria": {
       "has_glowstone_dust": "2026-07-24 15:13:36 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glowstone": {
+    "criteria": {
+      "has_glowstone_dust": "2026-07-24 15:13:36 +0200"
+    },
+    "done": true
+  },
+  "mcwlights:recipes/redstone_slab": {
+    "criteria": {
+      "has_wood": "2026-07-24 15:14:09 +0200"
     },
     "done": true
   },
@@ -19495,9 +19501,27 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/glowstone": {
+  "jbt:recipes": {
     "criteria": {
-      "has_glowstone_dust": "2026-07-24 15:13:36 +0200"
+      "requirement": "2026-07-27 19:44:50 +0200"
+    },
+    "done": true
+  },
+  "imalittlhigh:root": {
+    "criteria": {
+      "1": "2026-07-27 19:44:50 +0200"
+    },
+    "done": true
+  },
+  "imalittlhigh:custrees": {
+    "criteria": {
+      "1": "2026-07-27 19:44:50 +0200"
+    },
+    "done": true
+  },
+  "jbt:visible/root": {
+    "criteria": {
+      "tick": "2026-07-27 19:44:50 +0200"
     },
     "done": true
   },

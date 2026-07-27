@@ -2518,6 +2518,7 @@
       "rice": "2026-07-02 20:33:20 +0200",
       "kelp": "2026-07-05 15:38:06 +0200",
       "beetroot": "2026-07-01 16:32:34 +0200",
+      "cocoa": "2026-07-27 20:00:53 +0200",
       "sugar_cane": "2026-07-01 14:33:59 +0200",
       "potato": "2026-07-01 15:53:45 +0200",
       "wheat": "2026-07-01 15:07:03 +0200",
@@ -4105,6 +4106,7 @@
     "criteria": {
       "minecraft:pillager": "2026-07-08 17:05:25 +0200",
       "minecraft:skeleton": "2026-07-01 14:42:29 +0200",
+      "minecraft:zombified_piglin": "2026-07-27 19:54:12 +0200",
       "minecraft:ghast": "2026-07-06 22:25:32 +0200",
       "minecraft:ender_dragon": "2026-07-25 09:34:25 +0200",
       "minecraft:hoglin": "2026-07-03 11:09:07 +0200",
@@ -21056,6 +21058,24 @@
   "mcwlights:recipes/shroomlight_slab": {
     "criteria": {
       "has_wood": "2026-07-26 18:47:36 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/hot_cocoa": {
+    "criteria": {
+      "has_any_ingredient": "2026-07-27 20:00:46 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/brown_dye": {
+    "criteria": {
+      "has_cocoa_beans": "2026-07-27 20:00:46 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cookie": {
+    "criteria": {
+      "has_cocoa": "2026-07-27 20:00:46 +0200"
     },
     "done": true
   },
