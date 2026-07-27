@@ -19525,5 +19525,17 @@
     },
     "done": true
   },
+  "create:recipes/misc/crafting/materials/brass_ingot_from_compacting": {
+    "criteria": {
+      "has_item": "2026-07-27 23:18:40 +0200"
+    },
+    "done": true
+  },
+  "create:burner": {
+    "criteria": {
+      "0": "2026-07-27 23:38:46 +0200"
+    },
+    "done": true
+  },
   "DataVersion": 3955
 }
