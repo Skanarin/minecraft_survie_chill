@@ -1,0 +1,19 @@
+{
+	id: "e67dd13e-3bca-4759-b149-06e7971a6b10"
+	type: "player"
+	player_name: "Ghoxs"
+	ranks: {
+		e67dd13e-3bca-4759-b149-06e7971a6b10: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Ghoxs"
+		"ftbteams:description": ""
+		"ftbteams:color": "#59FFBF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+		"ftbteams:team_stages": [ ]
+		"ftbteams:lives_remaining": 0
+	}
+	message_history: [ ]
+	extra: { }
+}

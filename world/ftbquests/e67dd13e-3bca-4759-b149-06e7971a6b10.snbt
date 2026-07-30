@@ -1,0 +1,24 @@
+{
+	version: 1
+	uuid: "e67dd13e3bca4759b14906e7971a6b10"
+	name: "Ghoxs#e67dd13e"
+	lock: false
+	rewards_blocked: false
+	task_progress: {
+		5C82454E5822AEC3: 1L
+	}
+	started: {
+		5C82454E5822AEC3: 1785406038951L
+		0DDD943AB81BC3E2: 1785406038951L
+		0000000000000001: 1785406038951L
+		172B129E854153F0: 1785406038951L
+	}
+	completed: {
+		5C82454E5822AEC3: 1785406038970L
+		0DDD943AB81BC3E2: 1785406038970L
+	}
+	repeatable: { }
+	completion_count: { }
+	claimed_rewards: { }
+	player_data: { }
+}
