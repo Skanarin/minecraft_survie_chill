@@ -21085,5 +21085,17 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/orange_dye_from_torchflower": {
+    "criteria": {
+      "has_torchflower": "2026-07-30 13:13:31 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/slicing/orange_dye_from_torchflower": {
+    "criteria": {
+      "has_torchflower": "2026-07-30 13:13:31 +0200"
+    },
+    "done": true
+  },
   "DataVersion": 3955
 }
