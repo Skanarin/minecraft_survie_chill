@@ -21097,5 +21097,29 @@
     },
     "done": true
   },
+  "mynethersdelight:recipes/cooking/strider_and_grilled_fungus": {
+    "criteria": {
+      "has_any_ingredient": "2026-07-31 11:07:10 +0200"
+    },
+    "done": true
+  },
+  "mynethersdelight:recipes/cooking/twisted_ghasta": {
+    "criteria": {
+      "has_any_ingredient": "2026-07-31 11:07:10 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/warped_fungus_on_a_stick": {
+    "criteria": {
+      "has_warped_fungus": "2026-07-31 11:07:10 +0200"
+    },
+    "done": true
+  },
+  "mynethersdelight:recipes/cooking/strider_stew": {
+    "criteria": {
+      "has_any_ingredient": "2026-07-31 11:07:10 +0200"
+    },
+    "done": true
+  },
   "DataVersion": 3955
 }
