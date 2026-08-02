@@ -21121,5 +21121,209 @@
     },
     "done": true
   },
+  "handcrafted:recipes/misc/bamboo_pillar_trim": {
+    "criteria": {
+      "has_bamboo_pillar_trim": "2026-08-02 19:45:09 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/bamboo_limited_barrel_1": {
+    "criteria": {
+      "has_bamboo_plank": "2026-08-02 19:45:09 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/bamboo_limited_barrel_2": {
+    "criteria": {
+      "has_bamboo_plank": "2026-08-02 19:45:09 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/bamboo_limited_barrel_3": {
+    "criteria": {
+      "has_bamboo_plank": "2026-08-02 19:45:09 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/bamboo_limited_barrel_4": {
+    "criteria": {
+      "has_bamboo_plank": "2026-08-02 19:45:09 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/bamboo_desk": {
+    "criteria": {
+      "has_bamboo_desk": "2026-08-02 19:45:09 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/bamboo_shelf": {
+    "criteria": {
+      "has_bamboo_shelf": "2026-08-02 19:45:09 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/bamboo_fence": {
+    "criteria": {
+      "has_planks": "2026-08-02 19:45:09 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/bamboo_pressure_plate": {
+    "criteria": {
+      "has_planks": "2026-08-02 19:45:09 +0200"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/bamboo_planks": {
+    "criteria": {
+      "has_planks": "2026-08-02 19:45:09 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_slab": {
+    "criteria": {
+      "has_planks": "2026-08-02 19:45:09 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/bamboo_chair": {
+    "criteria": {
+      "has_bamboo_chair": "2026-08-02 19:45:09 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/bamboo_button": {
+    "criteria": {
+      "has_planks": "2026-08-02 19:45:09 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/bamboo_fancy_bed": {
+    "criteria": {
+      "has_bamboo_fancy_bed": "2026-08-02 19:45:09 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/bamboo_bench": {
+    "criteria": {
+      "has_bamboo_bench": "2026-08-02 19:45:09 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/bamboo_counter": {
+    "criteria": {
+      "has_bamboo_counter": "2026-08-02 19:45:09 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/bamboo_nightstand": {
+    "criteria": {
+      "has_bamboo_nightstand": "2026-08-02 19:45:09 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/bamboo_sign": {
+    "criteria": {
+      "has_planks": "2026-08-02 19:45:09 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/bamboo_couch": {
+    "criteria": {
+      "has_bamboo_couch": "2026-08-02 19:45:09 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/bamboo_dining_bench": {
+    "criteria": {
+      "has_bamboo_dining_bench": "2026-08-02 19:45:09 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/bamboo_side_table": {
+    "criteria": {
+      "has_bamboo_side_table": "2026-08-02 19:45:09 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/bamboo_barrel": {
+    "criteria": {
+      "has_bamboo_plank": "2026-08-02 19:45:09 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/bamboo_fence_gate": {
+    "criteria": {
+      "has_planks": "2026-08-02 19:45:09 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_stairs": {
+    "criteria": {
+      "has_planks": "2026-08-02 19:45:09 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/bamboo_drawer": {
+    "criteria": {
+      "has_bamboo_drawer": "2026-08-02 19:45:09 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/bamboo_window": {
+    "criteria": {
+      "has_ingredient": "2026-08-02 19:45:09 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/bamboo_storage_connector": {
+    "criteria": {
+      "has_bamboo_planks": "2026-08-02 19:45:09 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/bamboo_table": {
+    "criteria": {
+      "has_bamboo_table": "2026-08-02 19:45:09 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/bamboo_corner_trim": {
+    "criteria": {
+      "has_bamboo_corner_trim": "2026-08-02 19:45:09 +0200"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/bamboo_mosaic": {
+    "criteria": {
+      "has_planks": "2026-08-02 19:45:09 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/bamboo_door": {
+    "criteria": {
+      "has_planks": "2026-08-02 19:45:09 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/bamboo_trapdoor": {
+    "criteria": {
+      "has_planks": "2026-08-02 19:45:09 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/bamboo_chest": {
+    "criteria": {
+      "has_bamboo_plank": "2026-08-02 19:45:09 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/bamboo_cupboard": {
+    "criteria": {
+      "has_bamboo_cupboard": "2026-08-02 19:45:09 +0200"
+    },
+    "done": true
+  },
   "DataVersion": 3955
 }
