@@ -4,5 +4,11 @@
     "name": "Zakohen",
     "level": 4,
     "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "3d7bab1e-6346-48d6-ad16-21171529fdf8",
+    "name": "Parmenyyon",
+    "level": 4,
+    "bypassesPlayerLimit": false
   }
 ]

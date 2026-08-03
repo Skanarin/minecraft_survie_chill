@@ -35,6 +35,7 @@
       "woodland": "2026-07-05 16:02:53 +0200",
       "dryland": "2026-07-05 16:29:20 +0200",
       "wasteland": "2026-07-05 16:30:12 +0200",
+      "shrubland": "2026-08-03 17:29:43 +0200",
       "rocky_shrubland": "2026-07-05 16:01:53 +0200",
       "lush_desert": "2026-07-05 16:29:33 +0200",
       "redwood_forest": "2026-07-01 15:11:21 +0200",
@@ -45,7 +46,9 @@
       "dune_beach": "2026-07-05 15:52:23 +0200",
       "floodplain": "2026-07-17 12:40:23 +0200",
       "seasonal_forest": "2026-07-05 15:53:06 +0200",
+      "jacaranda_glade": "2026-08-03 17:42:14 +0200",
       "pasture": "2026-07-02 23:25:11 +0200",
+      "rocky_rainforest": "2026-08-03 17:08:02 +0200",
       "jade_cliffs": "2026-07-26 17:02:58 +0200",
       "volcanic_plains": "2026-07-05 16:02:41 +0200",
       "mystic_grove": "2026-07-05 16:01:52 +0200",
@@ -55,6 +58,7 @@
       "fir_clearing": "2026-07-05 15:54:12 +0200",
       "pumpkin_patch": "2026-07-05 15:58:33 +0200",
       "prairie": "2026-07-01 14:21:48 +0200",
+      "grassland": "2026-08-03 17:09:31 +0200",
       "snowy_fir_clearing": "2026-07-25 09:12:36 +0200",
       "gravel_beach": "2026-07-05 15:56:21 +0200",
       "orchard": "2026-07-05 16:01:45 +0200",
@@ -21322,6 +21326,108 @@
   "handcrafted:recipes/misc/bamboo_cupboard": {
     "criteria": {
       "has_bamboo_cupboard": "2026-08-02 19:45:09 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/stripped_oak_wood_slab": {
+    "criteria": {
+      "has_stripped_oak_wood": "2026-08-03 18:59:48 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2026-08-03 17:20:08 +0200"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2026-08-03 17:13:49 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/jacaranda_wood": {
+    "criteria": {
+      "has_log": "2026-08-03 17:43:16 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/jacaranda_planks": {
+    "criteria": {
+      "has_logs": "2026-08-03 17:43:16 +0200"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/borderless_glass_green_pane1": {
+    "criteria": {
+      "recipe_condition": "2026-08-03 19:13:12 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/avoid_vibration": {
+    "criteria": {
+      "avoid_vibration": "2026-08-03 18:09:44 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/eye_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2026-08-03 17:51:42 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/misc/purple_dye_from_tall_lavender": {
+    "criteria": {
+      "has_tall_lavender": "2026-08-03 17:58:19 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/orange_sandstone": {
+    "criteria": {
+      "has_orange_sand": "2026-08-03 17:34:05 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/ol_betsy": {
+    "criteria": {
+      "shot_crossbow": "2026-08-03 17:20:08 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond_from_smelting_deepslate_diamond_ore": {
+    "criteria": {
+      "has_deepslate_diamond_ore": "2026-08-03 18:18:05 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/chiseled_deepslate_slab": {
+    "criteria": {
+      "has_chiseled_deepslate": "2026-08-03 18:18:08 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond_from_blasting_deepslate_diamond_ore": {
+    "criteria": {
+      "has_deepslate_diamond_ore": "2026-08-03 18:18:05 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/deepslate_diamond_ore_slab": {
+    "criteria": {
+      "has_deepslate_diamond_ore": "2026-08-03 18:18:05 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/eye_armor_trim_smithing_template": {
+    "criteria": {
+      "has_eye_armor_trim_smithing_template": "2026-08-03 17:51:42 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/misc/purple_dye_from_lavender": {
+    "criteria": {
+      "has_lavender": "2026-08-03 17:58:15 +0200"
     },
     "done": true
   },

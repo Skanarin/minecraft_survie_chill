@@ -1,0 +1,19 @@
+{
+	id: "3d7bab1e-6346-48d6-ad16-21171529fdf8"
+	type: "player"
+	player_name: "Parmenyyon"
+	ranks: {
+		3d7bab1e-6346-48d6-ad16-21171529fdf8: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Parmenyyon"
+		"ftbteams:description": ""
+		"ftbteams:color": "#59FF90"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+		"ftbteams:team_stages": [ ]
+		"ftbteams:lives_remaining": 0
+	}
+	message_history: [ ]
+	extra: { }
+}
