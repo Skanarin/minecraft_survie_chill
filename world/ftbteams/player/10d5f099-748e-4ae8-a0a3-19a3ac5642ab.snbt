@@ -1,0 +1,19 @@
+{
+	id: "10d5f099-748e-4ae8-a0a3-19a3ac5642ab"
+	type: "player"
+	player_name: "Lil__Rock"
+	ranks: {
+		10d5f099-748e-4ae8-a0a3-19a3ac5642ab: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Lil__Rock"
+		"ftbteams:description": ""
+		"ftbteams:color": "#FFAA59"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+		"ftbteams:team_stages": [ ]
+		"ftbteams:lives_remaining": 0
+	}
+	message_history: [ ]
+	extra: { }
+}
