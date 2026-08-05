@@ -21539,9 +21539,279 @@
     },
     "done": true
   },
+  "new_slab_variants:recipes/building_blocks/pink_glazed_terracotta_slab": {
+    "criteria": {
+      "has_pink_glazed_terracotta": "2026-08-04 23:09:16 +0200"
+    },
+    "done": true
+  },
   "securitycraft:recipes/decorations/reinforced_light_blue_carpet": {
     "criteria": {
       "has_item": "2026-08-04 23:32:52 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_brown_wool": {
+    "criteria": {
+      "has_wool": "2026-08-04 23:32:52 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/decorations/reinforced_lime_carpet": {
+    "criteria": {
+      "has_item": "2026-08-04 23:32:52 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_cyan_wool": {
+    "criteria": {
+      "has_wool": "2026-08-04 23:32:52 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/decorations/reinforced_orange_carpet": {
+    "criteria": {
+      "has_item": "2026-08-04 23:32:52 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_light_gray_wool": {
+    "criteria": {
+      "has_wool": "2026-08-04 23:32:52 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/decorations/reinforced_pink_carpet": {
+    "criteria": {
+      "has_item": "2026-08-04 23:32:52 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_white_wool": {
+    "criteria": {
+      "has_wool": "2026-08-04 23:32:52 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_gray_wool": {
+    "criteria": {
+      "has_wool": "2026-08-04 23:32:52 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/decorations/reinforced_red_carpet": {
+    "criteria": {
+      "has_item": "2026-08-04 23:32:52 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_yellow_wool": {
+    "criteria": {
+      "has_wool": "2026-08-04 23:32:52 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_orange_wool": {
+    "criteria": {
+      "has_wool": "2026-08-04 23:32:52 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/decorations/reinforced_cyan_carpet": {
+    "criteria": {
+      "has_item": "2026-08-04 23:32:52 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/decorations/reinforced_gray_carpet": {
+    "criteria": {
+      "has_item": "2026-08-04 23:32:52 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/decorations/reinforced_green_carpet": {
+    "criteria": {
+      "has_item": "2026-08-04 23:32:52 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/decorations/reinforced_blue_carpet": {
+    "criteria": {
+      "has_item": "2026-08-04 23:32:52 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_purple_wool": {
+    "criteria": {
+      "has_wool": "2026-08-04 23:32:52 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_light_blue_wool": {
+    "criteria": {
+      "has_wool": "2026-08-04 23:32:52 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_pink_wool": {
+    "criteria": {
+      "has_wool": "2026-08-04 23:32:52 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/decorations/reinforced_yellow_carpet": {
+    "criteria": {
+      "has_item": "2026-08-04 23:32:52 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/decorations/reinforced_magenta_carpet": {
+    "criteria": {
+      "has_item": "2026-08-04 23:32:52 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/decorations/reinforced_black_carpet": {
+    "criteria": {
+      "has_item": "2026-08-04 23:32:52 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/decorations/reinforced_purple_carpet": {
+    "criteria": {
+      "has_item": "2026-08-04 23:32:52 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_black_wool": {
+    "criteria": {
+      "has_wool": "2026-08-04 23:32:52 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_lime_wool": {
+    "criteria": {
+      "has_wool": "2026-08-04 23:32:52 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_blue_wool": {
+    "criteria": {
+      "has_wool": "2026-08-04 23:32:52 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/decorations/reinforced_brown_carpet": {
+    "criteria": {
+      "has_item": "2026-08-04 23:32:52 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/decorations/reinforced_white_carpet": {
+    "criteria": {
+      "has_item": "2026-08-04 23:32:52 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/decorations/reinforced_light_gray_carpet": {
+    "criteria": {
+      "has_item": "2026-08-04 23:32:52 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_magenta_wool": {
+    "criteria": {
+      "has_wool": "2026-08-04 23:32:52 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_red_wool": {
+    "criteria": {
+      "has_wool": "2026-08-04 23:32:52 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_green_wool": {
+    "criteria": {
+      "has_wool": "2026-08-04 23:32:52 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/misc/white_dye_from_white_lavender": {
+    "criteria": {
+      "has_white_lavender": "2026-08-04 23:34:50 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/misc/white_dye_from_tall_white_lavender": {
+    "criteria": {
+      "has_tall_white_lavender": "2026-08-04 23:34:51 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_calcite_stairs": {
+    "criteria": {
+      "has_cut_calcite": "2026-08-04 23:47:51 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_calcite_wall": {
+    "criteria": {
+      "has_cut_calcite": "2026-08-04 23:47:51 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_calcite_slab": {
+    "criteria": {
+      "has_cut_calcite": "2026-08-04 23:47:51 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/raw_copper_block_slab": {
+    "criteria": {
+      "has_raw_copper_block": "2026-08-05 00:03:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/raw_copper": {
+    "criteria": {
+      "has_raw_copper_block": "2026-08-05 00:03:31 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/tomato": {
+    "criteria": {
+      "has_tomato_crate": "2026-08-05 00:04:32 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/onion": {
+    "criteria": {
+      "has_onion_crate": "2026-08-05 00:05:16 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/cabbage": {
+    "criteria": {
+      "has_cabbage_crate": "2026-08-05 00:05:18 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/cabbage_rolls": {
+    "criteria": {
+      "has_any_ingredient": "2026-08-05 00:06:16 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/building_blocks/cabbage_crate": {
+    "criteria": {
+      "has_cabbage": "2026-08-05 00:06:16 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/creeper_banner_pattern": {
+    "criteria": {
+      "has_creeper_head": "2026-08-05 00:17:11 +0200"
     },
     "done": true
   },
@@ -21560,18 +21830,6 @@
   "refurbished_furniture:recipes/decorations/warped_dark_ceiling_fan": {
     "criteria": {
       "has_dye": "2026-08-05 00:33:05 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/reinforced_brown_wool": {
-    "criteria": {
-      "has_wool": "2026-08-04 23:32:52 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/reinforced_lime_carpet": {
-    "criteria": {
-      "has_item": "2026-08-04 23:32:52 +0200"
     },
     "done": true
   },
@@ -21635,27 +21893,9 @@
     },
     "done": true
   },
-  "create:recipes/building_blocks/cut_calcite_stairs": {
-    "criteria": {
-      "has_cut_calcite": "2026-08-04 23:47:51 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/reinforced_cyan_wool": {
-    "criteria": {
-      "has_wool": "2026-08-04 23:32:52 +0200"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/decorations/black_cooler_from_dyeing": {
     "criteria": {
       "has_dye": "2026-08-05 00:33:05 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/reinforced_orange_carpet": {
-    "criteria": {
-      "has_item": "2026-08-04 23:32:52 +0200"
     },
     "done": true
   },
@@ -21695,12 +21935,6 @@
     },
     "done": true
   },
-  "create:recipes/building_blocks/cut_calcite_wall": {
-    "criteria": {
-      "has_cut_calcite": "2026-08-04 23:47:51 +0200"
-    },
-    "done": true
-  },
   "connectedglass:recipes/misc/scratched_glass_black_pane2": {
     "criteria": {
       "recipe_condition2": "2026-08-05 00:33:05 +0200"
@@ -21725,21 +21959,9 @@
     },
     "done": true
   },
-  "farmersdelight:recipes/food/onion": {
-    "criteria": {
-      "has_onion_crate": "2026-08-05 00:05:16 +0200"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/dark_microwave": {
     "criteria": {
       "has_minecraft:black_dye": "2026-08-05 00:33:05 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/reinforced_light_gray_wool": {
-    "criteria": {
-      "has_wool": "2026-08-04 23:32:52 +0200"
     },
     "done": true
   },
@@ -21767,24 +21989,6 @@
     },
     "done": true
   },
-  "securitycraft:recipes/decorations/reinforced_pink_carpet": {
-    "criteria": {
-      "has_item": "2026-08-04 23:32:52 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/reinforced_white_wool": {
-    "criteria": {
-      "has_wool": "2026-08-04 23:32:52 +0200"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/cabbage_rolls": {
-    "criteria": {
-      "has_any_ingredient": "2026-08-05 00:06:16 +0200"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/decorations/black_kitchen_cabinetry_from_dyeing": {
     "criteria": {
       "has_dye": "2026-08-05 00:33:05 +0200"
@@ -21797,45 +22001,9 @@
     },
     "done": true
   },
-  "biomesoplenty:recipes/misc/white_dye_from_white_lavender": {
-    "criteria": {
-      "has_white_lavender": "2026-08-04 23:34:50 +0200"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/misc/white_dye_from_tall_white_lavender": {
-    "criteria": {
-      "has_tall_white_lavender": "2026-08-04 23:34:51 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/reinforced_gray_wool": {
-    "criteria": {
-      "has_wool": "2026-08-04 23:32:52 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/reinforced_red_carpet": {
-    "criteria": {
-      "has_item": "2026-08-04 23:32:52 +0200"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/dark_oak_dark_ceiling_fan": {
     "criteria": {
       "has_minecraft:black_dye": "2026-08-05 00:33:05 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/creeper_banner_pattern": {
-    "criteria": {
-      "has_creeper_head": "2026-08-05 00:17:11 +0200"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/cabbage": {
-    "criteria": {
-      "has_cabbage_crate": "2026-08-05 00:05:18 +0200"
     },
     "done": true
   },
@@ -21845,21 +22013,9 @@
     },
     "done": true
   },
-  "securitycraft:recipes/building_blocks/reinforced_yellow_wool": {
-    "criteria": {
-      "has_wool": "2026-08-04 23:32:52 +0200"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/decorations/crimson_dark_ceiling_fan": {
     "criteria": {
       "has_dye": "2026-08-05 00:33:05 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/reinforced_orange_wool": {
-    "criteria": {
-      "has_wool": "2026-08-04 23:32:52 +0200"
     },
     "done": true
   },
@@ -21869,57 +22025,15 @@
     },
     "done": true
   },
-  "farmersdelight:recipes/food/tomato": {
-    "criteria": {
-      "has_tomato_crate": "2026-08-05 00:04:32 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/reinforced_cyan_carpet": {
-    "criteria": {
-      "has_item": "2026-08-04 23:32:52 +0200"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/decorations/black_stool_from_dyeing": {
     "criteria": {
       "has_dye": "2026-08-05 00:33:05 +0200"
     },
     "done": true
   },
-  "farmersdelight:recipes/building_blocks/cabbage_crate": {
-    "criteria": {
-      "has_cabbage": "2026-08-05 00:06:16 +0200"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/acacia_dark_ceiling_fan": {
     "criteria": {
       "has_minecraft:black_dye": "2026-08-05 00:33:05 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/reinforced_gray_carpet": {
-    "criteria": {
-      "has_item": "2026-08-04 23:32:52 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/reinforced_green_carpet": {
-    "criteria": {
-      "has_item": "2026-08-04 23:32:52 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/reinforced_blue_carpet": {
-    "criteria": {
-      "has_item": "2026-08-04 23:32:52 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/reinforced_purple_wool": {
-    "criteria": {
-      "has_wool": "2026-08-04 23:32:52 +0200"
     },
     "done": true
   },
@@ -21932,24 +22046,6 @@
   "connectedglass:recipes/misc/borderless_glass_black2": {
     "criteria": {
       "recipe_condition2": "2026-08-05 00:33:05 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/reinforced_light_blue_wool": {
-    "criteria": {
-      "has_wool": "2026-08-04 23:32:52 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/reinforced_pink_wool": {
-    "criteria": {
-      "has_wool": "2026-08-04 23:32:52 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/reinforced_yellow_carpet": {
-    "criteria": {
-      "has_item": "2026-08-04 23:32:52 +0200"
     },
     "done": true
   },
@@ -21971,18 +22067,6 @@
     },
     "done": true
   },
-  "new_slab_variants:recipes/building_blocks/pink_glazed_terracotta_slab": {
-    "criteria": {
-      "has_pink_glazed_terracotta": "2026-08-04 23:09:16 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/reinforced_magenta_carpet": {
-    "criteria": {
-      "has_item": "2026-08-04 23:32:52 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/dye_black_bed": {
     "criteria": {
       "has_needed_dye": "2026-08-05 00:33:05 +0200"
@@ -21992,18 +22076,6 @@
   "refurbished_furniture:recipes/misc/constructing/dark_ceiling_light": {
     "criteria": {
       "has_minecraft:black_dye": "2026-08-05 00:33:05 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/reinforced_black_carpet": {
-    "criteria": {
-      "has_item": "2026-08-04 23:32:52 +0200"
-    },
-    "done": true
-  },
-  "new_slab_variants:recipes/building_blocks/raw_copper_block_slab": {
-    "criteria": {
-      "has_raw_copper_block": "2026-08-05 00:03:31 +0200"
     },
     "done": true
   },
@@ -22025,39 +22097,9 @@
     },
     "done": true
   },
-  "securitycraft:recipes/decorations/reinforced_purple_carpet": {
-    "criteria": {
-      "has_item": "2026-08-04 23:32:52 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/reinforced_black_wool": {
-    "criteria": {
-      "has_wool": "2026-08-04 23:32:52 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/reinforced_lime_wool": {
-    "criteria": {
-      "has_wool": "2026-08-04 23:32:52 +0200"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/decorations/black_trampoline_from_dyeing": {
     "criteria": {
       "has_dye": "2026-08-05 00:33:05 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/reinforced_blue_wool": {
-    "criteria": {
-      "has_wool": "2026-08-04 23:32:52 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/reinforced_brown_carpet": {
-    "criteria": {
-      "has_item": "2026-08-04 23:32:52 +0200"
     },
     "done": true
   },
@@ -22067,27 +22109,9 @@
     },
     "done": true
   },
-  "securitycraft:recipes/decorations/reinforced_white_carpet": {
-    "criteria": {
-      "has_item": "2026-08-04 23:32:52 +0200"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/decorations/spruce_dark_ceiling_fan": {
     "criteria": {
       "has_dye": "2026-08-05 00:33:05 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/reinforced_light_gray_carpet": {
-    "criteria": {
-      "has_item": "2026-08-04 23:32:52 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/reinforced_magenta_wool": {
-    "criteria": {
-      "has_wool": "2026-08-04 23:32:52 +0200"
     },
     "done": true
   },
@@ -22121,18 +22145,6 @@
     },
     "done": true
   },
-  "securitycraft:recipes/building_blocks/reinforced_red_wool": {
-    "criteria": {
-      "has_wool": "2026-08-04 23:32:52 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/cut_calcite_slab": {
-    "criteria": {
-      "has_cut_calcite": "2026-08-04 23:47:51 +0200"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/decorations/black_kitchen_storage_cabinet_from_dyeing": {
     "criteria": {
       "has_dye": "2026-08-05 00:33:05 +0200"
@@ -22163,27 +22175,21 @@
     },
     "done": true
   },
-  "securitycraft:recipes/building_blocks/reinforced_green_wool": {
-    "criteria": {
-      "has_wool": "2026-08-04 23:32:52 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/black_candle": {
     "criteria": {
       "has_black_dye": "2026-08-05 00:33:05 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/misc/raw_copper": {
-    "criteria": {
-      "has_raw_copper_block": "2026-08-05 00:03:31 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/dye_black_wool": {
     "criteria": {
       "has_needed_dye": "2026-08-05 00:33:05 +0200"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/borderless_glass_orange_pane1": {
+    "criteria": {
+      "recipe_condition": "2026-08-05 09:27:10 +0200"
     },
     "done": true
   },
