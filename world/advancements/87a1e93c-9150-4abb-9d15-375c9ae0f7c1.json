@@ -22193,5 +22193,185 @@
     },
     "done": true
   },
+  "mcwtrpdoors:recipes/birch/birch_ranch_trapdoor": {
+    "criteria": {
+      "has_logs": "2026-08-05 18:38:49 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/birch/birch_cottage_trapdoor": {
+    "criteria": {
+      "has_logs": "2026-08-05 18:38:49 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/birch/birch_whispering_trapdoor": {
+    "criteria": {
+      "has_logs": "2026-08-05 18:38:49 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/birch/birch_barrel_trapdoor": {
+    "criteria": {
+      "has_logs": "2026-08-05 18:38:49 +0200"
+    },
+    "done": true
+  },
+  "mcwfurnitures:recipes/birch": {
+    "criteria": {
+      "has_wood": "2026-08-05 18:38:49 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_wood": {
+    "criteria": {
+      "has_log": "2026-08-05 18:38:49 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/birch/birch_barn_trapdoor": {
+    "criteria": {
+      "has_logs": "2026-08-05 18:38:49 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/birch/birch_beach_trapdoor": {
+    "criteria": {
+      "has_logs": "2026-08-05 18:38:49 +0200"
+    },
+    "done": true
+  },
+  "mcwdoors:recipes/birch": {
+    "criteria": {
+      "has_wood": "2026-08-05 18:38:49 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/birch_log_slab": {
+    "criteria": {
+      "has_birch_log": "2026-08-05 18:38:49 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/print_paper": {
+    "criteria": {
+      "has_logs": "2026-08-05 18:38:49 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/birch/birch_barred_trapdoor": {
+    "criteria": {
+      "has_logs": "2026-08-05 18:38:49 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/birch/birch_four_panel_trapdoor": {
+    "criteria": {
+      "has_logs": "2026-08-05 18:38:49 +0200"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/birch": {
+    "criteria": {
+      "has_planks": "2026-08-05 18:38:49 +0200"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/birch_bridge_pier": {
+    "criteria": {
+      "has_planks": "2026-08-05 18:38:49 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/birch/birch_glass_trapdoor": {
+    "criteria": {
+      "has_logs": "2026-08-05 18:38:49 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/birch/birch_tropical_trapdoor": {
+    "criteria": {
+      "has_logs": "2026-08-05 18:38:49 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/birch/birch_classic_trapdoor": {
+    "criteria": {
+      "has_logs": "2026-08-05 18:38:49 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/birch/birch_swamp_trapdoor": {
+    "criteria": {
+      "has_logs": "2026-08-05 18:38:49 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/acacia/birch_bark_trapdoor": {
+    "criteria": {
+      "has_logs": "2026-08-05 18:38:49 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/birch/birch_mystic_trapdoor": {
+    "criteria": {
+      "has_logs": "2026-08-05 18:38:49 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/white_glazed_wide_pot": {
+    "criteria": {
+      "has_white_glazed_wide_pot": "2026-08-05 18:44:42 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/white_glazed_thin_pot": {
+    "criteria": {
+      "has_white_glazed_thin_pot": "2026-08-05 18:44:42 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/white_glazed_thick_pot": {
+    "criteria": {
+      "has_white_glazed_thick_pot": "2026-08-05 18:44:42 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/white_glazed_terracotta_slab": {
+    "criteria": {
+      "has_white_glazed_terracotta": "2026-08-05 18:44:42 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/white_glazed_medium_pot": {
+    "criteria": {
+      "has_white_glazed_medium_pot": "2026-08-05 18:44:42 +0200"
+    },
+    "done": true
+  },
+  "chipped:recipes/workbench/tinkering_table": {
+    "criteria": {
+      "has_item": "2026-08-05 19:00:38 +0200"
+    },
+    "done": true
+  },
+  "chipped:recipes/misc/multimeter": {
+    "criteria": {
+      "has_multimeter": "2026-08-05 19:00:38 +0200"
+    },
+    "done": true
+  },
+  "chipped:recipes/workbench/loom_table": {
+    "criteria": {
+      "has_item": "2026-08-05 19:00:39 +0200"
+    },
+    "done": true
+  },
+  "chipped:recipes/misc/needles": {
+    "criteria": {
+      "has_needles": "2026-08-05 19:00:39 +0200"
+    },
+    "done": true
+  },
   "DataVersion": 3955
 }
