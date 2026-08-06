@@ -704,7 +704,9 @@
       "minecraft:deep_dark": "2026-08-03 18:09:47 +0200",
       "minecraft:ocean": "2026-08-03 17:52:39 +0200",
       "minecraft:jungle": "2026-08-03 17:00:09 +0200",
+      "minecraft:sunflower_plains": "2026-08-06 20:31:38 +0200",
       "minecraft:river": "2026-08-03 16:20:17 +0200",
+      "minecraft:lukewarm_ocean": "2026-08-06 22:22:05 +0200",
       "minecraft:stony_shore": "2026-08-03 17:49:21 +0200",
       "minecraft:plains": "2026-08-03 16:20:52 +0200"
     },
@@ -4524,7 +4526,8 @@
     "criteria": {
       "minecraft:pillager": "2026-08-03 17:15:41 +0200",
       "minecraft:spider": "2026-08-03 17:09:53 +0200",
-      "minecraft:zombie": "2026-08-03 17:08:05 +0200"
+      "minecraft:zombie": "2026-08-03 17:08:05 +0200",
+      "minecraft:creeper": "2026-08-06 23:58:41 +0200"
     },
     "done": false
   },
@@ -7799,15 +7802,489 @@
     },
     "done": true
   },
+  "new_slab_variants:recipes/building_blocks/blue_concrete_slab": {
+    "criteria": {
+      "has_blue_concrete": "2026-08-04 22:45:53 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_calcite_stairs_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2026-08-04 22:52:21 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_calcite_brick_stairs_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2026-08-04 22:52:21 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/calcite_pillar_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2026-08-04 22:52:21 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_calcite_slab_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2026-08-04 22:52:21 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_calcite_slab_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2026-08-04 22:52:21 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_calcite_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2026-08-04 22:52:21 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_calcite_stairs_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2026-08-04 22:52:21 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_calcite_bricks_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2026-08-04 22:52:21 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_calcite_brick_wall_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2026-08-04 22:52:21 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_calcite_brick_wall_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2026-08-04 22:52:21 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_calcite_bricks_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2026-08-04 22:52:21 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/layered_calcite_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2026-08-04 22:52:21 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_calcite_wall_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2026-08-04 22:52:21 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_calcite_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2026-08-04 22:52:21 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_calcite_brick_slab_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2026-08-04 22:52:21 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_calcite_brick_slab_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2026-08-04 22:52:21 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_calcite_wall_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2026-08-04 22:52:21 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/calcite_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2026-08-04 22:52:21 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_calcite_brick_stairs_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2026-08-04 22:52:21 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/brown_cushion": {
+    "criteria": {
+      "has_brown_cushion": "2026-08-04 22:55:26 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_banner": {
+    "criteria": {
+      "has_brown_wool": "2026-08-04 22:55:26 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_bed": {
+    "criteria": {
+      "has_brown_wool": "2026-08-04 22:55:26 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/brown_sheet": {
+    "criteria": {
+      "has_brown_sheet": "2026-08-04 22:55:26 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_carpet": {
+    "criteria": {
+      "has_brown_wool": "2026-08-04 22:55:26 +0200"
+    },
+    "done": true
+  },
+  "comforts:recipes/decorations/hammock_brown": {
+    "criteria": {
+      "has_brown_wool": "2026-08-04 22:55:26 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/brown_wool_slab": {
+    "criteria": {
+      "has_brown_wool": "2026-08-04 22:55:26 +0200"
+    },
+    "done": true
+  },
+  "comforts:recipes/decorations/sleeping_bag_brown": {
+    "criteria": {
+      "has_brown_wool": "2026-08-04 22:55:26 +0200"
+    },
+    "done": true
+  },
   "securitycraft:recipes/decorations/reinforced_light_blue_carpet": {
     "criteria": {
       "has_item": "2026-08-04 22:55:39 +0200"
     },
     "done": true
   },
-  "refurbished_furniture:recipes/misc/constructing/black_kitchen_sink": {
+  "securitycraft:recipes/building_blocks/reinforced_brown_wool": {
     "criteria": {
-      "has_minecraft:black_dye": "2026-08-05 00:36:13 +0200"
+      "has_wool": "2026-08-04 22:55:39 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/decorations/reinforced_lime_carpet": {
+    "criteria": {
+      "has_item": "2026-08-04 22:55:39 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_cyan_wool": {
+    "criteria": {
+      "has_wool": "2026-08-04 22:55:39 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/decorations/reinforced_orange_carpet": {
+    "criteria": {
+      "has_item": "2026-08-04 22:55:39 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_light_gray_wool": {
+    "criteria": {
+      "has_wool": "2026-08-04 22:55:39 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/decorations/reinforced_pink_carpet": {
+    "criteria": {
+      "has_item": "2026-08-04 22:55:39 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_white_wool": {
+    "criteria": {
+      "has_wool": "2026-08-04 22:55:39 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_gray_wool": {
+    "criteria": {
+      "has_wool": "2026-08-04 22:55:39 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/decorations/reinforced_red_carpet": {
+    "criteria": {
+      "has_item": "2026-08-04 22:55:39 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_yellow_wool": {
+    "criteria": {
+      "has_wool": "2026-08-04 22:55:39 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_orange_wool": {
+    "criteria": {
+      "has_wool": "2026-08-04 22:55:39 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/decorations/reinforced_cyan_carpet": {
+    "criteria": {
+      "has_item": "2026-08-04 22:55:39 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/decorations/reinforced_gray_carpet": {
+    "criteria": {
+      "has_item": "2026-08-04 22:55:39 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/decorations/reinforced_green_carpet": {
+    "criteria": {
+      "has_item": "2026-08-04 22:55:39 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/decorations/reinforced_blue_carpet": {
+    "criteria": {
+      "has_item": "2026-08-04 22:55:39 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_purple_wool": {
+    "criteria": {
+      "has_wool": "2026-08-04 22:55:39 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_light_blue_wool": {
+    "criteria": {
+      "has_wool": "2026-08-04 22:55:39 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_pink_wool": {
+    "criteria": {
+      "has_wool": "2026-08-04 22:55:39 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/decorations/reinforced_yellow_carpet": {
+    "criteria": {
+      "has_item": "2026-08-04 22:55:39 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/decorations/reinforced_magenta_carpet": {
+    "criteria": {
+      "has_item": "2026-08-04 22:55:39 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/decorations/reinforced_black_carpet": {
+    "criteria": {
+      "has_item": "2026-08-04 22:55:39 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/decorations/reinforced_purple_carpet": {
+    "criteria": {
+      "has_item": "2026-08-04 22:55:39 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_black_wool": {
+    "criteria": {
+      "has_wool": "2026-08-04 22:55:39 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_lime_wool": {
+    "criteria": {
+      "has_wool": "2026-08-04 22:55:39 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_blue_wool": {
+    "criteria": {
+      "has_wool": "2026-08-04 22:55:39 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/decorations/reinforced_brown_carpet": {
+    "criteria": {
+      "has_item": "2026-08-04 22:55:39 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/decorations/reinforced_white_carpet": {
+    "criteria": {
+      "has_item": "2026-08-04 22:55:39 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/decorations/reinforced_light_gray_carpet": {
+    "criteria": {
+      "has_item": "2026-08-04 22:55:39 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_magenta_wool": {
+    "criteria": {
+      "has_wool": "2026-08-04 22:55:39 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_red_wool": {
+    "criteria": {
+      "has_wool": "2026-08-04 22:55:39 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_green_wool": {
+    "criteria": {
+      "has_wool": "2026-08-04 22:55:39 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_spruce_wood": {
+    "criteria": {
+      "has_log": "2026-08-04 23:01:49 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/stripped_spruce_log_slab": {
+    "criteria": {
+      "has_stripped_spruce_log": "2026-08-04 23:01:49 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2026-08-04 23:01:49 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_gray_carpet_from_dye": {
+    "criteria": {
+      "has_wool_carpet": "2026-08-04 23:03:19 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_red_carpet_from_dye": {
+    "criteria": {
+      "has_wool_carpet": "2026-08-04 23:03:19 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_white_carpet_from_dye": {
+    "criteria": {
+      "has_wool_carpet": "2026-08-04 23:03:19 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_light_blue_carpet_from_dye": {
+    "criteria": {
+      "has_wool_carpet": "2026-08-04 23:03:19 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_pink_carpet_from_dye": {
+    "criteria": {
+      "has_wool_carpet": "2026-08-04 23:03:19 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_lime_carpet_from_dye": {
+    "criteria": {
+      "has_wool_carpet": "2026-08-04 23:03:19 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_magenta_carpet_from_dye": {
+    "criteria": {
+      "has_wool_carpet": "2026-08-04 23:03:19 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_light_gray_carpet_from_dye": {
+    "criteria": {
+      "has_wool_carpet": "2026-08-04 23:03:19 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_black_carpet_from_dye": {
+    "criteria": {
+      "has_wool_carpet": "2026-08-04 23:03:19 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_blue_carpet_from_dye": {
+    "criteria": {
+      "has_wool_carpet": "2026-08-04 23:03:19 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_purple_carpet_from_dye": {
+    "criteria": {
+      "has_wool_carpet": "2026-08-04 23:03:19 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_green_carpet_from_dye": {
+    "criteria": {
+      "has_wool_carpet": "2026-08-04 23:03:19 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_orange_carpet_from_dye": {
+    "criteria": {
+      "has_wool_carpet": "2026-08-04 23:03:19 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_cyan_carpet_from_dye": {
+    "criteria": {
+      "has_wool_carpet": "2026-08-04 23:03:19 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_brown_carpet_from_dye": {
+    "criteria": {
+      "has_wool_carpet": "2026-08-04 23:03:19 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_yellow_carpet_from_dye": {
+    "criteria": {
+      "has_wool_carpet": "2026-08-04 23:03:19 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/bookshelf_slab": {
+    "criteria": {
+      "has_bookshelf": "2026-08-04 23:12:48 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/misc/reinforced_lectern": {
+    "criteria": {
+      "has_bookshelf": "2026-08-04 23:12:48 +0200"
     },
     "done": true
   },
@@ -7817,27 +8294,645 @@
     },
     "done": true
   },
-  "handcrafted:recipes/misc/light_gray_cushion": {
+  "minecraft:recipes/decorations/yellow_candle": {
     "criteria": {
-      "has_light_gray_cushion": "2026-08-05 00:00:28 +0200"
+      "has_yellow_dye": "2026-08-04 23:19:38 +0200"
     },
     "done": true
   },
-  "refurbished_furniture:recipes/decorations/dark_ceiling_light": {
+  "minecraft:recipes/building_blocks/dye_yellow_carpet": {
     "criteria": {
-      "has_dye": "2026-08-05 00:36:13 +0200"
+      "has_needed_dye": "2026-08-04 23:19:38 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/mossy_stone_bricks_from_vine": {
+  "minecraft:recipes/decorations/yellow_stained_glass_pane_from_glass_pane": {
     "criteria": {
-      "has_vine": "2026-08-05 00:12:02 +0200"
+      "has_yellow_dye": "2026-08-04 23:19:38 +0200"
     },
     "done": true
   },
-  "refurbished_furniture:recipes/decorations/warped_dark_ceiling_fan": {
+  "handcrafted:recipes/misc/yellow_bowl": {
     "criteria": {
-      "has_dye": "2026-08-05 00:36:13 +0200"
+      "has_yellow_bowl": "2026-08-04 23:19:38 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/yellow_kitchen_drawer": {
+    "criteria": {
+      "has_minecraft:yellow_dye": "2026-08-04 23:19:38 +0200"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/borderless_glass_yellow2": {
+    "criteria": {
+      "recipe_condition2": "2026-08-04 23:19:38 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/yellow_grill_from_dyeing": {
+    "criteria": {
+      "has_dye": "2026-08-04 23:19:38 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/yellow_cooler_from_dyeing": {
+    "criteria": {
+      "has_dye": "2026-08-04 23:19:38 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/yellow_basin": {
+    "criteria": {
+      "has_minecraft:yellow_dye": "2026-08-04 23:19:38 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/yellow_bath": {
+    "criteria": {
+      "has_minecraft:yellow_dye": "2026-08-04 23:19:38 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/yellow_plate": {
+    "criteria": {
+      "has_yellow_plate": "2026-08-04 23:19:38 +0200"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/scratched_glass_yellow_pane2": {
+    "criteria": {
+      "recipe_condition2": "2026-08-04 23:19:38 +0200"
+    },
+    "done": true
+  },
+  "comforts:recipes/building_blocks/dye_hammock_yellow": {
+    "criteria": {
+      "has_needed_dye": "2026-08-04 23:19:38 +0200"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/scratched_glass_yellow2": {
+    "criteria": {
+      "recipe_condition2": "2026-08-04 23:19:38 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_yellow_bed": {
+    "criteria": {
+      "has_needed_dye": "2026-08-04 23:19:38 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/yellow_kitchen_drawer_from_dyeing": {
+    "criteria": {
+      "has_dye": "2026-08-04 23:19:38 +0200"
+    },
+    "done": true
+  },
+  "comforts:recipes/building_blocks/dye_sleeping_bag_yellow": {
+    "criteria": {
+      "has_needed_dye": "2026-08-04 23:19:38 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_yellow_wool": {
+    "criteria": {
+      "has_needed_dye": "2026-08-04 23:19:38 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/yellow_toilet": {
+    "criteria": {
+      "has_minecraft:yellow_dye": "2026-08-04 23:19:38 +0200"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/borderless_glass_yellow_pane2": {
+    "criteria": {
+      "recipe_condition2": "2026-08-04 23:19:38 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/yellow_trampoline_from_dyeing": {
+    "criteria": {
+      "has_dye": "2026-08-04 23:19:38 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/yellow_cup": {
+    "criteria": {
+      "has_yellow_cup": "2026-08-04 23:19:38 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/yellow_lamp_from_dyeing": {
+    "criteria": {
+      "has_dye": "2026-08-04 23:19:38 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/yellow_stool_from_dyeing": {
+    "criteria": {
+      "has_dye": "2026-08-04 23:19:38 +0200"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/tinted_borderless_glass_yellow2": {
+    "criteria": {
+      "recipe_condition2": "2026-08-04 23:19:38 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/yellow_crockery_combo": {
+    "criteria": {
+      "has_yellow_crockery_combo": "2026-08-04 23:19:38 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/yellow_kitchen_storage_cabinet": {
+    "criteria": {
+      "has_minecraft:yellow_dye": "2026-08-04 23:19:38 +0200"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/clear_glass_yellow2": {
+    "criteria": {
+      "recipe_condition2": "2026-08-04 23:19:38 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/yellow_kitchen_storage_cabinet_from_dyeing": {
+    "criteria": {
+      "has_dye": "2026-08-04 23:19:38 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/yellow_kitchen_cabinetry_from_dyeing": {
+    "criteria": {
+      "has_dye": "2026-08-04 23:19:38 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/yellow_kitchen_cabinetry": {
+    "criteria": {
+      "has_minecraft:yellow_dye": "2026-08-04 23:19:38 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/yellow_sofa_from_dyeing": {
+    "criteria": {
+      "has_dye": "2026-08-04 23:19:38 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/yellow_kitchen_sink": {
+    "criteria": {
+      "has_minecraft:yellow_dye": "2026-08-04 23:19:38 +0200"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/clear_glass_yellow_pane2": {
+    "criteria": {
+      "recipe_condition2": "2026-08-04 23:19:38 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/yellow_toilet": {
+    "criteria": {
+      "has_dye": "2026-08-04 23:19:38 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/white_kitchen_drawer": {
+    "criteria": {
+      "has_minecraft:white_dye": "2026-08-04 23:27:22 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/white_kitchen_storage_cabinet": {
+    "criteria": {
+      "has_minecraft:white_dye": "2026-08-04 23:27:22 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/white_kitchen_sink": {
+    "criteria": {
+      "has_minecraft:white_dye": "2026-08-04 23:27:22 +0200"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/borderless_glass_white2": {
+    "criteria": {
+      "recipe_condition2": "2026-08-04 23:27:22 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/jungle_kitchen_drawer": {
+    "criteria": {
+      "has_minecraft:white_dye": "2026-08-04 23:27:22 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/white_plate": {
+    "criteria": {
+      "has_white_plate": "2026-08-04 23:27:22 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/jungle_kitchen_cabinetry": {
+    "criteria": {
+      "has_minecraft:white_dye": "2026-08-04 23:27:22 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lime_dye": {
+    "criteria": {
+      "has_white_dye": "2026-08-04 23:27:22 +0200"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/scratched_glass_white_pane2": {
+    "criteria": {
+      "recipe_condition2": "2026-08-04 23:27:22 +0200"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/clear_glass_white_pane2": {
+    "criteria": {
+      "recipe_condition2": "2026-08-04 23:27:22 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/acacia_kitchen_drawer": {
+    "criteria": {
+      "has_minecraft:white_dye": "2026-08-04 23:27:22 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/acacia_kitchen_storage_cabinet": {
+    "criteria": {
+      "has_minecraft:white_dye": "2026-08-04 23:27:22 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/white_kitchen_sink_from_dyeing": {
+    "criteria": {
+      "has_dye": "2026-08-04 23:27:22 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/white_trampoline_from_dyeing": {
+    "criteria": {
+      "has_dye": "2026-08-04 23:27:22 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/warped_kitchen_cabinetry": {
+    "criteria": {
+      "has_minecraft:white_dye": "2026-08-04 23:27:22 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/mangrove_kitchen_cabinetry": {
+    "criteria": {
+      "has_minecraft:white_dye": "2026-08-04 23:27:22 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/white_crockery_combo": {
+    "criteria": {
+      "has_white_crockery_combo": "2026-08-04 23:27:22 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/white_bowl": {
+    "criteria": {
+      "has_white_bowl": "2026-08-04 23:27:22 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/crimson_kitchen_cabinetry": {
+    "criteria": {
+      "has_minecraft:white_dye": "2026-08-04 23:27:22 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/mangrove_kitchen_storage_cabinet": {
+    "criteria": {
+      "has_minecraft:white_dye": "2026-08-04 23:27:22 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/white_cooler_from_dyeing": {
+    "criteria": {
+      "has_dye": "2026-08-04 23:27:22 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/white_basin": {
+    "criteria": {
+      "has_minecraft:white_dye": "2026-08-04 23:27:22 +0200"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/tinted_borderless_glass_white2": {
+    "criteria": {
+      "recipe_condition2": "2026-08-04 23:27:22 +0200"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/clear_glass_white2": {
+    "criteria": {
+      "recipe_condition2": "2026-08-04 23:27:22 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_white_carpet": {
+    "criteria": {
+      "has_needed_dye": "2026-08-04 23:27:22 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/birch_kitchen_storage_cabinet": {
+    "criteria": {
+      "has_minecraft:white_dye": "2026-08-04 23:27:22 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/warped_kitchen_storage_cabinet": {
+    "criteria": {
+      "has_minecraft:white_dye": "2026-08-04 23:27:22 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/cherry_kitchen_drawer": {
+    "criteria": {
+      "has_minecraft:white_dye": "2026-08-04 23:27:22 +0200"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/scratched_glass_white2": {
+    "criteria": {
+      "recipe_condition2": "2026-08-04 23:27:22 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_black_white_dye": {
+    "criteria": {
+      "has_white_dye": "2026-08-04 23:27:22 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/jungle_kitchen_storage_cabinet": {
+    "criteria": {
+      "has_minecraft:white_dye": "2026-08-04 23:27:22 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/warped_kitchen_drawer": {
+    "criteria": {
+      "has_minecraft:white_dye": "2026-08-04 23:27:22 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/crimson_kitchen_drawer": {
+    "criteria": {
+      "has_minecraft:white_dye": "2026-08-04 23:27:22 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/white_toilet": {
+    "criteria": {
+      "has_minecraft:white_dye": "2026-08-04 23:27:22 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/birch_kitchen_drawer": {
+    "criteria": {
+      "has_minecraft:white_dye": "2026-08-04 23:27:22 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_white_bed": {
+    "criteria": {
+      "has_needed_dye": "2026-08-04 23:27:22 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/cherry_kitchen_cabinetry": {
+    "criteria": {
+      "has_minecraft:white_dye": "2026-08-04 23:27:22 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_blue_dye_from_blue_white_dye": {
+    "criteria": {
+      "has_white_dye": "2026-08-04 23:27:22 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/white_stool_from_dyeing": {
+    "criteria": {
+      "has_dye": "2026-08-04 23:27:22 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/mangrove_kitchen_drawer": {
+    "criteria": {
+      "has_minecraft:white_dye": "2026-08-04 23:27:22 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_gray_white_dye": {
+    "criteria": {
+      "has_white_dye": "2026-08-04 23:27:22 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/white_lamp_from_dyeing": {
+    "criteria": {
+      "has_dye": "2026-08-04 23:27:22 +0200"
+    },
+    "done": true
+  },
+  "comforts:recipes/building_blocks/dye_sleeping_bag_white": {
+    "criteria": {
+      "has_needed_dye": "2026-08-04 23:27:22 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/white_grill_from_dyeing": {
+    "criteria": {
+      "has_dye": "2026-08-04 23:27:22 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/birch_kitchen_cabinetry": {
+    "criteria": {
+      "has_minecraft:white_dye": "2026-08-04 23:27:22 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/white_cup": {
+    "criteria": {
+      "has_white_cup": "2026-08-04 23:27:22 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/white_kitchen_storage_cabinet_from_dyeing": {
+    "criteria": {
+      "has_dye": "2026-08-04 23:27:22 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/white_kitchen_drawer_from_dyeing": {
+    "criteria": {
+      "has_dye": "2026-08-04 23:27:22 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gray_dye": {
+    "criteria": {
+      "has_white_dye": "2026-08-04 23:27:22 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/crimson_kitchen_storage_cabinet": {
+    "criteria": {
+      "has_minecraft:white_dye": "2026-08-04 23:27:22 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/white_kitchen_cabinetry": {
+    "criteria": {
+      "has_minecraft:white_dye": "2026-08-04 23:27:22 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/white_bath": {
+    "criteria": {
+      "has_minecraft:white_dye": "2026-08-04 23:27:22 +0200"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/borderless_glass_white_pane2": {
+    "criteria": {
+      "recipe_condition2": "2026-08-04 23:27:22 +0200"
+    },
+    "done": true
+  },
+  "comforts:recipes/building_blocks/dye_hammock_white": {
+    "criteria": {
+      "has_needed_dye": "2026-08-04 23:27:22 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_candle": {
+    "criteria": {
+      "has_white_dye": "2026-08-04 23:27:22 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/white_kitchen_cabinetry_from_dyeing": {
+    "criteria": {
+      "has_dye": "2026-08-04 23:27:22 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_white_dye": "2026-08-04 23:27:22 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/acacia_kitchen_cabinetry": {
+    "criteria": {
+      "has_minecraft:white_dye": "2026-08-04 23:27:22 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/white_sofa_from_dyeing": {
+    "criteria": {
+      "has_dye": "2026-08-04 23:27:22 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_white_wool": {
+    "criteria": {
+      "has_needed_dye": "2026-08-04 23:27:22 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/white_toilet": {
+    "criteria": {
+      "has_dye": "2026-08-04 23:27:22 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/cherry_kitchen_storage_cabinet": {
+    "criteria": {
+      "has_minecraft:white_dye": "2026-08-04 23:27:22 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/combat/crafting/appliances/netherite_diving_helmet_from_netherite": {
+    "criteria": {
+      "has_item": "2026-08-04 23:33:12 +0200"
+    },
+    "done": true
+  },
+  "exclusive_weapons:recipes/combat/super_netherite_helmet": {
+    "criteria": {
+      "has_item": "2026-08-04 23:33:12 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/fancy_painting": {
+    "criteria": {
+      "has_fancy_painting": "2026-08-04 23:36:08 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_sandstone_slab_from_smooth_sandstone_stonecutting": {
+    "criteria": {
+      "has_smooth_sandstone": "2026-08-04 23:41:43 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_sandstone_slab": {
+    "criteria": {
+      "has_smooth_sandstone": "2026-08-04 23:41:43 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_sandstone_stairs_from_smooth_sandstone_stonecutting": {
+    "criteria": {
+      "has_smooth_sandstone": "2026-08-04 23:41:43 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_sandstone_stairs": {
+    "criteria": {
+      "has_smooth_sandstone": "2026-08-04 23:41:43 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_slab_from_cut_sandstone_stonecutting": {
+    "criteria": {
+      "has_cut_sandstone": "2026-08-04 23:42:12 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_stairs": {
+    "criteria": {
+      "has_cut_sandstone": "2026-08-04 23:42:12 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_slab": {
+    "criteria": {
+      "has_cut_sandstone": "2026-08-04 23:42:12 +0200"
     },
     "done": true
   },
@@ -7853,39 +8948,123 @@
     },
     "done": true
   },
-  "securitycraft:recipes/building_blocks/reinforced_brown_wool": {
+  "securitycraft:recipes/decorations/secret_dark_oak_sign_item": {
     "criteria": {
-      "has_wool": "2026-08-04 22:55:39 +0200"
+      "has_sign": "2026-08-04 23:43:02 +0200"
     },
     "done": true
   },
-  "refurbished_furniture:recipes/misc/constructing/white_kitchen_drawer": {
+  "securitycraft:recipes/decorations/secret_mangrove_sign_item": {
     "criteria": {
-      "has_minecraft:white_dye": "2026-08-04 23:27:22 +0200"
+      "has_sign": "2026-08-04 23:43:02 +0200"
     },
     "done": true
   },
-  "create:recipes/combat/crafting/appliances/netherite_diving_helmet_from_netherite": {
+  "securitycraft:recipes/decorations/secret_jungle_hanging_sign": {
     "criteria": {
-      "has_item": "2026-08-04 23:33:12 +0200"
+      "has_sign": "2026-08-04 23:43:02 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/smooth_sandstone_slab_from_smooth_sandstone_stonecutting": {
+  "securitycraft:recipes/decorations/secret_acacia_hanging_sign": {
     "criteria": {
-      "has_smooth_sandstone": "2026-08-04 23:41:43 +0200"
+      "has_sign": "2026-08-04 23:43:02 +0200"
     },
     "done": true
   },
-  "create:recipes/building_blocks/polished_cut_calcite_stairs_from_stone_types_calcite_stonecutting": {
+  "securitycraft:recipes/decorations/secret_crimson_sign_item": {
     "criteria": {
-      "has_stone_types_calcite": "2026-08-04 22:52:21 +0200"
+      "has_sign": "2026-08-04 23:43:02 +0200"
     },
     "done": true
   },
-  "securitycraft:recipes/decorations/reinforced_lime_carpet": {
+  "securitycraft:recipes/decorations/secret_oak_hanging_sign": {
     "criteria": {
-      "has_item": "2026-08-04 22:55:39 +0200"
+      "has_sign": "2026-08-04 23:43:02 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/decorations/secret_spruce_hanging_sign": {
+    "criteria": {
+      "has_sign": "2026-08-04 23:43:02 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/decorations/secret_warped_sign_item": {
+    "criteria": {
+      "has_sign": "2026-08-04 23:43:02 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/decorations/secret_sign_item": {
+    "criteria": {
+      "has_sign": "2026-08-04 23:43:02 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/decorations/secret_spruce_sign_item": {
+    "criteria": {
+      "has_sign": "2026-08-04 23:43:02 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/decorations/secret_cherry_sign_item": {
+    "criteria": {
+      "has_sign": "2026-08-04 23:43:02 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/decorations/secret_dark_oak_hanging_sign": {
+    "criteria": {
+      "has_sign": "2026-08-04 23:43:02 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/decorations/secret_jungle_sign_item": {
+    "criteria": {
+      "has_sign": "2026-08-04 23:43:02 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/decorations/secret_birch_hanging_sign": {
+    "criteria": {
+      "has_sign": "2026-08-04 23:43:02 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/decorations/secret_mangrove_hanging_sign": {
+    "criteria": {
+      "has_sign": "2026-08-04 23:43:02 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/decorations/secret_bamboo_hanging_sign": {
+    "criteria": {
+      "has_sign": "2026-08-04 23:43:02 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/decorations/secret_bamboo_sign_item": {
+    "criteria": {
+      "has_sign": "2026-08-04 23:43:02 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/decorations/secret_cherry_hanging_sign": {
+    "criteria": {
+      "has_sign": "2026-08-04 23:43:02 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/decorations/secret_warped_hanging_sign": {
+    "criteria": {
+      "has_sign": "2026-08-04 23:43:02 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/decorations/secret_acacia_sign_item": {
+    "criteria": {
+      "has_sign": "2026-08-04 23:43:02 +0200"
     },
     "done": true
   },
@@ -7895,15 +9074,279 @@
     },
     "done": true
   },
+  "handcrafted:recipes/misc/white_sheet": {
+    "criteria": {
+      "has_white_sheet": "2026-08-04 23:58:46 +0200"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/awning": {
+    "criteria": {
+      "has_planks": "2026-08-04 23:58:46 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/white_wool_slab": {
+    "criteria": {
+      "has_white_wool": "2026-08-04 23:58:46 +0200"
+    },
+    "done": true
+  },
+  "mcwfurnitures:recipes/couch": {
+    "criteria": {
+      "has_wood": "2026-08-04 23:58:46 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_bed": {
+    "criteria": {
+      "has_white_wool": "2026-08-04 23:58:46 +0200"
+    },
+    "done": true
+  },
+  "comforts:recipes/decorations/hammock_white": {
+    "criteria": {
+      "has_white_wool": "2026-08-04 23:58:46 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/white_cushion": {
+    "criteria": {
+      "has_white_cushion": "2026-08-04 23:58:46 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_carpet": {
+    "criteria": {
+      "has_white_wool": "2026-08-04 23:58:46 +0200"
+    },
+    "done": true
+  },
+  "comforts:recipes/decorations/sleeping_bag_white": {
+    "criteria": {
+      "has_white_wool": "2026-08-04 23:58:46 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_banner": {
+    "criteria": {
+      "has_white_wool": "2026-08-04 23:58:46 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_stairs_from_polished_andesite_stonecutting": {
+    "criteria": {
+      "has_polished_andesite": "2026-08-04 23:59:21 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_slab": {
+    "criteria": {
+      "has_polished_andesite": "2026-08-04 23:59:21 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_slab_from_polished_andesite_stonecutting": {
+    "criteria": {
+      "has_polished_andesite": "2026-08-04 23:59:21 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_stairs": {
+    "criteria": {
+      "has_polished_andesite": "2026-08-04 23:59:21 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/light_gray_cushion": {
+    "criteria": {
+      "has_light_gray_cushion": "2026-08-05 00:00:28 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/light_gray_wool_slab": {
+    "criteria": {
+      "has_light_gray_wool": "2026-08-05 00:00:28 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_bed": {
+    "criteria": {
+      "has_light_gray_wool": "2026-08-05 00:00:28 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_carpet": {
+    "criteria": {
+      "has_light_gray_wool": "2026-08-05 00:00:28 +0200"
+    },
+    "done": true
+  },
+  "comforts:recipes/decorations/hammock_light_gray": {
+    "criteria": {
+      "has_light_gray_wool": "2026-08-05 00:00:28 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/light_gray_sheet": {
+    "criteria": {
+      "has_light_gray_sheet": "2026-08-05 00:00:28 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_banner": {
+    "criteria": {
+      "has_light_gray_wool": "2026-08-05 00:00:28 +0200"
+    },
+    "done": true
+  },
+  "comforts:recipes/decorations/sleeping_bag_light_gray": {
+    "criteria": {
+      "has_light_gray_wool": "2026-08-05 00:00:28 +0200"
+    },
+    "done": true
+  },
   "handcrafted:recipes/misc/black_sheet": {
     "criteria": {
       "has_black_sheet": "2026-08-05 00:02:14 +0200"
     },
     "done": true
   },
-  "refurbished_furniture:recipes/misc/constructing/white_kitchen_storage_cabinet": {
+  "handcrafted:recipes/misc/black_cushion": {
     "criteria": {
-      "has_minecraft:white_dye": "2026-08-04 23:27:22 +0200"
+      "has_black_cushion": "2026-08-05 00:02:14 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_carpet": {
+    "criteria": {
+      "has_black_wool": "2026-08-05 00:02:14 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_bed": {
+    "criteria": {
+      "has_black_wool": "2026-08-05 00:02:14 +0200"
+    },
+    "done": true
+  },
+  "comforts:recipes/decorations/sleeping_bag_black": {
+    "criteria": {
+      "has_black_wool": "2026-08-05 00:02:14 +0200"
+    },
+    "done": true
+  },
+  "comforts:recipes/decorations/hammock_black": {
+    "criteria": {
+      "has_black_wool": "2026-08-05 00:02:14 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/black_wool_slab": {
+    "criteria": {
+      "has_black_wool": "2026-08-05 00:02:14 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_banner": {
+    "criteria": {
+      "has_black_wool": "2026-08-05 00:02:14 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/blue_sheet": {
+    "criteria": {
+      "has_blue_sheet": "2026-08-05 00:07:14 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_banner": {
+    "criteria": {
+      "has_blue_wool": "2026-08-05 00:07:14 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_carpet": {
+    "criteria": {
+      "has_blue_wool": "2026-08-05 00:07:14 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_bed": {
+    "criteria": {
+      "has_blue_wool": "2026-08-05 00:07:14 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/blue_wool_slab": {
+    "criteria": {
+      "has_blue_wool": "2026-08-05 00:07:14 +0200"
+    },
+    "done": true
+  },
+  "comforts:recipes/decorations/hammock_blue": {
+    "criteria": {
+      "has_blue_wool": "2026-08-05 00:07:14 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/blue_cushion": {
+    "criteria": {
+      "has_blue_cushion": "2026-08-05 00:07:14 +0200"
+    },
+    "done": true
+  },
+  "comforts:recipes/decorations/sleeping_bag_blue": {
+    "criteria": {
+      "has_blue_wool": "2026-08-05 00:07:14 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_bricks_from_vine": {
+    "criteria": {
+      "has_vine": "2026-08-05 00:12:02 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_from_vine": {
+    "criteria": {
+      "has_vine": "2026-08-05 00:12:02 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_mossy_stone_bricks_from_vine": {
+    "criteria": {
+      "has_vine": "2026-08-05 00:12:02 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_mossy_cobblestone_from_vine": {
+    "criteria": {
+      "has_vine": "2026-08-05 00:12:02 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/carrot_from_crate": {
+    "criteria": {
+      "has_carrot_crate": "2026-08-05 00:22:58 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/black_kitchen_sink": {
+    "criteria": {
+      "has_minecraft:black_dye": "2026-08-05 00:36:13 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/dark_ceiling_light": {
+    "criteria": {
+      "has_dye": "2026-08-05 00:36:13 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/warped_dark_ceiling_fan": {
+    "criteria": {
+      "has_dye": "2026-08-05 00:36:13 +0200"
     },
     "done": true
   },
@@ -7922,18 +9365,6 @@
   "refurbished_furniture:recipes/misc/constructing/birch_dark_ceiling_fan": {
     "criteria": {
       "has_minecraft:black_dye": "2026-08-05 00:36:13 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/yellow_candle": {
-    "criteria": {
-      "has_yellow_dye": "2026-08-04 23:19:38 +0200"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/white_kitchen_sink": {
-    "criteria": {
-      "has_minecraft:white_dye": "2026-08-04 23:27:22 +0200"
     },
     "done": true
   },
@@ -7961,48 +9392,6 @@
     },
     "done": true
   },
-  "securitycraft:recipes/decorations/secret_dark_oak_sign_item": {
-    "criteria": {
-      "has_sign": "2026-08-04 23:43:02 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/smooth_sandstone_slab": {
-    "criteria": {
-      "has_smooth_sandstone": "2026-08-04 23:41:43 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/secret_mangrove_sign_item": {
-    "criteria": {
-      "has_sign": "2026-08-04 23:43:02 +0200"
-    },
-    "done": true
-  },
-  "handcrafted:recipes/misc/white_sheet": {
-    "criteria": {
-      "has_white_sheet": "2026-08-04 23:58:46 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/reinforced_gray_carpet_from_dye": {
-    "criteria": {
-      "has_wool_carpet": "2026-08-04 23:03:19 +0200"
-    },
-    "done": true
-  },
-  "connectedglass:recipes/misc/borderless_glass_white2": {
-    "criteria": {
-      "recipe_condition2": "2026-08-04 23:27:22 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/reinforced_red_carpet_from_dye": {
-    "criteria": {
-      "has_wool_carpet": "2026-08-04 23:03:19 +0200"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/crimson_dark_ceiling_fan": {
     "criteria": {
       "has_minecraft:black_dye": "2026-08-05 00:36:13 +0200"
@@ -8015,45 +9404,9 @@
     },
     "done": true
   },
-  "create:recipes/building_blocks/small_calcite_brick_stairs_from_stone_types_calcite_stonecutting": {
-    "criteria": {
-      "has_stone_types_calcite": "2026-08-04 22:52:21 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cut_sandstone_slab_from_cut_sandstone_stonecutting": {
-    "criteria": {
-      "has_cut_sandstone": "2026-08-04 23:42:12 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_andesite_stairs_from_polished_andesite_stonecutting": {
-    "criteria": {
-      "has_polished_andesite": "2026-08-04 23:59:21 +0200"
-    },
-    "done": true
-  },
   "connectedglass:recipes/misc/clear_glass_black_pane2": {
     "criteria": {
       "recipe_condition2": "2026-08-05 00:36:13 +0200"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/jungle_kitchen_drawer": {
-    "criteria": {
-      "has_minecraft:white_dye": "2026-08-04 23:27:22 +0200"
-    },
-    "done": true
-  },
-  "handcrafted:recipes/misc/white_plate": {
-    "criteria": {
-      "has_white_plate": "2026-08-04 23:27:22 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/mossy_cobblestone_from_vine": {
-    "criteria": {
-      "has_vine": "2026-08-05 00:12:02 +0200"
     },
     "done": true
   },
@@ -8063,51 +9416,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/stripped_spruce_wood": {
-    "criteria": {
-      "has_log": "2026-08-04 23:01:49 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/reinforced_white_carpet_from_dye": {
-    "criteria": {
-      "has_wool_carpet": "2026-08-04 23:03:19 +0200"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/jungle_kitchen_cabinetry": {
-    "criteria": {
-      "has_minecraft:white_dye": "2026-08-04 23:27:22 +0200"
-    },
-    "done": true
-  },
-  "new_slab_variants:recipes/building_blocks/light_gray_wool_slab": {
-    "criteria": {
-      "has_light_gray_wool": "2026-08-05 00:00:28 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/lime_dye": {
-    "criteria": {
-      "has_white_dye": "2026-08-04 23:27:22 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/reinforced_cyan_wool": {
-    "criteria": {
-      "has_wool": "2026-08-04 22:55:39 +0200"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/decorations/black_cooler_from_dyeing": {
     "criteria": {
       "has_dye": "2026-08-05 00:36:13 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/reinforced_orange_carpet": {
-    "criteria": {
-      "has_item": "2026-08-04 22:55:39 +0200"
     },
     "done": true
   },
@@ -8123,12 +9434,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/light_gray_bed": {
-    "criteria": {
-      "has_light_gray_wool": "2026-08-05 00:00:28 +0200"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/spruce_dark_ceiling_fan": {
     "criteria": {
       "has_minecraft:black_dye": "2026-08-05 00:36:13 +0200"
@@ -8138,78 +9443,6 @@
   "refurbished_furniture:recipes/misc/constructing/mangrove_dark_ceiling_fan": {
     "criteria": {
       "has_minecraft:black_dye": "2026-08-05 00:36:13 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/reinforced_light_blue_carpet_from_dye": {
-    "criteria": {
-      "has_wool_carpet": "2026-08-04 23:03:19 +0200"
-    },
-    "done": true
-  },
-  "connectedglass:recipes/misc/scratched_glass_white_pane2": {
-    "criteria": {
-      "recipe_condition2": "2026-08-04 23:27:22 +0200"
-    },
-    "done": true
-  },
-  "connectedglass:recipes/misc/clear_glass_white_pane2": {
-    "criteria": {
-      "recipe_condition2": "2026-08-04 23:27:22 +0200"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/acacia_kitchen_drawer": {
-    "criteria": {
-      "has_minecraft:white_dye": "2026-08-04 23:27:22 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_yellow_carpet": {
-    "criteria": {
-      "has_needed_dye": "2026-08-04 23:19:38 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/calcite_pillar_from_stone_types_calcite_stonecutting": {
-    "criteria": {
-      "has_stone_types_calcite": "2026-08-04 22:52:21 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_andesite_slab": {
-    "criteria": {
-      "has_polished_andesite": "2026-08-04 23:59:21 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/secret_jungle_hanging_sign": {
-    "criteria": {
-      "has_sign": "2026-08-04 23:43:02 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/yellow_stained_glass_pane_from_glass_pane": {
-    "criteria": {
-      "has_yellow_dye": "2026-08-04 23:19:38 +0200"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/acacia_kitchen_storage_cabinet": {
-    "criteria": {
-      "has_minecraft:white_dye": "2026-08-04 23:27:22 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/secret_acacia_hanging_sign": {
-    "criteria": {
-      "has_sign": "2026-08-04 23:43:02 +0200"
-    },
-    "done": true
-  },
-  "handcrafted:recipes/misc/blue_sheet": {
-    "criteria": {
-      "has_blue_sheet": "2026-08-05 00:07:14 +0200"
     },
     "done": true
   },
@@ -8225,24 +9458,6 @@
     },
     "done": true
   },
-  "refurbished_furniture:recipes/decorations/white_kitchen_sink_from_dyeing": {
-    "criteria": {
-      "has_dye": "2026-08-04 23:27:22 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/light_gray_carpet": {
-    "criteria": {
-      "has_light_gray_wool": "2026-08-05 00:00:28 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/blue_banner": {
-    "criteria": {
-      "has_blue_wool": "2026-08-05 00:07:14 +0200"
-    },
-    "done": true
-  },
   "connectedglass:recipes/misc/scratched_glass_black_pane2": {
     "criteria": {
       "recipe_condition2": "2026-08-05 00:36:13 +0200"
@@ -8252,18 +9467,6 @@
   "connectedglass:recipes/misc/clear_glass_black2": {
     "criteria": {
       "recipe_condition2": "2026-08-05 00:36:13 +0200"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/decorations/white_trampoline_from_dyeing": {
-    "criteria": {
-      "has_dye": "2026-08-04 23:27:22 +0200"
-    },
-    "done": true
-  },
-  "handcrafted:recipes/misc/fancy_painting": {
-    "criteria": {
-      "has_fancy_painting": "2026-08-04 23:36:08 +0200"
     },
     "done": true
   },
@@ -8279,57 +9482,9 @@
     },
     "done": true
   },
-  "refurbished_furniture:recipes/misc/constructing/warped_kitchen_cabinetry": {
-    "criteria": {
-      "has_minecraft:white_dye": "2026-08-04 23:27:22 +0200"
-    },
-    "done": true
-  },
-  "handcrafted:recipes/misc/black_cushion": {
-    "criteria": {
-      "has_black_cushion": "2026-08-05 00:02:14 +0200"
-    },
-    "done": true
-  },
-  "mcwroofs:recipes/awning": {
-    "criteria": {
-      "has_planks": "2026-08-04 23:58:46 +0200"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/dark_microwave": {
     "criteria": {
       "has_minecraft:black_dye": "2026-08-05 00:36:13 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/secret_crimson_sign_item": {
-    "criteria": {
-      "has_sign": "2026-08-04 23:43:02 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/reinforced_mossy_stone_bricks_from_vine": {
-    "criteria": {
-      "has_vine": "2026-08-05 00:12:02 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/reinforced_pink_carpet_from_dye": {
-    "criteria": {
-      "has_wool_carpet": "2026-08-04 23:03:19 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/secret_oak_hanging_sign": {
-    "criteria": {
-      "has_sign": "2026-08-04 23:43:02 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/reinforced_light_gray_wool": {
-    "criteria": {
-      "has_wool": "2026-08-04 22:55:39 +0200"
     },
     "done": true
   },
@@ -8345,93 +9500,15 @@
     },
     "done": true
   },
-  "refurbished_furniture:recipes/misc/constructing/mangrove_kitchen_cabinetry": {
-    "criteria": {
-      "has_minecraft:white_dye": "2026-08-04 23:27:22 +0200"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/decorations/black_kitchen_drawer_from_dyeing": {
     "criteria": {
       "has_dye": "2026-08-05 00:36:13 +0200"
     },
     "done": true
   },
-  "handcrafted:recipes/misc/white_crockery_combo": {
-    "criteria": {
-      "has_white_crockery_combo": "2026-08-04 23:27:22 +0200"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/decorations/dark_range_hood": {
     "criteria": {
       "has_dye": "2026-08-05 00:36:13 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/cut_calcite_slab_from_stone_types_calcite_stonecutting": {
-    "criteria": {
-      "has_stone_types_calcite": "2026-08-04 22:52:21 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/reinforced_pink_carpet": {
-    "criteria": {
-      "has_item": "2026-08-04 22:55:39 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/reinforced_white_wool": {
-    "criteria": {
-      "has_wool": "2026-08-04 22:55:39 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/secret_spruce_hanging_sign": {
-    "criteria": {
-      "has_sign": "2026-08-04 23:43:02 +0200"
-    },
-    "done": true
-  },
-  "handcrafted:recipes/misc/yellow_bowl": {
-    "criteria": {
-      "has_yellow_bowl": "2026-08-04 23:19:38 +0200"
-    },
-    "done": true
-  },
-  "comforts:recipes/decorations/hammock_light_gray": {
-    "criteria": {
-      "has_light_gray_wool": "2026-08-05 00:00:28 +0200"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/yellow_kitchen_drawer": {
-    "criteria": {
-      "has_minecraft:yellow_dye": "2026-08-04 23:19:38 +0200"
-    },
-    "done": true
-  },
-  "connectedglass:recipes/misc/borderless_glass_yellow2": {
-    "criteria": {
-      "recipe_condition2": "2026-08-04 23:19:38 +0200"
-    },
-    "done": true
-  },
-  "handcrafted:recipes/misc/light_gray_sheet": {
-    "criteria": {
-      "has_light_gray_sheet": "2026-08-05 00:00:28 +0200"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/decorations/yellow_grill_from_dyeing": {
-    "criteria": {
-      "has_dye": "2026-08-04 23:19:38 +0200"
-    },
-    "done": true
-  },
-  "handcrafted:recipes/misc/white_bowl": {
-    "criteria": {
-      "has_white_bowl": "2026-08-04 23:27:22 +0200"
     },
     "done": true
   },
@@ -8447,129 +9524,9 @@
     },
     "done": true
   },
-  "refurbished_furniture:recipes/decorations/yellow_cooler_from_dyeing": {
-    "criteria": {
-      "has_dye": "2026-08-04 23:19:38 +0200"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/yellow_basin": {
-    "criteria": {
-      "has_minecraft:yellow_dye": "2026-08-04 23:19:38 +0200"
-    },
-    "done": true
-  },
-  "new_slab_variants:recipes/building_blocks/white_wool_slab": {
-    "criteria": {
-      "has_white_wool": "2026-08-04 23:58:46 +0200"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/crimson_kitchen_cabinetry": {
-    "criteria": {
-      "has_minecraft:white_dye": "2026-08-04 23:27:22 +0200"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/yellow_bath": {
-    "criteria": {
-      "has_minecraft:yellow_dye": "2026-08-04 23:19:38 +0200"
-    },
-    "done": true
-  },
-  "new_slab_variants:recipes/building_blocks/blue_concrete_slab": {
-    "criteria": {
-      "has_blue_concrete": "2026-08-04 22:45:53 +0200"
-    },
-    "done": true
-  },
-  "new_slab_variants:recipes/building_blocks/bookshelf_slab": {
-    "criteria": {
-      "has_bookshelf": "2026-08-04 23:12:48 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/reinforced_gray_wool": {
-    "criteria": {
-      "has_wool": "2026-08-04 22:55:39 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/reinforced_red_carpet": {
-    "criteria": {
-      "has_item": "2026-08-04 22:55:39 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/reinforced_lime_carpet_from_dye": {
-    "criteria": {
-      "has_wool_carpet": "2026-08-04 23:03:19 +0200"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/mangrove_kitchen_storage_cabinet": {
-    "criteria": {
-      "has_minecraft:white_dye": "2026-08-04 23:27:22 +0200"
-    },
-    "done": true
-  },
-  "new_slab_variants:recipes/building_blocks/stripped_spruce_log_slab": {
-    "criteria": {
-      "has_stripped_spruce_log": "2026-08-04 23:01:49 +0200"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/dark_oak_dark_ceiling_fan": {
     "criteria": {
       "has_minecraft:black_dye": "2026-08-05 00:36:13 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/smooth_sandstone_stairs_from_smooth_sandstone_stonecutting": {
-    "criteria": {
-      "has_smooth_sandstone": "2026-08-04 23:41:43 +0200"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/decorations/white_cooler_from_dyeing": {
-    "criteria": {
-      "has_dye": "2026-08-04 23:27:22 +0200"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/white_basin": {
-    "criteria": {
-      "has_minecraft:white_dye": "2026-08-04 23:27:22 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/polished_cut_calcite_slab_from_stone_types_calcite_stonecutting": {
-    "criteria": {
-      "has_stone_types_calcite": "2026-08-04 22:52:21 +0200"
-    },
-    "done": true
-  },
-  "connectedglass:recipes/misc/tinted_borderless_glass_white2": {
-    "criteria": {
-      "recipe_condition2": "2026-08-04 23:27:22 +0200"
-    },
-    "done": true
-  },
-  "connectedglass:recipes/misc/clear_glass_white2": {
-    "criteria": {
-      "recipe_condition2": "2026-08-04 23:27:22 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/cut_calcite_from_stone_types_calcite_stonecutting": {
-    "criteria": {
-      "has_stone_types_calcite": "2026-08-04 22:52:21 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_white_carpet": {
-    "criteria": {
-      "has_needed_dye": "2026-08-04 23:27:22 +0200"
     },
     "done": true
   },
@@ -8579,57 +9536,9 @@
     },
     "done": true
   },
-  "refurbished_furniture:recipes/misc/constructing/birch_kitchen_storage_cabinet": {
-    "criteria": {
-      "has_minecraft:white_dye": "2026-08-04 23:27:22 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/black_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_black_dye": "2026-08-05 00:36:13 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/reinforced_magenta_carpet_from_dye": {
-    "criteria": {
-      "has_wool_carpet": "2026-08-04 23:03:19 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/cut_calcite_stairs_from_stone_types_calcite_stonecutting": {
-    "criteria": {
-      "has_stone_types_calcite": "2026-08-04 22:52:21 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/small_calcite_bricks_from_stone_types_calcite_stonecutting": {
-    "criteria": {
-      "has_stone_types_calcite": "2026-08-04 22:52:21 +0200"
-    },
-    "done": true
-  },
-  "mcwfurnitures:recipes/couch": {
-    "criteria": {
-      "has_wood": "2026-08-04 23:58:46 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/reinforced_yellow_wool": {
-    "criteria": {
-      "has_wool": "2026-08-04 22:55:39 +0200"
-    },
-    "done": true
-  },
-  "handcrafted:recipes/misc/yellow_plate": {
-    "criteria": {
-      "has_yellow_plate": "2026-08-04 23:19:38 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/reinforced_light_gray_carpet_from_dye": {
-    "criteria": {
-      "has_wool_carpet": "2026-08-04 23:03:19 +0200"
     },
     "done": true
   },
@@ -8639,99 +9548,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/blue_carpet": {
-    "criteria": {
-      "has_blue_wool": "2026-08-05 00:07:14 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/misc/reinforced_lectern": {
-    "criteria": {
-      "has_bookshelf": "2026-08-04 23:12:48 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/reinforced_orange_wool": {
-    "criteria": {
-      "has_wool": "2026-08-04 22:55:39 +0200"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/warped_kitchen_storage_cabinet": {
-    "criteria": {
-      "has_minecraft:white_dye": "2026-08-04 23:27:22 +0200"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/cherry_kitchen_drawer": {
-    "criteria": {
-      "has_minecraft:white_dye": "2026-08-04 23:27:22 +0200"
-    },
-    "done": true
-  },
-  "connectedglass:recipes/misc/scratched_glass_yellow_pane2": {
-    "criteria": {
-      "recipe_condition2": "2026-08-04 23:19:38 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/reinforced_black_carpet_from_dye": {
-    "criteria": {
-      "has_wool_carpet": "2026-08-04 23:03:19 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/cut_calcite_brick_wall_from_stone_types_calcite_stonecutting": {
-    "criteria": {
-      "has_stone_types_calcite": "2026-08-04 22:52:21 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/light_gray_banner": {
-    "criteria": {
-      "has_light_gray_wool": "2026-08-05 00:00:28 +0200"
-    },
-    "done": true
-  },
-  "connectedglass:recipes/misc/scratched_glass_white2": {
-    "criteria": {
-      "recipe_condition2": "2026-08-04 23:27:22 +0200"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/cherry_dark_ceiling_fan": {
     "criteria": {
       "has_minecraft:black_dye": "2026-08-05 00:36:13 +0200"
-    },
-    "done": true
-  },
-  "comforts:recipes/building_blocks/dye_hammock_yellow": {
-    "criteria": {
-      "has_needed_dye": "2026-08-04 23:19:38 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_andesite_slab_from_polished_andesite_stonecutting": {
-    "criteria": {
-      "has_polished_andesite": "2026-08-04 23:59:21 +0200"
-    },
-    "done": true
-  },
-  "connectedglass:recipes/misc/scratched_glass_yellow2": {
-    "criteria": {
-      "recipe_condition2": "2026-08-04 23:19:38 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/light_gray_dye_from_black_white_dye": {
-    "criteria": {
-      "has_white_dye": "2026-08-04 23:27:22 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/reinforced_cyan_carpet": {
-    "criteria": {
-      "has_item": "2026-08-04 22:55:39 +0200"
     },
     "done": true
   },
@@ -8741,99 +9560,9 @@
     },
     "done": true
   },
-  "refurbished_furniture:recipes/misc/constructing/jungle_kitchen_storage_cabinet": {
-    "criteria": {
-      "has_minecraft:white_dye": "2026-08-04 23:27:22 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_yellow_bed": {
-    "criteria": {
-      "has_needed_dye": "2026-08-04 23:19:38 +0200"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/warped_kitchen_drawer": {
-    "criteria": {
-      "has_minecraft:white_dye": "2026-08-04 23:27:22 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/secret_warped_sign_item": {
-    "criteria": {
-      "has_sign": "2026-08-04 23:43:02 +0200"
-    },
-    "done": true
-  },
-  "handcrafted:recipes/misc/brown_cushion": {
-    "criteria": {
-      "has_brown_cushion": "2026-08-04 22:55:26 +0200"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/acacia_dark_ceiling_fan": {
     "criteria": {
       "has_minecraft:black_dye": "2026-08-05 00:36:13 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/reinforced_gray_carpet": {
-    "criteria": {
-      "has_item": "2026-08-04 22:55:39 +0200"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/decorations/yellow_kitchen_drawer_from_dyeing": {
-    "criteria": {
-      "has_dye": "2026-08-04 23:19:38 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/reinforced_green_carpet": {
-    "criteria": {
-      "has_item": "2026-08-04 22:55:39 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/brown_banner": {
-    "criteria": {
-      "has_brown_wool": "2026-08-04 22:55:26 +0200"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/crimson_kitchen_drawer": {
-    "criteria": {
-      "has_minecraft:white_dye": "2026-08-04 23:27:22 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/small_calcite_brick_wall_from_stone_types_calcite_stonecutting": {
-    "criteria": {
-      "has_stone_types_calcite": "2026-08-04 22:52:21 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/reinforced_blue_carpet": {
-    "criteria": {
-      "has_item": "2026-08-04 22:55:39 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/brown_bed": {
-    "criteria": {
-      "has_brown_wool": "2026-08-04 22:55:26 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/reinforced_purple_wool": {
-    "criteria": {
-      "has_wool": "2026-08-04 22:55:39 +0200"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/white_toilet": {
-    "criteria": {
-      "has_minecraft:white_dye": "2026-08-04 23:27:22 +0200"
     },
     "done": true
   },
@@ -8849,123 +9578,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/black_carpet": {
-    "criteria": {
-      "has_black_wool": "2026-08-05 00:02:14 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/reinforced_light_blue_wool": {
-    "criteria": {
-      "has_wool": "2026-08-04 22:55:39 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/reinforced_pink_wool": {
-    "criteria": {
-      "has_wool": "2026-08-04 22:55:39 +0200"
-    },
-    "done": true
-  },
-  "comforts:recipes/building_blocks/dye_sleeping_bag_yellow": {
-    "criteria": {
-      "has_needed_dye": "2026-08-04 23:19:38 +0200"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/birch_kitchen_drawer": {
-    "criteria": {
-      "has_minecraft:white_dye": "2026-08-04 23:27:22 +0200"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/carrot_from_crate": {
-    "criteria": {
-      "has_carrot_crate": "2026-08-05 00:22:58 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/reinforced_yellow_carpet": {
-    "criteria": {
-      "has_item": "2026-08-04 22:55:39 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_yellow_wool": {
-    "criteria": {
-      "has_needed_dye": "2026-08-04 23:19:38 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/secret_sign_item": {
-    "criteria": {
-      "has_sign": "2026-08-04 23:43:02 +0200"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/yellow_toilet": {
-    "criteria": {
-      "has_minecraft:yellow_dye": "2026-08-04 23:19:38 +0200"
-    },
-    "done": true
-  },
-  "exclusive_weapons:recipes/combat/super_netherite_helmet": {
-    "criteria": {
-      "has_item": "2026-08-04 23:33:12 +0200"
-    },
-    "done": true
-  },
-  "connectedglass:recipes/misc/borderless_glass_yellow_pane2": {
-    "criteria": {
-      "recipe_condition2": "2026-08-04 23:19:38 +0200"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/dark_toaster": {
     "criteria": {
       "has_minecraft:black_dye": "2026-08-05 00:36:13 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_white_bed": {
-    "criteria": {
-      "has_needed_dye": "2026-08-04 23:27:22 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/spruce_hanging_sign": {
-    "criteria": {
-      "has_stripped_logs": "2026-08-04 23:01:49 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/cut_calcite_bricks_from_stone_types_calcite_stonecutting": {
-    "criteria": {
-      "has_stone_types_calcite": "2026-08-04 22:52:21 +0200"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/decorations/yellow_trampoline_from_dyeing": {
-    "criteria": {
-      "has_dye": "2026-08-04 23:19:38 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/secret_spruce_sign_item": {
-    "criteria": {
-      "has_sign": "2026-08-04 23:43:02 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/secret_cherry_sign_item": {
-    "criteria": {
-      "has_sign": "2026-08-04 23:43:02 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/secret_dark_oak_hanging_sign": {
-    "criteria": {
-      "has_sign": "2026-08-04 23:43:02 +0200"
     },
     "done": true
   },
@@ -8975,45 +9590,9 @@
     },
     "done": true
   },
-  "securitycraft:recipes/building_blocks/reinforced_blue_carpet_from_dye": {
-    "criteria": {
-      "has_wool_carpet": "2026-08-04 23:03:19 +0200"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/warped_dark_ceiling_fan": {
     "criteria": {
       "has_minecraft:black_dye": "2026-08-05 00:36:13 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/sandstone_stairs": {
-    "criteria": {
-      "has_cut_sandstone": "2026-08-04 23:42:12 +0200"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/cherry_kitchen_cabinetry": {
-    "criteria": {
-      "has_minecraft:white_dye": "2026-08-04 23:27:22 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/black_bed": {
-    "criteria": {
-      "has_black_wool": "2026-08-05 00:02:14 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/light_blue_dye_from_blue_white_dye": {
-    "criteria": {
-      "has_white_dye": "2026-08-04 23:27:22 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/reinforced_magenta_carpet": {
-    "criteria": {
-      "has_item": "2026-08-04 22:55:39 +0200"
     },
     "done": true
   },
@@ -9029,54 +9608,6 @@
     },
     "done": true
   },
-  "refurbished_furniture:recipes/decorations/white_stool_from_dyeing": {
-    "criteria": {
-      "has_dye": "2026-08-04 23:27:22 +0200"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/mangrove_kitchen_drawer": {
-    "criteria": {
-      "has_minecraft:white_dye": "2026-08-04 23:27:22 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/reinforced_black_carpet": {
-    "criteria": {
-      "has_item": "2026-08-04 22:55:39 +0200"
-    },
-    "done": true
-  },
-  "handcrafted:recipes/misc/yellow_cup": {
-    "criteria": {
-      "has_yellow_cup": "2026-08-04 23:19:38 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/layered_calcite_from_stone_types_calcite_stonecutting": {
-    "criteria": {
-      "has_stone_types_calcite": "2026-08-04 22:52:21 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/light_gray_dye_from_gray_white_dye": {
-    "criteria": {
-      "has_white_dye": "2026-08-04 23:27:22 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/blue_bed": {
-    "criteria": {
-      "has_blue_wool": "2026-08-05 00:07:14 +0200"
-    },
-    "done": true
-  },
-  "comforts:recipes/decorations/sleeping_bag_black": {
-    "criteria": {
-      "has_black_wool": "2026-08-05 00:02:14 +0200"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/decorations/black_lamp_from_dyeing": {
     "criteria": {
       "has_dye": "2026-08-05 00:36:13 +0200"
@@ -9089,69 +9620,9 @@
     },
     "done": true
   },
-  "refurbished_furniture:recipes/decorations/yellow_lamp_from_dyeing": {
-    "criteria": {
-      "has_dye": "2026-08-04 23:19:38 +0200"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/decorations/white_lamp_from_dyeing": {
-    "criteria": {
-      "has_dye": "2026-08-04 23:27:22 +0200"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/decorations/yellow_stool_from_dyeing": {
-    "criteria": {
-      "has_dye": "2026-08-04 23:19:38 +0200"
-    },
-    "done": true
-  },
-  "connectedglass:recipes/misc/tinted_borderless_glass_yellow2": {
-    "criteria": {
-      "recipe_condition2": "2026-08-04 23:19:38 +0200"
-    },
-    "done": true
-  },
-  "comforts:recipes/building_blocks/dye_sleeping_bag_white": {
-    "criteria": {
-      "has_needed_dye": "2026-08-04 23:27:22 +0200"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/decorations/white_grill_from_dyeing": {
-    "criteria": {
-      "has_dye": "2026-08-04 23:27:22 +0200"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/decorations/black_kitchen_sink_from_dyeing": {
     "criteria": {
       "has_dye": "2026-08-05 00:36:13 +0200"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/birch_kitchen_cabinetry": {
-    "criteria": {
-      "has_minecraft:white_dye": "2026-08-04 23:27:22 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/cut_calcite_wall_from_stone_types_calcite_stonecutting": {
-    "criteria": {
-      "has_stone_types_calcite": "2026-08-04 22:52:21 +0200"
-    },
-    "done": true
-  },
-  "handcrafted:recipes/misc/white_cup": {
-    "criteria": {
-      "has_white_cup": "2026-08-04 23:27:22 +0200"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/decorations/white_kitchen_storage_cabinet_from_dyeing": {
-    "criteria": {
-      "has_dye": "2026-08-04 23:27:22 +0200"
     },
     "done": true
   },
@@ -9161,99 +9632,9 @@
     },
     "done": true
   },
-  "comforts:recipes/decorations/sleeping_bag_light_gray": {
-    "criteria": {
-      "has_light_gray_wool": "2026-08-05 00:00:28 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/reinforced_purple_carpet": {
-    "criteria": {
-      "has_item": "2026-08-04 22:55:39 +0200"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/decorations/white_kitchen_drawer_from_dyeing": {
-    "criteria": {
-      "has_dye": "2026-08-04 23:27:22 +0200"
-    },
-    "done": true
-  },
-  "handcrafted:recipes/misc/yellow_crockery_combo": {
-    "criteria": {
-      "has_yellow_crockery_combo": "2026-08-04 23:19:38 +0200"
-    },
-    "done": true
-  },
-  "handcrafted:recipes/misc/brown_sheet": {
-    "criteria": {
-      "has_brown_sheet": "2026-08-04 22:55:26 +0200"
-    },
-    "done": true
-  },
-  "new_slab_variants:recipes/building_blocks/blue_wool_slab": {
-    "criteria": {
-      "has_blue_wool": "2026-08-05 00:07:14 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/gray_dye": {
-    "criteria": {
-      "has_white_dye": "2026-08-04 23:27:22 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/reinforced_black_wool": {
-    "criteria": {
-      "has_wool": "2026-08-04 22:55:39 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/reinforced_purple_carpet_from_dye": {
-    "criteria": {
-      "has_wool_carpet": "2026-08-04 23:03:19 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/white_bed": {
-    "criteria": {
-      "has_white_wool": "2026-08-04 23:58:46 +0200"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/crimson_kitchen_storage_cabinet": {
-    "criteria": {
-      "has_minecraft:white_dye": "2026-08-04 23:27:22 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/reinforced_lime_wool": {
-    "criteria": {
-      "has_wool": "2026-08-04 22:55:39 +0200"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/decorations/black_trampoline_from_dyeing": {
     "criteria": {
       "has_dye": "2026-08-05 00:36:13 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/reinforced_blue_wool": {
-    "criteria": {
-      "has_wool": "2026-08-04 22:55:39 +0200"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/white_kitchen_cabinetry": {
-    "criteria": {
-      "has_minecraft:white_dye": "2026-08-04 23:27:22 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/reinforced_brown_carpet": {
-    "criteria": {
-      "has_item": "2026-08-04 22:55:39 +0200"
     },
     "done": true
   },
@@ -9263,99 +9644,9 @@
     },
     "done": true
   },
-  "refurbished_furniture:recipes/misc/constructing/yellow_kitchen_storage_cabinet": {
-    "criteria": {
-      "has_minecraft:yellow_dye": "2026-08-04 23:19:38 +0200"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/white_bath": {
-    "criteria": {
-      "has_minecraft:white_dye": "2026-08-04 23:27:22 +0200"
-    },
-    "done": true
-  },
-  "connectedglass:recipes/misc/borderless_glass_white_pane2": {
-    "criteria": {
-      "recipe_condition2": "2026-08-04 23:27:22 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/polished_cut_calcite_from_stone_types_calcite_stonecutting": {
-    "criteria": {
-      "has_stone_types_calcite": "2026-08-04 22:52:21 +0200"
-    },
-    "done": true
-  },
-  "comforts:recipes/decorations/hammock_black": {
-    "criteria": {
-      "has_black_wool": "2026-08-05 00:02:14 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/reinforced_white_carpet": {
-    "criteria": {
-      "has_item": "2026-08-04 22:55:39 +0200"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/decorations/spruce_dark_ceiling_fan": {
     "criteria": {
       "has_dye": "2026-08-05 00:36:13 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/reinforced_light_gray_carpet": {
-    "criteria": {
-      "has_item": "2026-08-04 22:55:39 +0200"
-    },
-    "done": true
-  },
-  "comforts:recipes/building_blocks/dye_hammock_white": {
-    "criteria": {
-      "has_needed_dye": "2026-08-04 23:27:22 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/brown_carpet": {
-    "criteria": {
-      "has_brown_wool": "2026-08-04 22:55:26 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/secret_jungle_sign_item": {
-    "criteria": {
-      "has_sign": "2026-08-04 23:43:02 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/small_calcite_brick_slab_from_stone_types_calcite_stonecutting": {
-    "criteria": {
-      "has_stone_types_calcite": "2026-08-04 22:52:21 +0200"
-    },
-    "done": true
-  },
-  "connectedglass:recipes/misc/clear_glass_yellow2": {
-    "criteria": {
-      "recipe_condition2": "2026-08-04 23:19:38 +0200"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/decorations/yellow_kitchen_storage_cabinet_from_dyeing": {
-    "criteria": {
-      "has_dye": "2026-08-04 23:19:38 +0200"
-    },
-    "done": true
-  },
-  "comforts:recipes/decorations/hammock_white": {
-    "criteria": {
-      "has_white_wool": "2026-08-04 23:58:46 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/reinforced_magenta_wool": {
-    "criteria": {
-      "has_wool": "2026-08-04 22:55:39 +0200"
     },
     "done": true
   },
@@ -9365,45 +9656,9 @@
     },
     "done": true
   },
-  "securitycraft:recipes/building_blocks/reinforced_green_carpet_from_dye": {
-    "criteria": {
-      "has_wool_carpet": "2026-08-04 23:03:19 +0200"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/decorations/dark_fridge": {
     "criteria": {
       "has_dye": "2026-08-05 00:36:13 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/secret_birch_hanging_sign": {
-    "criteria": {
-      "has_sign": "2026-08-04 23:43:02 +0200"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/decorations/yellow_kitchen_cabinetry_from_dyeing": {
-    "criteria": {
-      "has_dye": "2026-08-04 23:19:38 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/secret_mangrove_hanging_sign": {
-    "criteria": {
-      "has_sign": "2026-08-04 23:43:02 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/white_candle": {
-    "criteria": {
-      "has_white_dye": "2026-08-04 23:27:22 +0200"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/yellow_kitchen_cabinetry": {
-    "criteria": {
-      "has_minecraft:yellow_dye": "2026-08-04 23:19:38 +0200"
     },
     "done": true
   },
@@ -9419,45 +9674,9 @@
     },
     "done": true
   },
-  "new_slab_variants:recipes/building_blocks/black_wool_slab": {
-    "criteria": {
-      "has_black_wool": "2026-08-05 00:02:14 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/black_banner": {
-    "criteria": {
-      "has_black_wool": "2026-08-05 00:02:14 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/cut_calcite_brick_slab_from_stone_types_calcite_stonecutting": {
-    "criteria": {
-      "has_stone_types_calcite": "2026-08-04 22:52:21 +0200"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/decorations/white_kitchen_cabinetry_from_dyeing": {
-    "criteria": {
-      "has_dye": "2026-08-04 23:27:22 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cut_sandstone_slab": {
-    "criteria": {
-      "has_cut_sandstone": "2026-08-04 23:42:12 +0200"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/decorations/oak_dark_ceiling_fan": {
     "criteria": {
       "has_dye": "2026-08-05 00:36:13 +0200"
-    },
-    "done": true
-  },
-  "handcrafted:recipes/misc/white_cushion": {
-    "criteria": {
-      "has_white_cushion": "2026-08-04 23:58:46 +0200"
     },
     "done": true
   },
@@ -9473,69 +9692,9 @@
     },
     "done": true
   },
-  "comforts:recipes/decorations/hammock_blue": {
-    "criteria": {
-      "has_blue_wool": "2026-08-05 00:07:14 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/white_carpet": {
-    "criteria": {
-      "has_white_wool": "2026-08-04 23:58:46 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/reinforced_red_wool": {
-    "criteria": {
-      "has_wool": "2026-08-04 22:55:39 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/reinforced_mossy_cobblestone_from_vine": {
-    "criteria": {
-      "has_vine": "2026-08-05 00:12:02 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/white_stained_glass_pane_from_glass_pane": {
-    "criteria": {
-      "has_white_dye": "2026-08-04 23:27:22 +0200"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/decorations/yellow_sofa_from_dyeing": {
-    "criteria": {
-      "has_dye": "2026-08-04 23:19:38 +0200"
-    },
-    "done": true
-  },
-  "comforts:recipes/decorations/sleeping_bag_white": {
-    "criteria": {
-      "has_white_wool": "2026-08-04 23:58:46 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/polished_cut_calcite_wall_from_stone_types_calcite_stonecutting": {
-    "criteria": {
-      "has_stone_types_calcite": "2026-08-04 22:52:21 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/reinforced_orange_carpet_from_dye": {
-    "criteria": {
-      "has_wool_carpet": "2026-08-04 23:03:19 +0200"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/decorations/black_kitchen_storage_cabinet_from_dyeing": {
     "criteria": {
       "has_dye": "2026-08-05 00:36:13 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/secret_bamboo_hanging_sign": {
-    "criteria": {
-      "has_sign": "2026-08-04 23:43:02 +0200"
     },
     "done": true
   },
@@ -9545,33 +9704,9 @@
     },
     "done": true
   },
-  "comforts:recipes/decorations/hammock_brown": {
-    "criteria": {
-      "has_brown_wool": "2026-08-04 22:55:26 +0200"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/decorations/dark_stove": {
     "criteria": {
       "has_dye": "2026-08-05 00:36:13 +0200"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/acacia_kitchen_cabinetry": {
-    "criteria": {
-      "has_minecraft:white_dye": "2026-08-04 23:27:22 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/calcite_from_stone_types_calcite_stonecutting": {
-    "criteria": {
-      "has_stone_types_calcite": "2026-08-04 22:52:21 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_andesite_stairs": {
-    "criteria": {
-      "has_polished_andesite": "2026-08-04 23:59:21 +0200"
     },
     "done": true
   },
@@ -9581,141 +9716,9 @@
     },
     "done": true
   },
-  "create:recipes/building_blocks/cut_calcite_brick_stairs_from_stone_types_calcite_stonecutting": {
-    "criteria": {
-      "has_stone_types_calcite": "2026-08-04 22:52:21 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/white_banner": {
-    "criteria": {
-      "has_white_wool": "2026-08-04 23:58:46 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/reinforced_cyan_carpet_from_dye": {
-    "criteria": {
-      "has_wool_carpet": "2026-08-04 23:03:19 +0200"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/yellow_kitchen_sink": {
-    "criteria": {
-      "has_minecraft:yellow_dye": "2026-08-04 23:19:38 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/secret_bamboo_sign_item": {
-    "criteria": {
-      "has_sign": "2026-08-04 23:43:02 +0200"
-    },
-    "done": true
-  },
   "mcwwindows:recipes/one_way_glass": {
     "criteria": {
       "has_wood": "2026-08-05 00:36:13 +0200"
-    },
-    "done": true
-  },
-  "new_slab_variants:recipes/building_blocks/brown_wool_slab": {
-    "criteria": {
-      "has_brown_wool": "2026-08-04 22:55:26 +0200"
-    },
-    "done": true
-  },
-  "handcrafted:recipes/misc/blue_cushion": {
-    "criteria": {
-      "has_blue_cushion": "2026-08-05 00:07:14 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/smooth_sandstone_stairs": {
-    "criteria": {
-      "has_smooth_sandstone": "2026-08-04 23:41:43 +0200"
-    },
-    "done": true
-  },
-  "comforts:recipes/decorations/sleeping_bag_brown": {
-    "criteria": {
-      "has_brown_wool": "2026-08-04 22:55:26 +0200"
-    },
-    "done": true
-  },
-  "comforts:recipes/decorations/sleeping_bag_blue": {
-    "criteria": {
-      "has_blue_wool": "2026-08-05 00:07:14 +0200"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/decorations/white_sofa_from_dyeing": {
-    "criteria": {
-      "has_dye": "2026-08-04 23:27:22 +0200"
-    },
-    "done": true
-  },
-  "connectedglass:recipes/misc/clear_glass_yellow_pane2": {
-    "criteria": {
-      "recipe_condition2": "2026-08-04 23:19:38 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/secret_cherry_hanging_sign": {
-    "criteria": {
-      "has_sign": "2026-08-04 23:43:02 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_white_wool": {
-    "criteria": {
-      "has_needed_dye": "2026-08-04 23:27:22 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/secret_warped_hanging_sign": {
-    "criteria": {
-      "has_sign": "2026-08-04 23:43:02 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/reinforced_brown_carpet_from_dye": {
-    "criteria": {
-      "has_wool_carpet": "2026-08-04 23:03:19 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/reinforced_green_wool": {
-    "criteria": {
-      "has_wool": "2026-08-04 22:55:39 +0200"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/decorations/white_toilet": {
-    "criteria": {
-      "has_dye": "2026-08-04 23:27:22 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/secret_acacia_sign_item": {
-    "criteria": {
-      "has_sign": "2026-08-04 23:43:02 +0200"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/decorations/yellow_toilet": {
-    "criteria": {
-      "has_dye": "2026-08-04 23:19:38 +0200"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/cherry_kitchen_storage_cabinet": {
-    "criteria": {
-      "has_minecraft:white_dye": "2026-08-04 23:27:22 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/reinforced_yellow_carpet_from_dye": {
-    "criteria": {
-      "has_wool_carpet": "2026-08-04 23:03:19 +0200"
     },
     "done": true
   },
@@ -9728,6 +9731,1116 @@
   "minecraft:recipes/building_blocks/dye_black_wool": {
     "criteria": {
       "has_needed_dye": "2026-08-05 00:36:13 +0200"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/rope_jungle_bridge": {
+    "criteria": {
+      "has_planks": "2026-08-06 17:56:06 +0200"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/birch_planks": {
+    "criteria": {
+      "has_planks": "2026-08-06 23:32:04 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/emerald": {
+    "criteria": {
+      "has_emerald_block": "2026-08-07 00:20:09 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_button": {
+    "criteria": {
+      "has_planks": "2026-08-06 23:32:04 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/birch_cutting_board": {
+    "criteria": {
+      "has_minecraft:birch_planks": "2026-08-06 23:32:04 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/stripped_birch_log_slab": {
+    "criteria": {
+      "has_stripped_birch_log": "2026-08-06 18:25:08 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/blue_toilet": {
+    "criteria": {
+      "has_ceiling_fan": "2026-08-06 21:41:08 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/birch_fence": {
+    "criteria": {
+      "has_planks": "2026-08-06 23:32:04 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_sandstone": {
+    "criteria": {
+      "has_sandstone_slab": "2026-08-07 00:49:05 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/birch_shelf": {
+    "criteria": {
+      "has_birch_shelf": "2026-08-06 23:32:04 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/stripped_oak_wood_slab": {
+    "criteria": {
+      "has_stripped_oak_wood": "2026-08-07 00:13:42 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_limestone_stairs_from_stone_types_limestone_stonecutting": {
+    "criteria": {
+      "has_stone_types_limestone": "2026-08-06 23:10:51 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_limestone_stairs_from_stone_types_limestone_stonecutting": {
+    "criteria": {
+      "has_stone_types_limestone": "2026-08-06 23:10:51 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/jungle_side_table": {
+    "criteria": {
+      "has_jungle_side_table": "2026-08-06 17:56:06 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/birch_sign": {
+    "criteria": {
+      "has_planks": "2026-08-06 23:32:04 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/cherry_wood_slab": {
+    "criteria": {
+      "has_cherry_wood": "2026-08-06 20:30:20 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/birch_nightstand": {
+    "criteria": {
+      "has_birch_nightstand": "2026-08-06 23:32:04 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/blue_toilet": {
+    "criteria": {
+      "has_toilets": "2026-08-06 21:41:08 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_slab": {
+    "criteria": {
+      "has_planks": "2026-08-06 23:32:04 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/oak_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2026-08-07 00:24:16 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/magenta_toilet": {
+    "criteria": {
+      "has_toilets": "2026-08-06 21:41:08 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_limestone_brick_slab_from_stone_types_limestone_stonecutting": {
+    "criteria": {
+      "has_stone_types_limestone": "2026-08-06 23:10:51 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_stairs": {
+    "criteria": {
+      "has_planks": "2026-08-06 17:56:06 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_calcite_stairs": {
+    "criteria": {
+      "has_cut_calcite": "2026-08-06 22:47:19 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/jungle_desk": {
+    "criteria": {
+      "has_minecraft:jungle_planks": "2026-08-06 17:56:06 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/birch_storage_connector": {
+    "criteria": {
+      "has_birch_planks": "2026-08-06 23:32:04 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/birch_cupboard": {
+    "criteria": {
+      "has_birch_cupboard": "2026-08-06 23:32:04 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_limestone_wall_from_stone_types_limestone_stonecutting": {
+    "criteria": {
+      "has_stone_types_limestone": "2026-08-06 23:10:51 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_planks": {
+    "criteria": {
+      "has_logs": "2026-08-06 18:25:08 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/jungle_dining_bench": {
+    "criteria": {
+      "has_jungle_dining_bench": "2026-08-06 17:56:06 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/jungle_crate": {
+    "criteria": {
+      "has_minecraft:jungle_planks": "2026-08-06 17:56:06 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_trapdoor": {
+    "criteria": {
+      "has_planks": "2026-08-06 17:56:06 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/brown_toilet": {
+    "criteria": {
+      "has_toilets": "2026-08-06 21:41:08 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/cyan_toilet": {
+    "criteria": {
+      "has_ceiling_fan": "2026-08-06 21:41:08 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/jungle_drawer": {
+    "criteria": {
+      "has_jungle_drawer": "2026-08-06 17:56:06 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jungle_sign": {
+    "criteria": {
+      "has_planks": "2026-08-06 17:56:06 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/birch_counter": {
+    "criteria": {
+      "has_birch_counter": "2026-08-06 23:32:04 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/birch_storage_jar": {
+    "criteria": {
+      "has_minecraft:birch_planks": "2026-08-06 23:32:04 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/birch_cabinet": {
+    "criteria": {
+      "has_birch_trapdoor": "2026-08-07 00:38:21 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/armor_stand": {
+    "criteria": {
+      "has_stone_slab": "2026-08-06 20:12:54 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jungle_fence": {
+    "criteria": {
+      "has_planks": "2026-08-06 17:56:06 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/green_toilet": {
+    "criteria": {
+      "has_ceiling_fan": "2026-08-06 21:41:08 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/jungle_corner_trim": {
+    "criteria": {
+      "has_jungle_corner_trim": "2026-08-06 17:56:06 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_oak_wood": {
+    "criteria": {
+      "has_log": "2026-08-07 00:24:16 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_calcite_wall": {
+    "criteria": {
+      "has_cut_calcite": "2026-08-06 22:47:19 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/cyan_toilet": {
+    "criteria": {
+      "has_toilets": "2026-08-06 21:41:08 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/pink_toilet": {
+    "criteria": {
+      "has_ceiling_fan": "2026-08-06 21:41:08 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/gray_toilet": {
+    "criteria": {
+      "has_ceiling_fan": "2026-08-06 21:41:08 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/jungle_shelf": {
+    "criteria": {
+      "has_jungle_shelf": "2026-08-06 17:56:06 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/jungle_table": {
+    "criteria": {
+      "has_minecraft:jungle_planks": "2026-08-06 17:56:06 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/birch_desk": {
+    "criteria": {
+      "has_birch_desk": "2026-08-06 23:32:04 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/birch_desk": {
+    "criteria": {
+      "has_minecraft:birch_planks": "2026-08-06 23:32:04 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/jungle_window": {
+    "criteria": {
+      "has_ingredient": "2026-08-06 17:56:06 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_limestone_wall_from_stone_types_limestone_stonecutting": {
+    "criteria": {
+      "has_stone_types_limestone": "2026-08-06 23:10:51 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_red_sandstone_stairs_from_smooth_red_sandstone_stonecutting": {
+    "criteria": {
+      "has_smooth_red_sandstone": "2026-08-06 17:18:18 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_limestone_bricks_from_stone_types_limestone_stonecutting": {
+    "criteria": {
+      "has_stone_types_limestone": "2026-08-06 23:10:51 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/pink_toilet": {
+    "criteria": {
+      "has_toilets": "2026-08-06 21:41:08 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/limestone_from_stone_types_limestone_stonecutting": {
+    "criteria": {
+      "has_stone_types_limestone": "2026-08-06 23:10:51 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/limestone_pillar_from_stone_types_limestone_stonecutting": {
+    "criteria": {
+      "has_stone_types_limestone": "2026-08-06 23:10:51 +0200"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/jungle_planks": {
+    "criteria": {
+      "has_planks": "2026-08-06 17:56:06 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/gray_toilet": {
+    "criteria": {
+      "has_toilets": "2026-08-06 21:41:08 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_limestone_brick_stairs": {
+    "criteria": {
+      "has_cut_limestone_bricks": "2026-08-07 00:11:32 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/jungle_table": {
+    "criteria": {
+      "has_jungle_table": "2026-08-06 17:56:06 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/birch_fancy_bed": {
+    "criteria": {
+      "has_birch_fancy_bed": "2026-08-06 23:32:04 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_limestone_brick_wall": {
+    "criteria": {
+      "has_cut_limestone_bricks": "2026-08-07 00:11:32 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_mosaic_stairs": {
+    "criteria": {
+      "has_bamboo_mosaic": "2026-08-06 23:15:19 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/birch_chest": {
+    "criteria": {
+      "has_birch_plank": "2026-08-06 23:32:04 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_limestone_from_stone_types_limestone_stonecutting": {
+    "criteria": {
+      "has_stone_types_limestone": "2026-08-06 23:10:51 +0200"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/jungle_rail_bridge": {
+    "criteria": {
+      "has_planks": "2026-08-06 17:56:06 +0200"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/birch_log_bridge_middle": {
+    "criteria": {
+      "has_planks": "2026-08-06 23:32:04 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/birch_drawer": {
+    "criteria": {
+      "has_minecraft:birch_planks": "2026-08-06 23:32:04 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_limestone_brick_stairs_from_stone_types_limestone_stonecutting": {
+    "criteria": {
+      "has_stone_types_limestone": "2026-08-06 23:10:51 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/light_gray_toilet": {
+    "criteria": {
+      "has_ceiling_fan": "2026-08-06 21:41:08 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/birch_table": {
+    "criteria": {
+      "has_minecraft:birch_planks": "2026-08-06 23:32:04 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_limestone_brick_slab_from_stone_types_limestone_stonecutting": {
+    "criteria": {
+      "has_stone_types_limestone": "2026-08-06 23:10:51 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/yellow_terracotta_slab": {
+    "criteria": {
+      "has_yellow_terracotta": "2026-08-06 19:55:54 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/jungle_storage_connector": {
+    "criteria": {
+      "has_jungle_planks": "2026-08-06 17:56:06 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/orange_toilet": {
+    "criteria": {
+      "has_toilets": "2026-08-06 21:41:08 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_trapdoor": {
+    "criteria": {
+      "has_planks": "2026-08-06 23:32:04 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/jungle_limited_barrel_3": {
+    "criteria": {
+      "has_jungle_plank": "2026-08-06 17:56:06 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/jungle_limited_barrel_2": {
+    "criteria": {
+      "has_jungle_plank": "2026-08-06 17:56:06 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/jungle_limited_barrel_1": {
+    "criteria": {
+      "has_jungle_plank": "2026-08-06 17:56:06 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_limestone_slab_recycling": {
+    "criteria": {
+      "has_cut_limestone_slab": "2026-08-06 23:11:24 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/jungle_limited_barrel_4": {
+    "criteria": {
+      "has_jungle_plank": "2026-08-06 17:56:06 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/birch_drawer": {
+    "criteria": {
+      "has_birch_drawer": "2026-08-06 23:32:04 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_pressure_plate": {
+    "criteria": {
+      "has_planks": "2026-08-06 17:56:06 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_slab_from_polished_diorite_stonecutting": {
+    "criteria": {
+      "has_polished_diorite": "2026-08-06 19:11:09 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_calcite_slab_recycling": {
+    "criteria": {
+      "has_cut_calcite_slab": "2026-08-06 22:37:56 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/jungle_counter": {
+    "criteria": {
+      "has_jungle_counter": "2026-08-06 17:56:06 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_calcite_stairs": {
+    "criteria": {
+      "has_polished_cut_calcite": "2026-08-06 22:14:52 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/lime_toilet": {
+    "criteria": {
+      "has_toilets": "2026-08-06 21:41:08 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/birch_window": {
+    "criteria": {
+      "has_ingredient": "2026-08-06 23:32:04 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/birch_crate": {
+    "criteria": {
+      "has_minecraft:birch_planks": "2026-08-06 23:32:04 +0200"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/jungle_log_bridge_middle": {
+    "criteria": {
+      "has_planks": "2026-08-06 17:56:06 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_stairs": {
+    "criteria": {
+      "has_polished_diorite": "2026-08-06 19:11:09 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_limestone_slab_from_stone_types_limestone_stonecutting": {
+    "criteria": {
+      "has_stone_types_limestone": "2026-08-06 23:10:51 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_calcite_slab": {
+    "criteria": {
+      "has_polished_cut_calcite": "2026-08-06 22:14:52 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_limestone_brick_stairs_from_stone_types_limestone_stonecutting": {
+    "criteria": {
+      "has_stone_types_limestone": "2026-08-06 23:10:51 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/jungle_pillar_trim": {
+    "criteria": {
+      "has_jungle_pillar_trim": "2026-08-06 17:56:06 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_limestone_brick_wall_from_stone_types_limestone_stonecutting": {
+    "criteria": {
+      "has_stone_types_limestone": "2026-08-06 23:10:51 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_door": {
+    "criteria": {
+      "has_planks": "2026-08-06 23:32:04 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/orange_toilet": {
+    "criteria": {
+      "has_ceiling_fan": "2026-08-06 21:41:08 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/jungle_storage_jar": {
+    "criteria": {
+      "has_minecraft:jungle_planks": "2026-08-06 17:56:06 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/light_blue_toilet": {
+    "criteria": {
+      "has_toilets": "2026-08-06 21:41:08 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_red_sandstone_stairs": {
+    "criteria": {
+      "has_smooth_red_sandstone": "2026-08-06 17:18:18 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/birch_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2026-08-06 18:25:08 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_fence_gate": {
+    "criteria": {
+      "has_planks": "2026-08-06 23:32:04 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/birch_table": {
+    "criteria": {
+      "has_birch_table": "2026-08-06 23:32:04 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/stripped_spruce_wood_slab": {
+    "criteria": {
+      "has_stripped_spruce_wood": "2026-08-07 00:24:13 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/jungle_chest": {
+    "criteria": {
+      "has_jungle_plank": "2026-08-06 17:56:06 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/jungle_cutting_board": {
+    "criteria": {
+      "has_minecraft:jungle_planks": "2026-08-06 17:56:06 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/birch/birch_blossom_trapdoor": {
+    "criteria": {
+      "has_plankss": "2026-08-06 23:32:04 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/repeater": {
+    "criteria": {
+      "has_redstone_torch": "2026-08-06 17:34:36 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_stairs": {
+    "criteria": {
+      "has_planks": "2026-08-06 23:32:04 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_limestone_from_stone_types_limestone_stonecutting": {
+    "criteria": {
+      "has_stone_types_limestone": "2026-08-06 23:10:51 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/stripped_jungle_log_slab": {
+    "criteria": {
+      "has_stripped_jungle_log": "2026-08-06 18:25:24 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/jungle_nightstand": {
+    "criteria": {
+      "has_jungle_nightstand": "2026-08-06 17:56:06 +0200"
+    },
+    "done": true
+  },
+  "buildinggadgets2:recipes/misc/gadget_cut_paste": {
+    "criteria": {
+      "has_shear": "2026-08-06 18:14:10 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/birch_side_table": {
+    "criteria": {
+      "has_birch_side_table": "2026-08-06 23:32:04 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_door": {
+    "criteria": {
+      "has_planks": "2026-08-06 17:56:06 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/emerald_block_slab": {
+    "criteria": {
+      "has_emerald_block": "2026-08-07 00:20:09 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/bamboo_mosaic": {
+    "criteria": {
+      "has_bamboo_slab": "2026-08-06 23:15:15 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2026-08-06 17:31:28 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_limestone_bricks_from_stone_types_limestone_stonecutting": {
+    "criteria": {
+      "has_stone_types_limestone": "2026-08-06 23:10:51 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/warped_planks": {
+    "criteria": {
+      "has_logs": "2026-08-06 22:35:17 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/jungle_cupboard": {
+    "criteria": {
+      "has_jungle_cupboard": "2026-08-06 17:56:06 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/magenta_toilet": {
+    "criteria": {
+      "has_ceiling_fan": "2026-08-06 21:41:08 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/birch_corner_trim": {
+    "criteria": {
+      "has_birch_corner_trim": "2026-08-06 23:32:04 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/stripped_oak_log_slab": {
+    "criteria": {
+      "has_stripped_oak_log": "2026-08-07 00:24:16 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/lime_toilet": {
+    "criteria": {
+      "has_ceiling_fan": "2026-08-06 21:41:08 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_slab": {
+    "criteria": {
+      "has_planks": "2026-08-06 17:56:06 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_jungle_wood": {
+    "criteria": {
+      "has_log": "2026-08-06 18:25:24 +0200"
+    },
+    "done": true
+  },
+  "super_ore_block:recipes/building_blocks/super_emerald_block": {
+    "criteria": {
+      "has_item": "2026-08-07 00:20:09 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_mosaic_slab": {
+    "criteria": {
+      "has_bamboo_mosaic": "2026-08-06 23:15:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_glazed_terracotta": {
+    "criteria": {
+      "has_yellow_terracotta": "2026-08-06 19:55:54 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/decorations/glow_display_case": {
+    "criteria": {
+      "has_item_frame": "2026-08-06 17:59:20 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/birch_limited_barrel_4": {
+    "criteria": {
+      "has_birch_plank": "2026-08-06 23:32:04 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/birch_limited_barrel_3": {
+    "criteria": {
+      "has_birch_plank": "2026-08-06 23:32:04 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/birch_limited_barrel_2": {
+    "criteria": {
+      "has_birch_plank": "2026-08-06 23:32:04 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/birch_limited_barrel_1": {
+    "criteria": {
+      "has_birch_plank": "2026-08-06 23:32:04 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/birch_couch": {
+    "criteria": {
+      "has_birch_couch": "2026-08-06 23:32:04 +0200"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/birch_rail_bridge": {
+    "criteria": {
+      "has_planks": "2026-08-06 23:32:04 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/mysterious_cuckoo_clock": {
+    "criteria": {
+      "has_item": "2026-08-07 00:00:30 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/birch_chair": {
+    "criteria": {
+      "has_minecraft:birch_planks": "2026-08-06 23:32:04 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_red_sandstone_slab": {
+    "criteria": {
+      "has_smooth_red_sandstone": "2026-08-06 17:18:18 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_birch_wood": {
+    "criteria": {
+      "has_log": "2026-08-06 18:25:08 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_red_sandstone_slab_from_smooth_red_sandstone_stonecutting": {
+    "criteria": {
+      "has_smooth_red_sandstone": "2026-08-06 17:18:18 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/jungle_chair": {
+    "criteria": {
+      "has_jungle_chair": "2026-08-06 17:56:06 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/purple_toilet": {
+    "criteria": {
+      "has_ceiling_fan": "2026-08-06 21:41:08 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/birch_pillar_trim": {
+    "criteria": {
+      "has_birch_pillar_trim": "2026-08-06 23:32:04 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_limestone_brick_wall_from_stone_types_limestone_stonecutting": {
+    "criteria": {
+      "has_stone_types_limestone": "2026-08-06 23:10:51 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/jungle_desk": {
+    "criteria": {
+      "has_jungle_desk": "2026-08-06 17:56:06 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_button": {
+    "criteria": {
+      "has_planks": "2026-08-06 17:56:06 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/jungle_chair": {
+    "criteria": {
+      "has_minecraft:jungle_planks": "2026-08-06 17:56:06 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/layered_limestone_from_stone_types_limestone_stonecutting": {
+    "criteria": {
+      "has_stone_types_limestone": "2026-08-06 23:10:51 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_calcite_slab": {
+    "criteria": {
+      "has_cut_calcite": "2026-08-06 22:47:19 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/birch_dining_bench": {
+    "criteria": {
+      "has_birch_dining_bench": "2026-08-06 23:32:04 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_fence_gate": {
+    "criteria": {
+      "has_planks": "2026-08-06 17:56:06 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/food/dough": {
+    "criteria": {
+      "has_water": "2026-08-06 17:31:28 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_limestone_slab_from_stone_types_limestone_stonecutting": {
+    "criteria": {
+      "has_stone_types_limestone": "2026-08-06 23:10:51 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/light_blue_toilet": {
+    "criteria": {
+      "has_ceiling_fan": "2026-08-06 21:41:08 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/jungle_drawer": {
+    "criteria": {
+      "has_minecraft:jungle_planks": "2026-08-06 17:56:06 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/storage_tool": {
+    "criteria": {
+      "has_redstone_torch": "2026-08-06 17:34:36 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_calcite_wall": {
+    "criteria": {
+      "has_polished_cut_calcite": "2026-08-06 22:14:52 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/birch_chair": {
+    "criteria": {
+      "has_birch_chair": "2026-08-06 23:32:04 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/jungle_mail_box": {
+    "criteria": {
+      "has_minecraft:jungle_planks": "2026-08-06 17:56:06 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_slab": {
+    "criteria": {
+      "has_polished_diorite": "2026-08-06 19:11:09 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/birch_barrel": {
+    "criteria": {
+      "has_birch_plank": "2026-08-06 23:32:04 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/jungle_barrel": {
+    "criteria": {
+      "has_jungle_plank": "2026-08-06 17:56:06 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/jungle_bench": {
+    "criteria": {
+      "has_jungle_bench": "2026-08-06 17:56:06 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/green_toilet": {
+    "criteria": {
+      "has_toilets": "2026-08-06 21:41:08 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/birch_bench": {
+    "criteria": {
+      "has_birch_bench": "2026-08-06 23:32:04 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/jungle_couch": {
+    "criteria": {
+      "has_jungle_couch": "2026-08-06 17:56:06 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/jungle_fancy_bed": {
+    "criteria": {
+      "has_jungle_fancy_bed": "2026-08-06 17:56:06 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/light_gray_toilet": {
+    "criteria": {
+      "has_toilets": "2026-08-06 21:41:08 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/birch_mail_box": {
+    "criteria": {
+      "has_minecraft:birch_planks": "2026-08-06 23:32:04 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_stairs_from_polished_diorite_stonecutting": {
+    "criteria": {
+      "has_polished_diorite": "2026-08-06 19:11:09 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/brown_toilet": {
+    "criteria": {
+      "has_ceiling_fan": "2026-08-06 21:41:08 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/purple_toilet": {
+    "criteria": {
+      "has_toilets": "2026-08-06 21:41:08 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/stripped_jungle_wood_slab": {
+    "criteria": {
+      "has_stripped_jungle_wood": "2026-08-06 21:56:45 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_pressure_plate": {
+    "criteria": {
+      "has_planks": "2026-08-06 23:32:04 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/jungle/jungle_blossom_trapdoor": {
+    "criteria": {
+      "has_plankss": "2026-08-06 17:56:06 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jungle_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2026-08-06 18:25:24 +0200"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/rope_birch_bridge": {
+    "criteria": {
+      "has_planks": "2026-08-06 23:32:04 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_limestone_brick_slab": {
+    "criteria": {
+      "has_cut_limestone_bricks": "2026-08-07 00:11:32 +0200"
     },
     "done": true
   },
