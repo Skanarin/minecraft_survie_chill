@@ -22373,27 +22373,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/emerald": {
+  "new_slab_variants:recipes/building_blocks/chiseled_sandstone_slab": {
     "criteria": {
-      "has_emerald_block": "2026-08-07 00:20:26 +0200"
+      "has_chiseled_sandstone": "2026-08-06 17:18:21 +0200"
     },
     "done": true
   },
-  "biomesoplenty:recipes/building_blocks/stripped_hellbark_wood": {
+  "minecraft:recipes/misc/raw_gold": {
     "criteria": {
-      "has_log": "2026-08-06 21:35:12 +0200"
+      "has_raw_gold_block": "2026-08-06 18:31:04 +0200"
     },
     "done": true
   },
-  "comforts:recipes/decorations/sleeping_bag_light_blue": {
+  "new_slab_variants:recipes/building_blocks/raw_gold_block_slab": {
     "criteria": {
-      "has_light_blue_wool": "2026-08-06 23:46:33 +0200"
-    },
-    "done": true
-  },
-  "betterarcheology:recipes/building_blocks/rotten_stairs": {
-    "criteria": {
-      "has_rotten_planks": "2026-08-06 21:32:52 +0200"
+      "has_raw_gold_block": "2026-08-06 18:31:04 +0200"
     },
     "done": true
   },
@@ -22403,21 +22397,63 @@
     },
     "done": true
   },
+  "handcrafted:recipes/misc/black_cushion": {
+    "criteria": {
+      "has_black_cushion": "2026-08-06 18:31:46 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_carpet": {
+    "criteria": {
+      "has_black_wool": "2026-08-06 18:31:46 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_bed": {
+    "criteria": {
+      "has_black_wool": "2026-08-06 18:31:46 +0200"
+    },
+    "done": true
+  },
+  "comforts:recipes/decorations/sleeping_bag_black": {
+    "criteria": {
+      "has_black_wool": "2026-08-06 18:31:46 +0200"
+    },
+    "done": true
+  },
+  "comforts:recipes/decorations/hammock_black": {
+    "criteria": {
+      "has_black_wool": "2026-08-06 18:31:46 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/black_wool_slab": {
+    "criteria": {
+      "has_black_wool": "2026-08-06 18:31:46 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_banner": {
+    "criteria": {
+      "has_black_wool": "2026-08-06 18:31:46 +0200"
+    },
+    "done": true
+  },
+  "exclusive_weapons:recipes/combat/super_gold_helmet": {
+    "criteria": {
+      "has_item": "2026-08-06 18:37:47 +0200"
+    },
+    "done": true
+  },
+  "exclusive_weapons:recipes/combat/super_gold_chestplate": {
+    "criteria": {
+      "has_item": "2026-08-06 18:37:47 +0200"
+    },
+    "done": true
+  },
   "exclusive_weapons:recipes/combat/super_gold_leggings": {
     "criteria": {
       "has_item": "2026-08-06 18:37:48 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/light_blue_bed": {
-    "criteria": {
-      "has_light_blue_wool": "2026-08-06 23:46:33 +0200"
-    },
-    "done": true
-  },
-  "mcwroofs:recipes/prismarine": {
-    "criteria": {
-      "has_planks": "2026-08-06 21:13:32 +0200"
     },
     "done": true
   },
@@ -22445,30 +22481,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/bone_meal_from_bone_block": {
-    "criteria": {
-      "has_bone_block": "2026-08-06 22:16:28 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/raw_gold": {
-    "criteria": {
-      "has_raw_gold_block": "2026-08-06 18:31:04 +0200"
-    },
-    "done": true
-  },
-  "new_slab_variants:recipes/building_blocks/bone_block_slab": {
-    "criteria": {
-      "has_bone_block": "2026-08-06 22:16:28 +0200"
-    },
-    "done": true
-  },
-  "mynethersdelight:recipes/food/boiled_egg_from_campfire_cooking": {
-    "criteria": {
-      "boiled_egg": "2026-08-06 21:48:18 +0200"
-    },
-    "done": true
-  },
   "securitycraft:recipes/building_blocks/reinforced_white_carpet_from_dye": {
     "criteria": {
       "has_wool_carpet": "2026-08-06 21:05:16 +0200"
@@ -22481,147 +22493,15 @@
     },
     "done": true
   },
-  "biomesoplenty:recipes/redstone/hellbark_pressure_plate": {
-    "criteria": {
-      "has_planks": "2026-08-06 21:31:59 +0200"
-    },
-    "done": true
-  },
-  "betterarcheology:recipes/misc/rotten_fence": {
-    "criteria": {
-      "has_rotten_planks": "2026-08-06 21:32:52 +0200"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/building_blocks/white_sandstone_stairs": {
-    "criteria": {
-      "has_chiseled_white_sandstone": "2026-08-07 01:09:32 +0200"
-    },
-    "done": true
-  },
-  "mcwbridges:recipes/prismarine_bricks_bridge_pier": {
-    "criteria": {
-      "has_planks": "2026-08-06 21:13:32 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/polished_cut_limestone_stairs": {
-    "criteria": {
-      "has_polished_cut_limestone": "2026-08-07 00:44:18 +0200"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/decorations/hellbark_sign": {
-    "criteria": {
-      "has_planks": "2026-08-06 21:31:59 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/prismarine_slab": {
-    "criteria": {
-      "has_prismarine": "2026-08-06 21:48:57 +0200"
-    },
-    "done": true
-  },
-  "handcrafted:recipes/misc/black_cushion": {
-    "criteria": {
-      "has_black_cushion": "2026-08-06 18:31:46 +0200"
-    },
-    "done": true
-  },
   "securitycraft:recipes/building_blocks/reinforced_pink_carpet_from_dye": {
     "criteria": {
       "has_wool_carpet": "2026-08-06 21:05:16 +0200"
     },
     "done": true
   },
-  "biomesoplenty:recipes/redstone/hellbark_trapdoor": {
-    "criteria": {
-      "has_planks": "2026-08-06 21:31:59 +0200"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/building_blocks/hellbark_slab": {
-    "criteria": {
-      "has_planks": "2026-08-06 21:31:59 +0200"
-    },
-    "done": true
-  },
-  "new_slab_variants:recipes/building_blocks/light_blue_wool_slab": {
-    "criteria": {
-      "has_light_blue_wool": "2026-08-06 23:46:33 +0200"
-    },
-    "done": true
-  },
-  "betterarcheology:recipes/redstone/rotten_trapdoor": {
-    "criteria": {
-      "has_rotten_planks": "2026-08-06 21:32:52 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/cut_limestone_brick_stairs": {
-    "criteria": {
-      "has_cut_limestone_bricks": "2026-08-07 01:15:29 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/cut_calcite_brick_wall": {
-    "criteria": {
-      "has_cut_calcite_bricks": "2026-08-06 23:39:09 +0200"
-    },
-    "done": true
-  },
-  "new_slab_variants:recipes/building_blocks/raw_gold_block_slab": {
-    "criteria": {
-      "has_raw_gold_block": "2026-08-06 18:31:04 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/cut_calcite_brick_stairs": {
-    "criteria": {
-      "has_cut_calcite_bricks": "2026-08-06 23:39:09 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/prismarine_brick_slab_from_prismarine_stonecutting": {
-    "criteria": {
-      "has_prismarine_brick": "2026-08-06 21:13:32 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/cut_limestone_brick_wall": {
-    "criteria": {
-      "has_cut_limestone_bricks": "2026-08-07 01:15:29 +0200"
-    },
-    "done": true
-  },
-  "betterarcheology:recipes/redstone/rotten_pressure_plate": {
-    "criteria": {
-      "has_rotten_planks": "2026-08-06 21:32:52 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/polished_cut_limestone_wall": {
-    "criteria": {
-      "has_polished_cut_limestone": "2026-08-07 00:44:18 +0200"
-    },
-    "done": true
-  },
   "securitycraft:recipes/building_blocks/reinforced_lime_carpet_from_dye": {
     "criteria": {
       "has_wool_carpet": "2026-08-06 21:05:16 +0200"
-    },
-    "done": true
-  },
-  "handcrafted:recipes/misc/light_blue_sheet": {
-    "criteria": {
-      "has_light_blue_sheet": "2026-08-06 23:46:33 +0200"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/misc/straw": {
-    "criteria": {
-      "has_straw_bale": "2026-08-07 01:30:55 +0200"
     },
     "done": true
   },
@@ -22637,33 +22517,69 @@
     },
     "done": true
   },
-  "betterarcheology:recipes/redstone/rotten_door": {
-    "criteria": {
-      "has_rotten_planks": "2026-08-06 21:32:52 +0200"
-    },
-    "done": true
-  },
   "securitycraft:recipes/building_blocks/reinforced_black_carpet_from_dye": {
     "criteria": {
       "has_wool_carpet": "2026-08-06 21:05:16 +0200"
     },
     "done": true
   },
-  "betterarcheology:recipes/building_blocks/rotten_slab": {
+  "securitycraft:recipes/building_blocks/reinforced_blue_carpet_from_dye": {
     "criteria": {
-      "has_rotten_planks": "2026-08-06 21:32:52 +0200"
+      "has_wool_carpet": "2026-08-06 21:05:16 +0200"
     },
     "done": true
   },
-  "biomesoplenty:recipes/redstone/hellbark_button": {
+  "securitycraft:recipes/building_blocks/reinforced_purple_carpet_from_dye": {
     "criteria": {
-      "has_planks": "2026-08-06 21:31:59 +0200"
+      "has_wool_carpet": "2026-08-06 21:05:16 +0200"
     },
     "done": true
   },
-  "create:recipes/building_blocks/polished_cut_calcite_stairs": {
+  "securitycraft:recipes/building_blocks/reinforced_green_carpet_from_dye": {
     "criteria": {
-      "has_polished_cut_calcite": "2026-08-06 22:14:15 +0200"
+      "has_wool_carpet": "2026-08-06 21:05:16 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_orange_carpet_from_dye": {
+    "criteria": {
+      "has_wool_carpet": "2026-08-06 21:05:16 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_cyan_carpet_from_dye": {
+    "criteria": {
+      "has_wool_carpet": "2026-08-06 21:05:16 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_brown_carpet_from_dye": {
+    "criteria": {
+      "has_wool_carpet": "2026-08-06 21:05:16 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_yellow_carpet_from_dye": {
+    "criteria": {
+      "has_wool_carpet": "2026-08-06 21:05:16 +0200"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/prismarine": {
+    "criteria": {
+      "has_planks": "2026-08-06 21:13:32 +0200"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/prismarine_bricks_bridge_pier": {
+    "criteria": {
+      "has_planks": "2026-08-06 21:13:32 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_brick_slab_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine_brick": "2026-08-06 21:13:32 +0200"
     },
     "done": true
   },
@@ -22673,15 +22589,135 @@
     },
     "done": true
   },
-  "create:recipes/building_blocks/polished_cut_calcite_slab": {
+  "minecraft:recipes/building_blocks/prismarine_brick_stairs_from_prismarine_stonecutting": {
     "criteria": {
-      "has_polished_cut_calcite": "2026-08-06 22:14:15 +0200"
+      "has_prismarine_brick": "2026-08-06 21:13:32 +0200"
     },
     "done": true
   },
-  "handcrafted:recipes/misc/light_blue_cushion": {
+  "mcwbridges:recipes/prismarine_bricks_bridge": {
     "criteria": {
-      "has_light_blue_cushion": "2026-08-06 23:46:33 +0200"
+      "has_planks": "2026-08-06 21:13:32 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_brick_slab": {
+    "criteria": {
+      "has_prismarine_bricks": "2026-08-06 21:13:32 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_brick_stairs": {
+    "criteria": {
+      "has_prismarine_bricks": "2026-08-06 21:13:32 +0200"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/balustrade_prismarine_bricks_bridge": {
+    "criteria": {
+      "has_planks": "2026-08-06 21:13:32 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/hellbark_pressure_plate": {
+    "criteria": {
+      "has_planks": "2026-08-06 21:31:59 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/decorations/hellbark_sign": {
+    "criteria": {
+      "has_planks": "2026-08-06 21:31:59 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/hellbark_trapdoor": {
+    "criteria": {
+      "has_planks": "2026-08-06 21:31:59 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/hellbark_slab": {
+    "criteria": {
+      "has_planks": "2026-08-06 21:31:59 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/hellbark_button": {
+    "criteria": {
+      "has_planks": "2026-08-06 21:31:59 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/hellbark_fence_gate": {
+    "criteria": {
+      "has_planks": "2026-08-06 21:31:59 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/hellbark_door": {
+    "criteria": {
+      "has_planks": "2026-08-06 21:31:59 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/hellbark_stairs": {
+    "criteria": {
+      "has_planks": "2026-08-06 21:31:59 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/decorations/hellbark_fence": {
+    "criteria": {
+      "has_planks": "2026-08-06 21:31:59 +0200"
+    },
+    "done": true
+  },
+  "betterarcheology:recipes/building_blocks/rotten_stairs": {
+    "criteria": {
+      "has_rotten_planks": "2026-08-06 21:32:52 +0200"
+    },
+    "done": true
+  },
+  "betterarcheology:recipes/misc/rotten_fence": {
+    "criteria": {
+      "has_rotten_planks": "2026-08-06 21:32:52 +0200"
+    },
+    "done": true
+  },
+  "betterarcheology:recipes/redstone/rotten_trapdoor": {
+    "criteria": {
+      "has_rotten_planks": "2026-08-06 21:32:52 +0200"
+    },
+    "done": true
+  },
+  "betterarcheology:recipes/redstone/rotten_pressure_plate": {
+    "criteria": {
+      "has_rotten_planks": "2026-08-06 21:32:52 +0200"
+    },
+    "done": true
+  },
+  "betterarcheology:recipes/redstone/rotten_door": {
+    "criteria": {
+      "has_rotten_planks": "2026-08-06 21:32:52 +0200"
+    },
+    "done": true
+  },
+  "betterarcheology:recipes/building_blocks/rotten_slab": {
+    "criteria": {
+      "has_rotten_planks": "2026-08-06 21:32:52 +0200"
+    },
+    "done": true
+  },
+  "betterarcheology:recipes/redstone/rotten_fence_gate": {
+    "criteria": {
+      "has_rotten_planks": "2026-08-06 21:32:52 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/stripped_hellbark_wood": {
+    "criteria": {
+      "has_log": "2026-08-06 21:35:12 +0200"
     },
     "done": true
   },
@@ -22691,9 +22727,39 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/black_carpet": {
+  "biomesoplenty:recipes/decorations/hellbark_hanging_sign": {
     "criteria": {
-      "has_black_wool": "2026-08-06 18:31:46 +0200"
+      "has_stripped_logs": "2026-08-06 21:35:12 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/hellbark_wood": {
+    "criteria": {
+      "has_log": "2026-08-06 21:35:14 +0200"
+    },
+    "done": true
+  },
+  "mynethersdelight:recipes/food/boiled_egg_from_campfire_cooking": {
+    "criteria": {
+      "boiled_egg": "2026-08-06 21:48:18 +0200"
+    },
+    "done": true
+  },
+  "mynethersdelight:recipes/food/boiled_egg_from_smoking": {
+    "criteria": {
+      "boiled_egg": "2026-08-06 21:48:18 +0200"
+    },
+    "done": true
+  },
+  "mynethersdelight:recipes/food/boiled_egg_cooking": {
+    "criteria": {
+      "boiled_egg": "2026-08-06 21:48:18 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_slab": {
+    "criteria": {
+      "has_prismarine": "2026-08-06 21:48:57 +0200"
     },
     "done": true
   },
@@ -22709,135 +22775,9 @@
     },
     "done": true
   },
-  "mynethersdelight:recipes/food/boiled_egg_from_smoking": {
-    "criteria": {
-      "boiled_egg": "2026-08-06 21:48:18 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/reinforced_blue_carpet_from_dye": {
-    "criteria": {
-      "has_wool_carpet": "2026-08-06 21:05:16 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/black_bed": {
-    "criteria": {
-      "has_black_wool": "2026-08-06 18:31:46 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/prismarine_brick_stairs_from_prismarine_stonecutting": {
-    "criteria": {
-      "has_prismarine_brick": "2026-08-06 21:13:32 +0200"
-    },
-    "done": true
-  },
-  "comforts:recipes/decorations/sleeping_bag_black": {
-    "criteria": {
-      "has_black_wool": "2026-08-06 18:31:46 +0200"
-    },
-    "done": true
-  },
-  "new_slab_variants:recipes/building_blocks/emerald_block_slab": {
-    "criteria": {
-      "has_emerald_block": "2026-08-07 00:20:26 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/light_blue_carpet": {
-    "criteria": {
-      "has_light_blue_wool": "2026-08-06 23:46:33 +0200"
-    },
-    "done": true
-  },
-  "mcwbridges:recipes/prismarine_bricks_bridge": {
-    "criteria": {
-      "has_planks": "2026-08-06 21:13:32 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/reinforced_purple_carpet_from_dye": {
-    "criteria": {
-      "has_wool_carpet": "2026-08-06 21:05:16 +0200"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/redstone/hellbark_fence_gate": {
-    "criteria": {
-      "has_planks": "2026-08-06 21:31:59 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/prismarine_brick_slab": {
-    "criteria": {
-      "has_prismarine_bricks": "2026-08-06 21:13:32 +0200"
-    },
-    "done": true
-  },
-  "comforts:recipes/decorations/hammock_black": {
-    "criteria": {
-      "has_black_wool": "2026-08-06 18:31:46 +0200"
-    },
-    "done": true
-  },
-  "super_ore_block:recipes/building_blocks/super_emerald_block": {
-    "criteria": {
-      "has_item": "2026-08-07 00:20:26 +0200"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/building_blocks/chiseled_white_sandstone": {
-    "criteria": {
-      "has_chiseled_white_sandstone": "2026-08-07 01:09:32 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/prismarine_wall_from_prismarine_stonecutting": {
     "criteria": {
       "has_prismarine": "2026-08-06 21:48:57 +0200"
-    },
-    "done": true
-  },
-  "mynethersdelight:recipes/food/boiled_egg_cooking": {
-    "criteria": {
-      "boiled_egg": "2026-08-06 21:48:18 +0200"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/redstone/hellbark_door": {
-    "criteria": {
-      "has_planks": "2026-08-06 21:31:59 +0200"
-    },
-    "done": true
-  },
-  "exclusive_weapons:recipes/combat/super_gold_helmet": {
-    "criteria": {
-      "has_item": "2026-08-06 18:37:47 +0200"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/building_blocks/hellbark_stairs": {
-    "criteria": {
-      "has_planks": "2026-08-06 21:31:59 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/reinforced_green_carpet_from_dye": {
-    "criteria": {
-      "has_wool_carpet": "2026-08-06 21:05:16 +0200"
-    },
-    "done": true
-  },
-  "betterarcheology:recipes/redstone/rotten_fence_gate": {
-    "criteria": {
-      "has_rotten_planks": "2026-08-06 21:32:52 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/prismarine_brick_stairs": {
-    "criteria": {
-      "has_prismarine_bricks": "2026-08-06 21:13:32 +0200"
     },
     "done": true
   },
@@ -22847,27 +22787,21 @@
     },
     "done": true
   },
-  "new_slab_variants:recipes/building_blocks/black_wool_slab": {
+  "minecraft:recipes/building_blocks/prismarine_stairs": {
     "criteria": {
-      "has_black_wool": "2026-08-06 18:31:46 +0200"
+      "has_prismarine": "2026-08-06 21:48:57 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/black_banner": {
+  "create:recipes/building_blocks/polished_cut_calcite_stairs": {
     "criteria": {
-      "has_black_wool": "2026-08-06 18:31:46 +0200"
+      "has_polished_cut_calcite": "2026-08-06 22:14:15 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/light_blue_banner": {
+  "create:recipes/building_blocks/polished_cut_calcite_slab": {
     "criteria": {
-      "has_light_blue_wool": "2026-08-06 23:46:33 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/reinforced_orange_carpet_from_dye": {
-    "criteria": {
-      "has_wool_carpet": "2026-08-06 21:05:16 +0200"
+      "has_polished_cut_calcite": "2026-08-06 22:14:15 +0200"
     },
     "done": true
   },
@@ -22877,51 +22811,27 @@
     },
     "done": true
   },
-  "create:recipes/building_blocks/polished_cut_limestone_slab": {
+  "minecraft:recipes/misc/bone_meal_from_bone_block": {
     "criteria": {
-      "has_polished_cut_limestone": "2026-08-07 00:44:18 +0200"
+      "has_bone_block": "2026-08-06 22:16:28 +0200"
     },
     "done": true
   },
-  "comforts:recipes/decorations/hammock_light_blue": {
+  "new_slab_variants:recipes/building_blocks/bone_block_slab": {
     "criteria": {
-      "has_light_blue_wool": "2026-08-06 23:46:33 +0200"
+      "has_bone_block": "2026-08-06 22:16:28 +0200"
     },
     "done": true
   },
-  "biomesoplenty:recipes/building_blocks/white_sandstone_slab": {
+  "create:recipes/building_blocks/cut_calcite_brick_wall": {
     "criteria": {
-      "has_chiseled_white_sandstone": "2026-08-07 01:09:32 +0200"
+      "has_cut_calcite_bricks": "2026-08-06 23:39:09 +0200"
     },
     "done": true
   },
-  "securitycraft:recipes/building_blocks/reinforced_cyan_carpet_from_dye": {
+  "create:recipes/building_blocks/cut_calcite_brick_stairs": {
     "criteria": {
-      "has_wool_carpet": "2026-08-06 21:05:16 +0200"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/decorations/hellbark_fence": {
-    "criteria": {
-      "has_planks": "2026-08-06 21:31:59 +0200"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/decorations/hellbark_hanging_sign": {
-    "criteria": {
-      "has_stripped_logs": "2026-08-06 21:35:12 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/prismarine_stairs": {
-    "criteria": {
-      "has_prismarine": "2026-08-06 21:48:57 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/reinforced_brown_carpet_from_dye": {
-    "criteria": {
-      "has_wool_carpet": "2026-08-06 21:05:16 +0200"
+      "has_cut_calcite_bricks": "2026-08-06 23:39:09 +0200"
     },
     "done": true
   },
@@ -22931,39 +22841,201 @@
     },
     "done": true
   },
-  "exclusive_weapons:recipes/combat/super_gold_chestplate": {
+  "comforts:recipes/decorations/sleeping_bag_light_blue": {
     "criteria": {
-      "has_item": "2026-08-06 18:37:47 +0200"
+      "has_light_blue_wool": "2026-08-06 23:46:33 +0200"
     },
     "done": true
   },
-  "biomesoplenty:recipes/building_blocks/hellbark_wood": {
+  "minecraft:recipes/decorations/light_blue_bed": {
     "criteria": {
-      "has_log": "2026-08-06 21:35:14 +0200"
+      "has_light_blue_wool": "2026-08-06 23:46:33 +0200"
     },
     "done": true
   },
-  "mcwbridges:recipes/balustrade_prismarine_bricks_bridge": {
+  "new_slab_variants:recipes/building_blocks/light_blue_wool_slab": {
     "criteria": {
-      "has_planks": "2026-08-06 21:13:32 +0200"
+      "has_light_blue_wool": "2026-08-06 23:46:33 +0200"
     },
     "done": true
   },
-  "new_slab_variants:recipes/building_blocks/chiseled_sandstone_slab": {
+  "handcrafted:recipes/misc/light_blue_sheet": {
     "criteria": {
-      "has_chiseled_sandstone": "2026-08-06 17:18:21 +0200"
+      "has_light_blue_sheet": "2026-08-06 23:46:33 +0200"
     },
     "done": true
   },
-  "securitycraft:recipes/building_blocks/reinforced_yellow_carpet_from_dye": {
+  "handcrafted:recipes/misc/light_blue_cushion": {
     "criteria": {
-      "has_wool_carpet": "2026-08-06 21:05:16 +0200"
+      "has_light_blue_cushion": "2026-08-06 23:46:33 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_blue_carpet": {
+    "criteria": {
+      "has_light_blue_wool": "2026-08-06 23:46:33 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_blue_banner": {
+    "criteria": {
+      "has_light_blue_wool": "2026-08-06 23:46:33 +0200"
+    },
+    "done": true
+  },
+  "comforts:recipes/decorations/hammock_light_blue": {
+    "criteria": {
+      "has_light_blue_wool": "2026-08-06 23:46:33 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/emerald": {
+    "criteria": {
+      "has_emerald_block": "2026-08-07 00:20:26 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/emerald_block_slab": {
+    "criteria": {
+      "has_emerald_block": "2026-08-07 00:20:26 +0200"
+    },
+    "done": true
+  },
+  "super_ore_block:recipes/building_blocks/super_emerald_block": {
+    "criteria": {
+      "has_item": "2026-08-07 00:20:26 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_limestone_stairs": {
+    "criteria": {
+      "has_polished_cut_limestone": "2026-08-07 00:44:18 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_limestone_wall": {
+    "criteria": {
+      "has_polished_cut_limestone": "2026-08-07 00:44:18 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_limestone_slab": {
+    "criteria": {
+      "has_polished_cut_limestone": "2026-08-07 00:44:18 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/white_sandstone_stairs": {
+    "criteria": {
+      "has_chiseled_white_sandstone": "2026-08-07 01:09:32 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/chiseled_white_sandstone": {
+    "criteria": {
+      "has_chiseled_white_sandstone": "2026-08-07 01:09:32 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/white_sandstone_slab": {
+    "criteria": {
+      "has_chiseled_white_sandstone": "2026-08-07 01:09:32 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_limestone_brick_stairs": {
+    "criteria": {
+      "has_cut_limestone_bricks": "2026-08-07 01:15:29 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_limestone_brick_wall": {
+    "criteria": {
+      "has_cut_limestone_bricks": "2026-08-07 01:15:29 +0200"
     },
     "done": true
   },
   "create:recipes/building_blocks/cut_limestone_brick_slab": {
     "criteria": {
       "has_cut_limestone_bricks": "2026-08-07 01:15:29 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/misc/straw": {
+    "criteria": {
+      "has_straw_bale": "2026-08-07 01:30:55 +0200"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/clear_glass_cyan2": {
+    "criteria": {
+      "recipe_condition1": "2026-08-07 13:51:43 +0200"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/scratched_glass1": {
+    "criteria": {
+      "recipe_condition": "2026-08-07 13:51:43 +0200"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/clear_glass_pane3": {
+    "criteria": {
+      "recipe_condition": "2026-08-07 13:51:43 +0200"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/clear_glass_lime2": {
+    "criteria": {
+      "recipe_condition1": "2026-08-07 13:51:43 +0200"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/clear_glass_green2": {
+    "criteria": {
+      "recipe_condition1": "2026-08-07 13:51:43 +0200"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/clear_glass_orange2": {
+    "criteria": {
+      "recipe_condition1": "2026-08-07 13:51:43 +0200"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/clear_glass_brown2": {
+    "criteria": {
+      "recipe_condition1": "2026-08-07 13:51:43 +0200"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/clear_glass_gray2": {
+    "criteria": {
+      "recipe_condition1": "2026-08-07 13:51:43 +0200"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/clear_glass_pink2": {
+    "criteria": {
+      "recipe_condition1": "2026-08-07 13:51:43 +0200"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/clear_glass_magenta2": {
+    "criteria": {
+      "recipe_condition1": "2026-08-07 13:51:43 +0200"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/clear_glass_light_blue2": {
+    "criteria": {
+      "recipe_condition1": "2026-08-07 13:51:43 +0200"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/clear_glass_purple2": {
+    "criteria": {
+      "recipe_condition1": "2026-08-07 13:51:43 +0200"
     },
     "done": true
   },
