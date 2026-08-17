@@ -23039,5 +23039,143 @@
     },
     "done": true
   },
+  "biomesoplenty:recipes/building_blocks/stripped_maple_wood": {
+    "criteria": {
+      "has_log": "2026-08-17 14:33:03 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/maple_planks": {
+    "criteria": {
+      "has_logs": "2026-08-17 14:33:03 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/decorations/maple_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2026-08-17 14:33:03 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/stripped_jacaranda_wood": {
+    "criteria": {
+      "has_log": "2026-08-17 14:33:48 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/decorations/jacaranda_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2026-08-17 14:33:48 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/jacaranda_pressure_plate": {
+    "criteria": {
+      "has_planks": "2026-08-17 14:33:58 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/jacaranda_button": {
+    "criteria": {
+      "has_planks": "2026-08-17 14:33:58 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/jacaranda_fence_gate": {
+    "criteria": {
+      "has_planks": "2026-08-17 14:33:58 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/decorations/jacaranda_sign": {
+    "criteria": {
+      "has_planks": "2026-08-17 14:33:58 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/jacaranda_stairs": {
+    "criteria": {
+      "has_planks": "2026-08-17 14:33:58 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/jacaranda_slab": {
+    "criteria": {
+      "has_planks": "2026-08-17 14:33:58 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/jacaranda_door": {
+    "criteria": {
+      "has_planks": "2026-08-17 14:33:58 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/decorations/jacaranda_fence": {
+    "criteria": {
+      "has_planks": "2026-08-17 14:33:58 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/jacaranda_trapdoor": {
+    "criteria": {
+      "has_planks": "2026-08-17 14:33:58 +0200"
+    },
+    "done": true
+  },
+  "chipped:recipes/workbench/alchemy_bench": {
+    "criteria": {
+      "has_item": "2026-08-17 14:56:50 +0200"
+    },
+    "done": true
+  },
+  "chipped:recipes/misc/alchemy_book": {
+    "criteria": {
+      "has_alchemy_book": "2026-08-17 14:56:50 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_granite_wall": {
+    "criteria": {
+      "has_cut_granite": "2026-08-17 14:57:32 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_granite_slab": {
+    "criteria": {
+      "has_cut_granite": "2026-08-17 14:57:32 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_granite_stairs": {
+    "criteria": {
+      "has_cut_granite": "2026-08-17 14:57:32 +0200"
+    },
+    "done": true
+  },
+  "create:mechanical_pump_0": {
+    "criteria": {
+      "0": "2026-08-17 18:19:15 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/stripped_jungle_log_slab": {
+    "criteria": {
+      "has_stripped_jungle_log": "2026-08-17 23:45:30 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_jungle_wood": {
+    "criteria": {
+      "has_log": "2026-08-17 23:45:30 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jungle_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2026-08-17 23:45:30 +0200"
+    },
+    "done": true
+  },
   "DataVersion": 3955
 }
