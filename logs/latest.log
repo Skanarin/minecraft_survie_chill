@@ -1,80 +1,140 @@
-[19août2026 00:06:50.209] [Server thread/INFO] [AllTheLeaks/]: Listing events...
-[19août2026 00:06:50.236] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 3
-[19août2026 00:06:50.237] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
-[19août2026 00:06:50.237] [Server thread/INFO] [AllTheLeaks/]: B: 861MB / C: 1041MB / Diff: +180MB
-[19août2026 00:06:50.237] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
-[19août2026 00:14:48.457] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Zakohen moved too quickly! 14.127020540345029,-2.353791810412943,-10.496534197296796
-[19août2026 00:14:48.459] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Parmenyyon moved too quickly! -8.250439137720946,0.0,-5.970310579489478
-[19août2026 00:15:41.065] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2025ms or 40 ticks behind
-[19août2026 00:15:59.150] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3109ms or 62 ticks behind
-[19août2026 00:16:16.348] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2207ms or 44 ticks behind
-[19août2026 00:16:52.095] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
-[19août2026 00:17:00.654] [Server thread/INFO] [AllTheLeaks/]: Listing events...
-[19août2026 00:17:00.654] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 3
-[19août2026 00:17:00.654] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
-[19août2026 00:17:00.655] [Server thread/INFO] [AllTheLeaks/]: B: 861MB / C: 1162MB / Diff: +301MB
-[19août2026 00:17:00.655] [Server thread/INFO] [AllTheLeaks/]: Memory Leaks detected: (/atl force_refresh to update)
-[19août2026 00:17:00.655] [Server thread/INFO] [AllTheLeaks/]: | ChunkAccess:
-[19août2026 00:17:00.656] [Server thread/INFO] [AllTheLeaks/]: |- LevelChunk (minecraft): 13
-[19août2026 00:17:11.143] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
-[19août2026 00:17:32.676] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6535ms or 130 ticks behind
-[19août2026 00:17:53.682] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6043ms or 120 ticks behind
-[19août2026 00:18:12.563] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3923ms or 78 ticks behind
-[19août2026 00:18:30.130] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2589ms or 51 ticks behind
-[19août2026 00:18:50.639] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5549ms or 110 ticks behind
-[19août2026 00:19:12.730] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7140ms or 142 ticks behind
-[19août2026 00:19:52.493] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 24803ms or 496 ticks behind
-[19août2026 00:20:23.020] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 15529ms or 310 ticks behind
-[19août2026 00:20:55.251] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 17260ms or 345 ticks behind
-[19août2026 00:21:23.671] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 13431ms or 268 ticks behind
-[19août2026 00:21:42.183] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3542ms or 70 ticks behind
-[19août2026 00:22:14.643] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
-[19août2026 00:22:35.044] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5403ms or 108 ticks behind
-[19août2026 00:22:59.030] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 8991ms or 179 ticks behind
-[19août2026 00:23:24.964] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 10974ms or 219 ticks behind
-[19août2026 00:23:48.901] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2011ms or 40 ticks behind
-[19août2026 00:24:08.243] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4353ms or 87 ticks behind
-[19août2026 00:24:34.122] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 10881ms or 217 ticks behind
-[19août2026 00:24:59.830] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 10740ms or 214 ticks behind
-[19août2026 00:25:23.597] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 8807ms or 176 ticks behind
-[19août2026 00:25:47.419] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 8829ms or 176 ticks behind
-[19août2026 00:26:09.434] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7044ms or 140 ticks behind
-[19août2026 00:26:33.921] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 9530ms or 190 ticks behind
-[19août2026 00:26:58.315] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2025ms or 40 ticks behind
-[19août2026 00:27:21.718] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 8428ms or 168 ticks behind
-[19août2026 00:27:38.876] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2186ms or 43 ticks behind
-[19août2026 00:28:16.120] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2030ms or 40 ticks behind
-[19août2026 00:28:37.473] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6382ms or 127 ticks behind
-[19août2026 00:29:01.670] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 9230ms or 184 ticks behind
-[19août2026 00:29:23.571] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6930ms or 138 ticks behind
-[19août2026 00:29:47.568] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 9028ms or 180 ticks behind
-[19août2026 00:30:07.757] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5217ms or 104 ticks behind
-[19août2026 00:30:33.664] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2073ms or 41 ticks behind
-[19août2026 00:30:52.535] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3895ms or 77 ticks behind
-[19août2026 00:31:14.033] [Server thread/INFO] [AllTheLeaks/]: Listing events...
-[19août2026 00:31:14.036] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 3
-[19août2026 00:31:14.036] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
-[19août2026 00:31:14.037] [Server thread/INFO] [AllTheLeaks/]: B: 861MB / C: 1111MB / Diff: +250MB
-[19août2026 00:31:14.037] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
-[19août2026 00:36:22.782] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Parmenyyon lost connection: Disconnected
-[19août2026 00:36:22.784] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Parmenyyon left the game
-[19août2026 00:36:25.962] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Zakohen lost connection: Disconnected
-[19août2026 00:36:25.962] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Zakohen left the game
-[19août2026 00:36:57.750] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[19août2026 00:36:58.288] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[19août2026 00:36:58.304] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[19août2026 00:36:58.311] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[19août2026 00:36:58.442] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[19août2026 00:36:58.537] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[19août2026 00:36:58.541] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/irons_spellbooks:pocket_dimension
-[19août2026 00:36:58.542] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[19août2026 00:36:58.560] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[19août2026 00:36:58.560] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[19août2026 00:36:58.560] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (pocket_dimension): All chunks are saved
-[19août2026 00:36:58.561] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[19août2026 00:36:58.561] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[19août2026 00:36:59.268] [Server thread/INFO] [Framework/]: Unloading server configs...
-[19août2026 00:36:59.277] [Server thread/INFO] [Framework/]: Sending config unload event for refurbished_furniture.server.toml
-[19août2026 00:36:59.289] [Server thread/INFO] [Framework/]: Sending config unload event for goblintraders-entities.toml
-[19août2026 00:36:59.289] [Server thread/INFO] [Framework/]: Finished unloading server configs
-[19août2026 00:36:59.309] [Server thread/INFO] [Puzzles Lib/]: Dispatching unloading event for config easyanvils-server.toml
+[22août2026 00:00:32.835] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[22août2026 00:00:32.843] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 1
+[22août2026 00:00:32.843] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[22août2026 00:00:32.843] [Server thread/INFO] [AllTheLeaks/]: B: 876MB / C: 919MB / Diff: +43MB
+[22août2026 00:00:32.843] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[22août2026 00:10:32.887] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[22août2026 00:10:32.887] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 1
+[22août2026 00:10:32.887] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[22août2026 00:10:32.887] [Server thread/INFO] [AllTheLeaks/]: B: 876MB / C: 936MB / Diff: +60MB
+[22août2026 00:10:32.888] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[22août2026 00:20:32.935] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[22août2026 00:20:32.935] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 1
+[22août2026 00:20:32.935] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[22août2026 00:20:32.936] [Server thread/INFO] [AllTheLeaks/]: B: 876MB / C: 944MB / Diff: +68MB
+[22août2026 00:20:32.936] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[22août2026 00:30:32.986] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[22août2026 00:30:32.987] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 1
+[22août2026 00:30:32.987] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[22août2026 00:30:32.987] [Server thread/INFO] [AllTheLeaks/]: B: 876MB / C: 951MB / Diff: +75MB
+[22août2026 00:30:32.987] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[22août2026 00:40:33.038] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[22août2026 00:40:33.038] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 1
+[22août2026 00:40:33.038] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[22août2026 00:40:33.038] [Server thread/INFO] [AllTheLeaks/]: B: 876MB / C: 963MB / Diff: +87MB
+[22août2026 00:40:33.038] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[22août2026 00:46:00.244] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Parmenyyon lost connection: Disconnected
+[22août2026 00:46:00.245] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Parmenyyon left the game
+[22août2026 00:50:33.085] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[22août2026 00:50:33.086] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 2
+[22août2026 00:50:33.086] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[22août2026 00:50:33.087] [Server thread/INFO] [AllTheLeaks/]: B: 876MB / C: 955MB / Diff: +79MB
+[22août2026 00:50:33.087] [Server thread/INFO] [AllTheLeaks/]: Memory Leaks detected: (/atl force_refresh to update)
+[22août2026 00:50:33.087] [Server thread/INFO] [AllTheLeaks/]: | ChunkAccess:
+[22août2026 00:50:33.087] [Server thread/INFO] [AllTheLeaks/]: |- LevelChunk (minecraft): 1063
+[22août2026 00:50:33.087] [Server thread/INFO] [AllTheLeaks/]: | Player:
+[22août2026 00:50:33.087] [Server thread/INFO] [AllTheLeaks/]: |- ServerPlayer (minecraft): 1
+[22août2026 01:00:33.138] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[22août2026 01:00:33.138] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 2
+[22août2026 01:00:33.140] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[22août2026 01:00:33.140] [Server thread/INFO] [AllTheLeaks/]: B: 876MB / C: 956MB / Diff: +80MB
+[22août2026 01:00:33.140] [Server thread/INFO] [AllTheLeaks/]: Memory Leaks detected: (/atl force_refresh to update)
+[22août2026 01:00:33.140] [Server thread/INFO] [AllTheLeaks/]: | ChunkAccess:
+[22août2026 01:00:33.140] [Server thread/INFO] [AllTheLeaks/]: |- LevelChunk (minecraft): 1063
+[22août2026 01:00:33.140] [Server thread/INFO] [AllTheLeaks/]: | Player:
+[22août2026 01:00:33.141] [Server thread/INFO] [AllTheLeaks/]: |- ServerPlayer (minecraft): 1
+[22août2026 01:10:33.191] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[22août2026 01:10:33.191] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 2
+[22août2026 01:10:33.192] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[22août2026 01:10:33.192] [Server thread/INFO] [AllTheLeaks/]: B: 876MB / C: 958MB / Diff: +82MB
+[22août2026 01:10:33.192] [Server thread/INFO] [AllTheLeaks/]: Memory Leaks detected: (/atl force_refresh to update)
+[22août2026 01:10:33.192] [Server thread/INFO] [AllTheLeaks/]: | ChunkAccess:
+[22août2026 01:10:33.192] [Server thread/INFO] [AllTheLeaks/]: |- LevelChunk (minecraft): 1063
+[22août2026 01:10:33.192] [Server thread/INFO] [AllTheLeaks/]: | Player:
+[22août2026 01:10:33.192] [Server thread/INFO] [AllTheLeaks/]: |- ServerPlayer (minecraft): 1
+[22août2026 01:20:33.236] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[22août2026 01:20:33.237] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 2
+[22août2026 01:20:33.237] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[22août2026 01:20:33.237] [Server thread/INFO] [AllTheLeaks/]: B: 876MB / C: 957MB / Diff: +81MB
+[22août2026 01:20:33.238] [Server thread/INFO] [AllTheLeaks/]: Memory Leaks detected: (/atl force_refresh to update)
+[22août2026 01:20:33.238] [Server thread/INFO] [AllTheLeaks/]: | ChunkAccess:
+[22août2026 01:20:33.238] [Server thread/INFO] [AllTheLeaks/]: |- LevelChunk (minecraft): 1063
+[22août2026 01:20:33.238] [Server thread/INFO] [AllTheLeaks/]: | Player:
+[22août2026 01:20:33.238] [Server thread/INFO] [AllTheLeaks/]: |- ServerPlayer (minecraft): 1
+[22août2026 01:30:33.296] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[22août2026 01:30:33.296] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 2
+[22août2026 01:30:33.298] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[22août2026 01:30:33.298] [Server thread/INFO] [AllTheLeaks/]: B: 876MB / C: 960MB / Diff: +84MB
+[22août2026 01:30:33.298] [Server thread/INFO] [AllTheLeaks/]: Memory Leaks detected: (/atl force_refresh to update)
+[22août2026 01:30:33.299] [Server thread/INFO] [AllTheLeaks/]: | ChunkAccess:
+[22août2026 01:30:33.299] [Server thread/INFO] [AllTheLeaks/]: |- LevelChunk (minecraft): 1063
+[22août2026 01:30:33.299] [Server thread/INFO] [AllTheLeaks/]: | Player:
+[22août2026 01:30:33.299] [Server thread/INFO] [AllTheLeaks/]: |- ServerPlayer (minecraft): 1
+[22août2026 01:40:33.331] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[22août2026 01:40:33.332] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 2
+[22août2026 01:40:33.332] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[22août2026 01:40:33.332] [Server thread/INFO] [AllTheLeaks/]: B: 876MB / C: 961MB / Diff: +85MB
+[22août2026 01:40:33.332] [Server thread/INFO] [AllTheLeaks/]: Memory Leaks detected: (/atl force_refresh to update)
+[22août2026 01:40:33.332] [Server thread/INFO] [AllTheLeaks/]: | ChunkAccess:
+[22août2026 01:40:33.332] [Server thread/INFO] [AllTheLeaks/]: |- LevelChunk (minecraft): 1063
+[22août2026 01:40:33.332] [Server thread/INFO] [AllTheLeaks/]: | Player:
+[22août2026 01:40:33.332] [Server thread/INFO] [AllTheLeaks/]: |- ServerPlayer (minecraft): 1
+[22août2026 01:47:53.556] [User Authenticator #3/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Parmenyyon is 3d7bab1e-6346-48d6-ad16-21171529fdf8
+[22août2026 01:47:55.152] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Parmenyyon[/[::1]:57157] logged in with entity id 662640 at (388.7388312764627, 118.766636854264, 1148.8065121044995)
+[22août2026 01:47:55.199] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Parmenyyon joined the game
+[22août2026 01:47:55.294] [Server thread/INFO] [artifacts.Artifacts/]: Sending item configs to client
+[22août2026 01:50:33.386] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[22août2026 01:50:33.386] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 2
+[22août2026 01:50:33.386] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[22août2026 01:50:33.386] [Server thread/INFO] [AllTheLeaks/]: B: 876MB / C: 1052MB / Diff: +176MB
+[22août2026 01:50:33.386] [Server thread/INFO] [AllTheLeaks/]: Memory Leaks detected: (/atl force_refresh to update)
+[22août2026 01:50:33.386] [Server thread/INFO] [AllTheLeaks/]: | ChunkAccess:
+[22août2026 01:50:33.386] [Server thread/INFO] [AllTheLeaks/]: |- LevelChunk (minecraft): 1063
+[22août2026 01:50:33.386] [Server thread/INFO] [AllTheLeaks/]: | Player:
+[22août2026 01:50:33.387] [Server thread/INFO] [AllTheLeaks/]: |- ServerPlayer (minecraft): 1
+[22août2026 02:00:33.436] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[22août2026 02:00:33.437] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 2
+[22août2026 02:00:33.437] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[22août2026 02:00:33.437] [Server thread/INFO] [AllTheLeaks/]: B: 876MB / C: 1029MB / Diff: +153MB
+[22août2026 02:00:33.437] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[22août2026 02:10:33.487] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[22août2026 02:10:33.487] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 2
+[22août2026 02:10:33.488] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[22août2026 02:10:33.488] [Server thread/INFO] [AllTheLeaks/]: B: 876MB / C: 1031MB / Diff: +155MB
+[22août2026 02:10:33.488] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[22août2026 02:11:10.990] [ForkJoinPool.commonPool-worker-54/ERROR] [io.redspace.ironslib.IronsLib/]: Failed to handle Patreon Data response: java.net.http.HttpTimeoutException: request timed out
+[22août2026 02:20:33.539] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[22août2026 02:20:33.539] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 2
+[22août2026 02:20:33.539] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[22août2026 02:20:33.539] [Server thread/INFO] [AllTheLeaks/]: B: 876MB / C: 995MB / Diff: +119MB
+[22août2026 02:20:33.540] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[22août2026 02:30:37.097] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[22août2026 02:30:37.097] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 2
+[22août2026 02:30:37.097] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[22août2026 02:30:37.097] [Server thread/INFO] [AllTheLeaks/]: B: 876MB / C: 1030MB / Diff: +154MB
+[22août2026 02:30:37.097] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[22août2026 02:32:44.198] [Server thread/INFO] [com.simibubi.create.Create/]: New Schematic Uploaded: Parmenyyon/beffroi.nbt
+[22août2026 02:40:37.144] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[22août2026 02:40:37.144] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 2
+[22août2026 02:40:37.144] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[22août2026 02:40:37.144] [Server thread/INFO] [AllTheLeaks/]: B: 876MB / C: 991MB / Diff: +115MB
+[22août2026 02:40:37.144] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[22août2026 02:45:51.296] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Parmenyyon lost connection: Disconnected
+[22août2026 02:45:51.296] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Parmenyyon left the game
+[22août2026 02:46:01.995] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[22août2026 02:46:01.996] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[22août2026 02:46:01.996] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[22août2026 02:46:02.022] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22août2026 02:46:02.037] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/irons_spellbooks:pocket_dimension
+[22août2026 02:46:02.037] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[22août2026 02:46:02.039] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[22août2026 02:46:02.045] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22août2026 02:46:02.045] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (pocket_dimension): All chunks are saved
+[22août2026 02:46:02.045] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22août2026 02:46:02.045] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22août2026 02:46:02.045] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[22août2026 02:46:02.214] [Server thread/INFO] [Framework/]: Unloading server configs...
+[22août2026 02:46:02.216] [Server thread/INFO] [Framework/]: Sending config unload event for refurbished_furniture.server.toml
+[22août2026 02:46:02.217] [Server thread/INFO] [Framework/]: Sending config unload event for goblintraders-entities.toml
+[22août2026 02:46:02.217] [Server thread/INFO] [Framework/]: Finished unloading server configs
+[22août2026 02:46:02.220] [Server thread/INFO] [Puzzles Lib/]: Dispatching unloading event for config easyanvils-server.toml
