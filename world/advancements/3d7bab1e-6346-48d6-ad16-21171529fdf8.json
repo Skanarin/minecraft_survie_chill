@@ -13914,21 +13914,15 @@
     },
     "done": true
   },
+  "exclusive_weapons:recipes/combat/super_netherite_sword": {
+    "criteria": {
+      "has_item": "2026-08-22 16:05:52 +0200"
+    },
+    "done": true
+  },
   "create:recipes/building_blocks/cut_tuff_from_stone_types_tuff_stonecutting": {
     "criteria": {
       "has_stone_types_tuff": "2026-08-22 16:11:37 +0200"
-    },
-    "done": true
-  },
-  "mcwroofs:recipes/spruce": {
-    "criteria": {
-      "has_planks": "2026-08-22 17:34:31 +0200"
-    },
-    "done": true
-  },
-  "mcwtrpdoors:recipes/print_cottage": {
-    "criteria": {
-      "has_logs": "2026-08-22 17:34:31 +0200"
     },
     "done": true
   },
@@ -13944,12 +13938,6 @@
     },
     "done": true
   },
-  "comforts:recipes/decorations/sleeping_bag_red": {
-    "criteria": {
-      "has_red_wool": "2026-08-22 17:35:31 +0200"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/cut_tuff_stairs_from_stone_types_tuff_stonecutting": {
     "criteria": {
       "has_stone_types_tuff": "2026-08-22 16:11:37 +0200"
@@ -13962,57 +13950,15 @@
     },
     "done": true
   },
-  "exclusive_weapons:recipes/combat/super_netherite_sword": {
-    "criteria": {
-      "has_item": "2026-08-22 16:05:52 +0200"
-    },
-    "done": true
-  },
-  "handcrafted:recipes/misc/red_cushion": {
-    "criteria": {
-      "has_red_cushion": "2026-08-22 17:35:31 +0200"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/polished_cut_tuff_wall_from_stone_types_tuff_stonecutting": {
     "criteria": {
       "has_stone_types_tuff": "2026-08-22 16:11:37 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/red_banner": {
-    "criteria": {
-      "has_red_wool": "2026-08-22 17:35:31 +0200"
-    },
-    "done": true
-  },
-  "handcrafted:recipes/misc/red_sheet": {
-    "criteria": {
-      "has_red_sheet": "2026-08-22 17:35:31 +0200"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/cut_tuff_brick_slab_from_stone_types_tuff_stonecutting": {
     "criteria": {
       "has_stone_types_tuff": "2026-08-22 16:11:37 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/reinforced_spruce_stairs": {
-    "criteria": {
-      "has_block": "2026-08-22 17:28:45 +0200"
-    },
-    "done": true
-  },
-  "mcwtrpdoors:recipes/bamboo/bamboo_ranch_trapdoor": {
-    "criteria": {
-      "has_logs": "2026-08-22 17:34:31 +0200"
-    },
-    "done": true
-  },
-  "mcwtrpdoors:recipes/spruce/spruce_tropical_trapdoor": {
-    "criteria": {
-      "has_logs": "2026-08-22 17:34:31 +0200"
     },
     "done": true
   },
@@ -14028,21 +13974,9 @@
     },
     "done": true
   },
-  "mcwtrpdoors:recipes/spruce/spruce_swamp_trapdoor": {
-    "criteria": {
-      "has_logs": "2026-08-22 17:34:31 +0200"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/cut_tuff_brick_stairs_from_stone_types_tuff_stonecutting": {
     "criteria": {
       "has_stone_types_tuff": "2026-08-22 16:11:37 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/spruce_wood": {
-    "criteria": {
-      "has_log": "2026-08-22 17:34:31 +0200"
     },
     "done": true
   },
@@ -14058,15 +13992,117 @@
     },
     "done": true
   },
-  "mcwtrpdoors:recipes/spruce/spruce_glass_trapdoor": {
+  "create:recipes/building_blocks/polished_cut_tuff_slab_from_stone_types_tuff_stonecutting": {
+    "criteria": {
+      "has_stone_types_tuff": "2026-08-22 16:11:37 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/tuff_from_stone_types_tuff_stonecutting": {
+    "criteria": {
+      "has_stone_types_tuff": "2026-08-22 16:11:37 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/layered_tuff_from_stone_types_tuff_stonecutting": {
+    "criteria": {
+      "has_stone_types_tuff": "2026-08-22 16:11:37 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_tuff_slab_from_stone_types_tuff_stonecutting": {
+    "criteria": {
+      "has_stone_types_tuff": "2026-08-22 16:11:37 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_tuff_brick_wall_from_stone_types_tuff_stonecutting": {
+    "criteria": {
+      "has_stone_types_tuff": "2026-08-22 16:11:37 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_tuff_bricks_from_stone_types_tuff_stonecutting": {
+    "criteria": {
+      "has_stone_types_tuff": "2026-08-22 16:11:37 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_tuff_wall_from_stone_types_tuff_stonecutting": {
+    "criteria": {
+      "has_stone_types_tuff": "2026-08-22 16:11:37 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_asurine_slab_recycling": {
+    "criteria": {
+      "has_polished_cut_asurine_slab": "2026-08-22 16:21:12 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_spruce_stairs": {
+    "criteria": {
+      "has_block": "2026-08-22 17:28:45 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_spruce_slab": {
+    "criteria": {
+      "has_block": "2026-08-22 17:28:45 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/redstone/reinforced_spruce_button": {
+    "criteria": {
+      "has_block": "2026-08-22 17:28:45 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/redstone/reinforced_spruce_pressure_plate": {
+    "criteria": {
+      "has_block": "2026-08-22 17:28:45 +0200"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/spruce": {
+    "criteria": {
+      "has_planks": "2026-08-22 17:34:31 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/print_cottage": {
     "criteria": {
       "has_logs": "2026-08-22 17:34:31 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/red_carpet": {
+  "mcwtrpdoors:recipes/bamboo/bamboo_ranch_trapdoor": {
     "criteria": {
-      "has_red_wool": "2026-08-22 17:35:31 +0200"
+      "has_logs": "2026-08-22 17:34:31 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/spruce/spruce_tropical_trapdoor": {
+    "criteria": {
+      "has_logs": "2026-08-22 17:34:31 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/spruce/spruce_swamp_trapdoor": {
+    "criteria": {
+      "has_logs": "2026-08-22 17:34:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_wood": {
+    "criteria": {
+      "has_log": "2026-08-22 17:34:31 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/spruce/spruce_glass_trapdoor": {
+    "criteria": {
+      "has_logs": "2026-08-22 17:34:31 +0200"
     },
     "done": true
   },
@@ -14088,18 +14124,6 @@
     },
     "done": true
   },
-  "securitycraft:recipes/building_blocks/reinforced_spruce_slab": {
-    "criteria": {
-      "has_block": "2026-08-22 17:28:45 +0200"
-    },
-    "done": true
-  },
-  "comforts:recipes/decorations/hammock_red": {
-    "criteria": {
-      "has_red_wool": "2026-08-22 17:35:31 +0200"
-    },
-    "done": true
-  },
   "mcwtrpdoors:recipes/spruce/spruce_whispering_trapdoor": {
     "criteria": {
       "has_logs": "2026-08-22 17:34:31 +0200"
@@ -14109,24 +14133,6 @@
   "mcwbridges:recipes/spruce_bridge_pier": {
     "criteria": {
       "has_planks": "2026-08-22 17:34:31 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/polished_cut_tuff_slab_from_stone_types_tuff_stonecutting": {
-    "criteria": {
-      "has_stone_types_tuff": "2026-08-22 16:11:37 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/redstone/reinforced_spruce_button": {
-    "criteria": {
-      "has_block": "2026-08-22 17:28:45 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/tuff_from_stone_types_tuff_stonecutting": {
-    "criteria": {
-      "has_stone_types_tuff": "2026-08-22 16:11:37 +0200"
     },
     "done": true
   },
@@ -14166,18 +14172,6 @@
     },
     "done": true
   },
-  "create:recipes/building_blocks/polished_cut_asurine_slab_recycling": {
-    "criteria": {
-      "has_polished_cut_asurine_slab": "2026-08-22 16:21:12 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/red_bed": {
-    "criteria": {
-      "has_red_wool": "2026-08-22 17:35:31 +0200"
-    },
-    "done": true
-  },
   "mcwtrpdoors:recipes/spruce/spruce_barn_trapdoor": {
     "criteria": {
       "has_logs": "2026-08-22 17:34:31 +0200"
@@ -14196,21 +14190,9 @@
     },
     "done": true
   },
-  "create:recipes/building_blocks/layered_tuff_from_stone_types_tuff_stonecutting": {
-    "criteria": {
-      "has_stone_types_tuff": "2026-08-22 16:11:37 +0200"
-    },
-    "done": true
-  },
   "mcwtrpdoors:recipes/acacia/spruce_bark_trapdoor": {
     "criteria": {
       "has_logs": "2026-08-22 17:34:31 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/redstone/reinforced_spruce_pressure_plate": {
-    "criteria": {
-      "has_block": "2026-08-22 17:28:45 +0200"
     },
     "done": true
   },
@@ -14226,27 +14208,51 @@
     },
     "done": true
   },
-  "create:recipes/building_blocks/cut_tuff_slab_from_stone_types_tuff_stonecutting": {
-    "criteria": {
-      "has_stone_types_tuff": "2026-08-22 16:11:37 +0200"
-    },
-    "done": true
-  },
   "mcwtrpdoors:recipes/spruce/spruce_barred_trapdoor": {
     "criteria": {
       "has_logs": "2026-08-22 17:34:31 +0200"
     },
     "done": true
   },
-  "create:recipes/building_blocks/small_tuff_brick_wall_from_stone_types_tuff_stonecutting": {
+  "comforts:recipes/decorations/sleeping_bag_red": {
     "criteria": {
-      "has_stone_types_tuff": "2026-08-22 16:11:37 +0200"
+      "has_red_wool": "2026-08-22 17:35:31 +0200"
     },
     "done": true
   },
-  "create:recipes/building_blocks/cut_tuff_bricks_from_stone_types_tuff_stonecutting": {
+  "handcrafted:recipes/misc/red_cushion": {
     "criteria": {
-      "has_stone_types_tuff": "2026-08-22 16:11:37 +0200"
+      "has_red_cushion": "2026-08-22 17:35:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_banner": {
+    "criteria": {
+      "has_red_wool": "2026-08-22 17:35:31 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/red_sheet": {
+    "criteria": {
+      "has_red_sheet": "2026-08-22 17:35:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_carpet": {
+    "criteria": {
+      "has_red_wool": "2026-08-22 17:35:31 +0200"
+    },
+    "done": true
+  },
+  "comforts:recipes/decorations/hammock_red": {
+    "criteria": {
+      "has_red_wool": "2026-08-22 17:35:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_bed": {
+    "criteria": {
+      "has_red_wool": "2026-08-22 17:35:31 +0200"
     },
     "done": true
   },
@@ -14256,9 +14262,231 @@
     },
     "done": true
   },
-  "create:recipes/building_blocks/cut_tuff_wall_from_stone_types_tuff_stonecutting": {
+  "create:recipes/building_blocks/cut_asurine_slab_recycling": {
     "criteria": {
-      "has_stone_types_tuff": "2026-08-22 16:11:37 +0200"
+      "has_cut_asurine_slab": "2026-08-22 20:37:50 +0200"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/balustrade_mud_bricks_bridge": {
+    "criteria": {
+      "has_planks": "2026-08-22 20:43:48 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mud_brick_slab_from_mud_bricks_stonecutting": {
+    "criteria": {
+      "has_mud_bricks": "2026-08-22 20:43:48 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mud_brick_stairs": {
+    "criteria": {
+      "has_mud_bricks": "2026-08-22 20:43:48 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mud_brick_wall_from_mud_bricks_stonecutting": {
+    "criteria": {
+      "has_mud_bricks": "2026-08-22 20:43:48 +0200"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/mud_bricks": {
+    "criteria": {
+      "has_planks": "2026-08-22 20:43:48 +0200"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/mud_brick_bridge_pier": {
+    "criteria": {
+      "has_planks": "2026-08-22 20:43:48 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mud_brick_slab": {
+    "criteria": {
+      "has_mud_bricks": "2026-08-22 20:43:48 +0200"
+    },
+    "done": true
+  },
+  "betterarcheology:recipes/building_blocks/cracked_mud_bricks": {
+    "criteria": {
+      "has_mud_bricks": "2026-08-22 20:43:48 +0200"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/mud_brick_bridge": {
+    "criteria": {
+      "has_planks": "2026-08-22 20:43:48 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mud_brick_wall": {
+    "criteria": {
+      "has_mud_bricks": "2026-08-22 20:43:48 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mud_brick_stairs_from_mud_bricks_stonecutting": {
+    "criteria": {
+      "has_mud_bricks": "2026-08-22 20:43:48 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/infested_stone_bricks_slab": {
+    "criteria": {
+      "has_infested_stone_bricks": "2026-08-22 20:50:13 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/black_concrete_slab": {
+    "criteria": {
+      "has_black_concrete": "2026-08-22 23:14:23 +0200"
+    },
+    "done": true
+  },
+  "betterarcheology:all_fossils_found": {
+    "criteria": {
+      "betterarcheology:villager_fossil_head": "2026-08-23 01:44:06 +0200"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/tuff_brick_stairs_from_tuff_bricks_stonecutting": {
+    "criteria": {
+      "has_tuff_bricks": "2026-08-23 00:56:47 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/netherrack_slab": {
+    "criteria": {
+      "has_netherrack": "2026-08-23 01:17:17 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/nether_brick": {
+    "criteria": {
+      "has_netherrack": "2026-08-23 01:17:17 +0200"
+    },
+    "done": true
+  },
+  "betterarcheology:fossil_found": {
+    "criteria": {
+      "betterarcheology:fossil_found": "2026-08-23 01:44:06 +0200"
+    },
+    "done": true
+  },
+  "betterarcheology:recipes/decorations/villager_fossil": {
+    "criteria": {
+      "has_villager_fossil_head": "2026-08-23 01:44:06 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_brick_slab_from_tuff_bricks_stonecutting": {
+    "criteria": {
+      "has_tuff_bricks": "2026-08-23 00:56:47 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/black_sandstone": {
+    "criteria": {
+      "has_black_sand": "2026-08-23 01:29:45 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/dead_planks": {
+    "criteria": {
+      "has_logs": "2026-08-23 01:15:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone": {
+    "criteria": {
+      "has_sand": "2026-08-22 23:21:27 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/flesh": {
+    "criteria": {
+      "has_blood_bucket": "2026-08-23 01:06:48 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_brick_slab": {
+    "criteria": {
+      "has_tuff_bricks": "2026-08-23 00:56:47 +0200"
+    },
+    "done": true
+  },
+  "exclusive_weapons:recipes/combat/super_netherite_boots": {
+    "criteria": {
+      "has_item": "2026-08-23 00:20:57 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/combat/crafting/appliances/netherite_diving_boots": {
+    "criteria": {
+      "has_item": "2026-08-23 00:20:49 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/tuff_brick_wall": {
+    "criteria": {
+      "has_tuff_bricks": "2026-08-23 00:56:47 +0200"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/borderless_glass_lime_pane1": {
+    "criteria": {
+      "recipe_condition": "2026-08-22 23:24:45 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/tuff_brick_wall_from_tuff_bricks_stonecutting": {
+    "criteria": {
+      "has_tuff_bricks": "2026-08-23 00:56:47 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_brick_stairs": {
+    "criteria": {
+      "has_tuff_bricks": "2026-08-23 00:56:47 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/minecraft_trials_edition": {
+    "criteria": {
+      "minecraft_trials_edition": "2026-08-23 00:56:49 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glass": {
+    "criteria": {
+      "has_smelts_to_glass": "2026-08-22 23:21:27 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_tuff_bricks_from_tuff_bricks_stonecutting": {
+    "criteria": {
+      "has_tuff_bricks": "2026-08-23 00:56:47 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/combat/crafting/appliances/netherite_diving_boots_from_netherite": {
+    "criteria": {
+      "has_item": "2026-08-23 00:20:57 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/dead_wood": {
+    "criteria": {
+      "has_log": "2026-08-23 01:15:19 +0200"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/concrete": {
+    "criteria": {
+      "has_planks": "2026-08-22 23:21:27 +0200"
     },
     "done": true
   },
