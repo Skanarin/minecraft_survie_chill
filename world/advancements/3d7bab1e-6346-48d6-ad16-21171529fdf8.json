@@ -4529,6 +4529,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:pillager": "2026-08-03 17:15:41 +0200",
+      "minecraft:skeleton": "2026-08-23 17:55:09 +0200",
       "minecraft:spider": "2026-08-03 17:09:53 +0200",
       "minecraft:zombie": "2026-08-03 17:08:05 +0200",
       "minecraft:creeper": "2026-08-06 23:58:41 +0200"
@@ -14346,81 +14347,27 @@
     },
     "done": true
   },
-  "betterarcheology:all_fossils_found": {
-    "criteria": {
-      "betterarcheology:villager_fossil_head": "2026-08-23 01:44:06 +0200"
-    },
-    "done": false
-  },
-  "minecraft:recipes/building_blocks/tuff_brick_stairs_from_tuff_bricks_stonecutting": {
-    "criteria": {
-      "has_tuff_bricks": "2026-08-23 00:56:47 +0200"
-    },
-    "done": true
-  },
-  "new_slab_variants:recipes/building_blocks/netherrack_slab": {
-    "criteria": {
-      "has_netherrack": "2026-08-23 01:17:17 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/nether_brick": {
-    "criteria": {
-      "has_netherrack": "2026-08-23 01:17:17 +0200"
-    },
-    "done": true
-  },
-  "betterarcheology:fossil_found": {
-    "criteria": {
-      "betterarcheology:fossil_found": "2026-08-23 01:44:06 +0200"
-    },
-    "done": true
-  },
-  "betterarcheology:recipes/decorations/villager_fossil": {
-    "criteria": {
-      "has_villager_fossil_head": "2026-08-23 01:44:06 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/tuff_brick_slab_from_tuff_bricks_stonecutting": {
-    "criteria": {
-      "has_tuff_bricks": "2026-08-23 00:56:47 +0200"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/building_blocks/black_sandstone": {
-    "criteria": {
-      "has_black_sand": "2026-08-23 01:29:45 +0200"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/building_blocks/dead_planks": {
-    "criteria": {
-      "has_logs": "2026-08-23 01:15:19 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/sandstone": {
     "criteria": {
       "has_sand": "2026-08-22 23:21:27 +0200"
     },
     "done": true
   },
-  "biomesoplenty:recipes/building_blocks/flesh": {
+  "minecraft:recipes/building_blocks/glass": {
     "criteria": {
-      "has_blood_bucket": "2026-08-23 01:06:48 +0200"
+      "has_smelts_to_glass": "2026-08-22 23:21:27 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/tuff_brick_slab": {
+  "mcwroofs:recipes/concrete": {
     "criteria": {
-      "has_tuff_bricks": "2026-08-23 00:56:47 +0200"
+      "has_planks": "2026-08-22 23:21:27 +0200"
     },
     "done": true
   },
-  "exclusive_weapons:recipes/combat/super_netherite_boots": {
+  "connectedglass:recipes/misc/borderless_glass_lime_pane1": {
     "criteria": {
-      "has_item": "2026-08-23 00:20:57 +0200"
+      "recipe_condition": "2026-08-22 23:24:45 +0200"
     },
     "done": true
   },
@@ -14430,15 +14377,39 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/tuff_brick_wall": {
+  "exclusive_weapons:recipes/combat/super_netherite_boots": {
+    "criteria": {
+      "has_item": "2026-08-23 00:20:57 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/combat/crafting/appliances/netherite_diving_boots_from_netherite": {
+    "criteria": {
+      "has_item": "2026-08-23 00:20:57 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_brick_stairs_from_tuff_bricks_stonecutting": {
     "criteria": {
       "has_tuff_bricks": "2026-08-23 00:56:47 +0200"
     },
     "done": true
   },
-  "connectedglass:recipes/misc/borderless_glass_lime_pane1": {
+  "minecraft:recipes/building_blocks/tuff_brick_slab_from_tuff_bricks_stonecutting": {
     "criteria": {
-      "recipe_condition": "2026-08-22 23:24:45 +0200"
+      "has_tuff_bricks": "2026-08-23 00:56:47 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_brick_slab": {
+    "criteria": {
+      "has_tuff_bricks": "2026-08-23 00:56:47 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/tuff_brick_wall": {
+    "criteria": {
+      "has_tuff_bricks": "2026-08-23 00:56:47 +0200"
     },
     "done": true
   },
@@ -14454,27 +14425,27 @@
     },
     "done": true
   },
-  "minecraft:adventure/minecraft_trials_edition": {
-    "criteria": {
-      "minecraft_trials_edition": "2026-08-23 00:56:49 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/glass": {
-    "criteria": {
-      "has_smelts_to_glass": "2026-08-22 23:21:27 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/chiseled_tuff_bricks_from_tuff_bricks_stonecutting": {
     "criteria": {
       "has_tuff_bricks": "2026-08-23 00:56:47 +0200"
     },
     "done": true
   },
-  "create:recipes/combat/crafting/appliances/netherite_diving_boots_from_netherite": {
+  "minecraft:adventure/minecraft_trials_edition": {
     "criteria": {
-      "has_item": "2026-08-23 00:20:57 +0200"
+      "minecraft_trials_edition": "2026-08-23 00:56:49 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/flesh": {
+    "criteria": {
+      "has_blood_bucket": "2026-08-23 01:06:48 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/dead_planks": {
+    "criteria": {
+      "has_logs": "2026-08-23 01:15:19 +0200"
     },
     "done": true
   },
@@ -14484,9 +14455,237 @@
     },
     "done": true
   },
-  "mcwroofs:recipes/concrete": {
+  "new_slab_variants:recipes/building_blocks/netherrack_slab": {
     "criteria": {
-      "has_planks": "2026-08-22 23:21:27 +0200"
+      "has_netherrack": "2026-08-23 01:17:17 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/nether_brick": {
+    "criteria": {
+      "has_netherrack": "2026-08-23 01:17:17 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/black_sandstone": {
+    "criteria": {
+      "has_black_sand": "2026-08-23 01:29:45 +0200"
+    },
+    "done": true
+  },
+  "betterarcheology:all_fossils_found": {
+    "criteria": {
+      "betterarcheology:villager_fossil_head": "2026-08-23 01:44:06 +0200"
+    },
+    "done": false
+  },
+  "betterarcheology:fossil_found": {
+    "criteria": {
+      "betterarcheology:fossil_found": "2026-08-23 01:44:06 +0200"
+    },
+    "done": true
+  },
+  "betterarcheology:recipes/decorations/villager_fossil": {
+    "criteria": {
+      "has_villager_fossil_head": "2026-08-23 01:44:06 +0200"
+    },
+    "done": true
+  },
+  "ironchest:recipes/decorations/chests/diamond_obsidian_chest": {
+    "criteria": {
+      "has_obsidian": "2026-08-23 18:42:15 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/azalea_leaves_slab": {
+    "criteria": {
+      "has_azalea_leaves": "2026-08-23 17:50:38 +0200"
+    },
+    "done": true
+  },
+  "chipped:recipes/workbench/loom_table": {
+    "criteria": {
+      "has_item": "2026-08-23 17:35:36 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/storage_output": {
+    "criteria": {
+      "has_base_tier_wooden_storage": "2026-08-23 16:54:58 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/azalea_hedge": {
+    "criteria": {
+      "has_minecraft:azalea_leaves": "2026-08-23 17:50:38 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
+    "criteria": {
+      "has_iron_block": "2026-08-23 16:50:22 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/iron_chest": {
+    "criteria": {
+      "has_chest": "2026-08-23 16:54:58 +0200"
+    },
+    "done": true
+  },
+  "chipped:recipes/misc/needles": {
+    "criteria": {
+      "has_needles": "2026-08-23 17:35:36 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/slicing/slime_ball_from_slime_block": {
+    "criteria": {
+      "has_slime_block": "2026-08-23 18:30:22 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/obsidian_slab": {
+    "criteria": {
+      "has_obsidian": "2026-08-23 18:42:15 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/double_copper_chest": {
+    "criteria": {
+      "has_chest": "2026-08-23 16:54:58 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/flint_and_steel": {
+    "criteria": {
+      "has_obsidian": "2026-08-23 18:42:15 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/misc/keypad_item": {
+    "criteria": {
+      "has_stone_button": "2026-08-23 18:29:52 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/slime_block_slab": {
+    "criteria": {
+      "has_slime_block": "2026-08-23 18:30:22 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/double_iron_chest": {
+    "criteria": {
+      "has_chest": "2026-08-23 16:54:58 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_iron_block": "2026-08-23 16:50:22 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/paintbrush": {
+    "criteria": {
+      "has_base_tier_wooden_storage": "2026-08-23 16:54:58 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/controller": {
+    "criteria": {
+      "has_base_tier_wooden_storage": "2026-08-23 16:54:58 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/mossy_cobblestone_from_willow_vine": {
+    "criteria": {
+      "has_willow_vine": "2026-08-23 17:52:08 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/storage_input": {
+    "criteria": {
+      "has_base_tier_wooden_storage": "2026-08-23 16:54:58 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2026-08-23 18:42:15 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/mossy_stone_bricks_from_willow_vine": {
+    "criteria": {
+      "has_willow_vine": "2026-08-23 17:52:08 +0200"
+    },
+    "done": true
+  },
+  "chipped:recipes/workbench/tinkering_table": {
+    "criteria": {
+      "has_item": "2026-08-23 17:35:38 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/slime_ball": {
+    "criteria": {
+      "has_slime_block": "2026-08-23 18:30:22 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/shulker_from_chest": {
+    "criteria": {
+      "has_chest": "2026-08-23 16:54:58 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/copper_chest": {
+    "criteria": {
+      "has_chest": "2026-08-23 16:54:58 +0200"
+    },
+    "done": true
+  },
+  "chipped:recipes/misc/multimeter": {
+    "criteria": {
+      "has_multimeter": "2026-08-23 17:35:38 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/storage_io": {
+    "criteria": {
+      "has_base_tier_wooden_storage": "2026-08-23 16:54:58 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/flowering_azalea_leaves_slab": {
+    "criteria": {
+      "has_flowering_azalea_leaves": "2026-08-23 17:50:27 +0200"
+    },
+    "done": true
+  },
+  "super_ore_block:recipes/building_blocks/super_iron_block": {
+    "criteria": {
+      "has_item": "2026-08-23 16:50:22 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/slicing/string_from_cobweb": {
+    "criteria": {
+      "has_cobweb": "2026-08-23 17:02:34 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/iron_block_slab": {
+    "criteria": {
+      "has_iron_block": "2026-08-23 16:50:22 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2026-08-23 18:42:15 +0200"
     },
     "done": true
   },
