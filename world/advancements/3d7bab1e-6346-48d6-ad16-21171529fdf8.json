@@ -15253,9 +15253,297 @@
     },
     "done": true
   },
-  "create:recipes/building_blocks/crafting/kinetics/yellow_seat_from_other_seat": {
+  "refurbished_furniture:recipes/misc/constructing/mangrove_crate": {
     "criteria": {
-      "has_seat": "2026-08-24 21:37:00 +0200"
+      "has_minecraft:mangrove_planks": "2026-08-24 20:04:34 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/mangrove_pressure_plate": {
+    "criteria": {
+      "has_planks": "2026-08-24 20:04:34 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/mangrove_limited_barrel_4": {
+    "criteria": {
+      "has_mangrove_plank": "2026-08-24 20:04:34 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/mangrove_limited_barrel_3": {
+    "criteria": {
+      "has_mangrove_plank": "2026-08-24 20:04:34 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/mangrove_limited_barrel_2": {
+    "criteria": {
+      "has_mangrove_plank": "2026-08-24 20:04:34 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/mangrove_limited_barrel_1": {
+    "criteria": {
+      "has_mangrove_plank": "2026-08-24 20:04:34 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/mangrove_dining_bench": {
+    "criteria": {
+      "has_mangrove_dining_bench": "2026-08-24 20:04:34 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/mangrove_table": {
+    "criteria": {
+      "has_mangrove_table": "2026-08-24 20:04:34 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mangrove_sign": {
+    "criteria": {
+      "has_planks": "2026-08-24 20:04:34 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/mangrove_drawer": {
+    "criteria": {
+      "has_minecraft:mangrove_planks": "2026-08-24 20:04:34 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/mangrove_couch": {
+    "criteria": {
+      "has_mangrove_couch": "2026-08-24 20:04:34 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mangrove_stairs": {
+    "criteria": {
+      "has_planks": "2026-08-24 20:04:34 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/mangrove_table": {
+    "criteria": {
+      "has_minecraft:mangrove_planks": "2026-08-24 20:04:34 +0200"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/mangrove_planks": {
+    "criteria": {
+      "has_planks": "2026-08-24 20:04:34 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/mangrove_bench": {
+    "criteria": {
+      "has_mangrove_bench": "2026-08-24 20:04:34 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/mangrove_desk": {
+    "criteria": {
+      "has_mangrove_desk": "2026-08-24 20:04:34 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/mangrove_cutting_board": {
+    "criteria": {
+      "has_minecraft:mangrove_planks": "2026-08-24 20:04:34 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/mangrove_corner_trim": {
+    "criteria": {
+      "has_mangrove_corner_trim": "2026-08-24 20:04:34 +0200"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/mangrove_rail_bridge": {
+    "criteria": {
+      "has_planks": "2026-08-24 20:04:34 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/mangrove_trapdoor": {
+    "criteria": {
+      "has_planks": "2026-08-24 20:04:34 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/mangrove_window": {
+    "criteria": {
+      "has_ingredient": "2026-08-24 20:04:34 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/mangrove_storage_connector": {
+    "criteria": {
+      "has_mangrove_planks": "2026-08-24 20:04:34 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/mangrove_drawer": {
+    "criteria": {
+      "has_mangrove_drawer": "2026-08-24 20:04:34 +0200"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/mangrove_log_bridge_middle": {
+    "criteria": {
+      "has_planks": "2026-08-24 20:04:34 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/mangrove_pillar_trim": {
+    "criteria": {
+      "has_mangrove_pillar_trim": "2026-08-24 20:04:34 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mangrove_slab": {
+    "criteria": {
+      "has_planks": "2026-08-24 20:04:34 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/mangrove_mail_box": {
+    "criteria": {
+      "has_minecraft:mangrove_planks": "2026-08-24 20:04:34 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/mangrove_counter": {
+    "criteria": {
+      "has_mangrove_counter": "2026-08-24 20:04:34 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/mangrove_shelf": {
+    "criteria": {
+      "has_mangrove_shelf": "2026-08-24 20:04:34 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/mangrove_storage_jar": {
+    "criteria": {
+      "has_minecraft:mangrove_planks": "2026-08-24 20:04:34 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/mangrove_chair": {
+    "criteria": {
+      "has_mangrove_chair": "2026-08-24 20:04:34 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/mangrove/mangrove_blossom_trapdoor": {
+    "criteria": {
+      "has_plankss": "2026-08-24 20:04:34 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/mangrove_chair": {
+    "criteria": {
+      "has_minecraft:mangrove_planks": "2026-08-24 20:04:34 +0200"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/rope_mangrove_bridge": {
+    "criteria": {
+      "has_planks": "2026-08-24 20:04:34 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/mangrove_door": {
+    "criteria": {
+      "has_planks": "2026-08-24 20:04:34 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/mangrove_fancy_bed": {
+    "criteria": {
+      "has_mangrove_fancy_bed": "2026-08-24 20:04:34 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/mangrove_desk": {
+    "criteria": {
+      "has_minecraft:mangrove_planks": "2026-08-24 20:04:34 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/mangrove_chest": {
+    "criteria": {
+      "has_mangrove_plank": "2026-08-24 20:04:34 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mangrove_fence": {
+    "criteria": {
+      "has_planks": "2026-08-24 20:04:34 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/mangrove_barrel": {
+    "criteria": {
+      "has_mangrove_plank": "2026-08-24 20:04:34 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/mangrove_fence_gate": {
+    "criteria": {
+      "has_planks": "2026-08-24 20:04:34 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/mangrove_nightstand": {
+    "criteria": {
+      "has_mangrove_nightstand": "2026-08-24 20:04:34 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/mangrove_button": {
+    "criteria": {
+      "has_planks": "2026-08-24 20:04:34 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/mangrove_side_table": {
+    "criteria": {
+      "has_mangrove_side_table": "2026-08-24 20:04:34 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/mangrove_cupboard": {
+    "criteria": {
+      "has_mangrove_cupboard": "2026-08-24 20:04:34 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/mangrove_cabinet": {
+    "criteria": {
+      "has_mangrove_trapdoor": "2026-08-24 20:17:09 +0200"
+    },
+    "done": true
+  },
+  "create:super_glue": {
+    "criteria": {
+      "0": "2026-08-24 20:30:20 +0200"
+    },
+    "done": true
+  },
+  "create:train": {
+    "criteria": {
+      "0": "2026-08-24 21:11:43 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/appliances/schedule_clear": {
+    "criteria": {
+      "has_item": "2026-08-24 21:28:24 +0200"
     },
     "done": true
   },
@@ -15271,27 +15559,9 @@
     },
     "done": true
   },
-  "handcrafted:recipes/misc/kitchen_hood": {
-    "criteria": {
-      "has_kitchen_hood": "2026-08-24 21:49:57 +0200"
-    },
-    "done": true
-  },
   "sophisticatedstorage:recipes/misc/acacia_barrel": {
     "criteria": {
       "has_acacia_plank": "2026-08-24 21:32:15 +0200"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/decorations/mangrove_cabinet": {
-    "criteria": {
-      "has_mangrove_trapdoor": "2026-08-24 20:17:09 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/crafting/kinetics/green_seat_from_other_seat": {
-    "criteria": {
-      "has_seat": "2026-08-24 21:37:00 +0200"
     },
     "done": true
   },
@@ -15310,12 +15580,6 @@
   "refurbished_furniture:recipes/misc/constructing/acacia_mail_box": {
     "criteria": {
       "has_minecraft:acacia_planks": "2026-08-24 21:32:15 +0200"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/mangrove_crate": {
-    "criteria": {
-      "has_minecraft:mangrove_planks": "2026-08-24 20:04:34 +0200"
     },
     "done": true
   },
@@ -15355,39 +15619,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/mangrove_pressure_plate": {
-    "criteria": {
-      "has_planks": "2026-08-24 20:04:34 +0200"
-    },
-    "done": true
-  },
   "mcwroofs:recipes/acacia_planks": {
     "criteria": {
       "has_planks": "2026-08-24 21:32:15 +0200"
-    },
-    "done": true
-  },
-  "sophisticatedstorage:recipes/misc/mangrove_limited_barrel_4": {
-    "criteria": {
-      "has_mangrove_plank": "2026-08-24 20:04:34 +0200"
-    },
-    "done": true
-  },
-  "sophisticatedstorage:recipes/misc/mangrove_limited_barrel_3": {
-    "criteria": {
-      "has_mangrove_plank": "2026-08-24 20:04:34 +0200"
-    },
-    "done": true
-  },
-  "sophisticatedstorage:recipes/misc/mangrove_limited_barrel_2": {
-    "criteria": {
-      "has_mangrove_plank": "2026-08-24 20:04:34 +0200"
-    },
-    "done": true
-  },
-  "sophisticatedstorage:recipes/misc/mangrove_limited_barrel_1": {
-    "criteria": {
-      "has_mangrove_plank": "2026-08-24 20:04:34 +0200"
     },
     "done": true
   },
@@ -15406,12 +15640,6 @@
   "minecraft:recipes/decorations/acacia_sign": {
     "criteria": {
       "has_planks": "2026-08-24 21:32:15 +0200"
-    },
-    "done": true
-  },
-  "handcrafted:recipes/misc/mangrove_dining_bench": {
-    "criteria": {
-      "has_mangrove_dining_bench": "2026-08-24 20:04:34 +0200"
     },
     "done": true
   },
@@ -15439,39 +15667,9 @@
     },
     "done": true
   },
-  "handcrafted:recipes/misc/mangrove_table": {
-    "criteria": {
-      "has_mangrove_table": "2026-08-24 20:04:34 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/mangrove_sign": {
-    "criteria": {
-      "has_planks": "2026-08-24 20:04:34 +0200"
-    },
-    "done": true
-  },
   "handcrafted:recipes/misc/acacia_pillar_trim": {
     "criteria": {
       "has_acacia_pillar_trim": "2026-08-24 21:32:15 +0200"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/mangrove_drawer": {
-    "criteria": {
-      "has_minecraft:mangrove_planks": "2026-08-24 20:04:34 +0200"
-    },
-    "done": true
-  },
-  "handcrafted:recipes/misc/mangrove_couch": {
-    "criteria": {
-      "has_mangrove_couch": "2026-08-24 20:04:34 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/crafting/kinetics/blue_seat_from_other_seat": {
-    "criteria": {
-      "has_seat": "2026-08-24 21:37:00 +0200"
     },
     "done": true
   },
@@ -15493,99 +15691,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/mangrove_stairs": {
-    "criteria": {
-      "has_planks": "2026-08-24 20:04:34 +0200"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/mangrove_table": {
-    "criteria": {
-      "has_minecraft:mangrove_planks": "2026-08-24 20:04:34 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/crafting/kinetics/black_seat_from_other_seat": {
-    "criteria": {
-      "has_seat": "2026-08-24 21:37:00 +0200"
-    },
-    "done": true
-  },
-  "new_slab_variants:recipes/building_blocks/ice_slab": {
-    "criteria": {
-      "has_ice": "2026-08-24 22:53:39 +0200"
-    },
-    "done": true
-  },
-  "mcwroofs:recipes/mangrove_planks": {
-    "criteria": {
-      "has_planks": "2026-08-24 20:04:34 +0200"
-    },
-    "done": true
-  },
-  "handcrafted:recipes/misc/mangrove_bench": {
-    "criteria": {
-      "has_mangrove_bench": "2026-08-24 20:04:34 +0200"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/acacia_desk": {
     "criteria": {
       "has_minecraft:acacia_planks": "2026-08-24 21:32:15 +0200"
-    },
-    "done": true
-  },
-  "handcrafted:recipes/misc/mangrove_desk": {
-    "criteria": {
-      "has_mangrove_desk": "2026-08-24 20:04:34 +0200"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/mangrove_cutting_board": {
-    "criteria": {
-      "has_minecraft:mangrove_planks": "2026-08-24 20:04:34 +0200"
-    },
-    "done": true
-  },
-  "handcrafted:recipes/misc/mangrove_corner_trim": {
-    "criteria": {
-      "has_mangrove_corner_trim": "2026-08-24 20:04:34 +0200"
-    },
-    "done": true
-  },
-  "handcrafted:recipes/misc/kitchen_hood_pipe": {
-    "criteria": {
-      "has_kitchen_hood_pipe": "2026-08-24 21:49:57 +0200"
-    },
-    "done": true
-  },
-  "mcwbridges:recipes/mangrove_rail_bridge": {
-    "criteria": {
-      "has_planks": "2026-08-24 20:04:34 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/mangrove_trapdoor": {
-    "criteria": {
-      "has_planks": "2026-08-24 20:04:34 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/mangrove_window": {
-    "criteria": {
-      "has_ingredient": "2026-08-24 20:04:34 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/crafting/kinetics/magenta_seat_from_other_seat": {
-    "criteria": {
-      "has_seat": "2026-08-24 21:37:00 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/crafting/kinetics/light_gray_seat_from_other_seat": {
-    "criteria": {
-      "has_seat": "2026-08-24 21:37:00 +0200"
     },
     "done": true
   },
@@ -15595,45 +15703,9 @@
     },
     "done": true
   },
-  "sophisticatedstorage:recipes/misc/mangrove_storage_connector": {
-    "criteria": {
-      "has_mangrove_planks": "2026-08-24 20:04:34 +0200"
-    },
-    "done": true
-  },
-  "handcrafted:recipes/misc/mangrove_drawer": {
-    "criteria": {
-      "has_mangrove_drawer": "2026-08-24 20:04:34 +0200"
-    },
-    "done": true
-  },
   "mcwtrpdoors:recipes/acacia/acacia_blossom_trapdoor": {
     "criteria": {
       "has_plankss": "2026-08-24 21:32:15 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/crafting/kinetics/brown_seat_from_other_seat": {
-    "criteria": {
-      "has_seat": "2026-08-24 21:37:00 +0200"
-    },
-    "done": true
-  },
-  "mcwbridges:recipes/mangrove_log_bridge_middle": {
-    "criteria": {
-      "has_planks": "2026-08-24 20:04:34 +0200"
-    },
-    "done": true
-  },
-  "handcrafted:recipes/misc/mangrove_pillar_trim": {
-    "criteria": {
-      "has_mangrove_pillar_trim": "2026-08-24 20:04:34 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/mangrove_slab": {
-    "criteria": {
-      "has_planks": "2026-08-24 20:04:34 +0200"
     },
     "done": true
   },
@@ -15643,51 +15715,15 @@
     },
     "done": true
   },
-  "create:recipes/building_blocks/crafting/kinetics/pink_seat_from_other_seat": {
-    "criteria": {
-      "has_seat": "2026-08-24 21:37:00 +0200"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/mangrove_mail_box": {
-    "criteria": {
-      "has_minecraft:mangrove_planks": "2026-08-24 20:04:34 +0200"
-    },
-    "done": true
-  },
   "handcrafted:recipes/misc/acacia_shelf": {
     "criteria": {
       "has_acacia_shelf": "2026-08-24 21:32:15 +0200"
     },
     "done": true
   },
-  "handcrafted:recipes/misc/mangrove_counter": {
-    "criteria": {
-      "has_mangrove_counter": "2026-08-24 20:04:34 +0200"
-    },
-    "done": true
-  },
-  "create:super_glue": {
-    "criteria": {
-      "0": "2026-08-24 20:30:20 +0200"
-    },
-    "done": true
-  },
   "handcrafted:recipes/misc/acacia_chair": {
     "criteria": {
       "has_acacia_chair": "2026-08-24 21:32:15 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/appliances/schedule_clear": {
-    "criteria": {
-      "has_item": "2026-08-24 21:28:24 +0200"
-    },
-    "done": true
-  },
-  "handcrafted:recipes/misc/mangrove_shelf": {
-    "criteria": {
-      "has_mangrove_shelf": "2026-08-24 20:04:34 +0200"
     },
     "done": true
   },
@@ -15703,12 +15739,6 @@
     },
     "done": true
   },
-  "refurbished_furniture:recipes/misc/constructing/mangrove_storage_jar": {
-    "criteria": {
-      "has_minecraft:mangrove_planks": "2026-08-24 20:04:34 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/acacia_door": {
     "criteria": {
       "has_planks": "2026-08-24 21:32:15 +0200"
@@ -15721,39 +15751,9 @@
     },
     "done": true
   },
-  "create:recipes/building_blocks/crafting/kinetics/red_seat_from_other_seat": {
-    "criteria": {
-      "has_seat": "2026-08-24 21:37:00 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/crafting/kinetics/orange_seat_from_other_seat": {
-    "criteria": {
-      "has_seat": "2026-08-24 21:37:00 +0200"
-    },
-    "done": true
-  },
-  "handcrafted:recipes/misc/mangrove_chair": {
-    "criteria": {
-      "has_mangrove_chair": "2026-08-24 20:04:34 +0200"
-    },
-    "done": true
-  },
-  "mcwtrpdoors:recipes/mangrove/mangrove_blossom_trapdoor": {
-    "criteria": {
-      "has_plankss": "2026-08-24 20:04:34 +0200"
-    },
-    "done": true
-  },
   "handcrafted:recipes/misc/acacia_couch": {
     "criteria": {
       "has_acacia_couch": "2026-08-24 21:32:15 +0200"
-    },
-    "done": true
-  },
-  "new_slab_variants:recipes/building_blocks/birch_wood_slab": {
-    "criteria": {
-      "has_birch_wood": "2026-08-24 22:56:51 +0200"
     },
     "done": true
   },
@@ -15763,27 +15763,9 @@
     },
     "done": true
   },
-  "refurbished_furniture:recipes/misc/constructing/mangrove_chair": {
-    "criteria": {
-      "has_minecraft:mangrove_planks": "2026-08-24 20:04:34 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/crafting/kinetics/white_seat_from_other_seat": {
-    "criteria": {
-      "has_seat": "2026-08-24 21:37:00 +0200"
-    },
-    "done": true
-  },
   "handcrafted:recipes/misc/acacia_drawer": {
     "criteria": {
       "has_acacia_drawer": "2026-08-24 21:32:15 +0200"
-    },
-    "done": true
-  },
-  "mcwbridges:recipes/rope_mangrove_bridge": {
-    "criteria": {
-      "has_planks": "2026-08-24 20:04:34 +0200"
     },
     "done": true
   },
@@ -15793,33 +15775,9 @@
     },
     "done": true
   },
-  "create:train": {
-    "criteria": {
-      "0": "2026-08-24 21:11:43 +0200"
-    },
-    "done": true
-  },
   "handcrafted:recipes/misc/acacia_side_table": {
     "criteria": {
       "has_acacia_side_table": "2026-08-24 21:32:15 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/crafting/kinetics/cyan_seat_from_other_seat": {
-    "criteria": {
-      "has_seat": "2026-08-24 21:37:00 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/mangrove_door": {
-    "criteria": {
-      "has_planks": "2026-08-24 20:04:34 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/packed_ice": {
-    "criteria": {
-      "has_ice": "2026-08-24 22:53:39 +0200"
     },
     "done": true
   },
@@ -15829,21 +15787,9 @@
     },
     "done": true
   },
-  "create:recipes/building_blocks/crafting/kinetics/lime_seat_from_other_seat": {
-    "criteria": {
-      "has_seat": "2026-08-24 21:37:00 +0200"
-    },
-    "done": true
-  },
   "handcrafted:recipes/misc/acacia_nightstand": {
     "criteria": {
       "has_acacia_nightstand": "2026-08-24 21:32:15 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/crafting/kinetics/purple_seat_from_other_seat": {
-    "criteria": {
-      "has_seat": "2026-08-24 21:37:00 +0200"
     },
     "done": true
   },
@@ -15859,75 +15805,9 @@
     },
     "done": true
   },
-  "create:recipes/building_blocks/crafting/kinetics/light_blue_seat_from_other_seat": {
-    "criteria": {
-      "has_seat": "2026-08-24 21:37:00 +0200"
-    },
-    "done": true
-  },
-  "new_slab_variants:recipes/building_blocks/sponge_slab": {
-    "criteria": {
-      "has_sponge": "2026-08-24 23:06:12 +0200"
-    },
-    "done": true
-  },
-  "handcrafted:recipes/misc/mangrove_fancy_bed": {
-    "criteria": {
-      "has_mangrove_fancy_bed": "2026-08-24 20:04:34 +0200"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/mangrove_desk": {
-    "criteria": {
-      "has_minecraft:mangrove_planks": "2026-08-24 20:04:34 +0200"
-    },
-    "done": true
-  },
-  "sophisticatedstorage:recipes/misc/mangrove_chest": {
-    "criteria": {
-      "has_mangrove_plank": "2026-08-24 20:04:34 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/mangrove_fence": {
-    "criteria": {
-      "has_planks": "2026-08-24 20:04:34 +0200"
-    },
-    "done": true
-  },
-  "sophisticatedstorage:recipes/misc/mangrove_barrel": {
-    "criteria": {
-      "has_mangrove_plank": "2026-08-24 20:04:34 +0200"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/acacia_crate": {
     "criteria": {
       "has_minecraft:acacia_planks": "2026-08-24 21:32:15 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/mangrove_fence_gate": {
-    "criteria": {
-      "has_planks": "2026-08-24 20:04:34 +0200"
-    },
-    "done": true
-  },
-  "handcrafted:recipes/misc/mangrove_nightstand": {
-    "criteria": {
-      "has_mangrove_nightstand": "2026-08-24 20:04:34 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/mangrove_button": {
-    "criteria": {
-      "has_planks": "2026-08-24 20:04:34 +0200"
-    },
-    "done": true
-  },
-  "create:conductor": {
-    "criteria": {
-      "0": "2026-08-24 21:43:01 +0200"
     },
     "done": true
   },
@@ -15937,21 +15817,195 @@
     },
     "done": true
   },
+  "create:recipes/building_blocks/crafting/kinetics/yellow_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2026-08-24 21:37:00 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/green_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2026-08-24 21:37:00 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/blue_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2026-08-24 21:37:00 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/black_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2026-08-24 21:37:00 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/magenta_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2026-08-24 21:37:00 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/light_gray_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2026-08-24 21:37:00 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/brown_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2026-08-24 21:37:00 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/pink_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2026-08-24 21:37:00 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/red_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2026-08-24 21:37:00 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/orange_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2026-08-24 21:37:00 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/white_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2026-08-24 21:37:00 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/cyan_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2026-08-24 21:37:00 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/lime_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2026-08-24 21:37:00 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/purple_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2026-08-24 21:37:00 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/light_blue_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2026-08-24 21:37:00 +0200"
+    },
+    "done": true
+  },
   "create:recipes/building_blocks/crafting/kinetics/gray_seat_from_other_seat": {
     "criteria": {
       "has_seat": "2026-08-24 21:37:00 +0200"
     },
     "done": true
   },
-  "handcrafted:recipes/misc/mangrove_side_table": {
+  "create:conductor": {
     "criteria": {
-      "has_mangrove_side_table": "2026-08-24 20:04:34 +0200"
+      "0": "2026-08-24 21:43:01 +0200"
     },
     "done": true
   },
-  "handcrafted:recipes/misc/mangrove_cupboard": {
+  "handcrafted:recipes/misc/kitchen_hood": {
     "criteria": {
-      "has_mangrove_cupboard": "2026-08-24 20:04:34 +0200"
+      "has_kitchen_hood": "2026-08-24 21:49:57 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/kitchen_hood_pipe": {
+    "criteria": {
+      "has_kitchen_hood_pipe": "2026-08-24 21:49:57 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/ice_slab": {
+    "criteria": {
+      "has_ice": "2026-08-24 22:53:39 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/packed_ice": {
+    "criteria": {
+      "has_ice": "2026-08-24 22:53:39 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/birch_wood_slab": {
+    "criteria": {
+      "has_birch_wood": "2026-08-24 22:56:51 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/sponge_slab": {
+    "criteria": {
+      "has_sponge": "2026-08-24 23:06:12 +0200"
+    },
+    "done": true
+  },
+  "exclusive_weapons:recipes/tools/super_netherite_axe": {
+    "criteria": {
+      "has_item": "2026-08-25 18:42:04 +0200"
+    },
+    "done": true
+  },
+  "comforts:recipes/decorations/hammock_yellow": {
+    "criteria": {
+      "has_yellow_wool": "2026-08-25 17:49:50 +0200"
+    },
+    "done": true
+  },
+  "comforts:recipes/decorations/sleeping_bag_yellow": {
+    "criteria": {
+      "has_yellow_wool": "2026-08-25 17:49:50 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_carpet": {
+    "criteria": {
+      "has_yellow_wool": "2026-08-25 17:49:50 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_bed": {
+    "criteria": {
+      "has_yellow_wool": "2026-08-25 17:49:50 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/yellow_wool_slab": {
+    "criteria": {
+      "has_yellow_wool": "2026-08-25 17:49:50 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/yellow_cushion": {
+    "criteria": {
+      "has_yellow_cushion": "2026-08-25 17:49:50 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/yellow_sheet": {
+    "criteria": {
+      "has_yellow_sheet": "2026-08-25 17:49:50 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_banner": {
+    "criteria": {
+      "has_yellow_wool": "2026-08-25 17:49:50 +0200"
     },
     "done": true
   },
