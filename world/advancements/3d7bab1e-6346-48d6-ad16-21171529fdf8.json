@@ -14475,6 +14475,7 @@
   },
   "betterarcheology:all_fossils_found": {
     "criteria": {
+      "betterarcheology:villager_fossil_body": "2026-08-25 22:15:56 +0200",
       "betterarcheology:villager_fossil_head": "2026-08-23 01:44:06 +0200"
     },
     "done": false
@@ -15955,12 +15956,6 @@
     },
     "done": true
   },
-  "exclusive_weapons:recipes/tools/super_netherite_axe": {
-    "criteria": {
-      "has_item": "2026-08-25 18:42:04 +0200"
-    },
-    "done": true
-  },
   "comforts:recipes/decorations/hammock_yellow": {
     "criteria": {
       "has_yellow_wool": "2026-08-25 17:49:50 +0200"
@@ -16006,6 +16001,36 @@
   "minecraft:recipes/decorations/yellow_banner": {
     "criteria": {
       "has_yellow_wool": "2026-08-25 17:49:50 +0200"
+    },
+    "done": true
+  },
+  "exclusive_weapons:recipes/tools/super_netherite_axe": {
+    "criteria": {
+      "has_item": "2026-08-25 18:42:04 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/gearbox": {
+    "criteria": {
+      "has_item": "2026-08-27 00:20:58 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_deepslate_brick_slab_recycling": {
+    "criteria": {
+      "has_small_deepslate_brick_slab": "2026-08-26 19:22:33 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/scaffolding_slab": {
+    "criteria": {
+      "has_scaffolding": "2026-08-27 00:21:46 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/vertical_gearbox": {
+    "criteria": {
+      "has_item": "2026-08-27 00:20:58 +0200"
     },
     "done": true
   },
