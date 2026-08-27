@@ -4115,6 +4115,7 @@
       "minecraft:ender_dragon": "2026-07-25 09:34:25 +0200",
       "minecraft:hoglin": "2026-07-03 11:09:07 +0200",
       "minecraft:piglin": "2026-07-16 20:08:12 +0200",
+      "minecraft:guardian": "2026-08-28 00:28:52 +0200",
       "minecraft:enderman": "2026-07-01 15:40:36 +0200",
       "minecraft:magma_cube": "2026-07-03 11:10:02 +0200",
       "minecraft:endermite": "2026-07-05 13:54:32 +0200",
@@ -23183,6 +23184,18 @@
     },
     "done": true
   },
+  "new_slab_variants:recipes/building_blocks/horn_coral_block_slab": {
+    "criteria": {
+      "has_horn_coral_block": "2026-08-18 20:45:07 +0200"
+    },
+    "done": true
+  },
+  "super_ore_block:recipes/building_blocks/super_to_gold_block": {
+    "criteria": {
+      "has_item": "2026-08-18 20:49:48 +0200"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/misc/magenta_dye_from_wildflower": {
     "criteria": {
       "has_wildflower": "2026-08-18 21:19:27 +0200"
@@ -23195,21 +23208,94 @@
     },
     "done": true
   },
-  "super_ore_block:recipes/building_blocks/super_to_gold_block": {
-    "criteria": {
-      "has_item": "2026-08-18 20:49:48 +0200"
-    },
-    "done": true
-  },
   "biomesoplenty:recipes/building_blocks/fir_planks": {
     "criteria": {
       "has_logs": "2026-08-18 22:10:04 +0200"
     },
     "done": true
   },
-  "new_slab_variants:recipes/building_blocks/horn_coral_block_slab": {
+  "exclusive_weapons:recipes/tools/super_netherite_axe": {
     "criteria": {
-      "has_horn_coral_block": "2026-08-18 20:45:07 +0200"
+      "has_item": "2026-08-28 00:36:12 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/orange_sandstone_slab": {
+    "criteria": {
+      "has_chiseled_orange_sandstone": "2026-08-28 00:27:17 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_weathered_chiseled_copper_from_honeycomb": {
+    "criteria": {
+      "has_weathered_chiseled_copper": "2026-08-28 00:27:10 +0200"
+    },
+    "done": true
+  },
+  "betterarcheology:all_fossils_found": {
+    "criteria": {
+      "betterarcheology:villager_fossil_body": "2026-08-28 00:31:18 +0200",
+      "betterarcheology:ocelot_fossil_body": "2026-08-28 00:31:11 +0200"
+    },
+    "done": false
+  },
+  "betterarcheology:fossil_found": {
+    "criteria": {
+      "betterarcheology:fossil_found": "2026-08-28 00:31:11 +0200"
+    },
+    "done": true
+  },
+  "betterarcheology:recipes/decorations/villager_fossil": {
+    "criteria": {
+      "has_villager_fossil_body": "2026-08-28 00:31:18 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/misc/crystal_quartz_item": {
+    "criteria": {
+      "has_prismarine_crystals": "2026-08-28 00:28:54 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/orange_sandstone_stairs": {
+    "criteria": {
+      "has_chiseled_orange_sandstone": "2026-08-28 00:27:17 +0200"
+    },
+    "done": true
+  },
+  "irons_spellbooks:irons_spellbooks/spell_book_blood": {
+    "criteria": {
+      "requirement": "2026-08-28 00:34:40 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sea_lantern": {
+    "criteria": {
+      "has_prismarine_crystals": "2026-08-28 00:28:54 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/flesh": {
+    "criteria": {
+      "has_blood_bucket": "2026-08-28 00:30:13 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/chiseled_nether_bricks_slab": {
+    "criteria": {
+      "has_chiseled_nether_bricks": "2026-08-28 00:27:24 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/chiseled_orange_sandstone": {
+    "criteria": {
+      "has_chiseled_orange_sandstone": "2026-08-28 00:27:17 +0200"
+    },
+    "done": true
+  },
+  "betterarcheology:recipes/decorations/ocelot_fossil": {
+    "criteria": {
+      "has_ocelot_fossil_body": "2026-08-28 00:31:11 +0200"
     },
     "done": true
   },

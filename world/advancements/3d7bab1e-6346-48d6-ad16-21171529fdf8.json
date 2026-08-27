@@ -16010,15 +16010,21 @@
     },
     "done": true
   },
+  "create:recipes/building_blocks/small_deepslate_brick_slab_recycling": {
+    "criteria": {
+      "has_small_deepslate_brick_slab": "2026-08-26 19:22:33 +0200"
+    },
+    "done": true
+  },
   "create:recipes/misc/crafting/kinetics/gearbox": {
     "criteria": {
       "has_item": "2026-08-27 00:20:58 +0200"
     },
     "done": true
   },
-  "create:recipes/building_blocks/small_deepslate_brick_slab_recycling": {
+  "create:recipes/misc/crafting/kinetics/vertical_gearbox": {
     "criteria": {
-      "has_small_deepslate_brick_slab": "2026-08-26 19:22:33 +0200"
+      "has_item": "2026-08-27 00:20:58 +0200"
     },
     "done": true
   },
@@ -16028,9 +16034,9 @@
     },
     "done": true
   },
-  "create:recipes/misc/crafting/kinetics/vertical_gearbox": {
+  "mcwbridges:recipes/spruce_log_bridge_stair": {
     "criteria": {
-      "has_item": "2026-08-27 00:20:58 +0200"
+      "has_planks": "2026-08-27 22:07:40 +0200"
     },
     "done": true
   },

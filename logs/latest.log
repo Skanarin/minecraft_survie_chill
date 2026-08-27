@@ -1,28 +1,76 @@
-[27août2026 00:02:59.339] [Server thread/INFO] [AllTheLeaks/]: Listing events...
-[27août2026 00:02:59.348] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
-[27août2026 00:02:59.348] [Server thread/INFO] [AllTheLeaks/]: B: 853MB / C: 1016MB / Diff: +163MB
-[27août2026 00:02:59.348] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
-[27août2026 00:06:18.695] [Server thread/INFO] [journeymap/]: Parmenyyon teleported to 749.0 67.0 1106.0 minecraft:overworld
-[27août2026 00:06:18.698] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Parmenyyon moved too quickly! 384.69999998807907,-0.7055734202365329,-90.11624819970439
-[27août2026 00:06:18.708] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Parmenyyon moved too quickly! 384.69999998807907,-0.7055734202365329,-90.11624819970439
-[27août2026 00:08:46.213] [Server thread/INFO] [journeymap/]: Parmenyyon teleported to 362.0 83.0 1178.0 minecraft:overworld
-[27août2026 00:09:05.667] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Parmenyyon moved too quickly! -4.117368163484969,0.01285903235320518,9.302893413037282
-[27août2026 00:12:59.379] [Server thread/INFO] [AllTheLeaks/]: Listing events...
-[27août2026 00:12:59.381] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
-[27août2026 00:12:59.382] [Server thread/INFO] [AllTheLeaks/]: B: 853MB / C: 961MB / Diff: +108MB
-[27août2026 00:12:59.382] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
-[27août2026 00:22:59.436] [Server thread/INFO] [AllTheLeaks/]: Listing events...
-[27août2026 00:22:59.437] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
-[27août2026 00:22:59.437] [Server thread/INFO] [AllTheLeaks/]: B: 853MB / C: 959MB / Diff: +106MB
-[27août2026 00:22:59.437] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
-[27août2026 00:27:38.433] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager EasyVillagerEntity['Ulysses'/2130463, l='ServerLevel[world]', x=361.50, y=65.00, z=1191.03] died, message: 'Ulysses was slain by Zombie'
-[27août2026 00:27:38.447] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EasyVillagerEntity['Ulysses'/2130463, l='ServerLevel[world]', x=361.50, y=65.00, z=1191.03] died: Ulysses was slain by Zombie
-[27août2026 00:28:10.934] [Server thread/WARN] [ModernFix/]: Skipped emitting ENTITY_MOUNT game event for entity CarriageContraptionEntity['Carriage Contraption'/2137007, l='ServerLevel[world]', x=0.00, y=0.00, z=0.00] as it would cause deadlock
-[27août2026 00:28:47.460] [Server thread/WARN] [ModernFix/]: Skipped emitting ENTITY_MOUNT game event for entity CarriageContraptionEntity['Carriage Contraption'/2140893, l='ServerLevel[world]', x=0.00, y=0.00, z=0.00] as it would cause deadlock
-[27août2026 00:30:29.997] [Server thread/WARN] [ModernFix/]: Skipped emitting ENTITY_MOUNT game event for entity CarriageContraptionEntity['Carriage Contraption'/2151672, l='ServerLevel[world]', x=0.00, y=0.00, z=0.00] as it would cause deadlock
-[27août2026 00:32:59.477] [Server thread/INFO] [AllTheLeaks/]: Listing events...
-[27août2026 00:32:59.477] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
-[27août2026 00:32:59.478] [Server thread/INFO] [AllTheLeaks/]: B: 853MB / C: 971MB / Diff: +118MB
-[27août2026 00:32:59.478] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
-[27août2026 00:34:28.391] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Parmenyyon lost connection: Disconnected
-[27août2026 00:34:28.392] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Parmenyyon left the game
+[28août2026 00:04:14.140] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[28août2026 00:04:14.190] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 2
+[28août2026 00:04:14.191] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[28août2026 00:04:14.191] [Server thread/INFO] [AllTheLeaks/]: B: 707MB / C: 1036MB / Diff: +329MB
+[28août2026 00:04:14.192] [Server thread/INFO] [AllTheLeaks/]: Memory Leaks detected: (/atl force_refresh to update)
+[28août2026 00:04:14.193] [Server thread/INFO] [AllTheLeaks/]: | Player:
+[28août2026 00:04:14.194] [Server thread/INFO] [AllTheLeaks/]: |- ServerPlayer (minecraft): 1
+[28août2026 00:09:36.726] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2011ms or 40 ticks behind
+[28août2026 00:09:37.580] [User Authenticator #4/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Zakohen is 87a1e93c-9150-4abb-9d15-375c9ae0f7c1
+[28août2026 00:09:53.375] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Zakohen[/[::1]:57284] logged in with entity id 1450257 at (447.63543443157477, 115.91933324484665, 1104.6060521502122)
+[28août2026 00:09:53.641] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Zakohen joined the game
+[28août2026 00:09:54.325] [Server thread/INFO] [artifacts.Artifacts/]: Sending item configs to client
+[28août2026 00:10:22.441] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 30738ms or 614 ticks behind
+[28août2026 00:10:45.313] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7912ms or 158 ticks behind
+[28août2026 00:14:38.700] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Zakohen> ./kill @e[type=minecraft:armor_stand,distance=..5]
+[28août2026 00:14:54.702] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[28août2026 00:14:54.702] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 2
+[28août2026 00:14:54.702] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[28août2026 00:14:54.704] [Server thread/INFO] [AllTheLeaks/]: B: 707MB / C: 1025MB / Diff: +318MB
+[28août2026 00:14:54.704] [Server thread/INFO] [AllTheLeaks/]: Memory Leaks detected: (/atl force_refresh to update)
+[28août2026 00:14:54.704] [Server thread/INFO] [AllTheLeaks/]: | Player:
+[28août2026 00:14:54.704] [Server thread/INFO] [AllTheLeaks/]: |- ServerPlayer (minecraft): 1
+[28août2026 00:15:08.545] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Zakohen moved too quickly! 10.686843008877418,0.0,-1.750704072518829
+[28août2026 00:15:44.850] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Zakohen moved too quickly! -48.86560684035129,-26.346974252473203,6.562916807838064
+[28août2026 00:15:44.866] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Zakohen moved too quickly! -48.86560684035129,-26.346974252473203,6.562916807838064
+[28août2026 00:24:54.696] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[28août2026 00:24:54.697] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 2
+[28août2026 00:24:54.697] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[28août2026 00:24:54.697] [Server thread/INFO] [AllTheLeaks/]: B: 707MB / C: 995MB / Diff: +288MB
+[28août2026 00:24:54.700] [Server thread/INFO] [AllTheLeaks/]: Memory Leaks detected: (/atl force_refresh to update)
+[28août2026 00:24:54.701] [Server thread/INFO] [AllTheLeaks/]: | Player:
+[28août2026 00:24:54.701] [Server thread/INFO] [AllTheLeaks/]: |- ServerPlayer (minecraft): 1
+[28août2026 00:31:11.070] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Zakohen has made the advancement [Ancient Treasure]
+[28août2026 00:34:37.201] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Roseanne'/1533697, l='ServerLevel[world]', x=360.45, y=65.00, z=1165.05] died, message: 'Roseanne was slain by Zombie'
+[28août2026 00:34:37.202] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Villager['Roseanne'/1533697, l='ServerLevel[world]', x=360.45, y=65.00, z=1165.05] died: Roseanne was slain by Zombie
+[28août2026 00:34:54.703] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[28août2026 00:34:54.704] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 2
+[28août2026 00:34:54.704] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[28août2026 00:34:54.704] [Server thread/INFO] [AllTheLeaks/]: B: 707MB / C: 1019MB / Diff: +312MB
+[28août2026 00:34:54.704] [Server thread/INFO] [AllTheLeaks/]: Memory Leaks detected: (/atl force_refresh to update)
+[28août2026 00:34:54.704] [Server thread/INFO] [AllTheLeaks/]: | Player:
+[28août2026 00:34:54.704] [Server thread/INFO] [AllTheLeaks/]: |- ServerPlayer (minecraft): 1
+[28août2026 00:44:54.712] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[28août2026 00:44:54.713] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 2
+[28août2026 00:44:54.713] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[28août2026 00:44:54.713] [Server thread/INFO] [AllTheLeaks/]: B: 707MB / C: 1028MB / Diff: +321MB
+[28août2026 00:44:54.713] [Server thread/INFO] [AllTheLeaks/]: Memory Leaks detected: (/atl force_refresh to update)
+[28août2026 00:44:54.713] [Server thread/INFO] [AllTheLeaks/]: | Player:
+[28août2026 00:44:54.713] [Server thread/INFO] [AllTheLeaks/]: |- ServerPlayer (minecraft): 1
+[28août2026 00:44:54.714] [Server thread/INFO] [AllTheLeaks/]: | ChunkAccess:
+[28août2026 00:44:54.714] [Server thread/INFO] [AllTheLeaks/]: |- LevelChunk (minecraft): 27
+[28août2026 00:46:39.930] [Server thread/INFO] [journeymap/]: Zakohen teleported to 655.0 72.0 650.0 minecraft:overworld
+[28août2026 00:46:48.878] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2151ms or 43 ticks behind
+[28août2026 00:46:49.049] [Server thread/INFO] [journeymap/]: Zakohen teleported to 392.0 89.0 1187.0 minecraft:overworld
+[28août2026 00:49:43.290] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Parmenyyon lost connection: Disconnected
+[28août2026 00:49:43.290] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Parmenyyon left the game
+[28août2026 00:50:12.736] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Zakohen lost connection: Disconnected
+[28août2026 00:50:12.736] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Zakohen left the game
+[28août2026 00:50:16.170] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[28août2026 00:50:16.482] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[28août2026 00:50:16.528] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[28août2026 00:50:16.528] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[28août2026 00:50:16.584] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[28août2026 00:50:16.646] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[28août2026 00:50:16.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/irons_spellbooks:pocket_dimension
+[28août2026 00:50:16.665] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[28août2026 00:50:16.670] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[28août2026 00:50:16.670] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[28août2026 00:50:16.671] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (pocket_dimension): All chunks are saved
+[28août2026 00:50:16.671] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[28août2026 00:50:16.671] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[28août2026 00:50:17.238] [Server thread/INFO] [Framework/]: Unloading server configs...
+[28août2026 00:50:17.242] [Server thread/INFO] [Framework/]: Sending config unload event for refurbished_furniture.server.toml
+[28août2026 00:50:17.253] [Server thread/INFO] [Framework/]: Sending config unload event for goblintraders-entities.toml
+[28août2026 00:50:17.255] [Server thread/INFO] [Framework/]: Finished unloading server configs
+[28août2026 00:50:17.266] [Server thread/INFO] [Puzzles Lib/]: Dispatching unloading event for config easyanvils-server.toml
