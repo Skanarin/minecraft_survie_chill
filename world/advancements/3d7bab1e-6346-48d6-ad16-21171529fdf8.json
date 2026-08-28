@@ -703,15 +703,17 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:cold_ocean": "2026-08-18 20:55:37 +0200",
+      "minecraft:flower_forest": "2026-08-28 22:38:04 +0200",
       "minecraft:beach": "2026-08-03 16:19:45 +0200",
       "minecraft:forest": "2026-08-18 20:45:51 +0200",
+      "minecraft:river": "2026-08-03 16:20:17 +0200",
+      "minecraft:lukewarm_ocean": "2026-08-06 22:22:05 +0200",
+      "minecraft:stony_shore": "2026-08-03 17:49:21 +0200",
       "minecraft:deep_dark": "2026-08-03 18:09:47 +0200",
       "minecraft:ocean": "2026-08-03 17:52:39 +0200",
       "minecraft:jungle": "2026-08-03 17:00:09 +0200",
       "minecraft:sunflower_plains": "2026-08-06 20:31:38 +0200",
-      "minecraft:river": "2026-08-03 16:20:17 +0200",
-      "minecraft:lukewarm_ocean": "2026-08-06 22:22:05 +0200",
-      "minecraft:stony_shore": "2026-08-03 17:49:21 +0200",
+      "minecraft:windswept_savanna": "2026-08-28 22:37:27 +0200",
       "minecraft:plains": "2026-08-03 16:20:52 +0200"
     },
     "done": false
@@ -14475,8 +14477,10 @@
   },
   "betterarcheology:all_fossils_found": {
     "criteria": {
+      "betterarcheology:guardian_fossil_head": "2026-08-28 21:27:17 +0200",
       "betterarcheology:villager_fossil_body": "2026-08-25 22:15:56 +0200",
-      "betterarcheology:villager_fossil_head": "2026-08-23 01:44:06 +0200"
+      "betterarcheology:villager_fossil_head": "2026-08-23 01:44:06 +0200",
+      "betterarcheology:ocelot_fossil_body": "2026-08-28 23:33:12 +0200"
     },
     "done": false
   },
@@ -16037,6 +16041,102 @@
   "mcwbridges:recipes/spruce_log_bridge_stair": {
     "criteria": {
       "has_planks": "2026-08-27 22:07:40 +0200"
+    },
+    "done": true
+  },
+  "irons_spellbooks:make_inscription_table": {
+    "criteria": {
+      "inscription_table": "2026-08-28 21:51:15 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/secondary_linear_chassis_from_conversion": {
+    "criteria": {
+      "has_item": "2026-08-28 22:49:10 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/redstone/reinforced_sticky_piston": {
+    "criteria": {
+      "has_slime_ball": "2026-08-28 22:51:49 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/slime_block": {
+    "criteria": {
+      "has_slime_ball": "2026-08-28 22:51:49 +0200"
+    },
+    "done": true
+  },
+  "irons_spellbooks:irons_spellbooks/make_inscription_table": {
+    "criteria": {
+      "inscription_table": "2026-08-28 21:51:15 +0200"
+    },
+    "done": true
+  },
+  "create:wrench_goggles": {
+    "criteria": {
+      "0": "2026-08-28 22:52:14 +0200"
+    },
+    "done": false
+  },
+  "irons_spellbooks:irons_spellbooks/root": {
+    "criteria": {
+      "inscription_table": "2026-08-28 21:51:15 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/lead": {
+    "criteria": {
+      "has_slime_ball": "2026-08-28 22:51:49 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/gearbox_from_conversion": {
+    "criteria": {
+      "has_item": "2026-08-28 22:36:31 +0200"
+    },
+    "done": true
+  },
+  "exclusive_weapons:recipes/tools/super_diamond_hoe": {
+    "criteria": {
+      "has_item": "2026-08-28 23:02:29 +0200"
+    },
+    "done": true
+  },
+  "betterarcheology:recipes/decorations/guardian_fossil": {
+    "criteria": {
+      "has_guardian_fossil_head": "2026-08-28 21:27:17 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/appliances/linked_controller": {
+    "criteria": {
+      "has_item": "2026-08-28 23:01:57 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/packing_tape": {
+    "criteria": {
+      "has_slime": "2026-08-28 22:51:49 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/storage_link": {
+    "criteria": {
+      "has_repeater": "2026-08-28 23:07:32 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/sticky_piston": {
+    "criteria": {
+      "has_slime_ball": "2026-08-28 22:51:49 +0200"
+    },
+    "done": true
+  },
+  "betterarcheology:recipes/decorations/ocelot_fossil": {
+    "criteria": {
+      "has_ocelot_fossil_body": "2026-08-28 23:33:12 +0200"
     },
     "done": true
   },
