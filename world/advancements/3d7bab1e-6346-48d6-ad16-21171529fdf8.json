@@ -16170,5 +16170,113 @@
     },
     "done": true
   },
+  "chipped:recipes/workbench/mason_table": {
+    "criteria": {
+      "has_item": "2026-08-30 17:09:54 +0200"
+    },
+    "done": true
+  },
+  "chipped:recipes/misc/chisel": {
+    "criteria": {
+      "has_chisel": "2026-08-30 17:09:54 +0200"
+    },
+    "done": true
+  },
+  "chipped:recipes/misc/saw": {
+    "criteria": {
+      "has_saw": "2026-08-30 17:09:57 +0200"
+    },
+    "done": true
+  },
+  "chipped:recipes/workbench/carpenters_table": {
+    "criteria": {
+      "has_item": "2026-08-30 17:09:57 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_planks": {
+    "criteria": {
+      "has_logs": "2026-08-30 17:10:59 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/bamboo_block_slab": {
+    "criteria": {
+      "has_bamboo_block": "2026-08-30 17:10:59 +0200"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/bamboo": {
+    "criteria": {
+      "has_planks": "2026-08-30 17:10:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/smoker": {
+    "criteria": {
+      "has_furnace": "2026-08-30 17:21:25 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/tomato": {
+    "criteria": {
+      "has_tomato_crate": "2026-08-30 17:21:57 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/cabbage": {
+    "criteria": {
+      "has_cabbage_crate": "2026-08-30 17:22:14 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/beetroot_from_crate": {
+    "criteria": {
+      "has_beetroot_crate": "2026-08-30 17:22:17 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/potato_from_crate": {
+    "criteria": {
+      "has_potato_crate": "2026-08-30 17:22:18 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/misc/white_dye_from_tall_white_lavender": {
+    "criteria": {
+      "has_tall_white_lavender": "2026-08-30 17:26:05 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/misc/magenta_dye_from_wildflower": {
+    "criteria": {
+      "has_wildflower": "2026-08-30 17:26:18 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/misc/cyan_dye_from_glowflower": {
+    "criteria": {
+      "has_glowflower": "2026-08-30 17:26:20 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/slicing/vegetable_pizza_slice_from_cooked_vegetable_pizza": {
+    "criteria": {
+      "has_cooked_vegetable_pizza": "2026-08-30 17:31:25 +0200"
+    },
+    "done": true
+  },
+  "exclusive_weapons:recipes/combat/super_diamond_helmet": {
+    "criteria": {
+      "has_item": "2026-08-30 18:35:33 +0200"
+    },
+    "done": true
+  },
+  "irons_spellbooks:irons_spellbooks/staff_pyrium": {
+    "criteria": {
+      "requirement": "2026-08-30 22:58:33 +0200"
+    },
+    "done": true
+  },
   "DataVersion": 3955
 }
