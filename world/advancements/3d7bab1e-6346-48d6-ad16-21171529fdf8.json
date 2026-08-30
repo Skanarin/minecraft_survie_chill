@@ -16140,6 +16140,18 @@
     },
     "done": true
   },
+  "mcwlights:recipes/sea_lantern_slab": {
+    "criteria": {
+      "has_wood": "2026-08-29 02:41:16 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/sea_lantern_slab": {
+    "criteria": {
+      "has_sea_lantern": "2026-08-29 02:41:16 +0200"
+    },
+    "done": true
+  },
   "mynethersdelight:recipes/misc/crafting/soul_nethers_stove": {
     "criteria": {
       "has_soul_campfire": "2026-08-29 02:49:35 +0200"
@@ -16152,15 +16164,9 @@
     },
     "done": true
   },
-  "mcwlights:recipes/sea_lantern_slab": {
+  "mcwbridges:recipes/stone_brick_bridge_stair": {
     "criteria": {
-      "has_wood": "2026-08-29 02:41:16 +0200"
-    },
-    "done": true
-  },
-  "new_slab_variants:recipes/building_blocks/sea_lantern_slab": {
-    "criteria": {
-      "has_sea_lantern": "2026-08-29 02:41:16 +0200"
+      "has_planks": "2026-08-29 23:36:23 +0200"
     },
     "done": true
   },
