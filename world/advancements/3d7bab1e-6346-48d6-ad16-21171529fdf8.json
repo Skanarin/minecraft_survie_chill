@@ -16278,5 +16278,629 @@
     },
     "done": true
   },
+  "new_slab_variants:recipes/building_blocks/copper_ore_slab": {
+    "criteria": {
+      "has_copper_ore": "2026-08-31 21:52:09 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_ochrum_bricks_from_stone_types_ochrum_stonecutting": {
+    "criteria": {
+      "has_stone_types_ochrum": "2026-08-31 21:02:23 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/lime_glazed_terracotta_slab": {
+    "criteria": {
+      "has_lime_glazed_terracotta": "2026-08-31 22:20:56 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/scoria_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2026-08-31 22:27:41 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_bed": {
+    "criteria": {
+      "has_orange_wool": "2026-08-31 20:45:07 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/dead_button": {
+    "criteria": {
+      "has_planks": "2026-08-31 22:59:53 +0200"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/scratched_glass_light_blue_pane1": {
+    "criteria": {
+      "recipe_condition": "2026-08-31 21:16:56 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_ochrum_brick_slab_from_stone_types_ochrum_stonecutting": {
+    "criteria": {
+      "has_stone_types_ochrum": "2026-08-31 21:02:23 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/redstone_block_slab": {
+    "criteria": {
+      "has_redstone_block": "2026-08-31 20:46:14 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/shroomlight_slab": {
+    "criteria": {
+      "has_shroomlight": "2026-08-31 22:10:19 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/gold_block_slab": {
+    "criteria": {
+      "has_gold_block": "2026-08-31 20:46:08 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/spruce_hedge": {
+    "criteria": {
+      "has_minecraft:spruce_leaves": "2026-08-31 22:52:25 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_scoria_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2026-08-31 22:27:41 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_scoria_slab_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2026-08-31 22:27:41 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_ochrum_stairs_from_stone_types_ochrum_stonecutting": {
+    "criteria": {
+      "has_stone_types_ochrum": "2026-08-31 21:02:23 +0200"
+    },
+    "done": true
+  },
+  "super_ore_block:recipes/building_blocks/super_redstone_block": {
+    "criteria": {
+      "has_item": "2026-08-31 20:46:14 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_ochrum_slab_from_stone_types_ochrum_stonecutting": {
+    "criteria": {
+      "has_stone_types_ochrum": "2026-08-31 21:02:23 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_from_blasting_redstone_ore": {
+    "criteria": {
+      "has_redstone_ore": "2026-08-31 21:52:12 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_ochrum_brick_slab_from_stone_types_ochrum_stonecutting": {
+    "criteria": {
+      "has_stone_types_ochrum": "2026-08-31 21:02:23 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/palettes/scorchia": {
+    "criteria": {
+      "has_item": "2026-08-31 22:27:41 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/layered_scoria_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2026-08-31 22:27:41 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/emerald_from_blasting_emerald_ore": {
+    "criteria": {
+      "has_emerald_ore": "2026-08-31 21:52:04 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/misc/block_pocket_manager": {
+    "criteria": {
+      "has_redstone_block": "2026-08-31 20:46:14 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/scoria_pillar_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2026-08-31 22:27:41 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_ingot_from_netherite_block": {
+    "criteria": {
+      "has_netherite_block": "2026-08-31 22:22:24 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/dead_fence_gate": {
+    "criteria": {
+      "has_planks": "2026-08-31 22:59:53 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/tools/codebreaker": {
+    "criteria": {
+      "has_nether_star": "2026-08-31 22:05:46 +0200"
+    },
+    "done": true
+  },
+  "super_ore_block:recipes/building_blocks/super_netherite_block": {
+    "criteria": {
+      "has_item": "2026-08-31 22:22:24 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/redstone_ore_slab": {
+    "criteria": {
+      "has_redstone_ore": "2026-08-31 21:52:12 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_carpet": {
+    "criteria": {
+      "has_orange_wool": "2026-08-31 20:45:07 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/stripped_dead_wood": {
+    "criteria": {
+      "has_log": "2026-08-31 22:56:25 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_smelting_copper_ore": {
+    "criteria": {
+      "has_copper_ore": "2026-08-31 21:52:09 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_blasting_iron_ore": {
+    "criteria": {
+      "has_iron_ore": "2026-08-31 21:52:06 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_scoria_brick_stairs_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2026-08-31 22:27:41 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/golden_thin_pot": {
+    "criteria": {
+      "has_golden_thin_pot": "2026-08-31 20:46:08 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/layered_ochrum_from_stone_types_ochrum_stonecutting": {
+    "criteria": {
+      "has_stone_types_ochrum": "2026-08-31 21:02:23 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/orange_cushion": {
+    "criteria": {
+      "has_orange_cushion": "2026-08-31 20:45:07 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone": {
+    "criteria": {
+      "has_redstone_block": "2026-08-31 20:46:14 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/beacon": {
+    "criteria": {
+      "has_nether_star": "2026-08-31 22:05:46 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_scoria_brick_wall_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2026-08-31 22:27:41 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/materials/copper_ingot": {
+    "criteria": {
+      "has_item": "2026-08-31 21:58:30 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_scoria_wall_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2026-08-31 22:27:41 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/dead_stairs": {
+    "criteria": {
+      "has_planks": "2026-08-31 22:59:53 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/decorations/dead_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2026-08-31 22:56:25 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/combat/crafting/appliances/netherite_diving_helmet": {
+    "criteria": {
+      "has_item": "2026-08-31 22:20:29 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/dead_slab": {
+    "criteria": {
+      "has_planks": "2026-08-31 22:59:53 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_ochrum_brick_wall_from_stone_types_ochrum_stonecutting": {
+    "criteria": {
+      "has_stone_types_ochrum": "2026-08-31 21:02:23 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_scoria_bricks_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2026-08-31 22:27:41 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/orange_sheet": {
+    "criteria": {
+      "has_orange_sheet": "2026-08-31 20:45:07 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_gold_block": {
+    "criteria": {
+      "has_gold_block": "2026-08-31 20:46:08 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_banner": {
+    "criteria": {
+      "has_orange_wool": "2026-08-31 20:45:07 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/netherite_block_slab": {
+    "criteria": {
+      "has_netherite_block": "2026-08-31 22:22:24 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_ochrum_stairs_from_stone_types_ochrum_stonecutting": {
+    "criteria": {
+      "has_stone_types_ochrum": "2026-08-31 21:02:23 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_smelting_gold_ore": {
+    "criteria": {
+      "has_gold_ore": "2026-08-31 21:52:11 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_scoria_brick_slab_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2026-08-31 22:27:41 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/golden_carrot": {
+    "criteria": {
+      "has_gold_nugget": "2026-08-31 21:58:38 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/ochrum_pillar_from_stone_types_ochrum_stonecutting": {
+    "criteria": {
+      "has_stone_types_ochrum": "2026-08-31 21:02:23 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_scoria_bricks_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2026-08-31 22:27:41 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/dead_pressure_plate": {
+    "criteria": {
+      "has_planks": "2026-08-31 22:59:53 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_from_smelting_redstone_ore": {
+    "criteria": {
+      "has_redstone_ore": "2026-08-31 21:52:12 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_ochrum_slab_from_stone_types_ochrum_stonecutting": {
+    "criteria": {
+      "has_stone_types_ochrum": "2026-08-31 21:02:23 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/decorations/dead_fence": {
+    "criteria": {
+      "has_planks": "2026-08-31 22:59:53 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/orange_wool_slab": {
+    "criteria": {
+      "has_orange_wool": "2026-08-31 20:45:07 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/magma_block_slab": {
+    "criteria": {
+      "has_magma_block": "2026-08-31 20:46:29 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_blasting_gold_ore": {
+    "criteria": {
+      "has_gold_ore": "2026-08-31 21:52:11 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_smelting_iron_ore": {
+    "criteria": {
+      "has_iron_ore": "2026-08-31 21:52:06 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/golden_medium_pot": {
+    "criteria": {
+      "has_golden_medium_pot": "2026-08-31 20:46:08 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/decorations/dead_sign": {
+    "criteria": {
+      "has_planks": "2026-08-31 22:59:53 +0200"
+    },
+    "done": true
+  },
+  "comforts:recipes/decorations/hammock_orange": {
+    "criteria": {
+      "has_orange_wool": "2026-08-31 20:45:07 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_scoria_slab_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2026-08-31 22:27:41 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_ochrum_brick_stairs_from_stone_types_ochrum_stonecutting": {
+    "criteria": {
+      "has_stone_types_ochrum": "2026-08-31 21:02:23 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/emerald_ore_slab": {
+    "criteria": {
+      "has_emerald_ore": "2026-08-31 21:52:04 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_scoria_stairs_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2026-08-31 22:27:41 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_blasting_copper_ore": {
+    "criteria": {
+      "has_copper_ore": "2026-08-31 21:52:09 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_scoria_wall_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2026-08-31 22:27:41 +0200"
+    },
+    "done": true
+  },
+  "mcwlights:recipes/shroomlight_slab": {
+    "criteria": {
+      "has_wood": "2026-08-31 22:10:19 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_scoria_brick_wall_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2026-08-31 22:27:41 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/emerald_from_smelting_emerald_ore": {
+    "criteria": {
+      "has_emerald_ore": "2026-08-31 21:52:04 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/milk_bottle": {
+    "criteria": {
+      "has_milk_bucket": "2026-08-31 21:18:05 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_ochrum_brick_stairs_from_stone_types_ochrum_stonecutting": {
+    "criteria": {
+      "has_stone_types_ochrum": "2026-08-31 21:02:23 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_ochrum_wall_from_stone_types_ochrum_stonecutting": {
+    "criteria": {
+      "has_stone_types_ochrum": "2026-08-31 21:02:23 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/spruce_leaves_slab": {
+    "criteria": {
+      "has_spruce_leaves": "2026-08-31 22:52:25 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/golden_thick_pot": {
+    "criteria": {
+      "has_golden_thick_pot": "2026-08-31 20:46:08 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
+    "criteria": {
+      "has_gold_nugget": "2026-08-31 21:58:38 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_scoria_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2026-08-31 22:27:41 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/ochrum_from_stone_types_ochrum_stonecutting": {
+    "criteria": {
+      "has_stone_types_ochrum": "2026-08-31 21:02:23 +0200"
+    },
+    "done": true
+  },
+  "super_ore_block:recipes/building_blocks/super_gold_block": {
+    "criteria": {
+      "has_item": "2026-08-31 20:46:08 +0200"
+    },
+    "done": true
+  },
+  "comforts:recipes/decorations/sleeping_bag_orange": {
+    "criteria": {
+      "has_orange_wool": "2026-08-31 20:45:07 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_ochrum_from_stone_types_ochrum_stonecutting": {
+    "criteria": {
+      "has_stone_types_ochrum": "2026-08-31 21:02:23 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_ochrum_from_stone_types_ochrum_stonecutting": {
+    "criteria": {
+      "has_stone_types_ochrum": "2026-08-31 21:02:23 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/food/cheese": {
+    "criteria": {
+      "has_milk": "2026-08-31 21:18:05 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_scoria_brick_stairs_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2026-08-31 22:27:41 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/iron_ore_slab": {
+    "criteria": {
+      "has_iron_ore": "2026-08-31 21:52:06 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/slicing/pink_dye_from_spore_blossom": {
+    "criteria": {
+      "has_spore_blossom": "2026-08-31 21:39:03 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_ochrum_bricks_from_stone_types_ochrum_stonecutting": {
+    "criteria": {
+      "has_stone_types_ochrum": "2026-08-31 21:02:23 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_ochrum_brick_wall_from_stone_types_ochrum_stonecutting": {
+    "criteria": {
+      "has_stone_types_ochrum": "2026-08-31 21:02:23 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_scoria_brick_slab_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2026-08-31 22:27:41 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/dead_door": {
+    "criteria": {
+      "has_planks": "2026-08-31 22:59:53 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_scoria_stairs_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2026-08-31 22:27:41 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/golden_wide_pot": {
+    "criteria": {
+      "has_golden_wide_pot": "2026-08-31 20:46:08 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/gold_ore_slab": {
+    "criteria": {
+      "has_gold_ore": "2026-08-31 21:52:11 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_ochrum_wall_from_stone_types_ochrum_stonecutting": {
+    "criteria": {
+      "has_stone_types_ochrum": "2026-08-31 21:02:23 +0200"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/misc/neptunium_ingot_from_nuggets": {
+    "criteria": {
+      "has_items": "2026-08-31 21:58:34 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/dead_trapdoor": {
+    "criteria": {
+      "has_planks": "2026-08-31 22:59:53 +0200"
+    },
+    "done": true
+  },
   "DataVersion": 3955
 }
