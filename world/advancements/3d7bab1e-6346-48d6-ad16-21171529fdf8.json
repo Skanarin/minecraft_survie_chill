@@ -17110,18 +17110,6 @@
     },
     "done": true
   },
-  "advancednetherite:nether/netherite_gold_armor": {
-    "criteria": {
-      "netherite_gold_armor": "2026-09-01 21:07:28 +0200"
-    },
-    "done": true
-  },
-  "new_slab_variants:recipes/building_blocks/stripped_dark_oak_wood_slab": {
-    "criteria": {
-      "has_stripped_dark_oak_wood": "2026-09-01 20:51:17 +0200"
-    },
-    "done": true
-  },
   "new_slab_variants:recipes/building_blocks/white_concrete_slab": {
     "criteria": {
       "has_white_concrete": "2026-09-01 20:45:37 +0200"
@@ -17134,15 +17122,63 @@
     },
     "done": true
   },
+  "new_slab_variants:recipes/building_blocks/snow_block_slab": {
+    "criteria": {
+      "has_snow_block": "2026-09-01 20:49:14 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/stripped_dark_oak_wood_slab": {
+    "criteria": {
+      "has_stripped_dark_oak_wood": "2026-09-01 20:51:17 +0200"
+    },
+    "done": true
+  },
+  "advancednetherite:nether/netherite_gold_armor": {
+    "criteria": {
+      "netherite_gold_armor": "2026-09-01 21:07:28 +0200"
+    },
+    "done": true
+  },
   "advancednetherite:nether/netherite_emerald_armor": {
     "criteria": {
       "netherite_emerald_armor": "2026-09-01 21:07:34 +0200"
     },
     "done": true
   },
-  "new_slab_variants:recipes/building_blocks/snow_block_slab": {
+  "biomesoplenty:recipes/building_blocks/redwood_planks": {
     "criteria": {
-      "has_snow_block": "2026-09-01 20:49:14 +0200"
+      "has_logs": "2026-09-02 21:11:25 +0200"
+    },
+    "done": true
+  },
+  "advancednetherite:recipes/misc/lodestone": {
+    "criteria": {
+      "has_chiseled_stone_bricks": "2026-09-02 21:19:33 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/iron_barrel": {
+    "criteria": {
+      "has_barrel": "2026-09-02 21:35:58 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/chiseled_stone_bricks_slab": {
+    "criteria": {
+      "has_chiseled_stone_bricks": "2026-09-02 21:19:33 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/copper_barrel": {
+    "criteria": {
+      "has_barrel": "2026-09-02 21:35:58 +0200"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/oak_log_bridge_stair": {
+    "criteria": {
+      "has_planks": "2026-09-02 21:33:18 +0200"
     },
     "done": true
   },
