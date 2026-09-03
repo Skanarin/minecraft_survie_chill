@@ -17158,27 +17158,27 @@
     },
     "done": true
   },
-  "sophisticatedstorage:recipes/misc/iron_barrel": {
-    "criteria": {
-      "has_barrel": "2026-09-02 21:35:58 +0200"
-    },
-    "done": true
-  },
   "new_slab_variants:recipes/building_blocks/chiseled_stone_bricks_slab": {
     "criteria": {
       "has_chiseled_stone_bricks": "2026-09-02 21:19:33 +0200"
     },
     "done": true
   },
-  "sophisticatedstorage:recipes/misc/copper_barrel": {
+  "mcwbridges:recipes/oak_log_bridge_stair": {
+    "criteria": {
+      "has_planks": "2026-09-02 21:33:18 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/iron_barrel": {
     "criteria": {
       "has_barrel": "2026-09-02 21:35:58 +0200"
     },
     "done": true
   },
-  "mcwbridges:recipes/oak_log_bridge_stair": {
+  "sophisticatedstorage:recipes/misc/copper_barrel": {
     "criteria": {
-      "has_planks": "2026-09-02 21:33:18 +0200"
+      "has_barrel": "2026-09-02 21:35:58 +0200"
     },
     "done": true
   },
