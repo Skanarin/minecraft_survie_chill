@@ -59,6 +59,7 @@
       "volcanic_plains": "2026-08-03 17:07:54 +0200",
       "spider_nest": "2026-08-03 18:06:31 +0200",
       "woodland": "2026-08-03 16:58:45 +0200",
+      "wasteland": "2026-09-05 17:39:15 +0200",
       "lavender_field": "2026-08-03 17:56:59 +0200",
       "shrubland": "2026-08-03 17:29:57 +0200",
       "rocky_shrubland": "2026-08-03 17:14:44 +0200",
@@ -713,12 +714,14 @@
       "minecraft:river": "2026-08-03 16:20:17 +0200",
       "minecraft:lukewarm_ocean": "2026-08-06 22:22:05 +0200",
       "minecraft:stony_shore": "2026-08-03 17:49:21 +0200",
+      "minecraft:desert": "2026-09-05 17:38:10 +0200",
       "minecraft:deep_dark": "2026-08-03 18:09:47 +0200",
       "minecraft:ocean": "2026-08-03 17:52:39 +0200",
       "minecraft:jungle": "2026-08-03 17:00:09 +0200",
       "minecraft:sunflower_plains": "2026-08-06 20:31:38 +0200",
       "minecraft:windswept_savanna": "2026-08-28 22:37:27 +0200",
-      "minecraft:plains": "2026-08-03 16:20:52 +0200"
+      "minecraft:plains": "2026-08-03 16:20:52 +0200",
+      "minecraft:warm_ocean": "2026-09-05 17:39:12 +0200"
     },
     "done": false
   },
@@ -17179,6 +17182,162 @@
   "sophisticatedstorage:recipes/misc/copper_barrel": {
     "criteria": {
       "has_barrel": "2026-09-02 21:35:58 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/slicing/green_dye_from_seagrass": {
+    "criteria": {
+      "has_seagrass": "2026-09-05 16:25:33 +0200"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/food/sushi": {
+    "criteria": {
+      "has_alt_items": "2026-09-05 16:25:33 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/logistics/white_table_cloth_from_other_table_cloth": {
+    "criteria": {
+      "has_postbox": "2026-09-05 19:21:33 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/logistics/pink_table_cloth_from_other_table_cloth": {
+    "criteria": {
+      "has_postbox": "2026-09-05 19:21:33 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/logistics/gray_table_cloth_from_other_table_cloth": {
+    "criteria": {
+      "has_postbox": "2026-09-05 19:21:33 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/logistics/red_table_cloth_from_other_table_cloth": {
+    "criteria": {
+      "has_postbox": "2026-09-05 19:21:33 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/logistics/brown_table_cloth_from_other_table_cloth": {
+    "criteria": {
+      "has_postbox": "2026-09-05 19:21:33 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/logistics/light_blue_table_cloth_from_other_table_cloth": {
+    "criteria": {
+      "has_postbox": "2026-09-05 19:21:33 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/logistics/magenta_table_cloth_from_other_table_cloth": {
+    "criteria": {
+      "has_postbox": "2026-09-05 19:21:33 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/logistics/lime_table_cloth_from_other_table_cloth": {
+    "criteria": {
+      "has_postbox": "2026-09-05 19:21:33 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/logistics/yellow_table_cloth_clear": {
+    "criteria": {
+      "has_yellow_table_cloth": "2026-09-05 19:21:33 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/logistics/green_table_cloth_from_other_table_cloth": {
+    "criteria": {
+      "has_postbox": "2026-09-05 19:21:33 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/logistics/orange_table_cloth_from_other_table_cloth": {
+    "criteria": {
+      "has_postbox": "2026-09-05 19:21:33 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/logistics/yellow_table_cloth_from_other_table_cloth": {
+    "criteria": {
+      "has_postbox": "2026-09-05 19:21:33 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/logistics/black_table_cloth_from_other_table_cloth": {
+    "criteria": {
+      "has_postbox": "2026-09-05 19:21:33 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/logistics/blue_table_cloth_from_other_table_cloth": {
+    "criteria": {
+      "has_postbox": "2026-09-05 19:21:33 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/logistics/light_gray_table_cloth_from_other_table_cloth": {
+    "criteria": {
+      "has_postbox": "2026-09-05 19:21:33 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/logistics/cyan_table_cloth_from_other_table_cloth": {
+    "criteria": {
+      "has_postbox": "2026-09-05 19:21:33 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/logistics/purple_table_cloth_from_other_table_cloth": {
+    "criteria": {
+      "has_postbox": "2026-09-05 19:21:33 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/light_blue_terracotta_slab": {
+    "criteria": {
+      "has_light_blue_terracotta": "2026-09-05 19:34:51 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_blue_glazed_terracotta": {
+    "criteria": {
+      "has_light_blue_terracotta": "2026-09-05 19:34:51 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/white_sandstone_stairs": {
+    "criteria": {
+      "has_chiseled_white_sandstone": "2026-09-05 20:03:54 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/chiseled_white_sandstone": {
+    "criteria": {
+      "has_chiseled_white_sandstone": "2026-09-05 20:03:54 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/white_sandstone_slab": {
+    "criteria": {
+      "has_chiseled_white_sandstone": "2026-09-05 20:03:54 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/logistics/blue_table_cloth_clear": {
+    "criteria": {
+      "has_blue_table_cloth": "2026-09-05 23:26:26 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_deepslate": {
+    "criteria": {
+      "has_cobbled_deepslate_slab": "2026-09-05 23:38:43 +0200"
     },
     "done": true
   },
