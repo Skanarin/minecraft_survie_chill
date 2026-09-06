@@ -1,23 +1,9 @@
-[06sept.2026 00:04:34.586] [Server thread/INFO] [AllTheLeaks/]: Listing events...
-[06sept.2026 00:04:34.596] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
-[06sept.2026 00:04:34.596] [Server thread/INFO] [AllTheLeaks/]: B: 964MB / C: 1023MB / Diff: +59MB
-[06sept.2026 00:04:34.596] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
-[06sept.2026 00:14:18.380] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Parmenyyon lost connection: Disconnected
-[06sept.2026 00:14:18.380] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Parmenyyon left the game
-[06sept.2026 00:14:26.271] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[06sept.2026 00:14:26.272] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[06sept.2026 00:14:26.272] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[06sept.2026 00:14:26.301] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[06sept.2026 00:14:26.320] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[06sept.2026 00:14:26.321] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[06sept.2026 00:14:26.327] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/irons_spellbooks:pocket_dimension
-[06sept.2026 00:14:26.328] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[06sept.2026 00:14:26.328] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[06sept.2026 00:14:26.328] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[06sept.2026 00:14:26.328] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (pocket_dimension): All chunks are saved
-[06sept.2026 00:14:26.328] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[06sept.2026 00:14:26.511] [Server thread/INFO] [Framework/]: Unloading server configs...
-[06sept.2026 00:14:26.511] [Server thread/INFO] [Framework/]: Sending config unload event for refurbished_furniture.server.toml
-[06sept.2026 00:14:26.514] [Server thread/INFO] [Framework/]: Sending config unload event for goblintraders-entities.toml
-[06sept.2026 00:14:26.514] [Server thread/INFO] [Framework/]: Finished unloading server configs
-[06sept.2026 00:14:26.517] [Server thread/INFO] [Puzzles Lib/]: Dispatching unloading event for config easyanvils-server.toml
+[07sept.2026 00:06:31.551] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[07sept.2026 00:06:31.564] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 1
+[07sept.2026 00:06:31.564] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[07sept.2026 00:06:31.564] [Server thread/INFO] [AllTheLeaks/]: B: 1025MB / C: 1066MB / Diff: +41MB
+[07sept.2026 00:06:31.564] [Server thread/INFO] [AllTheLeaks/]: Memory Leaks detected: (/atl force_refresh to update)
+[07sept.2026 00:06:31.564] [Server thread/INFO] [AllTheLeaks/]: | ChunkAccess:
+[07sept.2026 00:06:31.564] [Server thread/INFO] [AllTheLeaks/]: |- LevelChunk (minecraft): 28
+[07sept.2026 00:13:28.643] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Parmenyyon lost connection: Disconnected
+[07sept.2026 00:13:28.644] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Parmenyyon left the game

@@ -23335,5 +23335,23 @@
     },
     "done": true
   },
+  "new_slab_variants:recipes/building_blocks/lapis_block_slab": {
+    "criteria": {
+      "has_lapis_block": "2026-09-06 20:52:34 +0200"
+    },
+    "done": true
+  },
+  "super_ore_block:recipes/building_blocks/super_lapis_block": {
+    "criteria": {
+      "has_item": "2026-09-06 20:52:34 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lapis_lazuli": {
+    "criteria": {
+      "has_lapis_block": "2026-09-06 20:52:34 +0200"
+    },
+    "done": true
+  },
   "DataVersion": 3955
 }

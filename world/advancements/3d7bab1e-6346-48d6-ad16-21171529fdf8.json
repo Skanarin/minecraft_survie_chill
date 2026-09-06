@@ -17341,5 +17341,17 @@
     },
     "done": true
   },
+  "irons_spellbooks:irons_spellbooks/make_arcane_anvil": {
+    "criteria": {
+      "arcane_anvil": "2026-09-06 21:11:51 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dripstone_block": {
+    "criteria": {
+      "has_pointed_dripstone": "2026-09-06 21:06:11 +0200"
+    },
+    "done": true
+  },
   "DataVersion": 3955
 }
