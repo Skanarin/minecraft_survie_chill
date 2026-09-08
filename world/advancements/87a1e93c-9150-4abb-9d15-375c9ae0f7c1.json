@@ -23377,5 +23377,17 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/decorations/bamboo_cabinet": {
+    "criteria": {
+      "has_bamboo_trapdoor": "2026-09-08 14:05:57 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/misc/canvas_from_canvas_rug": {
+    "criteria": {
+      "has_canvas_rug": "2026-09-08 14:06:50 +0200"
+    },
+    "done": true
+  },
   "DataVersion": 3955
 }
