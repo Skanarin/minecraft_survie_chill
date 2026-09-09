@@ -23395,12 +23395,6 @@
     },
     "done": true
   },
-  "new_slab_variants:recipes/building_blocks/yellow_glazed_terracotta_slab": {
-    "criteria": {
-      "has_yellow_glazed_terracotta": "2026-09-08 21:06:27 +0200"
-    },
-    "done": true
-  },
   "new_slab_variants:recipes/building_blocks/cyan_stained_glass_slab": {
     "criteria": {
       "has_cyan_stained_glass": "2026-09-08 21:06:25 +0200"
@@ -23410,6 +23404,78 @@
   "connectedglass:recipes/misc/borderless_glass_cyan1": {
     "criteria": {
       "recipe_condition": "2026-09-08 21:06:25 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/yellow_glazed_terracotta_slab": {
+    "criteria": {
+      "has_yellow_glazed_terracotta": "2026-09-08 21:06:27 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/smooth_orange_sandstone_stairs": {
+    "criteria": {
+      "has_smooth_orange_sandstone": "2026-09-09 22:36:31 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/misc/cyan_dye_from_glowflower": {
+    "criteria": {
+      "has_glowflower": "2026-09-09 21:52:30 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/bamboo_block_slab": {
+    "criteria": {
+      "has_bamboo_block": "2026-09-09 21:27:38 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/smooth_orange_sandstone_slab": {
+    "criteria": {
+      "has_smooth_orange_sandstone": "2026-09-09 22:36:31 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/smooth_orange_sandstone_stairs_from_smooth_orange_sandstone_stonecutting": {
+    "criteria": {
+      "has_smooth_orange_sandstone": "2026-09-09 22:36:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_copper_door_from_honeycomb": {
+    "criteria": {
+      "has_copper_door": "2026-09-09 21:44:08 +0200"
+    },
+    "done": true
+  },
+  "exclusive_weapons:recipes/combat/super_gold_sword": {
+    "criteria": {
+      "has_item": "2026-09-09 21:15:52 +0200"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/bamboo": {
+    "criteria": {
+      "has_planks": "2026-09-09 21:27:38 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/smooth_orange_sandstone_slab_from_smooth_orange_sandstone_stonecutting": {
+    "criteria": {
+      "has_smooth_orange_sandstone": "2026-09-09 22:36:31 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_tuff_slab_recycling": {
+    "criteria": {
+      "has_cut_tuff_slab": "2026-09-09 22:28:48 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/misc/green_dye_from_tiny_cactus": {
+    "criteria": {
+      "has_tiny_cactus": "2026-09-09 22:24:03 +0200"
     },
     "done": true
   },
