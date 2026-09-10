@@ -23413,9 +23413,27 @@
     },
     "done": true
   },
-  "biomesoplenty:recipes/building_blocks/smooth_orange_sandstone_stairs": {
+  "exclusive_weapons:recipes/combat/super_gold_sword": {
     "criteria": {
-      "has_smooth_orange_sandstone": "2026-09-09 22:36:31 +0200"
+      "has_item": "2026-09-09 21:15:52 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/bamboo_block_slab": {
+    "criteria": {
+      "has_bamboo_block": "2026-09-09 21:27:38 +0200"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/bamboo": {
+    "criteria": {
+      "has_planks": "2026-09-09 21:27:38 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_copper_door_from_honeycomb": {
+    "criteria": {
+      "has_copper_door": "2026-09-09 21:44:08 +0200"
     },
     "done": true
   },
@@ -23425,9 +23443,21 @@
     },
     "done": true
   },
-  "new_slab_variants:recipes/building_blocks/bamboo_block_slab": {
+  "biomesoplenty:recipes/misc/green_dye_from_tiny_cactus": {
     "criteria": {
-      "has_bamboo_block": "2026-09-09 21:27:38 +0200"
+      "has_tiny_cactus": "2026-09-09 22:24:03 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_tuff_slab_recycling": {
+    "criteria": {
+      "has_cut_tuff_slab": "2026-09-09 22:28:48 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/smooth_orange_sandstone_stairs": {
+    "criteria": {
+      "has_smooth_orange_sandstone": "2026-09-09 22:36:31 +0200"
     },
     "done": true
   },
@@ -23443,39 +23473,69 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/waxed_copper_door_from_honeycomb": {
-    "criteria": {
-      "has_copper_door": "2026-09-09 21:44:08 +0200"
-    },
-    "done": true
-  },
-  "exclusive_weapons:recipes/combat/super_gold_sword": {
-    "criteria": {
-      "has_item": "2026-09-09 21:15:52 +0200"
-    },
-    "done": true
-  },
-  "mcwroofs:recipes/bamboo": {
-    "criteria": {
-      "has_planks": "2026-09-09 21:27:38 +0200"
-    },
-    "done": true
-  },
   "biomesoplenty:recipes/building_blocks/smooth_orange_sandstone_slab_from_smooth_orange_sandstone_stonecutting": {
     "criteria": {
       "has_smooth_orange_sandstone": "2026-09-09 22:36:31 +0200"
     },
     "done": true
   },
-  "create:recipes/building_blocks/cut_tuff_slab_recycling": {
+  "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
     "criteria": {
-      "has_cut_tuff_slab": "2026-09-09 22:28:48 +0200"
+      "has_chicken": "2026-09-10 11:04:12 +0200"
     },
     "done": true
   },
-  "biomesoplenty:recipes/misc/green_dye_from_tiny_cactus": {
+  "create:recipes/building_blocks/cut_limestone_slab": {
     "criteria": {
-      "has_tiny_cactus": "2026-09-09 22:24:03 +0200"
+      "has_cut_limestone": "2026-09-10 09:57:20 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_smoking": {
+    "criteria": {
+      "has_chicken": "2026-09-10 11:04:12 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_limestone_stairs": {
+    "criteria": {
+      "has_cut_limestone": "2026-09-10 09:57:20 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_limestone_slab_recycling": {
+    "criteria": {
+      "has_cut_limestone_slab": "2026-09-10 09:57:50 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather": {
+    "criteria": {
+      "has_rabbit_hide": "2026-09-10 11:05:12 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_limestone_wall": {
+    "criteria": {
+      "has_cut_limestone": "2026-09-10 09:57:20 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken": {
+    "criteria": {
+      "has_chicken": "2026-09-10 11:04:12 +0200"
+    },
+    "done": true
+  },
+  "irons_spellbooks:irons_spellbooks/staff_root": {
+    "criteria": {
+      "requirement": "2026-09-10 10:28:28 +0200"
+    },
+    "done": true
+  },
+  "irons_spellbooks:irons_spellbooks/staff_blood_staff": {
+    "criteria": {
+      "requirement": "2026-09-10 10:28:28 +0200"
     },
     "done": true
   },
