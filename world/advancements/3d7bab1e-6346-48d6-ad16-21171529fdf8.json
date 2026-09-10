@@ -17473,5 +17473,251 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/brick_wall": {
+    "criteria": {
+      "has_bricks": "2026-09-10 23:09:29 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2026-09-10 20:28:22 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_diorite_brick_wall": {
+    "criteria": {
+      "has_cut_diorite_bricks": "2026-09-10 21:55:47 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_diorite_brick_stairs": {
+    "criteria": {
+      "has_cut_diorite_bricks": "2026-09-10 21:55:47 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_limestone_slab": {
+    "criteria": {
+      "has_cut_limestone": "2026-09-10 21:03:46 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brick_stairs_from_bricks_stonecutting": {
+    "criteria": {
+      "has_bricks": "2026-09-10 23:09:29 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2026-09-10 20:28:22 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brick_slab": {
+    "criteria": {
+      "has_bricks": "2026-09-10 23:09:29 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_diorite_stairs": {
+    "criteria": {
+      "has_cut_diorite": "2026-09-10 22:06:22 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2026-09-10 20:28:22 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2026-09-10 20:28:22 +0200"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/brick_bridge_pier": {
+    "criteria": {
+      "has_planks": "2026-09-10 23:09:29 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brick_slab_from_bricks_stonecutting": {
+    "criteria": {
+      "has_bricks": "2026-09-10 23:09:29 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_limestone_stairs": {
+    "criteria": {
+      "has_cut_limestone": "2026-09-10 21:03:46 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oxidized_cut_copper_stairs": {
+    "criteria": {
+      "has_oxidized_cut_copper": "2026-09-10 21:44:53 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_diorite_brick_slab": {
+    "criteria": {
+      "has_cut_diorite_bricks": "2026-09-10 21:55:47 +0200"
+    },
+    "done": true
+  },
+  "new_slab_variants:recipes/building_blocks/red_terracotta_slab": {
+    "criteria": {
+      "has_red_terracotta": "2026-09-10 22:11:40 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oxidized_cut_copper_slab": {
+    "criteria": {
+      "has_oxidized_cut_copper": "2026-09-10 21:44:53 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_diorite_slab_recycling": {
+    "criteria": {
+      "has_polished_cut_diorite_slab": "2026-09-10 21:58:35 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brick_wall_from_bricks_stonecutting": {
+    "criteria": {
+      "has_bricks": "2026-09-10 23:09:29 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oxidized_cut_copper_slab_from_oxidized_cut_copper_stonecutting": {
+    "criteria": {
+      "has_oxidized_cut_copper": "2026-09-10 21:44:53 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brick_stairs": {
+    "criteria": {
+      "has_bricks": "2026-09-10 23:09:29 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_polished_blackstone_bricks": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2026-09-10 20:28:22 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_diorite_slab": {
+    "criteria": {
+      "has_cut_diorite": "2026-09-10 22:06:22 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_limestone_wall": {
+    "criteria": {
+      "has_cut_limestone": "2026-09-10 21:03:46 +0200"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/brick_bridge": {
+    "criteria": {
+      "has_planks": "2026-09-10 23:09:29 +0200"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/balustrade_bricks_bridge": {
+    "criteria": {
+      "has_planks": "2026-09-10 23:09:29 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2026-09-10 20:28:22 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oxidized_chiseled_copper_from_oxidized_cut_copper_stonecutting": {
+    "criteria": {
+      "has_oxidized_cut_copper": "2026-09-10 21:44:53 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/bricks_corner_trim": {
+    "criteria": {
+      "has_bricks_corner_trim": "2026-09-10 23:09:29 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_diorite_wall": {
+    "criteria": {
+      "has_cut_diorite": "2026-09-10 22:06:22 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_glazed_terracotta": {
+    "criteria": {
+      "has_red_terracotta": "2026-09-10 22:11:40 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_oxidized_copper_door_from_honeycomb": {
+    "criteria": {
+      "has_oxidized_copper_door": "2026-09-10 22:51:02 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oxidized_cut_copper_stairs_from_oxidized_cut_copper_stonecutting": {
+    "criteria": {
+      "has_oxidized_cut_copper": "2026-09-10 21:44:53 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_oxidized_cut_copper_stairs_from_honeycomb": {
+    "criteria": {
+      "has_oxidized_cut_copper_stairs": "2026-09-10 21:39:52 +0200"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/bricks": {
+    "criteria": {
+      "has_planks": "2026-09-10 23:09:29 +0200"
+    },
+    "done": true
+  },
+  "irons_spellbooks:irons_spellbooks/staff_root": {
+    "criteria": {
+      "requirement": "2026-09-10 22:27:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2026-09-10 20:28:22 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/rope_from_safety_net": {
+    "criteria": {
+      "has_safety_net": "2026-09-10 20:42:17 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/bricks_pillar_trim": {
+    "criteria": {
+      "has_bricks_pillar_trim": "2026-09-10 23:09:29 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_oxidized_cut_copper_from_honeycomb": {
+    "criteria": {
+      "has_oxidized_cut_copper": "2026-09-10 21:44:53 +0200"
+    },
+    "done": true
+  },
   "DataVersion": 3955
 }
