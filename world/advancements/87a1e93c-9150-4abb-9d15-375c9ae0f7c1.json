@@ -23719,5 +23719,47 @@
     },
     "done": true
   },
+  "copycats:recipes/misc/crafting/copycat_trapdoor_from_conversion": {
+    "criteria": {
+      "has_item": "2026-09-12 11:53:43 +0200"
+    },
+    "done": true
+  },
+  "copycats:recipes/misc/crafting/copycat_slab_from_beams": {
+    "criteria": {
+      "has_item": "2026-09-12 11:56:23 +0200"
+    },
+    "done": true
+  },
+  "copycats:recipes/misc/crafting/copycat_flat_pane_from_conversion": {
+    "criteria": {
+      "has_item": "2026-09-12 12:01:48 +0200"
+    },
+    "done": true
+  },
+  "copycats:recipes/misc/crafting/copycat_slab_from_panels": {
+    "criteria": {
+      "has_item": "2026-09-12 11:53:43 +0200"
+    },
+    "done": true
+  },
+  "copycats:recipes/misc/crafting/copycat_vertical_step_from_conversion": {
+    "criteria": {
+      "has_item": "2026-09-12 11:54:28 +0200"
+    },
+    "done": true
+  },
+  "copycats:recipes/misc/crafting/copycat_step_from_conversion": {
+    "criteria": {
+      "has_item": "2026-09-12 11:56:21 +0200"
+    },
+    "done": true
+  },
+  "copycats:recipes/misc/crafting/copycat_slab_from_steps": {
+    "criteria": {
+      "has_item": "2026-09-12 11:54:28 +0200"
+    },
+    "done": true
+  },
   "DataVersion": 3955
 }
